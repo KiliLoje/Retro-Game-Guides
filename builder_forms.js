@@ -366,16 +366,21 @@
     el.appendChild(fGroup('Tip Box (optional)', fInput('pf-infobox', 'Highlighted callout above content', d.infobox)));
 
     // Markdown toolbar
+    const gr_hr  = '<span class="gr-hr-preview"></span>';
+    const gr_hr2 = '<span class="gr-hr2-preview"></span>';
     const toolbar = document.createElement('div'); toolbar.className = 'md-toolbar';
     [
       ['**B**',        '**',   '**'      ],
       ['*I*',          '*',    '*'       ],
       ['`C`',          '`',    '`'       ],
       ['H3',           '### ', ''        ],
+      [gr_hr,          '---\n',''        ],
+      [gr_hr2,         '===\n',''        ],
       ['• List',       '- ',   ''        ],
-      ['[Link](url)',  '[',    '](url)'   ],
-      ['[Tab](N)',     '[',    '](1)'     ],
-      ['[Panel](N,M)', '[',   '](1,1)'   ],
+      ['[Link](url)',  '[',    '](url)'  ],
+      ['[Tab](N)',     '[',    '](1)'    ],
+      ['[Panel](N,M)', '[',    '](1,1)'  ],
+      ['&gt; Info',    '> ',   ''        ],
     ].forEach(([label, before, after]) => {
       const btn = document.createElement('button');
       btn.className = 'md-btn'; btn.type = 'button'; btn.innerHTML = label;
