@@ -94,6 +94,11 @@ Fill in the **Panel Title** and optionally a **Tip Box** (appears as a highlight
 - `` `code` `` → `code`
 - `### Heading` → a section header
 - `- Item` → a bullet point
+- `[text](tab)` → a link to another tab. `tab` must be an integer, and tabs start at 1
+- `[text](tab, panel)` → a link to another panel. `tab` and `panel` must be integers, and they both start at 1
+- `> Information` →
+> an information box
+- `[title]{content}` → a collapsible box
 
 The toolbar buttons above the text area will insert formatting around your selection.
 
