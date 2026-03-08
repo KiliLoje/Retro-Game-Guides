@@ -1,0 +1,25 @@
+{
+  "storagePrefix": "33047_",
+  "subtitle": "Completion tracker — progress saved in your browser",
+  "theme": "clean",
+  "palette": "midnight",
+  "primaryName": "Spice & Wolf: The Wind That Spans the Sea",
+  "primarySystem": "NDS",
+  "altSystems": [],
+  "altNames": ["Ookami to Koushinryou: Umi o Wataru Kaze"],
+  "series": "Spice & Wolf",
+  "year": 2009,
+  "icon": "🐺",
+  "author": "BigDonRob",
+  "tabs": [
+    { "num": "01","label": "📖 Walkthrough"},
+    { "num": "02","label": "⭐ A+ Run"},
+    { "num": "03","label": "💬 Events"},
+    { "num": "04","label": "📋 Contracts"},
+    { "num": "05","label": "💰 Routes"},
+    { "num": "06","label": "🏆 Achievements"},
+    { "num": "07","label": "📜 Rumors"},
+    { "num": "08","label": "🌟 Rare Goods"},
+    { "num": "09","label": "♾️ Endless"}
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "label": "🪙 Tokens",
+  "panels": [
+    {
+      "id": "tokens_info",
+      "panelType": "text",
+      "title": "🪙 Token Items",
+      "infobox": "Token items grant permanent stat bonuses when equipped.\n\n⚠️ = MISSABLE — tied to specific NPC choices or timed events",
+      "content": ""
+    },
+    {
+      "id": "tokens_list",
+      "panelType": "checklist",
+      "title": "All Tokens (25)",
+      "columns": [
+        {
+          "key": "name",
+          "label": "Token",
+          "style": "plain"
+        },{
+          "key": "effect",
+          "label": "Effect",
+          "style": "plain"
+        },
+        {
+          "key": "bonus",
+          "label": "Bonus",
+          "style": "accent"
+        },
+        {
+          "key": "location",
+          "label": "Location",
+          "style": "plain"
+        },
+        {
+          "key": "chapter",
+          "label": "Chapter",
+          "style": "dim"
+        }
+      ],
+      "entry_All": [
+        {
+          "id": "25842_t03_000",
+          "name": "Findruine Charm",
+          "effect": "Vitality",
+          "bonus": "1",
+          "location": "Tree stump chest at northernmost point, Hunting Grounds",
+          "chapter": "SA2: Hunting Grounds"
+        },
+        {
+          "id": "25842_t03_001",
+          "name": "Badger Hide Gloves",
+          "effect": "Strength",
+          "bonus": "1",
+          "location": "Chest south of Ketill's Hideout, Neversdale",
+          "chapter": "Ch. II: Neversdale"
+        },
+        {
+          "id": "25842_t03_002",
+          "name": "Eagle Charm",
+          "effect": "Rhythm",
+          "bonus": "1",
+          "location": "Chest in Ketill's Hideout, Neversdale",
+          "chapter": "Ch. II: Neversdale"
+        },
+        {
+          "id": "25842_t03_003",
+          "name": "Rabbit's Foot",
+          "effect": "Luck",
+          "bonus": "1",
+          "location": "Be nice to Ogun's Mum in Houton after reporting his death",
+          "chapter": "SQ1: Ogun's Mum"
+        },
+        {
+          "id": "25842_t03_004",
+          "name": "Falstone Token",
+          "effect": "Experience",
+          "bonus": "+10%",
+          "location": "Chest in poorly lit storeroom by locked door, Kirkwall",
+          "chapter": "Ch. III: Kirkwall"
+        },
+        {
+          "id": "25842_t03_005",
+          "name": "Silver Torc",
+          "effect": "Charisma",
+          "bonus": "1",
+          "location": "Chest on Level 3, Forest Tower",
+          "chapter": "Ch. V: Forest Tower"
+        },
+        {
+          "id": "25842_t03_006",
+          "name": "Badge of the Wind",
+          "effect": "Dexterity",
+          "bonus": "1",
+          "location": "Be nice to Gower at end of Frozen Tombs (he gives you it with Quicksilver Broadsword)",
+          "chapter": "Ch. VI: Mountain Pass"
+        },
+        {
+          "id": "25842_t03_007",
+          "name": "Golden Coronet",
+          "effect": "Charisma",
+          "bonus": "2",
+          "location": "Chest in room at end of northern corridor (west), Burial Chambers — requires Tree Stone",
+          "chapter": "Ch. VI: Mountain Pass"
+        },
+        {
+          "id": "25842_t03_008",
+          "name": "Ring of Tara",
+          "effect": "Rhythm",
+          "bonus": "2",
+          "location": "Be completely snarky to Dolyn in all 4 conversations; retrieve from his corpse after he dies in trap",
+          "chapter": "Ch. VI: Mountain Pass (NOTE: prevents access to 2 other tokens)"
+        },
+        {
+          "id": "25842_t03_009",
+          "name": "Silver Horseshoe",
+          "effect": "Luck",
+          "bonus": "2",
+          "location": "Chest (dark/trapped path, northern area), Level 2, Mountain Tower",
+          "chapter": "Ch. VII: Mountain Tower"
+        },
+        {
+          "id": "25842_t03_010",
+          "name": "Boots of Quickening",
+          "effect": "Dexterity",
+          "bonus": "2",
+          "location": "Win the Talent Contest at The Tup bar, West Dounby",
+          "chapter": "Ch. VIII: Dounby"
+        },
+        {
+          "id": "25842_t03_011",
+          "name": "Mantle of Ossian",
+          "effect": "Charisma",
+          "bonus": "3",
+          "location": "Summon rat in Trowle's Pub, Finstown — afraid Viking gives it when rat dismissed",
+          "chapter": "Ch. IX: Finstown"
+        },
+        {
+          "id": "25842_t03_012",
+          "name": "Broonie Cloak",
+          "effect": "HP Regeneration",
+          "bonus": "+10 rate",
+          "location": "Chest in Finstown Armory",
+          "chapter": "Ch. IX: Finstown"
+        },
+        {
+          "id": "25842_t03_013",
+          "name": "Belt of Oak",
+          "effect": "Strength",
+          "bonus": "2",
+          "location": "Chest in northern room of Moon Portal level, MacRath's Dungeon",
+          "chapter": "Ch. X: Greenlands"
+        },
+        {
+          "id": "25842_t03_014",
+          "name": "Fae Locket",
+          "effect": "Vitality",
+          "bonus": "2",
+          "location": "Secret door (east side of room), Skull Portal level, MacRath's Dungeon",
+          "chapter": "Ch. X: Greenlands"
+        },
+        {
+          "id": "25842_t03_015",
+          "name": "Four Leaf Clover",
+          "effect": "Luck",
+          "bonus": "3",
+          "location": "Stump in northwest corner, Hatcher's Farm",
+          "chapter": "Ch. XI: Stromness"
+        },
+        {
+          "id": "25842_t03_016",
+          "name": "Golden Thistle Ring",
+          "effect": "Max HP",
+          "bonus": "50",
+          "location": "Stump north of building where Hatcher retrieved bow, Hatcher's Farm",
+          "chapter": "Ch. XI: Stromness"
+        },
+        {
+          "id": "25842_t03_017",
+          "name": "Firbolg Armbands",
+          "effect": "Strength",
+          "bonus": "3",
+          "location": "From frightened Firbolg (Bannock) in Finfolk Caverns",
+          "chapter": "Ch. XII: Firbolg Mines"
+        },
+        {
+          "id": "25842_t03_018",
+          "name": "Lightning Stone",
+          "effect": "Dexterity",
+          "bonus": "3",
+          "location": "Listen to Olav's entire story in Finfolk Caverns",
+          "chapter": "Ch. XII: Firbolg Mines"
+        },
+        {
+          "id": "25842_t03_019",
+          "name": "White Book of Rhydderch",
+          "effect": "Max Mana",
+          "bonus": "50",
+          "location": "From Dolyn in Firbolg Mines (requires being nice to him in Ch. VI)",
+          "chapter": "Ch. XII: Firbolg Mines"
+        },
+        {
+          "id": "25842_t03_020",
+          "name": "Phial of Medb",
+          "effect": "Vitality",
+          "bonus": "3",
+          "location": "Chest in secret room (secret door, south side of chamber), Carrowmore",
+          "chapter": "SA4: Cairn of Carrowmore"
+        },
+        {
+          "id": "25842_t03_021",
+          "name": "Cormac's Chalice",
+          "effect": "Rhythm",
+          "bonus": "3",
+          "location": "Chest in final room, Ruins of Tara",
+          "chapter": "SA6: Ruins of Tara"
+        },
+        {
+          "id": "25842_t03_022",
+          "name": "White Book of Hergest",
+          "effect": "Mana Regen",
+          "bonus": "+10% rate",
+          "location": "Chest in final room, Ruins of Emain Macha",
+          "chapter": "SA5: Ruins of Emain Macha"
+        },
+        {
+          "id": "25842_t03_023",
+          "name": "Golden Spyglass",
+          "effect": "Treasure Value",
+          "bonus": "+10%",
+          "location": "Chest at end of main hall, Ruins of Dun Alfiene",
+          "chapter": "SA1: Ruins of Dun Alfiene"
+        },
+        {
+          "id": "25842_t03_024",
+          "name": "Amulet of Llyr",
+          "effect": "Bonus Armor",
+          "bonus": "+1–5",
+          "location": "Chest in secret room, Cairn of Ardagh (requires Upgraded Trap Finder)",
+          "chapter": "SA3: Cairn of Ardagh"
+        }
+      ]
+    }
+  ]
+}

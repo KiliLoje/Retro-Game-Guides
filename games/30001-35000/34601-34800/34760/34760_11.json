@@ -1,0 +1,574 @@
+{
+  "label": "🛒 Shops & Prices",
+  "panels": [
+    {
+      "id": "p_shop_hours",
+      "panelType": "table",
+      "title": "Shop Hours & Phonebook",
+      "columns": [
+        "Shop",
+        "Hours",
+        "Closed",
+        "Phone",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Blacksmith's Shop",
+          "9AM–6PM",
+          "Mon + Holidays",
+          "246",
+          "Mira refines ore here. Cheaper tool upgrades (need to supply ore)."
+        ],
+        [
+          "Brownie Ranch",
+          "9AM–6PM",
+          "Mon + Holidays",
+          "652",
+          "Animals, tools, dairy products"
+        ],
+        [
+          "Carpenter's Shop",
+          "9AM–6PM",
+          "Sat + Holidays",
+          "558 / 911",
+          "Buildings/upgrades. 911 is a secret second number."
+        ],
+        [
+          "General Store",
+          "9AM–6PM",
+          "Mon + Holidays",
+          "729",
+          "Utensils, tools, makers, books"
+        ],
+        [
+          "Meringue Clinic",
+          "9AM–6PM",
+          "Mon + Holidays",
+          "195",
+          "Medicines, Bodigizers"
+        ],
+        [
+          "On the Hook",
+          "9AM–6PM",
+          "Mon + Holidays",
+          "357",
+          "Fishing supplies (via Toby)"
+        ],
+        [
+          "Pineapple Inn",
+          "9AM–6PM",
+          "Mon",
+          "—",
+          "Toucan Island. Exotic seeds, tropical fruits, cooked food"
+        ],
+        [
+          "Souffle Farm",
+          "7AM–5PM",
+          "Sat + Holidays",
+          "415",
+          "Seeds, produce, fertilizer"
+        ],
+        [
+          "Sundae Inn",
+          "9AM–6PM",
+          "Holidays",
+          "919",
+          "Food & drinks, Inn"
+        ],
+        [
+          "Sundae Bar",
+          "9AM–6PM",
+          "Holidays",
+          "—",
+          "Kathy & Hayden. Cocktails."
+        ],
+        [
+          "Tailor Shop",
+          "9AM–6PM",
+          "Sun + Holidays",
+          "—",
+          "Clothes, accessories, rucksack upgrades"
+        ],
+        [
+          "Taylor's Seeds",
+          "Phone only",
+          "—",
+          "881",
+          "Available 24/7 after meeting Taylor. Seeds arrive instantly."
+        ],
+        [
+          "Town Hall / Land",
+          "8AM–5PM",
+          "Sun + Holidays",
+          "890",
+          "Buy land plots. Hamilton is inside."
+        ],
+        [
+          "Weather Forecast",
+          "Anytime",
+          "—",
+          "010",
+          "Call for today's and tomorrow's weather forecast"
+        ]
+      ]
+    },
+    {
+      "id": "p_shop_build",
+      "panelType": "table",
+      "title": "Carpenter's Shop — Buildings & Upgrades",
+      "columns": [
+        "Item",
+        "Gold",
+        "Wood",
+        "Stone",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "New Home (build)",
+          "4,500G",
+          "27",
+          "27",
+          ""
+        ],
+        [
+          "Home Level 2",
+          "3,000G",
+          "18",
+          "16",
+          "Unlocks full quilt + more storage"
+        ],
+        [
+          "Home Level 3",
+          "6,000G",
+          "27",
+          "24",
+          ""
+        ],
+        [
+          "Home Level 4",
+          "9,000G",
+          "36",
+          "32",
+          ""
+        ],
+        [
+          "Home Level 5",
+          "12,000G",
+          "45",
+          "40",
+          "Unlocks 5th pet slot"
+        ],
+        [
+          "Bird Coop (new)",
+          "2,400G",
+          "10",
+          "10",
+          "Holds 4 chickens or silkworms"
+        ],
+        [
+          "Bird Coop Level 2",
+          "4,800G",
+          "22",
+          "22",
+          "Holds 8 birds; required for Ducks"
+        ],
+        [
+          "Barn (new)",
+          "3,000G",
+          "12",
+          "12",
+          "Holds 4 livestock"
+        ],
+        [
+          "Barn Level 2",
+          "6,000G",
+          "22",
+          "22",
+          "Holds 8 livestock"
+        ]
+      ]
+    },
+    {
+      "id": "p_shop_land",
+      "panelType": "table",
+      "title": "Town Hall — Land Plots",
+      "columns": [
+        "Plot",
+        "Price",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Hillside Plot",
+          "7,800G",
+          "Adjacent to town"
+        ],
+        [
+          "Town Plot",
+          "7,500G",
+          "In Waffle Town — great for high-volume crops (Blue Flax strategy)"
+        ],
+        [
+          "Seaside Plot",
+          "7,200G",
+          "Near beach"
+        ],
+        [
+          "Mountain Plot",
+          "18,000G",
+          "Up in the mountains — isolated but large"
+        ]
+      ]
+    },
+    {
+      "id": "p_shop_gen",
+      "panelType": "table",
+      "title": "General Store — Tools, Utensils & Makers",
+      "columns": [
+        "Item",
+        "Price",
+        "★ Req.",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Cutting Board",
+          "1,500G",
+          "★",
+          ""
+        ],
+        [
+          "Frying Pan",
+          "1,800G",
+          "★",
+          ""
+        ],
+        [
+          "Mixer",
+          "1,200G",
+          "★",
+          ""
+        ],
+        [
+          "Pot",
+          "2,250G",
+          "★",
+          ""
+        ],
+        [
+          "Oven",
+          "2,550G",
+          "★",
+          ""
+        ],
+        [
+          "Aging Pot",
+          "2,175G",
+          "★",
+          ""
+        ],
+        [
+          "Matches (Match Set)",
+          "600G",
+          "★",
+          "For grilled dishes at beach bonfires"
+        ],
+        [
+          "Iron Tool (any)",
+          "3,000G",
+          "★",
+          "Also upgradeable at Blacksmith for less with ore"
+        ],
+        [
+          "Copper Tool (any)",
+          "7,500G",
+          "★",
+          "Must own Iron first"
+        ],
+        [
+          "Silver Tool (any)",
+          "15,000G",
+          "★",
+          "Must own Copper first"
+        ],
+        [
+          "Gold Tool (any)",
+          "30,000G",
+          "★",
+          "Must own Silver first"
+        ],
+        [
+          "Mayonnaise Maker",
+          "3,000G",
+          "★",
+          "Goes in Bird Coop"
+        ],
+        [
+          "Cheese Maker",
+          "4,200G",
+          "★",
+          "Goes in Barn"
+        ],
+        [
+          "Butter Maker",
+          "3,750G",
+          "★",
+          "Goes in Barn"
+        ],
+        [
+          "Yarn Maker (+ Dye Pot)",
+          "4,500G",
+          "★",
+          "Goes in Barn"
+        ]
+      ]
+    },
+    {
+      "id": "p_shop_rucksack",
+      "panelType": "table",
+      "title": "Tailor Shop — Rucksack Upgrades",
+      "infobox": "Meet Shelly on Summer 1 when the Tailor Shop opens for an immediate free 15-slot upgrade.",
+      "columns": [
+        "Upgrade",
+        "Slots",
+        "Cost / Required Items"
+      ],
+      "rows": [
+        [
+          "#1 — Talk to Shelly when shop opens",
+          "15 slots",
+          "FREE"
+        ],
+        [
+          "#2",
+          "20 slots",
+          "Good Flax Yarn ×2 · Good Wool Yarn ×2 · Good Silk Yarn ×2"
+        ],
+        [
+          "#3",
+          "25 slots",
+          "Yellow Flax Yarn ×2 · Red Wool Yarn ×2 · Green Silk Yarn ×2"
+        ],
+        [
+          "#4",
+          "30 slots",
+          "Shining Flax Yarn ×1 · Shining Wool Yarn ×1 · Shining Silk Yarn ×1"
+        ]
+      ]
+    },
+    {
+      "id": "p_shop_bs_tools",
+      "panelType": "table",
+      "title": "Blacksmith's Shop — Tool Upgrade Costs",
+      "infobox": "The Blacksmith's Shop is 1/3 the price of the General Store but requires you to supply refined metal. Always have Mira refine your ore first (raw ore won't work). Total savings vs. General Store per fully upgraded tool: ~37,000G.",
+      "columns": [
+        "Tier",
+        "Blacksmith (with ore)",
+        "General Store (no ore)",
+        "Metal Required"
+      ],
+      "rows": [
+        [
+          "Starter → Iron",
+          "1,000G",
+          "3,000G",
+          "Iron"
+        ],
+        [
+          "Iron → Copper",
+          "2,500G",
+          "7,500G",
+          "Copper"
+        ],
+        [
+          "Copper → Silver",
+          "5,000G",
+          "15,000G",
+          "Silver"
+        ],
+        [
+          "Silver → Gold",
+          "10,000G",
+          "30,000G",
+          "Gold"
+        ],
+        [
+          "Full path (1 tool)",
+          "18,500G",
+          "55,500G",
+          "All 4 metals"
+        ]
+      ]
+    },
+    {
+      "id": "p_shop_jewelry",
+      "panelType": "table",
+      "title": "Blacksmith's Shop — Jewelry",
+      "infobox": "All jewelry is purely cosmetic (except as gifts). Metal requirement: Brooches need Copper · Rings need Silver · Pendants need Gold. Harvest Goddess pieces use Rare Metal instead of a gem.",
+      "columns": [
+        "Type",
+        "Gem/Material",
+        "Sale Price"
+      ],
+      "rows": [
+        [
+          "Brooch",
+          "Glass (Toy)",
+          "195G"
+        ],
+        [
+          "Brooch",
+          "Peridot",
+          "405G"
+        ],
+        [
+          "Brooch",
+          "Rose Stone",
+          "420G"
+        ],
+        [
+          "Brooch",
+          "Amber",
+          "435G"
+        ],
+        [
+          "Brooch",
+          "Lapis Lazuli",
+          "450G"
+        ],
+        [
+          "Brooch",
+          "Spinel",
+          "450G"
+        ],
+        [
+          "Brooch",
+          "Jade",
+          "480G"
+        ],
+        [
+          "Brooch",
+          "Moonlight Stone",
+          "525G"
+        ],
+        [
+          "Brooch",
+          "Sapphire",
+          "570G"
+        ],
+        [
+          "Brooch",
+          "Garnet",
+          "600G"
+        ],
+        [
+          "Brooch",
+          "Pearl",
+          "600G"
+        ],
+        [
+          "Brooch",
+          "Topaz",
+          "855G"
+        ],
+        [
+          "Brooch",
+          "Amethyst",
+          "870G"
+        ],
+        [
+          "Brooch",
+          "Aquamarine",
+          "885G"
+        ],
+        [
+          "Brooch",
+          "Ruby",
+          "975G"
+        ],
+        [
+          "Brooch",
+          "Emerald",
+          "1,020G"
+        ],
+        [
+          "Brooch",
+          "Harvest Goddess",
+          "1,095G"
+        ],
+        [
+          "Brooch",
+          "Crystal",
+          "1,200G"
+        ],
+        [
+          "Brooch",
+          "Black Pearl",
+          "1,350G"
+        ],
+        [
+          "Brooch",
+          "Diamond",
+          "1,650G"
+        ],
+        [
+          "Ring",
+          "Glass (Toy)",
+          "645G"
+        ],
+        [
+          "Ring",
+          "Topaz",
+          "1,305G"
+        ],
+        [
+          "Ring",
+          "Harvest Goddess",
+          "1,545G"
+        ],
+        [
+          "Ring",
+          "Crystal",
+          "1,650G"
+        ],
+        [
+          "Ring",
+          "Black Pearl",
+          "1,800G"
+        ],
+        [
+          "Ring",
+          "Diamond",
+          "2,100G"
+        ],
+        [
+          "Pendant",
+          "Glass (Toy)",
+          "945G"
+        ],
+        [
+          "Pendant",
+          "Harvest Goddess",
+          "1,845G"
+        ],
+        [
+          "Pendant",
+          "Crystal",
+          "1,950G"
+        ],
+        [
+          "Pendant",
+          "Black Pearl",
+          "2,100G"
+        ],
+        [
+          "Pendant",
+          "Diamond",
+          "2,400G ★"
+        ]
+      ]
+    }
+  ]
+}

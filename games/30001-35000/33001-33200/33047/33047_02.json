@@ -1,0 +1,62 @@
+{
+  "label": "⭐ A+ Run",
+  "panels": [
+    {
+      "id": "panel_aplus_tips",
+      "panelType": "text",
+      "title": "Key Info",
+      "content": "⭐ Optimized route to get **B, A, and A+ endings in a single playthrough**. Requires the Goods Knowledge prerequisites listed in the Walkthrough tab.\n\n💡 **Key mechanics:** Save at every stop from step 11 onward. Scout prices by traveling ahead, then reloading to buy at the starting town — prices are fixed at game start. You have ~37 moves after choosing a companion and need ~18 companion events."
+    },
+    {
+      "id": "panel_aplus_route",
+      "panelType": "table",
+      "title": "Optimized Route",
+      "columns": ["Step", "Instructions"],
+      "rows": [
+        ["1", "Load clear data. Skip tutorials."],
+        ["2", "Lenos → buy 5 Cookies. Go to Diemoln."],
+        ["3", "Diemoln: complete all ! events. Take out 1,000 silver loan. Pay 3,000 silver to informant (unlock Beorein). Don't buy/sell. Go to Beorein."],
+        ["4", "Beorein: complete all ! events. Sell everything, buy 5 Mussels. Save game."],
+        ["5", "Need Special: Chicken rumor before reaching Lune. Travel Erne → Delintskolz. If no Chicken rumor, reload to Beorein."],
+        ["6", "Delintskolz: complete all ! events. Go to Lune."],
+        ["7", "Lune: complete all ! events. Sell Mussels. Repay loan, take another (reset timer). Buy 3 Chickens + 3 Eggs (or 2 Chickens + eggs if short). Save game."],
+        ["8", "Need Popular: Chicken rumor before returning to Beorein. Head back via Delintskolz → Erne. Reload to Lune if needed."],
+        ["9", "Beorein: complete ! events. Sell Eggs + Chickens. Buy 5 Mussels, 1 Salt (if available), Oysters. Return to Lune."],
+        ["10", "Lune: complete ! events. Sell everything. Pay off loan. You should have 4,000+ silver. Buy 3 Straps + 3 Chickens. Go to Delintskolz."],
+        ["11", "Delintskolz: choose companion. **From here save at every stop.** You have ~37 moves and need ~18 successful events. Scout prices ahead."],
+        ["12", "Erne: sell everything. Save. Buy 3 Jerky + 1 Goat."],
+        ["13", "Ulrich: get town rumor for Graha (reload if not obtained). Complete ! events."],
+        ["14", "Graha: pay 1,000 silver informant. Sell everything. Save. Buy 3 Wheat Bread."],
+        ["15", "Ruvinheigen: visit (no Inn needed — skip Amati's challenge in A+ run)."],
+        ["16", "Lamtra: sell everything, buy Alchemy Pot. Save. Buy 1 Coffee + 1 Parchment + 1 Sulfur (scout ahead for best combo)."],
+        ["17", "Leyage: companion should reach Intimacy C here. Pay informant if possible. Start taking out loans again."],
+        ["18", "Ulrich: deliver Alchemy Pot. Sell everything. Save. Buy 4 Cloves (scout ahead)."],
+        ["19", "Leyage: pay informant if you haven't yet."],
+        ["20", "Lenos: upgrade cart +1 slot (500 silver). Sell everything, buy Distiller + 2 Nutmegs."],
+        ["21", "Leyage: pass."],
+        ["22", "Ulrich: deliver Distiller. Don't sell anything. Buy a Clove if possible."],
+        ["23", "Erne: pass."],
+        ["24", "Delintskolz: loan due today — sell everything, pay loan. Don't take a new loan yet. Buy 1 Mead + 2 Pepper + 1 Onion (or 2 Pepper + 1 Beer + 1 Onion if no Mead)."],
+        ["25", "Lune: pay informant."],
+        ["26", "Gahno: sell everything, buy Furnace + 3 Brandys (take loan if needed)."],
+        ["27", "Lune: pass."],
+        ["28", "Delintskolz: sell Brandy. Buy 2 Peppers + 1 Onion."],
+        ["29", "Erne: pass."],
+        ["30", "Ulrich: deliver Furnace. Sell everything else. Buy 1 Sandalwood + 3 Cloves."],
+        ["31", "Erne: pay informant."],
+        ["32", "Beorein: new companion events start appearing. Raise companion toward top of B intimacy. **Do NOT reach A yet.** (Check if she reached A by watching for automatic intimacy event — if it triggers, reload.)"],
+        ["33", "Diemoln: sell everything. Pay loan, take new loan. Buy 1 Myrrh + 2 Caviar + 2 Silverware."],
+        ["34", "Beorein: pass."],
+        ["35", "Erne: sell everything. Buy 3 Jerky + 1 Goat."],
+        ["36", "Delintskolz: pay informant."],
+        ["37", "Bourattia: sell Jerky + Goat. Buy 1 Opium. You should now be able to repay loan (scout ahead to confirm)."],
+        ["38", "Liberkant: pay informant."],
+        ["39", "Rossalt: buy 1 Powdered Lily."],
+        ["40", "Liberkant → Ulrich: deliver all ingredients."],
+        ["41", "Erne → Delintskolz → Lune: you'll get the 6-month warning en route but still have time. Finish ! events at Lune."],
+        ["42", "Delintskolz → Erne → Beorein: don't choose the ! option yet — that ends the game."],
+        ["43–END", "Get 3 endings in one run: ① Save at Beorein with companion at B → end game → save clear data (**B ending**). ② Reload → get remaining events to reach A intimacy → save → end game → save clear data (**A+ ending**). ③ Reload → wander until June/July → end game (**A ending**). Now you have 3 of 4 endings."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "label": "👥 People",
+  "panels": [
+    {
+      "id": "people_bach_info",
+      "panelType": "text",
+      "title": "💕 Gift Tips",
+      "infobox": "Give daily (talking = +1 FP). Wish at H.G. Spring daily for +5 FP to a random girl! Tips below reflect easiest early-game items.",
+      "content": ""
+    },
+    {
+      "id": "people_bach",
+      "panelType": "cards",
+      "title": "💕 Bachelorettes",
+      "cardFields": [
+        {
+          "key": "name",
+          "label": "Name"
+        },
+        {
+          "key": "bday",
+          "label": "Birthday"
+        },
+        {
+          "key": "fav",
+          "label": "Favourites"
+        },
+        {
+          "key": "likes",
+          "label": "Likes"
+        },
+        {
+          "key": "dislikes",
+          "label": "Dislikes"
+        },
+        {
+          "key": "tip",
+          "label": "Easy Gifts"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Gwen (Sara)",
+          "bday": "Summer 8",
+          "fav": "Wild Mint, Milk G, Cranberry, Fullmoon Berry",
+          "likes": "Lumber, vegetables, berries",
+          "dislikes": "Ores, bugs, grass, fodder",
+          "tip": "Milk, vegetables, Veryberry"
+        },
+        {
+          "name": "Lyla",
+          "bday": "Spring 27",
+          "fav": "Pink Cat Flower, Fullmoon Berry",
+          "likes": "Flowers, berries, nuts",
+          "dislikes": "Ores, bugs, grass, failed dishes",
+          "tip": "Herbs, Milk, Flowers, Berries"
+        },
+        {
+          "name": "Dia",
+          "bday": "Winter 9",
+          "fav": "Blueberry, Fullmoon Berry",
+          "likes": "Cooked dishes, Veryberry",
+          "dislikes": "Ores, bugs, grass, failed dishes",
+          "tip": "All berries, eggs"
+        },
+        {
+          "name": "Gina",
+          "bday": "Fall 20",
+          "fav": "Gold Milk, Golden Egg, Stardust Flower",
+          "likes": "Fish dishes, eggs, milk",
+          "dislikes": "Ores, bugs, grass",
+          "tip": "Egg, Milk, Seafood"
+        },
+        {
+          "name": "Katie",
+          "bday": "Fall 29",
+          "fav": "Blue Mist Flower, Fullmoon Berry",
+          "likes": "Eggs, milk, Milk G, Golden Egg",
+          "dislikes": "Bugs, grass",
+          "tip": "Cheese, Egg"
+        },
+        {
+          "name": "Aurelia",
+          "bday": "Fall 5",
+          "fav": "Lumber",
+          "likes": "Veryberry, egg dishes, seashells",
+          "dislikes": "Junk ore, grass",
+          "tip": "Veryberry, Lumber, Eggs, Seafood, Shells"
+        },
+        {
+          "name": "Alice",
+          "bday": "Spring 5",
+          "fav": "Rare ore, jewelry",
+          "likes": "Ores",
+          "dislikes": "Failed dishes",
+          "tip": "Blue Rock, Moonlight Stone, Orichalcum (complete Mecha Events!)"
+        },
+        {
+          "name": "Harvest Goddess (Marina)",
+          "bday": "?",
+          "fav": "Farm produce",
+          "likes": "Berries, Honey, Fruits",
+          "dislikes": "Ores, bugs, grass",
+          "tip": "Vegetables, farm products; throw offering at spring"
+        }
+      ]
+    },
+    {
+      "id": "people_villagers",
+      "panelType": "table",
+      "title": "🏘️ Villagers",
+      "columns": [
+        "Name",
+        "Birthday",
+        "Favourite",
+        "Easy Gifts"
+      ],
+      "rows": [
+        [
+          "Kurt (Hayato)",
+          "Winter 10",
+          "Tomato, Tomato Risotto",
+          "Tomatoes, Fish, Red Herb"
+        ],
+        [
+          "Joe (Shin)",
+          "Summer 10",
+          "Fish Dishes",
+          "Fish cuisine, Fish, Vegetables"
+        ],
+        [
+          "Woody (Woodie)",
+          "Winter 2",
+          "Golden Egg",
+          "Eggs"
+        ],
+        [
+          "Martha",
+          "Winter 25",
+          "Jams, Special Cheese, Special Cheesecake",
+          "Milk, Egg, Cheese, large Fish"
+        ],
+        [
+          "Ronald",
+          "Spring 11",
+          "Pudding",
+          "Egg, Milk"
+        ],
+        [
+          "Louis (Rune)",
+          "Fall 2",
+          "Golden Egg, Egg Dishes, Rare Metal",
+          "Egg"
+        ],
+        [
+          "Rudolph",
+          "Fall 14",
+          "Rare Metal",
+          "Food, Copper Ore, any Herbs"
+        ],
+        [
+          "Wallace (Wallie)",
+          "Summer 21",
+          "Cooked Dishes",
+          "Fish, Red Herb"
+        ],
+        [
+          "Parsley (Basil)",
+          "Spring 16",
+          "Vegetable dishes, Herbs",
+          "Vegetable, Food, Potato, Herbs"
+        ],
+        [
+          "Chester",
+          "Winter 25",
+          "Rare Metal, Diamond Earring",
+          "Ores"
+        ],
+        [
+          "Bob (Kazan)",
+          "Summer 1",
+          "Honey, Cake, Milk G",
+          "Milk, Egg"
+        ],
+        [
+          "Tim",
+          "Fall 12",
+          "Bugs, Eggs, Golden Eggs",
+          "Egg, Bugs (buy bugs from him for 10G)"
+        ],
+        [
+          "Ponta",
+          "?",
+          "Fish Dishes",
+          "Any Fish"
+        ],
+        [
+          "Charles",
+          "Winter 23",
+          "Rare Metal",
+          "Ores, Fluffy Bread"
+        ],
+        [
+          "Renton (Dojison)",
+          "Spring 1",
+          "Milk G, Golden Egg",
+          "Egg"
+        ],
+        [
+          "Nic / Nak / Flak (Sprites)",
+          "?",
+          "Mushroom",
+          "Eggs, Milk (give mushrooms for fishing bait)"
+        ]
+      ]
+    },
+    {
+      "id": "people_endings_info",
+      "panelType": "text",
+      "title": "🏆 Endings Overview",
+      "infobox": "Need 3 endings of the same type (Nature OR Tourist) to save the valley without 50,000G. Complete all Mecha Events for Alice's ending!",
+      "content": "**Nature Preserve allies:** Lyla, Gwen, Dia, Aurelia, Joe & Kurt, Parsley/Tim, Rudolph\n\n**Tourist Spot allies:** Gina, Katie, H.G., Martha/Woodie/Wallie, Chester, Bob, Louis, Ronald"
+    },
+    {
+      "id": "people_endings",
+      "panelType": "cards",
+      "title": "🏆 All 16 Endings",
+      "cardFields": [
+        {
+          "key": "name",
+          "label": "Ending"
+        },
+        {
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "key": "char",
+          "label": "Character"
+        },
+        {
+          "key": "reward",
+          "label": "Reward / Effect"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Blue Mist & Azure Swallowtail",
+          "type": "Nature",
+          "char": "Lyla",
+          "reward": "Blue Mist blooms at H.G. Spring in Summer"
+        },
+        {
+          "name": "Endangered Weasel",
+          "type": "Nature",
+          "char": "Gwen",
+          "reward": "White weasel visible near Pike Mountain"
+        },
+        {
+          "name": "Golden Potato Seed",
+          "type": "Nature",
+          "char": "Dia",
+          "reward": "Golden Potato seed at FlowerShop for 300G"
+        },
+        {
+          "name": "Harvest Goddess Dress",
+          "type": "Tourist",
+          "char": "Gina",
+          "reward": "New protagonist costume unlocked"
+        },
+        {
+          "name": "Cake Contest",
+          "type": "Tourist",
+          "char": "Katie",
+          "reward": "Milk G → 480G; Golden Egg → 180G"
+        },
+        {
+          "name": "Tale of Blue Bird",
+          "type": "Nature",
+          "char": "Aurelia",
+          "reward": "Ocarina concert on 30th of each season"
+        },
+        {
+          "name": "Harvest Goddess Temple",
+          "type": "Tourist",
+          "char": "H. Goddess",
+          "reward": "All vegetable prices +10G"
+        },
+        {
+          "name": "Silver Fish (Phantom Fish)",
+          "type": "Nature",
+          "char": "Joe & Kurt",
+          "reward": "All fish prices +10G; Phantom Fish Amulet 750G"
+        },
+        {
+          "name": "100-Year Cherry Tree",
+          "type": "Nature",
+          "char": "Parsley / Tim",
+          "reward": "Cherry Blossom Seed at FlowerShop 90G"
+        },
+        {
+          "name": "Rebirth of Harvest Festival",
+          "type": "Tourist",
+          "char": "Martha, Woodie, Wallie",
+          "reward": "Woodie's Souvenir at shop 2,500G"
+        },
+        {
+          "name": "The Holy Masterpiece",
+          "type": "Tourist",
+          "char": "Chester",
+          "reward": "Suspicious Goddess Goods at shop 98,000G"
+        },
+        {
+          "name": "Horse Champion",
+          "type": "Tourist",
+          "char": "Bob",
+          "reward": "Horse Cookies sold at Starling Ranch"
+        },
+        {
+          "name": "Secret Fossil",
+          "type": "Nature",
+          "char": "Rudolph",
+          "reward": "Dinosaur fossil appears in mine"
+        },
+        {
+          "name": "Louis the Inventor King",
+          "type": "Tourist",
+          "char": "Louis",
+          "reward": "Tower of Scarecrow built near FlowerShop"
+        },
+        {
+          "name": "Legendary Baker",
+          "type": "Tourist",
+          "char": "Ronald",
+          "reward": "Ronald on TV in Year 4 (unconfirmed)"
+        },
+        {
+          "name": "Shoot for the Stars (Mecha)",
+          "type": "Special",
+          "char": "Alice",
+          "reward": "Alice stays if you complete all Mecha Events"
+        }
+      ]
+    }
+  ]
+}

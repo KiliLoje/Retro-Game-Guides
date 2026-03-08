@@ -1,0 +1,49 @@
+{
+  "label": "💰 Routes",
+  "panels": [
+    {
+      "id": "panel_routes_intro",
+      "panelType": "text",
+      "title": "About This Tab",
+      "content": "💰 Reference table of the most profitable trading routes. Silver/day figures assume you fill your cart with the listed goods. Price fluctuations (up/down arrows in game) can shift these values — scout ahead to confirm."
+    },
+    {
+      "id": "panel_routes_profitable",
+      "panelType": "table",
+      "title": "Most Profitable Routes",
+      "columns": ["Route", "Days", "Silver/Day", "Details"],
+      "rows": [
+        ["Beorein ↔ Lune",                  "22 days", "+100/day",  "5× Mussels to Lune (+1,000). 3× Chickens back to Beorein (+1,200). Requires Livestock ★★ and Chicken Product rumor."],
+        ["Gahno → Rossalt",                  "10 days", "+250/day",  "5× Coal for 3,500 → sell for 6,000. Earn 2,500."],
+        ["Diemoln → Ruvinheigen & Poroson",  "12 days", "+666/day",  "2× Silverware + 2× Herring for ~10,000 → sell for ~18,000."],
+        ["Lenos → Delintskolz",              "16 days", "+625/day",  "3× Nutmeg for ~9,000 → sell for ~19,000."],
+        ["Poroson → Delintskolz & Bourattia","18 days", "+611/day",  "1× Marble + 1× Stone for 7,000 → sell for ~18,000."],
+        ["Graha → Lamtra",                   "7 days",  "+714/day",  "2× Cinnamon for 9,000 → sell for 14,000."],
+        ["Lamtra → Ruckiholk & Rossalt",     "18 days", "+555/day",  "3× Coffee + 3× Parchment for ~10,000 → sell for 20,000."],
+        ["Rossalt → Ulrich & Erne",          "13 days", "+692/day",  "1× Statue + 5× Sugar for 8,500 → sell for 17,500."],
+        ["Liberkant → Delintskolz & Gahno",  "18 days", "+555/day",  "2× Gemwork + 2× Weapons for 15,000 → sell for 25,000."]
+      ]
+    },
+    {
+      "id": "panel_routes_grind",
+      "panelType": "table",
+      "title": "Optimal Grinding Route (to 9,999,999 silver)",
+      "columns": ["Stop", "Action"],
+      "rows": [
+        ["**Beorein**",     "Buy Tuxedo ×1, Sweater ×2, Silk Hat ×2, Muffler ×2"],
+        ["**Diemoln**",     "Buy Powdered Lily ×1, Caviar ×2, Silverware ×1"],
+        ["**Lenos**",       "Sell Beorein goods. Buy expensive spices."],
+        ["**Leyage**",      "Sell Diemoln goods. Buy expensive fabrics."],
+        ["**Lamtra**",      "Sell Lenos goods. Buy gold or coffee (whichever is more expensive)."],
+        ["**Ruvinheigen**", "Pass."],
+        ["**Graha**",       "Sell everything. Buy Cinnamon ×2. Turn around and head back to Beorein."],
+        ["**Ruvinheigen**", "Buy the most expensive available goods."],
+        ["**Lamtra**",      "Sell Cinnamon. Buy gold or coffee."],
+        ["**Leyage**",      "Sell Ruvinheigen goods. Buy expensive fabrics."],
+        ["**Lenos**",       "Sell Lamtra goods. Buy expensive spices."],
+        ["**Diemoln**",     "Pass."],
+        ["**Beorein**",     "Sell everything. Repeat from top."]
+      ]
+    }
+  ]
+}

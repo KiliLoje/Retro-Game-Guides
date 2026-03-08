@@ -1,0 +1,445 @@
+{
+  "label": "📋 Reference",
+  "panels": [
+    {
+      "id": "p_ref_pb",
+      "panelType": "table",
+      "title": "Power Berries (+100 max stamina each; start at 500)",
+      "columns": [
+        "#",
+        "How to Get",
+        "Location / Condition"
+      ],
+      "rows": [
+        [
+          "1",
+          "Ganache Mine",
+          "Floor 30 (lying on ground)"
+        ],
+        [
+          "2",
+          "Goddess Spring",
+          "Accessible after befriending Mother Bear (14 honey)"
+        ],
+        [
+          "3",
+          "Fishing Rod",
+          "Level rod to Level 3 through use, then cast immediately"
+        ],
+        [
+          "4",
+          "Hoeing",
+          "Till 1,000 total squares of soil (cumulative)"
+        ],
+        [
+          "5",
+          "Animal Care",
+          "Raise any animal from 9→10 hearts (scene triggers at 10)"
+        ]
+      ]
+    },
+    {
+      "id": "p_ref_stamina_info",
+      "panelType": "keyvalue",
+      "title": "Stamina System",
+      "rows": [
+        {
+          "key": "Starting max",
+          "value": "500 · Maximum 1,000 with all 5 Power Berries"
+        },
+        {
+          "key": "'I'm tired'",
+          "value": "Warning at 150 points remaining"
+        },
+        {
+          "key": "'Could collapse'",
+          "value": "Warning at 50 points remaining"
+        },
+        {
+          "key": "Collapse",
+          "value": "At 0 points — sent to clinic, lose rest of day, cannot save"
+        },
+        {
+          "key": "Hot Spring",
+          "value": "Full restore once per 'day' (between sleeps). Walk behind waterfall at Caramel Falls, climb rocks."
+        },
+        {
+          "key": "Best food",
+          "value": "Bodigizer XL (+800 · 520G at clinic or craft) · Bodigizer (+300 · 300G) · Buckwheat dishes (big gains) · Any Pizza · Southern Omelet (+400 at Pineapple Inn)"
+        },
+        {
+          "key": "Fatigue",
+          "value": "Starts at 20. Drowsy at ≤5 (walk slowly, illness risk in rain/snow). Full sleep restores all. Don't eat more than 14 mushrooms/day."
+        }
+      ]
+    },
+    {
+      "id": "p_ref_stamina",
+      "panelType": "table",
+      "title": "Stamina — Tool Costs",
+      "columns": [
+        "Action",
+        "Stamina (Std)",
+        "Iron",
+        "Copper",
+        "Silver",
+        "Gold"
+      ],
+      "rows": [
+        [
+          "Watering Can",
+          "−20",
+          "−15",
+          "−10",
+          "−5",
+          "−3"
+        ],
+        [
+          "Hoe / Axe",
+          "−30",
+          "−25",
+          "−20",
+          "−15",
+          "−10"
+        ],
+        [
+          "Hammer / Sickle",
+          "−25",
+          "−20",
+          "−15",
+          "−10",
+          "−5"
+        ],
+        [
+          "Pull a Weed",
+          "−40",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Pick Up Item",
+          "−1",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Sow Seeds",
+          "−2",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Brush (animal)",
+          "−5",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Milker / Shears",
+          "−15",
+          "—",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "id": "p_ref_stamfood",
+      "panelType": "table",
+      "title": "Best Stamina Recovery Items",
+      "columns": [
+        "Item",
+        "Stamina",
+        "Where to Get",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Bodigizer XL",
+          "+800",
+          "Clinic (520G); Mixer (Egg, Honey, Pontata Root, Purple Herb)",
+          "Best single item"
+        ],
+        [
+          "Bodigizer",
+          "+300",
+          "Clinic (300G); Mixer (Red Herb, Pontata Root, Honey)",
+          "Good early game"
+        ],
+        [
+          "Any Pizza",
+          "+500 (sale)",
+          "Craft at Oven",
+          "Pizza, Seafood Pizza, Vegetable Pizza"
+        ],
+        [
+          "Buckwheat dishes",
+          "Varies",
+          "Craft; some purchasable",
+          "Exception: Chips and Cocktails don't count"
+        ],
+        [
+          "Southern Omelet",
+          "+400",
+          "Pineapple Inn (555G)",
+          "Best purchasable if no Bodigizer XL"
+        ],
+        [
+          "Sweet Yam Cake",
+          "+400",
+          "Fall/Winter Markets (660G)",
+          "Good purchasable option"
+        ],
+        [
+          "Sea Urchin (raw)",
+          "+100",
+          "Any beach (700G sale value)",
+          "Found on beaches"
+        ],
+        [
+          "Hot Spring",
+          "Full",
+          "Caramel Falls (once per day)",
+          "Walk behind waterfall; climb rocks"
+        ]
+      ]
+    },
+    {
+      "id": "p_ref_arrivals",
+      "panelType": "table",
+      "title": "Island Arrivals (dates assume Daren's Rainbow in Spring Year 1)",
+      "infobox": "★ If you completed the first rainbow in Summer Year 1 or later, all starred dates shift forward by one season per season of delay.",
+      "columns": [
+        "Character",
+        "Arrival Date ★",
+        "Where to Meet",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Selena",
+          "Spring 10 (Year 1, any year)",
+          "Flower Festival after 10AM",
+          "**MUST** be at festival at/after 10AM — miss it and wait a full year!"
+        ],
+        [
+          "Renee",
+          "Spring 28 (Year 1)",
+          "Animal Festival or Brownie Ranch",
+          ""
+        ],
+        [
+          "Kathy",
+          "Spring 28 (Year 1)",
+          "Brownie Ranch / Sundae Inn",
+          ""
+        ],
+        [
+          "Shelly",
+          "Summer 1 (Year 1)",
+          "Tailor Shop",
+          "Free 15-slot rucksack upgrade on first meeting"
+        ],
+        [
+          "Candace",
+          "Summer 1 (Year 1)",
+          "Tailor Shop",
+          ""
+        ],
+        [
+          "Luna",
+          "Summer 1 (Year 1)",
+          "Tailor Shop",
+          ""
+        ],
+        [
+          "Calvin",
+          "Summer 15 (Year 1)",
+          "Ganache Mine Floor 10",
+          "⚠️ Calvin Glitch on early game copies — see General Reference"
+        ],
+        [
+          "Chase",
+          "Fall 1 (Year 1)",
+          "Sundae Inn",
+          ""
+        ],
+        [
+          "Phoebe",
+          "Fall 15 (Year 1)",
+          "Ganache Mine main floor",
+          ""
+        ],
+        [
+          "Julius",
+          "Winter 1 (Year 1)",
+          "Outside Blacksmith Shop on sunny day (on foot!)",
+          ""
+        ],
+        [
+          "Taylor",
+          "Winter 15 (Year 1)",
+          "Comes to your farm",
+          "Call 881 for seed orders after meeting him"
+        ],
+        [
+          "Gray",
+          "Spring 1 (Year 2)",
+          "Brownie Ranch (barn/coop area), sunny, on foot",
+          ""
+        ],
+        [
+          "Perry",
+          "Spring 15 (Year 2)",
+          "Meringue Clinic",
+          ""
+        ],
+        [
+          "Paolo",
+          "Summer 1 (Year 2)",
+          "On the Hook (pier area)",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "p_ref_scav",
+      "panelType": "table",
+      "title": "Scavenger Hunt (find items in order)",
+      "infobox": "Items must be found in order — the next item won't appear until you collect the previous one. None are missable. None are flagged in-game.",
+      "columns": [
+        "Order",
+        "Item",
+        "Location"
+      ],
+      "rows": [
+        [
+          "1st",
+          "Lapis Lazuli",
+          "West coast — go to lighthouse, head north to rocky wall"
+        ],
+        [
+          "2nd",
+          "Shining Flax Yarn",
+          "Maple Lake District, middle of east side"
+        ],
+        [
+          "3rd",
+          "Shining Bamboo Shoot",
+          "Brownie Ranch, north side, behind the map sign — box is invisible, just press A at the right spot"
+        ],
+        [
+          "4th",
+          "Crystal",
+          "Library (2nd floor of Town Hall), bottom-left corner"
+        ],
+        [
+          "5th",
+          "Rare Metal",
+          "Sundae Inn, 2nd floor, far-right room"
+        ]
+      ]
+    },
+    {
+      "id": "p_ref_tv",
+      "panelType": "table",
+      "title": "TV Schedule",
+      "columns": [
+        "Time",
+        "Weekday",
+        "Weekend"
+      ],
+      "rows": [
+        [
+          "6AM–10AM",
+          "Current Weather Forecast",
+          "Current Weather Forecast"
+        ],
+        [
+          "10AM–2PM",
+          "Rainbow Cooking",
+          "Mastery of Beauty"
+        ],
+        [
+          "2PM–6PM",
+          "News / Festival Announcements",
+          "News"
+        ],
+        [
+          "6PM–10PM",
+          "Tomorrow's Weather ★",
+          "Tomorrow's Weather ★"
+        ],
+        [
+          "10PM–2AM",
+          "Kingdom of Wildlife",
+          "Mastery of Beauty"
+        ],
+        [
+          "2AM–6AM",
+          "Off-Air",
+          "Off-Air"
+        ]
+      ]
+    },
+    {
+      "id": "p_ref_minigames",
+      "panelType": "table",
+      "title": "Mini-Games",
+      "infobox": "Unlock mini-games by talking to a villager at the specified time/place. Then accessible from the main menu.",
+      "columns": [
+        "Mini-Game",
+        "Unlock: Villager",
+        "Unlock: Location/Condition",
+        "Description"
+      ],
+      "rows": [
+        [
+          "Attack a Mole",
+          "Barbara",
+          "Harvest Festival",
+          "Chase a mole and whack it with your hammer"
+        ],
+        [
+          "Bug Catching",
+          "Gill",
+          "Flower Festival",
+          "Point WiiMote at bugs, press A to catch (like Duck Hunt)"
+        ],
+        [
+          "Horse Race",
+          "Kathy (5+ hearts)",
+          "Anywhere",
+          "Race your horse by swinging the Nunchuk; grab stamina fruits"
+        ],
+        [
+          "Leap Frog",
+          "Phoebe",
+          "Animal Festival",
+          "Leapfrog-style mini-game"
+        ],
+        [
+          "Marksmanship",
+          "Luke",
+          "Arts Festival",
+          "Shoot clay targets (same mechanic as Bug Catching)"
+        ],
+        [
+          "Skipping Stones",
+          "Craig (after 12PM)",
+          "Ocean Festival",
+          "Swing WiiMote upward; release A when pointed straight forward"
+        ]
+      ]
+    }
+  ]
+}

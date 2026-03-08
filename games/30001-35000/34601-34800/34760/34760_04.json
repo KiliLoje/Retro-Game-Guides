@@ -1,0 +1,539 @@
+{
+  "label": "🐄 Animals & Pets",
+  "panels": [
+    {
+      "id": "p_anim_livestock",
+      "panelType": "table",
+      "title": "Livestock",
+      "columns": [
+        "Animal",
+        "Cost",
+        "Home",
+        "Product",
+        "Frequency",
+        "Days to Adult",
+        "Breeding"
+      ],
+      "rows": [
+        [
+          "Chicken",
+          "2,100G",
+          "Bird Coop",
+          "Eggs / Mayonnaise",
+          "Daily",
+          "Adult (bought)",
+          "Incubator (egg)"
+        ],
+        [
+          "Duck",
+          "2,400G",
+          "Bird Coop",
+          "Eggs / Duckonnaise",
+          "Every 2 days",
+          "Adult (bought)",
+          "Incubator (egg) · Unlocked at 5,000G ranch sales"
+        ],
+        [
+          "Silkworm",
+          "2,850G",
+          "Bird Coop",
+          "Silk Cocoon / Silk Yarn",
+          "Every 4 days",
+          "Adult (bought)",
+          "Cannot breed · Must hand-feed daily; cannot graze"
+        ],
+        [
+          "Cow",
+          "4,500G",
+          "Barn",
+          "Milk / Butter / Cheese",
+          "Daily",
+          "28 days (from calf)",
+          "Miracle Potion"
+        ],
+        [
+          "Sheep",
+          "4,200G",
+          "Barn",
+          "Wool / Wool Yarn",
+          "Every 4 days",
+          "14 days (from lamb)",
+          "Miracle Potion"
+        ],
+        [
+          "Goat",
+          "3,600G",
+          "Barn",
+          "Milk / Butter / Cheese",
+          "Daily",
+          "14 days (from kid)",
+          "Miracle Potion · Unlocked at 5,000G ranch sales"
+        ],
+        [
+          "Horse",
+          "6,300G",
+          "Barn",
+          "None (transport only)",
+          "—",
+          "14 days (from colt)",
+          "Miracle Potion · Unlocked at 5,000G ranch sales"
+        ],
+        [
+          "Ostrich",
+          "13,500G",
+          "Barn",
+          "Eggs / Ostonnaise",
+          "Every 4 days",
+          "24 days (from chick)",
+          "Ostrich egg incubator · Unlocked at 10,000G ranch sales"
+        ]
+      ]
+    },
+    {
+      "id": "p_anim_products",
+      "panelType": "table",
+      "title": "Animal Products — Sale Prices",
+      "infobox": "Processing advice: Always process Chicken eggs (small +20G margin). For Duck/Ostrich eggs, only process Decent quality — Good/Perfect/Shining eggs sell for MORE raw. For Goat milk, Cheese > Butter at all quality levels.",
+      "columns": [
+        "Product",
+        "Source",
+        "Freq.",
+        "Decent",
+        "Good",
+        "Perfect",
+        "Shining",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Chicken Egg",
+          "Chicken",
+          "Daily",
+          "80G",
+          "100G",
+          "120G",
+          "200G",
+          ""
+        ],
+        [
+          "Chicken Mayo",
+          "Egg + Mayo Maker",
+          "Daily",
+          "100G",
+          "120G",
+          "140G",
+          "240G",
+          "Process all quality levels"
+        ],
+        [
+          "Duck Egg",
+          "Duck",
+          "2 days",
+          "150G",
+          "190G",
+          "230G",
+          "380G",
+          "Only process Decent"
+        ],
+        [
+          "Duckonnaise",
+          "Duck Egg + Mayo",
+          "2 days",
+          "190G",
+          "190G",
+          "190G",
+          "190G",
+          "No quality tiers"
+        ],
+        [
+          "Ostrich Egg",
+          "Ostrich",
+          "4 days",
+          "280G",
+          "350G",
+          "420G",
+          "700G",
+          "Only process Decent"
+        ],
+        [
+          "Ostonnaise",
+          "Ostrich Egg + Mayo",
+          "4 days",
+          "320G",
+          "—",
+          "—",
+          "—",
+          "No quality; only use Decent eggs"
+        ],
+        [
+          "Cow Milk",
+          "Cow",
+          "Daily",
+          "100G",
+          "130G",
+          "160G",
+          "260G",
+          "Make Cheese for max value"
+        ],
+        [
+          "Cow Butter",
+          "Milk + Butter Maker",
+          "Daily",
+          "120G",
+          "150G",
+          "240G",
+          "300G",
+          ""
+        ],
+        [
+          "Cow Cheese",
+          "Milk + Cheese Maker",
+          "Daily",
+          "140G",
+          "170G",
+          "240G",
+          "340G",
+          "Cheese > Butter at Decent/Good"
+        ],
+        [
+          "Goat Milk",
+          "Goat",
+          "Daily",
+          "90G",
+          "110G",
+          "130G",
+          "220G",
+          ""
+        ],
+        [
+          "Goat Butter",
+          "Milk + Butter Maker",
+          "Daily",
+          "100G",
+          "130G",
+          "180G",
+          "260G",
+          ""
+        ],
+        [
+          "Goat Cheese",
+          "Milk + Cheese Maker",
+          "Daily",
+          "170G",
+          "210G",
+          "290G",
+          "420G",
+          "Best daily product per animal"
+        ],
+        [
+          "Wool",
+          "Sheep",
+          "4 days",
+          "210G",
+          "260G",
+          "310G",
+          "520G",
+          "Shining Wool = Journey Rucksack"
+        ],
+        [
+          "Wool Yarn",
+          "Wool + Yarn Maker",
+          "4 days",
+          "250G",
+          "310G",
+          "430G",
+          "620G",
+          "Dye Blue for 930G — much better"
+        ],
+        [
+          "Silk Cocoon",
+          "Silkworm",
+          "4 days",
+          "400G",
+          "500G",
+          "600G",
+          "1,000G",
+          ""
+        ],
+        [
+          "Silk Yarn",
+          "Cocoon + Yarn Maker",
+          "4 days",
+          "420G",
+          "700G",
+          "980G",
+          "1,400G",
+          "Dye Blue for 2,100G — best item in game"
+        ],
+        [
+          "Flax Yarn",
+          "Flax + Yarn Maker",
+          "Per harvest",
+          "220G",
+          "360G",
+          "500G",
+          "720G",
+          "Dye Blue for 1,080G"
+        ]
+      ]
+    },
+    {
+      "id": "p_anim_affection",
+      "panelType": "keyvalue",
+      "title": "Affection System",
+      "rows": [
+        {
+          "key": "Points to 1 Heart",
+          "value": "100 points · Max hearts: 10"
+        },
+        {
+          "key": "Poultry — Hand-Feed",
+          "value": "+1 pt"
+        },
+        {
+          "key": "Poultry — Pick Up",
+          "value": "+5 pts (fastest for poultry)"
+        },
+        {
+          "key": "Poultry — Let Outside",
+          "value": "+3 pts (not in rain/snow — costs −10 pts)"
+        },
+        {
+          "key": "Livestock — Talk",
+          "value": "+5 pts"
+        },
+        {
+          "key": "Livestock — Brush",
+          "value": "+10 pts (fastest overall)"
+        },
+        {
+          "key": "Livestock — Hand-Feed",
+          "value": "+1 pt"
+        },
+        {
+          "key": "Livestock — Let Outside",
+          "value": "+3 pts"
+        },
+        {
+          "key": "Cow/Goat — Milk",
+          "value": "+3 pts"
+        },
+        {
+          "key": "Sheep — Shear",
+          "value": "+3 pts every 4 days"
+        },
+        {
+          "key": "⚠️ Tool on animal",
+          "value": "−50+ pts penalty"
+        },
+        {
+          "key": "⚠️ Sick animal",
+          "value": "Decreases per day — use Medicine ASAP"
+        },
+        {
+          "key": "Sale formula (Poultry)",
+          "value": "**200G + (500G × heart level)**"
+        },
+        {
+          "key": "Sale formula (Livestock)",
+          "value": "**500G + (500G × heart level)**"
+        }
+      ]
+    },
+    {
+      "id": "p_anim_aff_tips",
+      "panelType": "table",
+      "title": "Fastest Hearts Per Day",
+      "columns": [
+        "Animal",
+        "Best Daily Actions",
+        "Days to +1 Heart"
+      ],
+      "rows": [
+        [
+          "Chicken / Duck",
+          "Hand-Feed + Pick Up + Let Outside",
+          "11 days (fastest for poultry)"
+        ],
+        [
+          "Silkworm",
+          "Hand-Feed + Pick Up (no outdoor)",
+          "16 days"
+        ],
+        [
+          "Cow / Goat",
+          "Let Outside + Talk + Brush + Milk",
+          "5 days (fastest overall)"
+        ],
+        [
+          "Sheep",
+          "Let Outside + Talk + Brush",
+          "6 days"
+        ],
+        [
+          "Ostrich / Horse",
+          "Let Outside + Talk + Brush",
+          "6 days"
+        ]
+      ]
+    },
+    {
+      "id": "p_anim_pets",
+      "panelType": "checklist",
+      "title": "🦝 Wild Animals (Adoptable Pets)",
+      "infobox": "Raise each animal to 6 hearts to adopt. Max affection is 14 hearts (not 10). Give gifts until they stop accepting. Never decline the first adoption offer — it's permanent. Requires 1 house level per pet (max 5 pets at Level 5 house).",
+      "columns": [
+        {
+          "key": "loc",
+          "label": "Location",
+          "style": "dim"
+        },
+        {
+          "key": "gifts",
+          "label": "Best Gifts",
+          "style": "dim"
+        }
+      ],
+      "entry_Pet": [
+        {
+          "id": "i_pet_bear",
+          "name": "Bear Cub",
+          "loc": "Mt. Gelato (after befriending Mother Bear)",
+          "gifts": "Eel, Apple, Honey, King Fish, Blueberry",
+          "note": "Wanders lower Mt. Gelato once Mother Bear retreats"
+        },
+        {
+          "id": "i_pet_boar",
+          "name": "Boar",
+          "loc": "Brownie Ranch",
+          "gifts": "Banana, Blueberry, Chestnut, Mushroom, Very Berry"
+        },
+        {
+          "id": "i_pet_catorange",
+          "name": "Cat (Orange)",
+          "loc": "Maple Lake",
+          "gifts": "Saury, Catfish, Crawfish, Eel, King Fish"
+        },
+        {
+          "id": "i_pet_catblack",
+          "name": "Cat (Black)",
+          "loc": "Toucan Island",
+          "gifts": "Saury, Catfish, Crawfish, Eel, King Fish"
+        },
+        {
+          "id": "i_pet_catwhite",
+          "name": "Cat (White)",
+          "loc": "Waffle Town",
+          "gifts": "Saury, Catfish, Crawfish, Eel, King Fish"
+        },
+        {
+          "id": "i_pet_dogbigw",
+          "name": "Dog (Big, White)",
+          "loc": "Toucan Island",
+          "gifts": "Milk (Cow Perfect), Banana, Coconut, Pineapple"
+        },
+        {
+          "id": "i_pet_dogbigwb",
+          "name": "Dog (Big, W&B)",
+          "loc": "Brownie Ranch",
+          "gifts": "Milk (Cow Perfect), Banana, Coconut, Pineapple"
+        },
+        {
+          "id": "i_pet_dogsmlw",
+          "name": "Dog (Small, White)",
+          "loc": "Town Square",
+          "gifts": "Milk (Cow Perfect), Yam (Perfect), Coral, Banana"
+        },
+        {
+          "id": "i_pet_dogsmlb",
+          "name": "Dog (Small, Brown)",
+          "loc": "Waffle Town (near lighthouse)",
+          "gifts": "Milk (Cow Perfect), Yam (Perfect), Coral, Banana"
+        },
+        {
+          "id": "i_pet_monkey",
+          "name": "Monkey",
+          "loc": "Caramel Falls",
+          "gifts": "Banana, Apple, Coconut, Yam (Perfect), Blueberry, Cherry"
+        },
+        {
+          "id": "i_pet_panda",
+          "name": "Panda",
+          "loc": "Toucan Island (behind Inn)",
+          "gifts": "Bamboo Shoot, Chestnut, Coconut, Pontata Root"
+        },
+        {
+          "id": "i_pet_penguin",
+          "name": "Penguin",
+          "loc": "East Gull Island",
+          "gifts": "Saury, Catfish, Crawfish, Eel, King Fish, Sea Urchin"
+        },
+        {
+          "id": "i_pet_rabbitw",
+          "name": "Rabbit (White)",
+          "loc": "Brownie Ranch",
+          "gifts": "Apple, Blueberry, Pontata Root, Very Berry, Yam (Perfect)"
+        },
+        {
+          "id": "i_pet_rabbitp",
+          "name": "Rabbit (Patched)",
+          "loc": "Mt. Gelato",
+          "gifts": "Apple, Blueberry, Pontata Root, Very Berry, Yam (Perfect)"
+        },
+        {
+          "id": "i_pet_raccoon",
+          "name": "Raccoon",
+          "loc": "Mt. Gelato",
+          "gifts": "Apple, Chestnut, Yam (Perfect), Cherry, Grape"
+        },
+        {
+          "id": "i_pet_squirrel",
+          "name": "Squirrel",
+          "loc": "West Gull Island",
+          "gifts": "Blueberry, Very Berry, Cherry, Grape, Orange"
+        },
+        {
+          "id": "i_pet_turtle",
+          "name": "Turtle",
+          "loc": "Caramel River District",
+          "gifts": "Crawfish, Catfish, Eel, Saury, King Fish"
+        },
+        {
+          "id": "i_pet_weaselw",
+          "name": "Weasel (White)",
+          "loc": "Mt. Gelato",
+          "gifts": "Cherry, Grape, Orange, Pontata Root, Apple, Blueberry"
+        },
+        {
+          "id": "i_pet_weaselb",
+          "name": "Weasel (Brown)",
+          "loc": "Praline Forest",
+          "gifts": "Cherry, Grape, Orange, Pontata Root, Apple, Blueberry"
+        }
+      ]
+    },
+    {
+      "id": "p_anim_motherbear",
+      "panelType": "keyvalue",
+      "title": "Mother Bear (Not Adoptable)",
+      "rows": [
+        {
+          "key": "Location",
+          "value": "Mt. Gelato Cave (near Mine & Goddess Spring)"
+        },
+        {
+          "key": "Purpose",
+          "value": "Blocks path to Goddess Spring. Must befriend to access."
+        },
+        {
+          "key": "Method",
+          "value": "Give 14 honeys (max 2/day = 7 days minimum). Honey costs 150G each at Brownie Ranch."
+        },
+        {
+          "key": "Result",
+          "value": "Retreats to cave permanently. Bear Cub appears on lower Mt. Gelato for adoption. Goddess Spring becomes accessible."
+        }
+      ]
+    }
+  ]
+}

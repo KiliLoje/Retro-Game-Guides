@@ -1,0 +1,62 @@
+{
+  "label": "📖 Walkthrough",
+  "panels": [
+    {
+      "id": "panel_walkthrough_intro",
+      "panelType": "text",
+      "title": "About This Tab",
+      "content": "📖 Reference walkthrough for a first playthrough. No completion tracking — use the other tabs for that."
+    },
+    {
+      "id": "panel_walkthrough_main",
+      "panelType": "table",
+      "title": "Main Story Path",
+      "columns": ["Date", "Location", "What to do"],
+      "rows": [
+        ["Sep 1", "Ruvinheigen", "🛒 Buy all Walnuts. Visit ! Tavern to learn the Rumor system."],
+        ["Sep 1", "Gate → Kumersun", "📜 Check Tavern rumors. Visit ! Trading House to learn about Contracts."],
+        ["—", "Kumersun → Lenos", "📦 Buy 4 Carp for the tutorial contract (you cannot decline)."],
+        ["—", "Lenos", "✅ Deliver Carp to complete contract. Visit ! Market (sell Walnuts — must be 2 towns away from purchase). Visit ! Workshop (don't expand cart yet). Visit ! Trading House (take a loan if needed)."],
+        ["—", "Diemoln", "💬 Choose **I wasn't lovestruck!** for Holo event. Check rumors. Visit all ! locations. Talk to Barmaid → meet Eve → choose *You're right*. Visit ! Inn → find informant who wants 3,000 silver. Take a loan if needed. Visit ! Vacant House → pay 3,000 silver to unlock Beorein."],
+        ["—", "Beorein", "🌊 Visit ! Port (meet Luka). Buy as many Mussels as you can afford. At ! Gate, acquire rumor for Erne."],
+        ["—", "Erne → Delintskolz", "📜 At Erne Tavern: get Delintskolz rumor. At Delintskolz: unlock Lune automatically."],
+        ["—", "Lune", "💰 Visit ! Inn. Sell all Mussels for a big payday. Repay loan. Buy Eggs and Straps. Fill cart."],
+        ["—", "Beorein", "🛒 Sell everything. Buy Mussels and Oysters. Visit ! Port to recruit Luka. Visit ! Private House → choose *That's right* for Luka."],
+        ["—", "Lune", "📜 Visit ! Inn — next goal: see Dian Reubens in Ulrich. Luka leaves. Sell everything. Handle loan. If 2,500+ silver: buy 4 Straps here + 2 Peppers in Delintskolz. Otherwise buy Eggs and Straps."],
+        ["—", "Delintskolz", "👥 Choose your optional companion (Norah, Eve, or Luka). Holo is always with you."],
+        ["—", "Erne → Ulrich", "🏙️ Sell anything selling high at Erne. Sell everything in Ulrich. The game opens up here — trade freely."],
+        ["—", "Ulrich onward", "⚗️ Complete the 3 Alchemy Tool quests (Pot / Distiller / Furnace) in any order. Each costs ~3,000 silver + 1,000 for the tip rumor. See Alchemy Quest Tasks below."],
+        ["—", "Lune → Beorein", "🏁 Visit ! Inn in Lune (deliver medicine). When ready, go to ! Port in Beorein. ⚠️ **POINT OF NO RETURN.** Enter ! Cave. Choose your ending."]
+      ]
+    },
+    {
+      "id": "panel_walkthrough_alchemy",
+      "panelType": "table",
+      "title": "Alchemy Quest Tasks",
+      "columns": ["Item", "Steps"],
+      "rows": [
+        ["**Alchemy Pot**", "Tip rumor: Graha Tavern (1,000 silver). Buy Alchemy Pot in Lamtra (~3,000 silver). Deliver to Dian in Ulrich."],
+        ["**Distiller**", "Tip rumor: Leyage Tavern (1,000 silver). Buy Distiller in Lenos (~3,000 silver). Deliver to Dian in Ulrich."],
+        ["**Furnace**", "Tip rumor: Lune Tavern (1,000 silver). Buy Furnace in Gahno (~3,000 silver). Deliver to Dian in Ulrich."],
+        ["**Opium** (2nd set)", "Tip rumor: Delintskolz Tavern (1,000 silver). Buy Opium in Bourattia (~5,000 silver). Deliver to Dian."],
+        ["**Myrrh** (2nd set)", "Tip rumor: Erne Tavern (1,000 silver). Buy Myrrh in Diemoln (~5,000 silver). Deliver to Dian."],
+        ["**Powdered Lily** (2nd set)", "Tip rumor: Ruckiholk Tavern (1,000 silver). Buy Powdered Lily in Rossalt (~5,000 silver). Deliver to Dian."]
+      ]
+    },
+    {
+      "id": "panel_walkthrough_knowledge",
+      "panelType": "table",
+      "title": "Goods Knowledge Goals (for A+ runs)",
+      "columns": ["Category", "Target", "Best Grind"],
+      "rows": [
+        ["Seafood", "★★★★★", "Grind Mussels/Oysters from Beorein"],
+        ["Produce", "★★★★", "Green Peas in Leyage, Mushrooms in Poroson"],
+        ["Livestock", "★★", "Eggs in Lune, Milk in Erne"],
+        ["Liquors", "★★★★", "Soda Water in Diemoln is a fast grind"],
+        ["Processed Food", "★★★★", "Cookies in Lenos, Jerky in Erne"],
+        ["Tools", "★★★★", "Straps in Lune"],
+        ["Spices", "★★", "Cloves in Ulrich, Pepper in Delintskolz"]
+      ]
+    }
+  ]
+}

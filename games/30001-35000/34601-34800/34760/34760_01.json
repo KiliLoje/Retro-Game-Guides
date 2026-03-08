@@ -1,0 +1,74 @@
+{
+  "label": "🏆 Achievements",
+  "panels": [
+    {
+      "id": "p_ach_legend",
+      "panelType": "text",
+      "title": "Tier Guide",
+      "content": "Ideas for a set."
+    },
+    {
+      "id": "p_ach_list",
+      "panelType": "checklist",
+      "title": "🏆 Achievement Checklist",
+      "columns": [
+        {
+          "key": "description",
+          "label": "Requirement"
+        },
+        {
+          "key": "points",
+          "label": "Points",
+          "style": "accent"
+        },
+        {
+          "key": "tips",
+          "label": "Tips"
+        }
+      ],
+      "entry_Achievements": [
+        { "id": "ach_01", "name": "Welcome to Waffle Island", "description": "Ship your first item for at least 1G.", "points": 2, "type": "progression", "tips": "Pick a forageable herb from Praline Forest on Day 1 and drop it in the shipping bin." },
+        { "id": "ach_02", "name": "Green Thumb", "description": "Harvest your first crop.", "points": 2, "type": "progression", "tips": "Turnips are the fastest Spring crop (5 days). Buy seeds from Souffle Farm on your first morning." },
+        { "id": "ach_03", "name": "First Cast", "description": "Catch your first fish.", "points": 2, "type": "progression", "tips": "Pick up the free rod from Toby and fish at any water source." },
+        { "id": "ach_04", "name": "Half a Quilt", "description": "Ship 1,000G to trigger the Mayor's visit, then ship another 1,000G for the left half of the quilt.", "points": 2, "type": "progression", "tips": "Floor 19 of Ganache Mine holds large mushroom clusters that quickly meet the requirement." },
+        { "id": "ach_05", "name": "The Whole Quilt", "description": "Upgrade house to Level 2 and complete the Gill → Dale → Mayor → Clock Tower chain.", "points": 5, "type": "progression", "tips": "Commission the house upgrade immediately after speaking with Gill." },
+        { "id": "ach_06", "name": "First Rainbow on Time", "description": "Complete Daren's Rainbow before the end of Spring Year 1.", "points": 10, "type": "challenge", "tips": "The Apple and Grilled Yam must be purchased at the Spring or Summer Market." },
+        { "id": "ach_07", "name": "The First Rainbow", "description": "Complete Daren's Rainbow.", "points": 5, "type": "progression", "tips": "This unlocks early island travel and starts the larger rainbow questline." },
+        { "id": "ach_08", "name": "Rock Bottom", "description": "Reach Floor 30 of Ganache Mine.", "points": 5, "type": "progression", "tips": "Use pitfall cracks on upper floors to descend quickly." },
+        { "id": "ach_09", "name": "Deeper Still", "description": "Reach Floor 50 of Mt. Gelato Mine.", "points": 10, "type": "progression", "tips": "Crystal clusters appear on Floors 38–48." },
+        { "id": "ach_10", "name": "Something in the Air", "description": "Trigger your first romantic heart event.", "points": 2, "type": "progression", "tips": "Visit your chosen partner early in the morning on their day off." },
+        { "id": "ach_11", "name": "I Do", "description": "Propose marriage.", "points": 10, "type": "progression", "tips": "Requires the Blue Feather, 8 hearts, and all romantic heart events." },
+        { "id": "ach_12", "name": "Bundle of Joy", "description": "Have a child born.", "points": 10, "type": "progression", "tips": "Occurs automatically after the marriage timeline progresses." },
+        { "id": "ach_13", "name": "The Hard Years", "description": "Witness all stages of your child's growth.", "points": 10, "type": "progression", "tips": "Each growth phase lasts roughly one season." },
+        { "id": "ach_14", "name": "Islands Beyond", "description": "Complete all five Goddess rainbows.", "points": 5, "type": "progression", "tips": "Each rainbow unlocks new regions and story progression." },
+        { "id": "ach_15", "name": "Perfect First Year", "description": "Finish all rainbows, marry, obtain all Power Berries, and raise one 10-heart animal in Year 1.", "points": 10, "type": "challenge", "tips": "Requires aggressive optimization of crops, mining, and relationships." },
+        { "id": "ach_16", "name": "Return of the Goddess", "description": "Complete the Goddess Quest by planting the Seedling of Hope and accumulating 50 villager hearts.", "points": 25, "type": "win condition", "tips": "After the final rainbow, climb Mt. Gelato to trigger the ending." },
+        { "id": "ach_17", "name": "A New Dawn", "description": "Complete the Journey Rucksack and send your child to New Game+.", "points": 25, "type": "collection", "tips": "Sell livestock before sending the rucksack; animals do not transfer." },
+        { "id": "ach_18", "name": "Complete Angler", "description": "Catch all 41 fish and crustaceans.", "points": 25, "type": "collection", "tips": "Track rare conditions such as storms and time-of-day catches." },
+        { "id": "ach_19", "name": "The Big One", "description": "Catch a King Fish.", "points": 10, "type": "collection", "tips": "Usually found in the deep mine lake or Goddess Cave." },
+        { "id": "ach_20", "name": "Storm Chaser", "description": "Catch a Seasky Fish.", "points": 10, "type": "missable", "tips": "Only appears in the river during typhoons or blizzards." },
+        { "id": "ach_21", "name": "Crack of Dawn", "description": "Catch a Skull Jellyfish.", "points": 10, "type": "missable", "tips": "Available early morning at Toucan Island or the Goddess Cave." },
+        { "id": "ach_22", "name": "Keeper of the Spring", "description": "Catch a Wood Fish.", "points": 10, "type": "missable", "tips": "Night fishing at the Goddess Spring." },
+        { "id": "ach_23", "name": "Diamond in the Rough", "description": "Refine a Diamond from a 3-sparkle White Wonderful.", "points": 10, "type": "collection", "tips": "Diamonds appear in deeper mine floors." },
+        { "id": "ach_24", "name": "The Geologist", "description": "Collect and refine every gem and metal type.", "points": 25, "type": "collection", "tips": "Late mine floors contain the rare materials." },
+        { "id": "ach_25", "name": "Once in a Lifetime", "description": "Find the Shining Baumkuchen on Floor 50 of Mt. Gelato Mine.", "points": 10, "type": "collection", "tips": "There is only one per save file." },
+        { "id": "ach_26", "name": "Four Seasons", "description": "Harvest at least one crop in each season within a single year.", "points": 5, "type": "collection", "tips": "Buckwheat grows during Winter." },
+        { "id": "ach_27", "name": "Full Bloom", "description": "Grow every flower variety.", "points": 25, "type": "collection", "tips": "Some flower seeds are festival-exclusive." },
+        { "id": "ach_28", "name": "Every Crop", "description": "Grow every crop type including trees.", "points": 25, "type": "collection", "tips": "Track via the crop bookshelf." },
+        { "id": "ach_29", "name": "Shining Harvest", "description": "Ship Shining quality versions of 10 crops.", "points": 10, "type": "collection", "tips": "Use Happy Fertilizer regularly." },
+        { "id": "ach_30", "name": "Old MacDonald", "description": "Own at least one of every livestock type.", "points": 10, "type": "collection", "tips": "Some animals unlock with ranch reputation." },
+        { "id": "ach_31", "name": "Ten out of Ten", "description": "Raise any animal to 10 hearts.", "points": 5, "type": "progression", "tips": "Daily brushing and feeding increases affection." },
+        { "id": "ach_32", "name": "Silk Empire", "description": "Own 8 silkworms simultaneously.", "points": 10, "type": "collection", "tips": "Requires a Level 2 Coop." },
+        { "id": "ach_33", "name": "Golden Fleece", "description": "Obtain Shining quality Wool.", "points": 10, "type": "collection", "tips": "Requires a 10-heart sheep." },
+        { "id": "ach_34", "name": "One Big Family", "description": "Adopt 5 pets simultaneously.", "points": 25, "type": "collection", "tips": "Requires the Level 5 house." },
+        { "id": "ach_35", "name": "Unlikely Friends", "description": "Befriend the Mother Bear.", "points": 5, "type": "progression", "tips": "Give honey repeatedly to raise friendship." },
+        { "id": "ach_36", "name": "Master of the Kitchen", "description": "Cook every recipe in the game.", "points": 25, "type": "collection", "tips": "Requires every utensil and several special ingredients." },
+        { "id": "ach_37", "name": "Island Naturalist", "description": "Collect all Toucan Island forageables.", "points": 10, "type": "collection", "tips": "Items often hide near foliage edges." },
+        { "id": "ach_38", "name": "Honey Spectrum", "description": "Collect honey of four flower colors.", "points": 10, "type": "collection", "tips": "Different flowers produce different honey." },
+        { "id": "ach_39", "name": "Waffle Island Tycoon", "description": "Ship 500,000G total goods.", "points": 10, "type": "progression", "tips": "Silk yarn and crop processing produce high profits." },
+        { "id": "ach_40", "name": "Perfect Town", "description": "Raise all villagers to at least 6 hearts.", "points": 25, "type": "collection", "tips": "Part-time jobs raise friendship quickly." },
+        { "id": "ach_41", "name": "Master Craftsman", "description": "Upgrade all tools to Gold.", "points": 25, "type": "collection", "tips": "Mining your own metals greatly reduces upgrade cost." }
+      ]
+    }
+  ]
+}

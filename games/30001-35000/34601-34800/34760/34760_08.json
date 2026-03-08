@@ -1,0 +1,390 @@
+{
+  "label": "⛏️ Mining",
+  "panels": [
+    {
+      "id": "p_mine_layout",
+      "panelType": "table",
+      "title": "Mine Floor Guide",
+      "columns": [
+        "Mine",
+        "Floors",
+        "Range",
+        "Contents / Notable"
+      ],
+      "rows": [
+        [
+          "Ganache Mine",
+          "30",
+          "1–9",
+          "Low ores (scrap, iron, copper). Floor 7: only holes & geysers — use stairs only here."
+        ],
+        [
+          "Ganache Mine",
+          "30",
+          "10",
+          "Ruins — no items."
+        ],
+        [
+          "Ganache Mine",
+          "30",
+          "11–19",
+          "Silver/gold ores, low gems. **Floor 19: ~20–30 mushrooms & toadstools** — fastest early money."
+        ],
+        [
+          "Ganache Mine",
+          "30",
+          "20",
+          "Ruins — no items."
+        ],
+        [
+          "Ganache Mine",
+          "30",
+          "21–24",
+          "Gold/rare ores, mid gems."
+        ],
+        [
+          "Ganache Mine",
+          "30",
+          "25–29",
+          "Mid gems. **Floor 25: dense crystal clusters**."
+        ],
+        [
+          "Ganache Mine",
+          "30",
+          "30",
+          "Goddess murals, underground lake. **Power Berry here** + King Fish lake. Achievement: Rock Bottom."
+        ],
+        [
+          "Mt. Gelato Mine",
+          "50",
+          "1–9",
+          "Mid ores (silver, gold), low gems. Available after Daren's + Ben's + Collin's Rainbows."
+        ],
+        [
+          "Mt. Gelato Mine",
+          "50",
+          "10",
+          "Empty cavern."
+        ],
+        [
+          "Mt. Gelato Mine",
+          "50",
+          "11–20",
+          "High ores, mid gems."
+        ],
+        [
+          "Mt. Gelato Mine",
+          "50",
+          "21–29",
+          "Mid gems. Floor 28: dense mushrooms/toadstools."
+        ],
+        [
+          "Mt. Gelato Mine",
+          "50",
+          "30",
+          "Empty cavern."
+        ],
+        [
+          "Mt. Gelato Mine",
+          "50",
+          "31–49",
+          "High gems. **Floors 38/40/42/44/46/48: color-specific crystal clusters**."
+        ],
+        [
+          "Mt. Gelato Mine",
+          "50",
+          "50",
+          "**Shining Baumkuchen** (one per save, 2,000G or loved gift for ALL villagers). Achievement: Deeper Still."
+        ]
+      ]
+    },
+    {
+      "id": "p_mine_ores",
+      "panelType": "table",
+      "title": "Ores & Refined Metals",
+      "infobox": "Always have Mira refine your ore — raw ore sells for 20–250G but refined metals sell for 50–630G. Always bring ore to Mira before upgrading tools.",
+      "columns": [
+        "Ore",
+        "Ore Sale",
+        "Sparkles",
+        "Refined Metal",
+        "Metal Sale",
+        "Uses"
+      ],
+      "rows": [
+        [
+          "Iron Ore",
+          "20G",
+          "0",
+          "Scrap Iron",
+          "10G",
+          "Sale only"
+        ],
+        [
+          "Iron Ore",
+          "20G",
+          "1",
+          "Iron",
+          "50G",
+          "Starter→Iron tool upgrade; sale"
+        ],
+        [
+          "Copper Ore",
+          "30G",
+          "0",
+          "Scrap Iron",
+          "10G",
+          "Sale only"
+        ],
+        [
+          "Copper Ore",
+          "30G",
+          "1",
+          "Copper",
+          "80G",
+          "Iron→Copper tool upgrade; all Brooches"
+        ],
+        [
+          "Silver Ore",
+          "40G",
+          "0",
+          "Scrap Iron",
+          "10G",
+          "Sale only"
+        ],
+        [
+          "Silver Ore",
+          "40G",
+          "1",
+          "Silver",
+          "110G",
+          "Copper→Silver upgrade; all Rings"
+        ],
+        [
+          "Gold Ore",
+          "50G",
+          "0",
+          "Scrap Iron",
+          "10G",
+          "Sale only"
+        ],
+        [
+          "Gold Ore",
+          "50G",
+          "1",
+          "Gold",
+          "150G",
+          "Silver→Gold upgrade; all Pendants"
+        ],
+        [
+          "Rare Ore",
+          "250G",
+          "0",
+          "Scrap Iron",
+          "10G",
+          "Sale only"
+        ],
+        [
+          "Rare Ore",
+          "250G",
+          "1",
+          "Rare Metal",
+          "630G",
+          "Goddess jewelry; Journey Rucksack; Scavenger Hunt"
+        ]
+      ]
+    },
+    {
+      "id": "p_mine_gems",
+      "panelType": "table",
+      "title": "Wonderfuls & Gems",
+      "infobox": "Gem quality is determined by the number of sparkle stars on the Wonderful in your rucksack. 0 sparkles always yields Glass (30G). Yellow Wonderfuls max out at 2 sparkles (Topaz) — there is no 3-sparkle Yellow.",
+      "columns": [
+        "Color",
+        "Sparkles",
+        "Gem",
+        "Sale Price",
+        "Found In",
+        "Uses"
+      ],
+      "rows": [
+        [
+          "Any",
+          "0",
+          "Glass",
+          "30G",
+          "Both mines",
+          "Toy jewelry"
+        ],
+        [
+          "🔵 Blue",
+          "1",
+          "Lapis Lazuli",
+          "200G",
+          "Both mines",
+          "Jewelry; Collin's + Edge's Rainbow ingredients; Scavenger Hunt"
+        ],
+        [
+          "🔵 Blue",
+          "2",
+          "Sapphire",
+          "280G",
+          "Both mines",
+          "Jewelry"
+        ],
+        [
+          "🔵 Blue",
+          "3",
+          "Aquamarine",
+          "490G",
+          "Both mines",
+          "Jewelry"
+        ],
+        [
+          "🟢 Green",
+          "1",
+          "Peridot",
+          "170G",
+          "Both mines",
+          "Jewelry"
+        ],
+        [
+          "🟢 Green",
+          "2",
+          "Jade",
+          "220G",
+          "Both mines",
+          "Jewelry"
+        ],
+        [
+          "🟢 Green",
+          "3",
+          "Emerald",
+          "580G",
+          "Both mines",
+          "Jewelry"
+        ],
+        [
+          "🟣 Purple",
+          "1",
+          "Garnet",
+          "300G",
+          "Both mines (late)",
+          "Jewelry"
+        ],
+        [
+          "🟣 Purple",
+          "2",
+          "Amethyst",
+          "480G",
+          "Both mines (late)",
+          "Jewelry; child birthday gift"
+        ],
+        [
+          "🔴 Red",
+          "1",
+          "Rose Stone",
+          "180G",
+          "Both mines",
+          "Jewelry"
+        ],
+        [
+          "🔴 Red",
+          "2",
+          "Spinel",
+          "200G",
+          "Both mines",
+          "Jewelry"
+        ],
+        [
+          "🔴 Red",
+          "3",
+          "Ruby",
+          "550G",
+          "Both mines (late)",
+          "Jewelry"
+        ],
+        [
+          "⬜ White",
+          "1",
+          "Moonlight Stone",
+          "250G",
+          "Both mines (late)",
+          "Jewelry"
+        ],
+        [
+          "⬜ White",
+          "2",
+          "Crystal",
+          "700G",
+          "Both mines (late)",
+          "Jewelry; Scavenger Hunt"
+        ],
+        [
+          "⬜ White",
+          "3",
+          "Diamond",
+          "1,000G",
+          "Both mines (late)",
+          "Jewelry (highest value gem)"
+        ],
+        [
+          "🟡 Yellow",
+          "1",
+          "Amber",
+          "190G",
+          "Both mines",
+          "Jewelry"
+        ],
+        [
+          "🟡 Yellow",
+          "2",
+          "Topaz",
+          "470G",
+          "Both mines (late)",
+          "Jewelry — max for Yellow"
+        ]
+      ]
+    },
+    {
+      "id": "p_mine_gas",
+      "panelType": "table",
+      "title": "Mine Gas Afflictions",
+      "infobox": "Gas is released when breaking rocks/crystals. Run away immediately when you hear gas. Change floors to remove any non-stamina affliction instantly.",
+      "columns": [
+        "Gas Color",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "🔴 Red",
+          "Stamina loss (−20 to −50 points)"
+        ],
+        [
+          "🔵 Blue",
+          "Paralysis (~10 seconds; time doesn't pass)"
+        ],
+        [
+          "🟢 Green",
+          "Stamina restore (+~300 points) ✅ Good!"
+        ],
+        [
+          "🟣 Purple",
+          "Confusion (joystick directions flip randomly)"
+        ],
+        [
+          "⬛ Black",
+          "Blindness (visibility shrinks drastically)"
+        ],
+        [
+          "⬜ White",
+          "Slowness OR Quickness (random)"
+        ],
+        [
+          "🟡 Yellow",
+          "Stamina restore (+~100 points) ✅ Good!"
+        ]
+      ]
+    }
+  ]
+}

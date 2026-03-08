@@ -1,0 +1,56 @@
+{
+  "storagePrefix": "25842_",
+  "subtitle": "Completion tracker — progress saved in your browser",
+  "theme": "clean",
+  "palette": "midnight",
+  "primaryName": "The Bard's Tale",
+  "primarySystem": "PS2",
+  "icon": "🎵",
+  "author": "BigDonRob",
+  "tabs": [
+    {
+      "num": "01",
+      "label": "⚔️ Treasures",
+      "type": "panels"
+    },
+    {
+      "num": "02",
+      "label": "😈 Snarky vs. Nice",
+      "type": "panels"
+    },
+    {
+      "num": "03",
+      "label": "🪙 Tokens",
+      "type": "panels"
+    },
+    {
+      "num": "04",
+      "label": "🎵 Magical Songs",
+      "type": "panels"
+    },
+    {
+      "num": "05",
+      "label": "🗡️ Weapons",
+      "type": "panels"
+    },
+    {
+      "num": "06",
+      "label": "🛡️ Armor & Shields",
+      "type": "panels"
+    },
+    {
+      "num": "07",
+      "label": "🔮 Artifacts",
+      "type": "panels"
+    },
+    {
+      "num": "08",
+      "label": "🎸 Instruments",
+      "type": "panels"
+    }
+  ],
+  "altSystems": [
+    "Xbox"
+  ],
+  "series": "The Bard's Tale"
+}

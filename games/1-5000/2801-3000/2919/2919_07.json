@@ -1,0 +1,294 @@
+{
+  "label": "🐄 Ranch & Jobs",
+  "panels": [
+    {
+      "id": "ranch_chicken",
+      "panelType": "keyvalue",
+      "title": "🐔 Chicken",
+      "rows": [
+        {
+          "key": "Buy Price",
+          "value": "500G from Starling Ranch"
+        },
+        {
+          "key": "Food",
+          "value": "Chicken Feed (10G) or Alfalfa Sprouts"
+        },
+        {
+          "key": "Incubation",
+          "value": "3 days to hatch from egg"
+        },
+        {
+          "key": "Maturity",
+          "value": "7 days chick → chicken"
+        },
+        {
+          "key": "Capacity",
+          "value": "Start 2; upgrade coop for up to 5"
+        },
+        {
+          "key": "💡 Free Chicken",
+          "value": "Do the Grocery Store part-time job → receive a free egg → put in incubator!"
+        },
+        {
+          "key": "Egg",
+          "value": "50G"
+        },
+        {
+          "key": "Golden Egg",
+          "value": "150G (→180G after Cake Contest ending)"
+        }
+      ]
+    },
+    {
+      "id": "ranch_cow",
+      "panelType": "keyvalue",
+      "title": "🐄 Cow",
+      "rows": [
+        {
+          "key": "Buy Price",
+          "value": "2,500G from Starling Ranch"
+        },
+        {
+          "key": "Food",
+          "value": "Fodder (20G) or Alfalfa Sprouts"
+        },
+        {
+          "key": "Tools needed",
+          "value": "Brush (300G) + Milker (500G) from Louis'"
+        },
+        {
+          "key": "Capacity",
+          "value": "Start 3; upgrade barn for up to 5"
+        },
+        {
+          "key": "Gold Milk",
+          "value": "Feed Mineral Alfalfa to get Milk G"
+        },
+        {
+          "key": "Note",
+          "value": "Cannot milk while pregnant"
+        },
+        {
+          "key": "Milk S",
+          "value": "130G"
+        },
+        {
+          "key": "Milk M",
+          "value": "200G (Best: 270G)"
+        },
+        {
+          "key": "Milk L",
+          "value": "300G"
+        },
+        {
+          "key": "Milk G (Gold)",
+          "value": "400G (Best: 480G after Cake Contest ending)"
+        }
+      ]
+    },
+    {
+      "id": "ranch_horse_info",
+      "panelType": "text",
+      "title": "🐴 Horse",
+      "infobox": "**Option 1:** Buy from Bob for 5,000G\n**Option 2 (free + color choice):** Do Ranch part-time job daily. On Summer 2, Year 1, Bob gifts you a horse. Always brush the color you want *first* each work day!",
+      "content": ""
+    },
+    {
+      "id": "ranch_horse_fp",
+      "panelType": "table",
+      "title": "Horse FP Actions",
+      "columns": [
+        "Action",
+        "FP Gained"
+      ],
+      "rows": [
+        [
+          "Talk",
+          "+1"
+        ],
+        [
+          "Brush",
+          "+3"
+        ],
+        [
+          "Whistle",
+          "+1"
+        ],
+        [
+          "Graze on sunny day",
+          "+7 (best!)"
+        ],
+        [
+          "Feed fodder",
+          "+2"
+        ],
+        [
+          "Feed alfalfa",
+          "+6"
+        ],
+        [
+          "H.G. wish",
+          "+5"
+        ],
+        [
+          "Left without food 1 day",
+          "−10"
+        ],
+        [
+          "Hit with tool",
+          "−20"
+        ]
+      ]
+    },
+    {
+      "id": "ranch_horse_race_items",
+      "panelType": "text",
+      "title": "🏇 Horse Race Items",
+      "infobox": "Stamina: Fodder +5% | Alfalfa +10% | Mineral Alfalfa +15% | Green Herb +20% | Pontata Root +30%",
+      "content": "Speed: Carrot ×1.1 for 4s | Mineral Carrot ×1.2 for 5s\n\n**Race Prizes:** Short race → Mineral Crystal Maker | Long race → Fishing Bait Maker | Obstacle race → Crop Synthesizer | Win all 3 → Triple Crown Horse Cup"
+    },
+    {
+      "id": "ranch_jobs",
+      "panelType": "cards",
+      "title": "💼 Part-Time Jobs",
+      "cardFields": [
+        {
+          "key": "name",
+          "label": "Job"
+        },
+        {
+          "key": "loc",
+          "label": "Location"
+        },
+        {
+          "key": "time",
+          "label": "Hours"
+        },
+        {
+          "key": "pay",
+          "label": "Pay"
+        },
+        {
+          "key": "tip",
+          "label": "Tip"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Animal Caretaking",
+          "loc": "Starling Ranch",
+          "time": "Daily (not Thu/Rainy) 8AM–5PM",
+          "pay": "100G/hr + Milk S",
+          "tip": "Pays hourly! Stay all day for 1,000G+"
+        },
+        {
+          "name": "Chicken Caretaking",
+          "loc": "Grocery Store",
+          "time": "Daily (not Sun) 8AM–3PM",
+          "pay": "180–230G + 1 Egg",
+          "tip": "Free eggs for incubator → cheap chicken!"
+        },
+        {
+          "name": "Ore Excavation",
+          "loc": "Mine",
+          "time": "Mon–Fri 9AM–1PM",
+          "pay": "250G + crystals found",
+          "tip": "Do 4× to unlock mine for free use"
+        },
+        {
+          "name": "Lumberjack",
+          "loc": "Carpentry",
+          "time": "Daily (not Tue/Thu/Rainy) 9AM–2PM",
+          "pay": "200G + 30G/wood + mushrooms",
+          "tip": "Do 5× to unlock lumber cutting for free"
+        },
+        {
+          "name": "Villa Chef",
+          "loc": "Clove Villa",
+          "time": "Mon–Fri 10AM–3PM",
+          "pay": "50G fail / 200G + ingredients success",
+          "tip": "Keep extra ingredients to sell separately"
+        }
+      ]
+    },
+    {
+      "id": "ranch_medals",
+      "panelType": "table",
+      "title": "🏅 Medal Exchange (Horse Race)",
+      "columns": [
+        "Item",
+        "Medals",
+        "Sell Value"
+      ],
+      "rows": [
+        [
+          "Diamond Earrings",
+          "50",
+          "1,500G"
+        ],
+        [
+          "Super Agent (?)",
+          "20",
+          "1,500G"
+        ],
+        [
+          "Gold Mushroom",
+          "10",
+          "—"
+        ],
+        [
+          "Special Cheese",
+          "10",
+          "600G"
+        ],
+        [
+          "Milk G",
+          "8",
+          "400G"
+        ],
+        [
+          "Butter",
+          "6",
+          "450G"
+        ],
+        [
+          "Pontata Root",
+          "4",
+          "80G"
+        ],
+        [
+          "Watermelon Seed",
+          "3",
+          "—"
+        ],
+        [
+          "Special Fishing Bait",
+          "2",
+          "—"
+        ],
+        [
+          "Lumber",
+          "2",
+          "—"
+        ],
+        [
+          "Mineral Crystal",
+          "1",
+          "30G"
+        ],
+        [
+          "Egg",
+          "1",
+          "50G"
+        ]
+      ]
+    },
+    {
+      "id": "ranch_medals_note",
+      "panelType": "text",
+      "title": "Medal Exchange Note",
+      "content": "1 Medal = 50G. Exchange window: **2 PM – 4 PM on race day.**"
+    }
+  ]
+}

@@ -1,0 +1,4358 @@
+[
+  {
+    "hub_id": 399,
+    "series_name": "Jet Moto"
+  },
+  {
+    "hub_id": 417,
+    "series_name": "Looney Tunes"
+  },
+  {
+    "hub_id": 438,
+    "series_name": "Xtreme"
+  },
+  {
+    "hub_id": 450,
+    "series_name": "Tempest"
+  },
+  {
+    "hub_id": 456,
+    "series_name": "Mario vs. Donkey Kong"
+  },
+  {
+    "hub_id": 457,
+    "series_name": "Mario Golf"
+  },
+  {
+    "hub_id": 602,
+    "series_name": "MySims"
+  },
+  {
+    "hub_id": 638,
+    "series_name": "Putt-Putt"
+  },
+  {
+    "hub_id": 769,
+    "series_name": "Inazuma Eleven"
+  },
+  {
+    "hub_id": 828,
+    "series_name": "Assault Suit"
+  },
+  {
+    "hub_id": 835,
+    "series_name": "Tetris"
+  },
+  {
+    "hub_id": 839,
+    "series_name": "Spyro the Dragon"
+  },
+  {
+    "hub_id": 848,
+    "series_name": "Animaniacs"
+  },
+  {
+    "hub_id": 849,
+    "series_name": "Aladdin"
+  },
+  {
+    "hub_id": 866,
+    "series_name": "Yamamura Misa Suspense"
+  },
+  {
+    "hub_id": 874,
+    "series_name": "South Park"
+  },
+  {
+    "hub_id": 890,
+    "series_name": "SimpleFlips Competition"
+  },
+  {
+    "hub_id": 891,
+    "series_name": "Kyuukyoku Harikiri Stadium"
+  },
+  {
+    "hub_id": 892,
+    "series_name": "GeGeGe no Kitarou"
+  },
+  {
+    "hub_id": 893,
+    "series_name": "Zork"
+  },
+  {
+    "hub_id": 895,
+    "series_name": "Fist of the North Star | Hokuto no Ken"
+  },
+  {
+    "hub_id": 950,
+    "series_name": "Dragon Tales"
+  },
+  {
+    "hub_id": 977,
+    "series_name": "Touhou"
+  },
+  {
+    "hub_id": 994,
+    "series_name": "Tekken"
+  },
+  {
+    "hub_id": 1038,
+    "series_name": "Medabots"
+  },
+  {
+    "hub_id": 1040,
+    "series_name": "The Little Mermaid"
+  },
+  {
+    "hub_id": 1044,
+    "series_name": "Super Monkey Ball"
+  },
+  {
+    "hub_id": 1056,
+    "series_name": "Ace Attorney"
+  },
+  {
+    "hub_id": 1069,
+    "series_name": "SuperLite"
+  },
+  {
+    "hub_id": 1071,
+    "series_name": "Disgaea"
+  },
+  {
+    "hub_id": 1082,
+    "series_name": "Hamtaro"
+  },
+  {
+    "hub_id": 1087,
+    "series_name": "Professor Layton"
+  },
+  {
+    "hub_id": 1101,
+    "series_name": "Vectorman"
+  },
+  {
+    "hub_id": 1156,
+    "series_name": "Crazy Taxi"
+  },
+  {
+    "hub_id": 1160,
+    "series_name": "Hot Wheels"
+  },
+  {
+    "hub_id": 1226,
+    "series_name": "Dig Dug"
+  },
+  {
+    "hub_id": 1307,
+    "series_name": "Alone in the Dark"
+  },
+  {
+    "hub_id": 1357,
+    "series_name": "The House of the Dead"
+  },
+  {
+    "hub_id": 1371,
+    "series_name": "All-Star Baseball"
+  },
+  {
+    "hub_id": 1373,
+    "series_name": "Astérix"
+  },
+  {
+    "hub_id": 1376,
+    "series_name": "Tom &amp; Jerry"
+  },
+  {
+    "hub_id": 1386,
+    "series_name": "Super Smash Bros."
+  },
+  {
+    "hub_id": 1392,
+    "series_name": "Bomb Jack"
+  },
+  {
+    "hub_id": 1393,
+    "series_name": "StarTropics"
+  },
+  {
+    "hub_id": 1407,
+    "series_name": "Punch-Out!!"
+  },
+  {
+    "hub_id": 1415,
+    "series_name": "Soulcalibur"
+  },
+  {
+    "hub_id": 1418,
+    "series_name": "Prince of Tennis"
+  },
+  {
+    "hub_id": 2129,
+    "series_name": "Kirby"
+  },
+  {
+    "hub_id": 2161,
+    "series_name": "Mega Man (Classic)"
+  },
+  {
+    "hub_id": 2202,
+    "series_name": "Quake"
+  },
+  {
+    "hub_id": 2204,
+    "series_name": "Columns"
+  },
+  {
+    "hub_id": 2235,
+    "series_name": "Magical Quest"
+  },
+  {
+    "hub_id": 2320,
+    "series_name": "Wonder Boy | Monster World"
+  },
+  {
+    "hub_id": 2368,
+    "series_name": "Jumping Flash"
+  },
+  {
+    "hub_id": 2381,
+    "series_name": "Cannon Fodder"
+  },
+  {
+    "hub_id": 2405,
+    "series_name": "Hang-On"
+  },
+  {
+    "hub_id": 2473,
+    "series_name": "MediEvil"
+  },
+  {
+    "hub_id": 2564,
+    "series_name": "Golden Sun"
+  },
+  {
+    "hub_id": 2611,
+    "series_name": "Battle Arena Toshinden"
+  },
+  {
+    "hub_id": 2646,
+    "series_name": "Clay Fighter"
+  },
+  {
+    "hub_id": 2663,
+    "series_name": "Teenage Mutant Ninja Turtles"
+  },
+  {
+    "hub_id": 2664,
+    "series_name": "Chrono"
+  },
+  {
+    "hub_id": 2701,
+    "series_name": "Shantae"
+  },
+  {
+    "hub_id": 2714,
+    "series_name": "Mario"
+  },
+  {
+    "hub_id": 2718,
+    "series_name": "Lunar"
+  },
+  {
+    "hub_id": 2732,
+    "series_name": "Hydlide"
+  },
+  {
+    "hub_id": 2763,
+    "series_name": "Persona"
+  },
+  {
+    "hub_id": 2768,
+    "series_name": "Xevious"
+  },
+  {
+    "hub_id": 2792,
+    "series_name": "Harry Potter"
+  },
+  {
+    "hub_id": 2793,
+    "series_name": "Hammerin' Harry | Daiku no Gen-san"
+  },
+  {
+    "hub_id": 2794,
+    "series_name": "Gradius"
+  },
+  {
+    "hub_id": 2795,
+    "series_name": "Front Mission"
+  },
+  {
+    "hub_id": 2796,
+    "series_name": "Golden Axe"
+  },
+  {
+    "hub_id": 2814,
+    "series_name": "F-Zero"
+  },
+  {
+    "hub_id": 2822,
+    "series_name": "Q*bert"
+  },
+  {
+    "hub_id": 2838,
+    "series_name": "Lupin III"
+  },
+  {
+    "hub_id": 2954,
+    "series_name": "Antarctic Adventure | Penta"
+  },
+  {
+    "hub_id": 2955,
+    "series_name": "Puzzle League | Panel de Pon"
+  },
+  {
+    "hub_id": 2956,
+    "series_name": "Mystery Dungeon"
+  },
+  {
+    "hub_id": 2957,
+    "series_name": "Vigilante 8"
+  },
+  {
+    "hub_id": 2958,
+    "series_name": "Kingdom Hearts"
+  },
+  {
+    "hub_id": 2963,
+    "series_name": "Choro Q"
+  },
+  {
+    "hub_id": 2966,
+    "series_name": "Puzzle Boy"
+  },
+  {
+    "hub_id": 2968,
+    "series_name": "Ape Escape"
+  },
+  {
+    "hub_id": 2969,
+    "series_name": "Myst"
+  },
+  {
+    "hub_id": 3002,
+    "series_name": "Shadowgate"
+  },
+  {
+    "hub_id": 3010,
+    "series_name": "Megami Tensei"
+  },
+  {
+    "hub_id": 3026,
+    "series_name": "Hugo"
+  },
+  {
+    "hub_id": 3037,
+    "series_name": "Burnout"
+  },
+  {
+    "hub_id": 3085,
+    "series_name": "Wild Arms"
+  },
+  {
+    "hub_id": 3109,
+    "series_name": "Simple Series"
+  },
+  {
+    "hub_id": 3111,
+    "series_name": "Kiseki | Trails"
+  },
+  {
+    "hub_id": 3185,
+    "series_name": "R.B.I. Baseball"
+  },
+  {
+    "hub_id": 3187,
+    "series_name": "FlatOut"
+  },
+  {
+    "hub_id": 3198,
+    "series_name": "Metal Max"
+  },
+  {
+    "hub_id": 3201,
+    "series_name": "Mappy"
+  },
+  {
+    "hub_id": 3210,
+    "series_name": "Aero the Acrobat"
+  },
+  {
+    "hub_id": 3211,
+    "series_name": "Jeopardy!"
+  },
+  {
+    "hub_id": 3212,
+    "series_name": "James Pond"
+  },
+  {
+    "hub_id": 3213,
+    "series_name": "Ghosts 'n Goblins | Makaimura"
+  },
+  {
+    "hub_id": 3216,
+    "series_name": "Gex"
+  },
+  {
+    "hub_id": 3218,
+    "series_name": "Frogger"
+  },
+  {
+    "hub_id": 3219,
+    "series_name": "The Flintstones"
+  },
+  {
+    "hub_id": 3225,
+    "series_name": "Digimon"
+  },
+  {
+    "hub_id": 3235,
+    "series_name": "Croc"
+  },
+  {
+    "hub_id": 3246,
+    "series_name": "Dungeons &amp; Dragons"
+  },
+  {
+    "hub_id": 3343,
+    "series_name": "Katekyo Hitman Reborn!"
+  },
+  {
+    "hub_id": 3351,
+    "series_name": "Mortal Kombat"
+  },
+  {
+    "hub_id": 3363,
+    "series_name": "Vandal Hearts"
+  },
+  {
+    "hub_id": 3367,
+    "series_name": "Strike"
+  },
+  {
+    "hub_id": 3415,
+    "series_name": "Back to the Future"
+  },
+  {
+    "hub_id": 3494,
+    "series_name": "Pocky &amp; Rocky | KiKi KaiKai"
+  },
+  {
+    "hub_id": 3507,
+    "series_name": "Spy vs. Spy"
+  },
+  {
+    "hub_id": 3508,
+    "series_name": "Spy Hunter"
+  },
+  {
+    "hub_id": 3514,
+    "series_name": "Dragon's Lair"
+  },
+  {
+    "hub_id": 3893,
+    "series_name": "Point Blank"
+  },
+  {
+    "hub_id": 3966,
+    "series_name": "Moorhuhn | Crazy Chicken"
+  },
+  {
+    "hub_id": 3991,
+    "series_name": "Lemmings"
+  },
+  {
+    "hub_id": 4284,
+    "series_name": "Mega Man Star Force"
+  },
+  {
+    "hub_id": 4342,
+    "series_name": "Twilight Syndrome"
+  },
+  {
+    "hub_id": 4396,
+    "series_name": "Monkey Island"
+  },
+  {
+    "hub_id": 4407,
+    "series_name": "Romance of the Three Kingdoms | Sangokushi"
+  },
+  {
+    "hub_id": 4409,
+    "series_name": "Snow Bros."
+  },
+  {
+    "hub_id": 4412,
+    "series_name": "Guilty Gear"
+  },
+  {
+    "hub_id": 4447,
+    "series_name": "R-Type"
+  },
+  {
+    "hub_id": 4448,
+    "series_name": "Joe &amp; Mac"
+  },
+  {
+    "hub_id": 4452,
+    "series_name": "Sailor Moon"
+  },
+  {
+    "hub_id": 4453,
+    "series_name": "Taiko no Tatsujin"
+  },
+  {
+    "hub_id": 4467,
+    "series_name": "Power Instinct"
+  },
+  {
+    "hub_id": 4495,
+    "series_name": "Mario Educational Games"
+  },
+  {
+    "hub_id": 4543,
+    "series_name": "Adventures of Lolo | Eggerland"
+  },
+  {
+    "hub_id": 4603,
+    "series_name": "Tenchu"
+  },
+  {
+    "hub_id": 4608,
+    "series_name": "Micro Machines"
+  },
+  {
+    "hub_id": 4672,
+    "series_name": "Dance Dance Revolution | Dancing Stage"
+  },
+  {
+    "hub_id": 4673,
+    "series_name": "NASCAR"
+  },
+  {
+    "hub_id": 4767,
+    "series_name": "God of War"
+  },
+  {
+    "hub_id": 4773,
+    "series_name": "RoboCop"
+  },
+  {
+    "hub_id": 4841,
+    "series_name": "Armored Core"
+  },
+  {
+    "hub_id": 4853,
+    "series_name": "Ikari Warriors"
+  },
+  {
+    "hub_id": 4945,
+    "series_name": "Road Rash"
+  },
+  {
+    "hub_id": 5032,
+    "series_name": "Rolling Thunder"
+  },
+  {
+    "hub_id": 5088,
+    "series_name": "Ninja Gaiden"
+  },
+  {
+    "hub_id": 5122,
+    "series_name": "Discworld"
+  },
+  {
+    "hub_id": 5251,
+    "series_name": "Test Drive"
+  },
+  {
+    "hub_id": 5279,
+    "series_name": "Gals Panic"
+  },
+  {
+    "hub_id": 5280,
+    "series_name": "Ranma ½"
+  },
+  {
+    "hub_id": 5309,
+    "series_name": "Mario &amp; Luigi"
+  },
+  {
+    "hub_id": 5310,
+    "series_name": "Yoshi"
+  },
+  {
+    "hub_id": 5320,
+    "series_name": "Monster Rancher"
+  },
+  {
+    "hub_id": 5332,
+    "series_name": "Cool Spot"
+  },
+  {
+    "hub_id": 5342,
+    "series_name": "Crash Bandicoot"
+  },
+  {
+    "hub_id": 5373,
+    "series_name": "Arc the Lad"
+  },
+  {
+    "hub_id": 5380,
+    "series_name": "Mega Man Legends | Rockman DASH"
+  },
+  {
+    "hub_id": 5381,
+    "series_name": "Suikoden | Genso Suikoden"
+  },
+  {
+    "hub_id": 5406,
+    "series_name": "Jurassic Park"
+  },
+  {
+    "hub_id": 5445,
+    "series_name": "Aleste"
+  },
+  {
+    "hub_id": 5460,
+    "series_name": "Thomas the Tank Engine &amp; Friends | Thomas &amp; Friends"
+  },
+  {
+    "hub_id": 5471,
+    "series_name": "Mary-Kate and Ashley"
+  },
+  {
+    "hub_id": 5527,
+    "series_name": "The Sims"
+  },
+  {
+    "hub_id": 5540,
+    "series_name": "WCW"
+  },
+  {
+    "hub_id": 5561,
+    "series_name": "Hard Drivin"
+  },
+  {
+    "hub_id": 5562,
+    "series_name": "Rurouni Kenshin"
+  },
+  {
+    "hub_id": 5625,
+    "series_name": "TOCA Racing"
+  },
+  {
+    "hub_id": 5653,
+    "series_name": "Robopon"
+  },
+  {
+    "hub_id": 5655,
+    "series_name": "Kid Niki | Kaiketsu Yanchamaru"
+  },
+  {
+    "hub_id": 5660,
+    "series_name": "Cardcaptor Sakura"
+  },
+  {
+    "hub_id": 5663,
+    "series_name": "Fighting Force"
+  },
+  {
+    "hub_id": 5667,
+    "series_name": "Puyo Puyo"
+  },
+  {
+    "hub_id": 5674,
+    "series_name": "Lufia"
+  },
+  {
+    "hub_id": 5686,
+    "series_name": "Kamen Rider"
+  },
+  {
+    "hub_id": 5687,
+    "series_name": "Naruto"
+  },
+  {
+    "hub_id": 5705,
+    "series_name": "Zatch Bell! | Konjiki no Gash Bell!!"
+  },
+  {
+    "hub_id": 5712,
+    "series_name": "Rune Factory"
+  },
+  {
+    "hub_id": 5754,
+    "series_name": "Kid Icarus"
+  },
+  {
+    "hub_id": 5787,
+    "series_name": "Dragon Ball"
+  },
+  {
+    "hub_id": 5798,
+    "series_name": "Metal Slug"
+  },
+  {
+    "hub_id": 5806,
+    "series_name": "Captain Tsubasa"
+  },
+  {
+    "hub_id": 5822,
+    "series_name": "Warriors | Musou"
+  },
+  {
+    "hub_id": 5848,
+    "series_name": "Destruction Derby"
+  },
+  {
+    "hub_id": 5852,
+    "series_name": "Darius"
+  },
+  {
+    "hub_id": 5859,
+    "series_name": "Xanadu"
+  },
+  {
+    "hub_id": 5898,
+    "series_name": "WarioWare"
+  },
+  {
+    "hub_id": 6003,
+    "series_name": "CT Special Forces"
+  },
+  {
+    "hub_id": 6027,
+    "series_name": "Pink Panther"
+  },
+  {
+    "hub_id": 6039,
+    "series_name": "Cooking Mama"
+  },
+  {
+    "hub_id": 6045,
+    "series_name": "Devil May Cry"
+  },
+  {
+    "hub_id": 6105,
+    "series_name": "Crazy Castle"
+  },
+  {
+    "hub_id": 6153,
+    "series_name": "Family Stadium | Famista"
+  },
+  {
+    "hub_id": 6311,
+    "series_name": "Inuyasha"
+  },
+  {
+    "hub_id": 6342,
+    "series_name": "Bleach"
+  },
+  {
+    "hub_id": 6363,
+    "series_name": "Klaymen"
+  },
+  {
+    "hub_id": 6385,
+    "series_name": "Need for Speed"
+  },
+  {
+    "hub_id": 6386,
+    "series_name": "DJMax"
+  },
+  {
+    "hub_id": 6426,
+    "series_name": "Blaster Master"
+  },
+  {
+    "hub_id": 6431,
+    "series_name": "Breath of Fire"
+  },
+  {
+    "hub_id": 6436,
+    "series_name": "Dragon Quest"
+  },
+  {
+    "hub_id": 6472,
+    "series_name": "LEGO"
+  },
+  {
+    "hub_id": 6476,
+    "series_name": "Darkstalkers"
+  },
+  {
+    "hub_id": 6477,
+    "series_name": "Wagyan Land"
+  },
+  {
+    "hub_id": 6505,
+    "series_name": "Bubble Bobble"
+  },
+  {
+    "hub_id": 6517,
+    "series_name": "Dizzy"
+  },
+  {
+    "hub_id": 6557,
+    "series_name": "Mickey Mouse"
+  },
+  {
+    "hub_id": 6558,
+    "series_name": "Fantasy Zone"
+  },
+  {
+    "hub_id": 6561,
+    "series_name": "Picross"
+  },
+  {
+    "hub_id": 6563,
+    "series_name": "Bubsy"
+  },
+  {
+    "hub_id": 6574,
+    "series_name": "Silent Hill"
+  },
+  {
+    "hub_id": 6581,
+    "series_name": "Lord of the Rings"
+  },
+  {
+    "hub_id": 6588,
+    "series_name": "Congo Bongo"
+  },
+  {
+    "hub_id": 6610,
+    "series_name": "Wolfenstein"
+  },
+  {
+    "hub_id": 6630,
+    "series_name": "Rambo"
+  },
+  {
+    "hub_id": 6644,
+    "series_name": "Bases Loaded"
+  },
+  {
+    "hub_id": 6691,
+    "series_name": "Ray"
+  },
+  {
+    "hub_id": 6695,
+    "series_name": "bit Generations"
+  },
+  {
+    "hub_id": 6712,
+    "series_name": "Mega Man X"
+  },
+  {
+    "hub_id": 6715,
+    "series_name": "Fire Emblem"
+  },
+  {
+    "hub_id": 6740,
+    "series_name": "Clock Tower"
+  },
+  {
+    "hub_id": 6776,
+    "series_name": "The Terminator"
+  },
+  {
+    "hub_id": 6785,
+    "series_name": "Barbie"
+  },
+  {
+    "hub_id": 6787,
+    "series_name": "Qix"
+  },
+  {
+    "hub_id": 6811,
+    "series_name": "Command &amp; Conquer"
+  },
+  {
+    "hub_id": 6812,
+    "series_name": "Oddworld"
+  },
+  {
+    "hub_id": 6851,
+    "series_name": "Fatal Fury"
+  },
+  {
+    "hub_id": 6883,
+    "series_name": "Chase H.Q."
+  },
+  {
+    "hub_id": 6885,
+    "series_name": "TwinBee"
+  },
+  {
+    "hub_id": 6889,
+    "series_name": "Resident Evil"
+  },
+  {
+    "hub_id": 6951,
+    "series_name": "Puzzle Bobble | Bust-A-Move"
+  },
+  {
+    "hub_id": 6955,
+    "series_name": "Parasite Eve"
+  },
+  {
+    "hub_id": 6995,
+    "series_name": "Galaxian | Galaga"
+  },
+  {
+    "hub_id": 7005,
+    "series_name": "Luigi"
+  },
+  {
+    "hub_id": 7016,
+    "series_name": "Might and Magic"
+  },
+  {
+    "hub_id": 7068,
+    "series_name": "Call of Duty"
+  },
+  {
+    "hub_id": 7087,
+    "series_name": "Namco Museum"
+  },
+  {
+    "hub_id": 7100,
+    "series_name": "Virtua Fighter"
+  },
+  {
+    "hub_id": 7141,
+    "series_name": "Jimmy Neutron"
+  },
+  {
+    "hub_id": 7143,
+    "series_name": "Track &amp; Field | Hyper Sports"
+  },
+  {
+    "hub_id": 7152,
+    "series_name": "My Coach"
+  },
+  {
+    "hub_id": 7217,
+    "series_name": "Super Robot Wars"
+  },
+  {
+    "hub_id": 7218,
+    "series_name": "Spider-Man"
+  },
+  {
+    "hub_id": 7220,
+    "series_name": "Chuck Rock"
+  },
+  {
+    "hub_id": 7221,
+    "series_name": "Final Fantasy"
+  },
+  {
+    "hub_id": 7243,
+    "series_name": "Adventure Island"
+  },
+  {
+    "hub_id": 7252,
+    "series_name": "Rayman"
+  },
+  {
+    "hub_id": 7283,
+    "series_name": "Bionicle"
+  },
+  {
+    "hub_id": 7324,
+    "series_name": "Pitfall"
+  },
+  {
+    "hub_id": 7334,
+    "series_name": "Sid Meier's Games"
+  },
+  {
+    "hub_id": 7355,
+    "series_name": "Duke Nukem"
+  },
+  {
+    "hub_id": 7362,
+    "series_name": "Mana | Seiken Densetsu"
+  },
+  {
+    "hub_id": 7365,
+    "series_name": "Corpse Party"
+  },
+  {
+    "hub_id": 7371,
+    "series_name": "Virtua"
+  },
+  {
+    "hub_id": 7373,
+    "series_name": "Shinobi"
+  },
+  {
+    "hub_id": 7379,
+    "series_name": "Shin Megami Tensei"
+  },
+  {
+    "hub_id": 7406,
+    "series_name": "Asteroids"
+  },
+  {
+    "hub_id": 7415,
+    "series_name": "Indiana Jones"
+  },
+  {
+    "hub_id": 7418,
+    "series_name": "Macross | Robotech"
+  },
+  {
+    "hub_id": 7435,
+    "series_name": "DonPachi"
+  },
+  {
+    "hub_id": 7438,
+    "series_name": "The Legend of Zelda"
+  },
+  {
+    "hub_id": 7460,
+    "series_name": "Ren &amp; Stimpy"
+  },
+  {
+    "hub_id": 7482,
+    "series_name": "Gauntlet"
+  },
+  {
+    "hub_id": 7501,
+    "series_name": "Popeye"
+  },
+  {
+    "hub_id": 7528,
+    "series_name": "Tom Clancy"
+  },
+  {
+    "hub_id": 7529,
+    "series_name": "Gundam"
+  },
+  {
+    "hub_id": 7530,
+    "series_name": "Metal Gear"
+  },
+  {
+    "hub_id": 7544,
+    "series_name": "Perfect Dark"
+  },
+  {
+    "hub_id": 7552,
+    "series_name": "Tony Hawk"
+  },
+  {
+    "hub_id": 7560,
+    "series_name": "Double Dragon"
+  },
+  {
+    "hub_id": 7566,
+    "series_name": "Sakura Wars"
+  },
+  {
+    "hub_id": 7567,
+    "series_name": "Lucky Luke"
+  },
+  {
+    "hub_id": 7573,
+    "series_name": "Tintin"
+  },
+  {
+    "hub_id": 7577,
+    "series_name": "Syphon Filter"
+  },
+  {
+    "hub_id": 7586,
+    "series_name": "X-Men"
+  },
+  {
+    "hub_id": 7592,
+    "series_name": "Yu-Gi-Oh!"
+  },
+  {
+    "hub_id": 7597,
+    "series_name": "Batman"
+  },
+  {
+    "hub_id": 7598,
+    "series_name": "Wheel of Fortune"
+  },
+  {
+    "hub_id": 7599,
+    "series_name": "Toy Story"
+  },
+  {
+    "hub_id": 7600,
+    "series_name": "Wing Commander"
+  },
+  {
+    "hub_id": 7625,
+    "series_name": "WWF | WWE"
+  },
+  {
+    "hub_id": 7632,
+    "series_name": "Breakout"
+  },
+  {
+    "hub_id": 7634,
+    "series_name": "Tomb Raider"
+  },
+  {
+    "hub_id": 7648,
+    "series_name": "Doraemon"
+  },
+  {
+    "hub_id": 7650,
+    "series_name": "194X"
+  },
+  {
+    "hub_id": 7655,
+    "series_name": "Bionic Commando"
+  },
+  {
+    "hub_id": 7656,
+    "series_name": "Turrican"
+  },
+  {
+    "hub_id": 7670,
+    "series_name": "Doom"
+  },
+  {
+    "hub_id": 7674,
+    "series_name": "Wizards and Warriors"
+  },
+  {
+    "hub_id": 7689,
+    "series_name": "Twisted Metal"
+  },
+  {
+    "hub_id": 7690,
+    "series_name": "Carmen Sandiego"
+  },
+  {
+    "hub_id": 7693,
+    "series_name": "Art of Fighting"
+  },
+  {
+    "hub_id": 7703,
+    "series_name": "Choplifter"
+  },
+  {
+    "hub_id": 7727,
+    "series_name": "Top Gear"
+  },
+  {
+    "hub_id": 7728,
+    "series_name": "Neon Genesis Evangelion"
+  },
+  {
+    "hub_id": 7736,
+    "series_name": "Ecco the Dolphin"
+  },
+  {
+    "hub_id": 7743,
+    "series_name": "Pandemonium"
+  },
+  {
+    "hub_id": 7779,
+    "series_name": "Sesame Street"
+  },
+  {
+    "hub_id": 7781,
+    "series_name": "Fatal Frame"
+  },
+  {
+    "hub_id": 7785,
+    "series_name": "Yu Yu Hakusho"
+  },
+  {
+    "hub_id": 7786,
+    "series_name": "Wipeout"
+  },
+  {
+    "hub_id": 7818,
+    "series_name": "Ratchet &amp; Clank"
+  },
+  {
+    "hub_id": 7821,
+    "series_name": "Battletoads"
+  },
+  {
+    "hub_id": 7823,
+    "series_name": "Yetisports"
+  },
+  {
+    "hub_id": 7826,
+    "series_name": "BattleTech | MechWarrior"
+  },
+  {
+    "hub_id": 7827,
+    "series_name": "ToeJam &amp; Earl"
+  },
+  {
+    "hub_id": 7830,
+    "series_name": "Shining"
+  },
+  {
+    "hub_id": 7835,
+    "series_name": "Dragon Buster"
+  },
+  {
+    "hub_id": 7838,
+    "series_name": "Marvel vs. Capcom"
+  },
+  {
+    "hub_id": 7839,
+    "series_name": "Umihara Kawase"
+  },
+  {
+    "hub_id": 7862,
+    "series_name": "Shin-chan"
+  },
+  {
+    "hub_id": 7871,
+    "series_name": "Ridge Racer"
+  },
+  {
+    "hub_id": 7872,
+    "series_name": "OutRun"
+  },
+  {
+    "hub_id": 7874,
+    "series_name": "Growlanser"
+  },
+  {
+    "hub_id": 7892,
+    "series_name": "Gremlins"
+  },
+  {
+    "hub_id": 7899,
+    "series_name": "Star Wars"
+  },
+  {
+    "hub_id": 7905,
+    "series_name": "SaGa"
+  },
+  {
+    "hub_id": 7910,
+    "series_name": "Prince of Persia"
+  },
+  {
+    "hub_id": 7911,
+    "series_name": "Scooby-Doo!"
+  },
+  {
+    "hub_id": 7915,
+    "series_name": "Valis"
+  },
+  {
+    "hub_id": 7927,
+    "series_name": "Medal of Honor"
+  },
+  {
+    "hub_id": 7936,
+    "series_name": "Sonic the Hedgehog"
+  },
+  {
+    "hub_id": 7957,
+    "series_name": "Grandia"
+  },
+  {
+    "hub_id": 7966,
+    "series_name": "Nobunaga's Ambition"
+  },
+  {
+    "hub_id": 7968,
+    "series_name": "Contra"
+  },
+  {
+    "hub_id": 7970,
+    "series_name": "Sherlock Holmes"
+  },
+  {
+    "hub_id": 7971,
+    "series_name": "Guitar Hero"
+  },
+  {
+    "hub_id": 7977,
+    "series_name": "Mind Your Language"
+  },
+  {
+    "hub_id": 7983,
+    "series_name": "Goemon"
+  },
+  {
+    "hub_id": 7990,
+    "series_name": "Wizardry"
+  },
+  {
+    "hub_id": 7995,
+    "series_name": "Rock Band"
+  },
+  {
+    "hub_id": 8021,
+    "series_name": "Legacy of Kain"
+  },
+  {
+    "hub_id": 8027,
+    "series_name": "Castlevania"
+  },
+  {
+    "hub_id": 8031,
+    "series_name": "Hot Shots Golf | Everybody's Golf"
+  },
+  {
+    "hub_id": 8035,
+    "series_name": "Space Invaders"
+  },
+  {
+    "hub_id": 8044,
+    "series_name": "Theme Park"
+  },
+  {
+    "hub_id": 8060,
+    "series_name": "Wacky Races"
+  },
+  {
+    "hub_id": 8068,
+    "series_name": "Arcus"
+  },
+  {
+    "hub_id": 8069,
+    "series_name": "Sengoku Basara"
+  },
+  {
+    "hub_id": 8073,
+    "series_name": "Way of the Samurai"
+  },
+  {
+    "hub_id": 8076,
+    "series_name": "Arkanoid"
+  },
+  {
+    "hub_id": 8107,
+    "series_name": "Daisenryaku"
+  },
+  {
+    "hub_id": 8110,
+    "series_name": "Tiny Toon Adventures"
+  },
+  {
+    "hub_id": 8118,
+    "series_name": "Paperboy"
+  },
+  {
+    "hub_id": 8129,
+    "series_name": "Jak and Daxter"
+  },
+  {
+    "hub_id": 8130,
+    "series_name": "Final Fight"
+  },
+  {
+    "hub_id": 8143,
+    "series_name": "Banjo-Kazooie"
+  },
+  {
+    "hub_id": 8171,
+    "series_name": "Katamari"
+  },
+  {
+    "hub_id": 8208,
+    "series_name": "Ninja JaJaMaru"
+  },
+  {
+    "hub_id": 8229,
+    "series_name": "Dragon Slayer"
+  },
+  {
+    "hub_id": 8231,
+    "series_name": "Beyblade"
+  },
+  {
+    "hub_id": 8242,
+    "series_name": "Evil Dead"
+  },
+  {
+    "hub_id": 8248,
+    "series_name": "101 Dalmatians"
+  },
+  {
+    "hub_id": 8264,
+    "series_name": "Star Ocean"
+  },
+  {
+    "hub_id": 8265,
+    "series_name": "Ys"
+  },
+  {
+    "hub_id": 8277,
+    "series_name": "King's Field"
+  },
+  {
+    "hub_id": 8304,
+    "series_name": "Detective Conan"
+  },
+  {
+    "hub_id": 8307,
+    "series_name": "Midnight Club"
+  },
+  {
+    "hub_id": 8318,
+    "series_name": "The Lost Vikings"
+  },
+  {
+    "hub_id": 8319,
+    "series_name": "Gran Turismo"
+  },
+  {
+    "hub_id": 8326,
+    "series_name": "Splatterhouse"
+  },
+  {
+    "hub_id": 8330,
+    "series_name": "Devil Children"
+  },
+  {
+    "hub_id": 8335,
+    "series_name": "Street Fighter"
+  },
+  {
+    "hub_id": 8336,
+    "series_name": "Go Go Ackman"
+  },
+  {
+    "hub_id": 8347,
+    "series_name": "Army Men"
+  },
+  {
+    "hub_id": 8361,
+    "series_name": "Ace Combat"
+  },
+  {
+    "hub_id": 8366,
+    "series_name": "Madou Monogatari"
+  },
+  {
+    "hub_id": 8390,
+    "series_name": "Ghostbusters"
+  },
+  {
+    "hub_id": 8392,
+    "series_name": "Monster Hunter"
+  },
+  {
+    "hub_id": 8399,
+    "series_name": "Shadow Hearts"
+  },
+  {
+    "hub_id": 8420,
+    "series_name": "Bonk | BC Kid | PC Genjin"
+  },
+  {
+    "hub_id": 8434,
+    "series_name": "The Smurfs"
+  },
+  {
+    "hub_id": 8437,
+    "series_name": "Langrisser"
+  },
+  {
+    "hub_id": 8444,
+    "series_name": "Pokémon"
+  },
+  {
+    "hub_id": 8456,
+    "series_name": "PaRappa the Rapper"
+  },
+  {
+    "hub_id": 8467,
+    "series_name": "Pikmin"
+  },
+  {
+    "hub_id": 8479,
+    "series_name": "Pachiokun"
+  },
+  {
+    "hub_id": 8495,
+    "series_name": "Harvest Moon | Story of Seasons"
+  },
+  {
+    "hub_id": 8505,
+    "series_name": "Garfield"
+  },
+  {
+    "hub_id": 8511,
+    "series_name": "Altered Beast"
+  },
+  {
+    "hub_id": 8526,
+    "series_name": "Power Rangers | Super Sentai"
+  },
+  {
+    "hub_id": 8530,
+    "series_name": "Nana"
+  },
+  {
+    "hub_id": 8533,
+    "series_name": "The Addams Family"
+  },
+  {
+    "hub_id": 8539,
+    "series_name": "Mega Man Battle Network"
+  },
+  {
+    "hub_id": 8540,
+    "series_name": "Mansion of Hidden Souls"
+  },
+  {
+    "hub_id": 8541,
+    "series_name": "Phantasy Star"
+  },
+  {
+    "hub_id": 8542,
+    "series_name": "Pang | Buster Bros."
+  },
+  {
+    "hub_id": 8543,
+    "series_name": "Pac-Man"
+  },
+  {
+    "hub_id": 8571,
+    "series_name": "The Simpsons"
+  },
+  {
+    "hub_id": 8576,
+    "series_name": "Boulder Dash"
+  },
+  {
+    "hub_id": 8601,
+    "series_name": "M&amp;M's"
+  },
+  {
+    "hub_id": 8604,
+    "series_name": "Sanrio"
+  },
+  {
+    "hub_id": 8606,
+    "series_name": "Keisan Game"
+  },
+  {
+    "hub_id": 8609,
+    "series_name": "Star Fox"
+  },
+  {
+    "hub_id": 8614,
+    "series_name": "Star Trek"
+  },
+  {
+    "hub_id": 8618,
+    "series_name": "Moto Racer"
+  },
+  {
+    "hub_id": 8626,
+    "series_name": "Dokapon"
+  },
+  {
+    "hub_id": 8642,
+    "series_name": "Fairy Tail"
+  },
+  {
+    "hub_id": 8653,
+    "series_name": "Robotron"
+  },
+  {
+    "hub_id": 8716,
+    "series_name": "Cruis'n"
+  },
+  {
+    "hub_id": 8730,
+    "series_name": "Panzer Dragoon"
+  },
+  {
+    "hub_id": 8739,
+    "series_name": "Samurai Shodown"
+  },
+  {
+    "hub_id": 8755,
+    "series_name": "Duel Masters"
+  },
+  {
+    "hub_id": 8759,
+    "series_name": "Grand Theft Auto"
+  },
+  {
+    "hub_id": 8769,
+    "series_name": "James Bond"
+  },
+  {
+    "hub_id": 8770,
+    "series_name": "Superman"
+  },
+  {
+    "hub_id": 8854,
+    "series_name": "Metroid"
+  },
+  {
+    "hub_id": 8871,
+    "series_name": "Triple Play"
+  },
+  {
+    "hub_id": 8875,
+    "series_name": "EarthBound | Mother"
+  },
+  {
+    "hub_id": 8876,
+    "series_name": "Alien"
+  },
+  {
+    "hub_id": 8887,
+    "series_name": "Wars (Nintendo)"
+  },
+  {
+    "hub_id": 8899,
+    "series_name": "Donkey Kong"
+  },
+  {
+    "hub_id": 8902,
+    "series_name": "Raiden"
+  },
+  {
+    "hub_id": 8904,
+    "series_name": "Rampage"
+  },
+  {
+    "hub_id": 8922,
+    "series_name": "Mr. Do!"
+  },
+  {
+    "hub_id": 8932,
+    "series_name": "Ultima"
+  },
+  {
+    "hub_id": 8933,
+    "series_name": "Picross NP"
+  },
+  {
+    "hub_id": 8935,
+    "series_name": "The King of Fighters"
+  },
+  {
+    "hub_id": 8942,
+    "series_name": "Tales of"
+  },
+  {
+    "hub_id": 8948,
+    "series_name": "Taz"
+  },
+  {
+    "hub_id": 8974,
+    "series_name": "Parodius"
+  },
+  {
+    "hub_id": 8978,
+    "series_name": "Ty the Tasmanian Tiger"
+  },
+  {
+    "hub_id": 8987,
+    "series_name": "Strider"
+  },
+  {
+    "hub_id": 8992,
+    "series_name": "Earthworm Jim"
+  },
+  {
+    "hub_id": 9000,
+    "series_name": "Godzilla"
+  },
+  {
+    "hub_id": 9008,
+    "series_name": "Devil Summoner"
+  },
+  {
+    "hub_id": 9009,
+    "series_name": "Worms"
+  },
+  {
+    "hub_id": 9010,
+    "series_name": "Tokyo Xtreme Racer | Tokyo Highway Battle"
+  },
+  {
+    "hub_id": 9038,
+    "series_name": "SpongeBob SquarePants"
+  },
+  {
+    "hub_id": 9065,
+    "series_name": "Alex Kidd"
+  },
+  {
+    "hub_id": 9095,
+    "series_name": "Great Battle"
+  },
+  {
+    "hub_id": 9096,
+    "series_name": "Classic NES Series | Famicom Mini"
+  },
+  {
+    "hub_id": 9110,
+    "series_name": "Home Alone"
+  },
+  {
+    "hub_id": 9112,
+    "series_name": "Lethal Enforcers"
+  },
+  {
+    "hub_id": 9119,
+    "series_name": "Densetsu no Stafy"
+  },
+  {
+    "hub_id": 9176,
+    "series_name": "Compati Hero"
+  },
+  {
+    "hub_id": 9185,
+    "series_name": "Mega Man | Rockman"
+  },
+  {
+    "hub_id": 9195,
+    "series_name": "Ultraman"
+  },
+  {
+    "hub_id": 9218,
+    "series_name": "JoJo's Bizarre Adventure"
+  },
+  {
+    "hub_id": 9247,
+    "series_name": "Mega Man Zero"
+  },
+  {
+    "hub_id": 9309,
+    "series_name": "Streets of Rage"
+  },
+  {
+    "hub_id": 9334,
+    "series_name": "Ben 10"
+  },
+  {
+    "hub_id": 9335,
+    "series_name": "Dragon Spirit"
+  },
+  {
+    "hub_id": 9376,
+    "series_name": "Thunder Force"
+  },
+  {
+    "hub_id": 9390,
+    "series_name": "Petz"
+  },
+  {
+    "hub_id": 9465,
+    "series_name": "Magical Drop"
+  },
+  {
+    "hub_id": 9573,
+    "series_name": "After Burner"
+  },
+  {
+    "hub_id": 9605,
+    "series_name": "Summon Night"
+  },
+  {
+    "hub_id": 9611,
+    "series_name": "LocoRoco"
+  },
+  {
+    "hub_id": 9639,
+    "series_name": "River King | Nushi Tsuri"
+  },
+  {
+    "hub_id": 9655,
+    "series_name": "The Last Blade"
+  },
+  {
+    "hub_id": 9657,
+    "series_name": "Klonoa"
+  },
+  {
+    "hub_id": 9895,
+    "series_name": "Mr. Driller"
+  },
+  {
+    "hub_id": 10243,
+    "series_name": "Fire Pro Wrestling"
+  },
+  {
+    "hub_id": 10312,
+    "series_name": "Bomberman"
+  },
+  {
+    "hub_id": 10328,
+    "series_name": "Cotton"
+  },
+  {
+    "hub_id": 10418,
+    "series_name": "Turok"
+  },
+  {
+    "hub_id": 10447,
+    "series_name": "Shrek"
+  },
+  {
+    "hub_id": 10685,
+    "series_name": "Game &amp; Watch"
+  },
+  {
+    "hub_id": 10841,
+    "series_name": "SimCity"
+  },
+  {
+    "hub_id": 10856,
+    "series_name": "Ogre Battle"
+  },
+  {
+    "hub_id": 10880,
+    "series_name": "Space Harrier"
+  },
+  {
+    "hub_id": 10949,
+    "series_name": "Driver"
+  },
+  {
+    "hub_id": 10950,
+    "series_name": "Monaco GP"
+  },
+  {
+    "hub_id": 10951,
+    "series_name": "FIFA"
+  },
+  {
+    "hub_id": 10952,
+    "series_name": "Thunder Blade"
+  },
+  {
+    "hub_id": 10978,
+    "series_name": "Mahou Daisakusen"
+  },
+  {
+    "hub_id": 11923,
+    "series_name": "Kunio-kun"
+  },
+  {
+    "hub_id": 11958,
+    "series_name": "Shaman King"
+  },
+  {
+    "hub_id": 11967,
+    "series_name": "Lode Runner"
+  },
+  {
+    "hub_id": 11989,
+    "series_name": "Rugrats"
+  },
+  {
+    "hub_id": 12005,
+    "series_name": "Doctor Who"
+  },
+  {
+    "hub_id": 12020,
+    "series_name": "NBA Jam"
+  },
+  {
+    "hub_id": 12246,
+    "series_name": "One Piece"
+  },
+  {
+    "hub_id": 12375,
+    "series_name": "King's Quest"
+  },
+  {
+    "hub_id": 12616,
+    "series_name": "Moon Cresta | Terra Cresta"
+  },
+  {
+    "hub_id": 13352,
+    "series_name": "Mario Kart"
+  },
+  {
+    "hub_id": 13353,
+    "series_name": "Mario Party"
+  },
+  {
+    "hub_id": 13565,
+    "series_name": "Elevator Action"
+  },
+  {
+    "hub_id": 13694,
+    "series_name": "Muppets"
+  },
+  {
+    "hub_id": 13721,
+    "series_name": "Zaxxon"
+  },
+  {
+    "hub_id": 16517,
+    "series_name": "Viewtiful Joe"
+  },
+  {
+    "hub_id": 17662,
+    "series_name": "Jet Set Radio"
+  },
+  {
+    "hub_id": 17671,
+    "series_name": "MacVenture"
+  },
+  {
+    "hub_id": 17674,
+    "series_name": "Dead or Alive"
+  },
+  {
+    "hub_id": 17675,
+    "series_name": "Project Gotham Racing"
+  },
+  {
+    "hub_id": 17678,
+    "series_name": "Justice League"
+  },
+  {
+    "hub_id": 17686,
+    "series_name": "BattleTanx"
+  },
+  {
+    "hub_id": 17690,
+    "series_name": "Dino Crisis"
+  },
+  {
+    "hub_id": 17691,
+    "series_name": "Gun Survivor"
+  },
+  {
+    "hub_id": 17694,
+    "series_name": "Centipede"
+  },
+  {
+    "hub_id": 17701,
+    "series_name": "F1 Circus"
+  },
+  {
+    "hub_id": 17713,
+    "series_name": "Woody Woodpecker"
+  },
+  {
+    "hub_id": 17717,
+    "series_name": "Pop'n Music"
+  },
+  {
+    "hub_id": 17718,
+    "series_name": "Beatmania"
+  },
+  {
+    "hub_id": 17731,
+    "series_name": "Gitadora | GuitarFreaks and DrumMania"
+  },
+  {
+    "hub_id": 17734,
+    "series_name": "Colony Wars"
+  },
+  {
+    "hub_id": 18348,
+    "series_name": ".hack//"
+  },
+  {
+    "hub_id": 18354,
+    "series_name": "Bratz"
+  },
+  {
+    "hub_id": 18355,
+    "series_name": "Pro Pinball"
+  },
+  {
+    "hub_id": 18359,
+    "series_name": "Dragon Ball Z: Butoden"
+  },
+  {
+    "hub_id": 18362,
+    "series_name": "Kishin Douji Zenki"
+  },
+  {
+    "hub_id": 18363,
+    "series_name": "Monopoly"
+  },
+  {
+    "hub_id": 18365,
+    "series_name": "Ice Age"
+  },
+  {
+    "hub_id": 18366,
+    "series_name": "Max Payne"
+  },
+  {
+    "hub_id": 18367,
+    "series_name": "Hitman"
+  },
+  {
+    "hub_id": 18368,
+    "series_name": "Onimusha"
+  },
+  {
+    "hub_id": 18369,
+    "series_name": "Tokimeki Memorial"
+  },
+  {
+    "hub_id": 18370,
+    "series_name": "TimeSplitters"
+  },
+  {
+    "hub_id": 18371,
+    "series_name": "SSX"
+  },
+  {
+    "hub_id": 18372,
+    "series_name": "Bloody Roar"
+  },
+  {
+    "hub_id": 18373,
+    "series_name": "The Punisher"
+  },
+  {
+    "hub_id": 18374,
+    "series_name": "RPG Maker"
+  },
+  {
+    "hub_id": 18375,
+    "series_name": "Atelier"
+  },
+  {
+    "hub_id": 18376,
+    "series_name": "Rygar"
+  },
+  {
+    "hub_id": 18377,
+    "series_name": "SOCOM"
+  },
+  {
+    "hub_id": 18378,
+    "series_name": "The Fairly OddParents!"
+  },
+  {
+    "hub_id": 18381,
+    "series_name": "Puzzle Quest"
+  },
+  {
+    "hub_id": 18385,
+    "series_name": "Peanuts"
+  },
+  {
+    "hub_id": 18386,
+    "series_name": "Angelique"
+  },
+  {
+    "hub_id": 18388,
+    "series_name": "Initial D"
+  },
+  {
+    "hub_id": 18389,
+    "series_name": "Waldo | Wally"
+  },
+  {
+    "hub_id": 18394,
+    "series_name": "Animal Crossing"
+  },
+  {
+    "hub_id": 18395,
+    "series_name": "Commander Keen"
+  },
+  {
+    "hub_id": 18396,
+    "series_name": "Carmageddon"
+  },
+  {
+    "hub_id": 18397,
+    "series_name": "The Elder Scrolls"
+  },
+  {
+    "hub_id": 18399,
+    "series_name": "Leisure Suit Larry"
+  },
+  {
+    "hub_id": 18400,
+    "series_name": "Space Quest"
+  },
+  {
+    "hub_id": 18401,
+    "series_name": "Warcraft"
+  },
+  {
+    "hub_id": 18402,
+    "series_name": "X-COM"
+  },
+  {
+    "hub_id": 18403,
+    "series_name": "Kessen"
+  },
+  {
+    "hub_id": 18418,
+    "series_name": "A-Train | A Ressha de Ikou"
+  },
+  {
+    "hub_id": 18422,
+    "series_name": "Def Jam"
+  },
+  {
+    "hub_id": 18424,
+    "series_name": "Winnie the Pooh"
+  },
+  {
+    "hub_id": 18425,
+    "series_name": "Backyard Sports"
+  },
+  {
+    "hub_id": 18426,
+    "series_name": "The Bard's Tale"
+  },
+  {
+    "hub_id": 18427,
+    "series_name": "Balloon Fight"
+  },
+  {
+    "hub_id": 18428,
+    "series_name": "The Berenstain Bears"
+  },
+  {
+    "hub_id": 18434,
+    "series_name": "Athena"
+  },
+  {
+    "hub_id": 18691,
+    "series_name": "Final Zone"
+  },
+  {
+    "hub_id": 18692,
+    "series_name": "Culdcept"
+  },
+  {
+    "hub_id": 18693,
+    "series_name": "7 Wonders"
+  },
+  {
+    "hub_id": 18694,
+    "series_name": "Age of Empires"
+  },
+  {
+    "hub_id": 18695,
+    "series_name": "Cho Aniki"
+  },
+  {
+    "hub_id": 18697,
+    "series_name": "Wangan Midnight"
+  },
+  {
+    "hub_id": 18698,
+    "series_name": "Star Revenge"
+  },
+  {
+    "hub_id": 18699,
+    "series_name": "Star Adventure"
+  },
+  {
+    "hub_id": 18700,
+    "series_name": "Asuka 120%"
+  },
+  {
+    "hub_id": 18701,
+    "series_name": "Avatar: The Last Airbender"
+  },
+  {
+    "hub_id": 18702,
+    "series_name": "Brandish"
+  },
+  {
+    "hub_id": 18703,
+    "series_name": "Kinnikuman"
+  },
+  {
+    "hub_id": 18704,
+    "series_name": "Mad Dog McCree"
+  },
+  {
+    "hub_id": 18706,
+    "series_name": "Thrillville"
+  },
+  {
+    "hub_id": 18707,
+    "series_name": "New Zealand Story"
+  },
+  {
+    "hub_id": 18719,
+    "series_name": "Angry Birds"
+  },
+  {
+    "hub_id": 18720,
+    "series_name": "Etrian Odyssey"
+  },
+  {
+    "hub_id": 18721,
+    "series_name": "Dr. Mario"
+  },
+  {
+    "hub_id": 18722,
+    "series_name": "Makeruna! Makendou"
+  },
+  {
+    "hub_id": 18725,
+    "series_name": "Puzzler World"
+  },
+  {
+    "hub_id": 18726,
+    "series_name": "Time Crisis"
+  },
+  {
+    "hub_id": 18728,
+    "series_name": "Rhythm Heaven"
+  },
+  {
+    "hub_id": 18731,
+    "series_name": "Hunter x Hunter"
+  },
+  {
+    "hub_id": 18734,
+    "series_name": "Glory of Heracles | Heracles no Eikou"
+  },
+  {
+    "hub_id": 18737,
+    "series_name": "Kao the Kangaroo"
+  },
+  {
+    "hub_id": 18742,
+    "series_name": "V-Rally"
+  },
+  {
+    "hub_id": 18745,
+    "series_name": "Assassin's Creed"
+  },
+  {
+    "hub_id": 18746,
+    "series_name": "Legend of Heroes"
+  },
+  {
+    "hub_id": 18755,
+    "series_name": "McDonald's"
+  },
+  {
+    "hub_id": 18848,
+    "series_name": "Sentinel"
+  },
+  {
+    "hub_id": 18849,
+    "series_name": "Colin McRae Rally"
+  },
+  {
+    "hub_id": 18853,
+    "series_name": "Daikaijuu Monogatari"
+  },
+  {
+    "hub_id": 18856,
+    "series_name": "Survival Kids | Lost in Blue"
+  },
+  {
+    "hub_id": 18857,
+    "series_name": "XI"
+  },
+  {
+    "hub_id": 18858,
+    "series_name": "Black Bass"
+  },
+  {
+    "hub_id": 18861,
+    "series_name": "Nakajima Satoru F-1 Hero"
+  },
+  {
+    "hub_id": 18863,
+    "series_name": "Shining Stars"
+  },
+  {
+    "hub_id": 18865,
+    "series_name": "Tom Clancy's Rainbow Six"
+  },
+  {
+    "hub_id": 18866,
+    "series_name": "The Lion King"
+  },
+  {
+    "hub_id": 18867,
+    "series_name": "Saint Seiya"
+  },
+  {
+    "hub_id": 18868,
+    "series_name": "Commando | Senjou no Okami"
+  },
+  {
+    "hub_id": 18869,
+    "series_name": "Echo Night"
+  },
+  {
+    "hub_id": 18870,
+    "series_name": "Excite"
+  },
+  {
+    "hub_id": 18872,
+    "series_name": "Ford Racing"
+  },
+  {
+    "hub_id": 18873,
+    "series_name": "MX vs. ATV"
+  },
+  {
+    "hub_id": 18875,
+    "series_name": "Last Bible"
+  },
+  {
+    "hub_id": 18876,
+    "series_name": "Madagascar"
+  },
+  {
+    "hub_id": 18877,
+    "series_name": "Tak"
+  },
+  {
+    "hub_id": 18878,
+    "series_name": "Madden NFL"
+  },
+  {
+    "hub_id": 18879,
+    "series_name": "Family Feud"
+  },
+  {
+    "hub_id": 18880,
+    "series_name": "Zone of the Enders"
+  },
+  {
+    "hub_id": 18883,
+    "series_name": "Science Adventure"
+  },
+  {
+    "hub_id": 18884,
+    "series_name": "Top Gun"
+  },
+  {
+    "hub_id": 18885,
+    "series_name": "Custom Robo"
+  },
+  {
+    "hub_id": 18886,
+    "series_name": "Chibi-Robo!"
+  },
+  {
+    "hub_id": 18898,
+    "series_name": "Cars"
+  },
+  {
+    "hub_id": 18901,
+    "series_name": "Dora the Explorer"
+  },
+  {
+    "hub_id": 18904,
+    "series_name": "Boktai"
+  },
+  {
+    "hub_id": 18906,
+    "series_name": "NBA Street"
+  },
+  {
+    "hub_id": 18907,
+    "series_name": "Inspector Gadget"
+  },
+  {
+    "hub_id": 18918,
+    "series_name": "UFC"
+  },
+  {
+    "hub_id": 18929,
+    "series_name": "Monsters"
+  },
+  {
+    "hub_id": 18930,
+    "series_name": "Baldur's Gate"
+  },
+  {
+    "hub_id": 18931,
+    "series_name": "Xeno"
+  },
+  {
+    "hub_id": 18942,
+    "series_name": "Earth Defense Force | Chikyū Bōeigun"
+  },
+  {
+    "hub_id": 20282,
+    "series_name": "Die Hard"
+  },
+  {
+    "hub_id": 20283,
+    "series_name": "Astro Boy"
+  },
+  {
+    "hub_id": 20286,
+    "series_name": "Crazy Frog"
+  },
+  {
+    "hub_id": 20289,
+    "series_name": "Aretha"
+  },
+  {
+    "hub_id": 20290,
+    "series_name": "Kim Possible"
+  },
+  {
+    "hub_id": 20291,
+    "series_name": "Buzz!"
+  },
+  {
+    "hub_id": 20292,
+    "series_name": "Bejeweled"
+  },
+  {
+    "hub_id": 20293,
+    "series_name": "Klax"
+  },
+  {
+    "hub_id": 20294,
+    "series_name": "Marble Madness"
+  },
+  {
+    "hub_id": 20295,
+    "series_name": "Dune"
+  },
+  {
+    "hub_id": 20296,
+    "series_name": "Half-Life"
+  },
+  {
+    "hub_id": 20297,
+    "series_name": "Beavis and Butt-Head"
+  },
+  {
+    "hub_id": 20298,
+    "series_name": "Broken Sword"
+  },
+  {
+    "hub_id": 20299,
+    "series_name": "EA Sports NHL"
+  },
+  {
+    "hub_id": 20304,
+    "series_name": "Baseball Stars"
+  },
+  {
+    "hub_id": 20305,
+    "series_name": "Blades of Steel"
+  },
+  {
+    "hub_id": 20306,
+    "series_name": "Crazy Climber"
+  },
+  {
+    "hub_id": 20307,
+    "series_name": "The Incredibles"
+  },
+  {
+    "hub_id": 20308,
+    "series_name": "Dragon Knight"
+  },
+  {
+    "hub_id": 20320,
+    "series_name": "Trauma Center"
+  },
+  {
+    "hub_id": 20321,
+    "series_name": "Magic Knight Rayearth"
+  },
+  {
+    "hub_id": 20322,
+    "series_name": "Bloons"
+  },
+  {
+    "hub_id": 20323,
+    "series_name": "Capcom vs. SNK"
+  },
+  {
+    "hub_id": 20331,
+    "series_name": "Robot Wars"
+  },
+  {
+    "hub_id": 20332,
+    "series_name": "PoPoLoCrois"
+  },
+  {
+    "hub_id": 20335,
+    "series_name": "Alfred Chicken"
+  },
+  {
+    "hub_id": 20336,
+    "series_name": "Pirates of the Caribbean"
+  },
+  {
+    "hub_id": 20348,
+    "series_name": "Gain Ground"
+  },
+  {
+    "hub_id": 20360,
+    "series_name": "Moémon"
+  },
+  {
+    "hub_id": 20361,
+    "series_name": "Sega Ages"
+  },
+  {
+    "hub_id": 20373,
+    "series_name": "SingStar"
+  },
+  {
+    "hub_id": 20374,
+    "series_name": "Samba de Amigo"
+  },
+  {
+    "hub_id": 20375,
+    "series_name": "Space Channel 5"
+  },
+  {
+    "hub_id": 20696,
+    "series_name": "Asphalt"
+  },
+  {
+    "hub_id": 20697,
+    "series_name": "Babylonian Castle Saga"
+  },
+  {
+    "hub_id": 20703,
+    "series_name": "Buffy the Vampire Slayer"
+  },
+  {
+    "hub_id": 20712,
+    "series_name": "Hack"
+  },
+  {
+    "hub_id": 20714,
+    "series_name": "Winx Club"
+  },
+  {
+    "hub_id": 20719,
+    "series_name": "Art Style"
+  },
+  {
+    "hub_id": 20736,
+    "series_name": "Bobobo-bo Bo-bobo"
+  },
+  {
+    "hub_id": 20753,
+    "series_name": "Pac-Man World"
+  },
+  {
+    "hub_id": 20754,
+    "series_name": "Umokay"
+  },
+  {
+    "hub_id": 20762,
+    "series_name": "Hiryuu no Ken"
+  },
+  {
+    "hub_id": 20763,
+    "series_name": "Paper Mario"
+  },
+  {
+    "hub_id": 20772,
+    "series_name": "Chocobo"
+  },
+  {
+    "hub_id": 20776,
+    "series_name": "Wario"
+  },
+  {
+    "hub_id": 20777,
+    "series_name": "Kids Station"
+  },
+  {
+    "hub_id": 20778,
+    "series_name": "Zero Escape"
+  },
+  {
+    "hub_id": 20780,
+    "series_name": "Mega Man ZX"
+  },
+  {
+    "hub_id": 20781,
+    "series_name": "Zill O'll"
+  },
+  {
+    "hub_id": 20787,
+    "series_name": "Conker"
+  },
+  {
+    "hub_id": 20788,
+    "series_name": "Peppa Pig"
+  },
+  {
+    "hub_id": 20790,
+    "series_name": "Rave Master"
+  },
+  {
+    "hub_id": 21372,
+    "series_name": "World Heroes"
+  },
+  {
+    "hub_id": 21373,
+    "series_name": "Fighter's History"
+  },
+  {
+    "hub_id": 21374,
+    "series_name": "Disney Princess"
+  },
+  {
+    "hub_id": 21379,
+    "series_name": "Cabela's"
+  },
+  {
+    "hub_id": 21384,
+    "series_name": "Mario Tennis"
+  },
+  {
+    "hub_id": 21387,
+    "series_name": "G.G Series"
+  },
+  {
+    "hub_id": 21388,
+    "series_name": "GO Series"
+  },
+  {
+    "hub_id": 21389,
+    "series_name": "Bakugan"
+  },
+  {
+    "hub_id": 21393,
+    "series_name": "Stuart Little"
+  },
+  {
+    "hub_id": 21394,
+    "series_name": "Transformers"
+  },
+  {
+    "hub_id": 21395,
+    "series_name": "Reel Fishing | Fish Eyes"
+  },
+  {
+    "hub_id": 21397,
+    "series_name": "Dynamite Cop | Dynamite Deka"
+  },
+  {
+    "hub_id": 21401,
+    "series_name": "Dungeon Explorer"
+  },
+  {
+    "hub_id": 21404,
+    "series_name": "Xena: Warrior Princess"
+  },
+  {
+    "hub_id": 21405,
+    "series_name": "Naruto: Ultimate Ninja"
+  },
+  {
+    "hub_id": 21407,
+    "series_name": "Bugs Bunny"
+  },
+  {
+    "hub_id": 21410,
+    "series_name": "Doko Demo Issyo"
+  },
+  {
+    "hub_id": 21413,
+    "series_name": "Knights of Valour | San Guo Zhan Ji"
+  },
+  {
+    "hub_id": 21420,
+    "series_name": "Casper"
+  },
+  {
+    "hub_id": 22154,
+    "series_name": "Kuhga"
+  },
+  {
+    "hub_id": 22161,
+    "series_name": "Ginga Ojousama Densetsu Yuna"
+  },
+  {
+    "hub_id": 22169,
+    "series_name": "Rabbids"
+  },
+  {
+    "hub_id": 22172,
+    "series_name": "Spawn"
+  },
+  {
+    "hub_id": 22187,
+    "series_name": "Digimon Story"
+  },
+  {
+    "hub_id": 22188,
+    "series_name": "Dave Mirra BMX"
+  },
+  {
+    "hub_id": 22189,
+    "series_name": "Mat Hoffman's Pro BMX"
+  },
+  {
+    "hub_id": 22190,
+    "series_name": "Zool"
+  },
+  {
+    "hub_id": 22199,
+    "series_name": "EA Sports BIG"
+  },
+  {
+    "hub_id": 22201,
+    "series_name": "Roll-Chan Evolution"
+  },
+  {
+    "hub_id": 22209,
+    "series_name": "Rush"
+  },
+  {
+    "hub_id": 22211,
+    "series_name": "Tamagotchi"
+  },
+  {
+    "hub_id": 22212,
+    "series_name": "Dragon Ball Z: Budokai"
+  },
+  {
+    "hub_id": 22719,
+    "series_name": "The Legend of Spyro"
+  },
+  {
+    "hub_id": 22720,
+    "series_name": "Golgo 13"
+  },
+  {
+    "hub_id": 22724,
+    "series_name": "Side Pocket"
+  },
+  {
+    "hub_id": 22740,
+    "series_name": "Hebereke"
+  },
+  {
+    "hub_id": 22742,
+    "series_name": "Fallout"
+  },
+  {
+    "hub_id": 22745,
+    "series_name": "Mashin Eiyuuden Wataru"
+  },
+  {
+    "hub_id": 22747,
+    "series_name": "UNO"
+  },
+  {
+    "hub_id": 22751,
+    "series_name": "Littlest Pet Shop"
+  },
+  {
+    "hub_id": 22752,
+    "series_name": "Rainbow Islands"
+  },
+  {
+    "hub_id": 22754,
+    "series_name": "Digimon World"
+  },
+  {
+    "hub_id": 22990,
+    "series_name": "Zero4 Champ"
+  },
+  {
+    "hub_id": 22991,
+    "series_name": "Shadow of the Beast"
+  },
+  {
+    "hub_id": 22995,
+    "series_name": "Curious George"
+  },
+  {
+    "hub_id": 23004,
+    "series_name": "Incredible Hulk"
+  },
+  {
+    "hub_id": 23005,
+    "series_name": "Pro Evolution Soccer | Winning Eleven"
+  },
+  {
+    "hub_id": 23008,
+    "series_name": "Yakiniku Bugyou"
+  },
+  {
+    "hub_id": 23014,
+    "series_name": "Green Star Revenge"
+  },
+  {
+    "hub_id": 23018,
+    "series_name": "Sarge's Heroes"
+  },
+  {
+    "hub_id": 23019,
+    "series_name": "Generation of Chaos"
+  },
+  {
+    "hub_id": 23020,
+    "series_name": "Fate"
+  },
+  {
+    "hub_id": 23027,
+    "series_name": "BurgerTime"
+  },
+  {
+    "hub_id": 23028,
+    "series_name": "Oretachi Geesen Zoku"
+  },
+  {
+    "hub_id": 23029,
+    "series_name": "Slam Dunk"
+  },
+  {
+    "hub_id": 23030,
+    "series_name": "Hajime no Ippo"
+  },
+  {
+    "hub_id": 23031,
+    "series_name": "Aero Fighters"
+  },
+  {
+    "hub_id": 23365,
+    "series_name": "Super Boy"
+  },
+  {
+    "hub_id": 23366,
+    "series_name": "Monster Maker"
+  },
+  {
+    "hub_id": 23372,
+    "series_name": "LMA Manager"
+  },
+  {
+    "hub_id": 23380,
+    "series_name": "The Jungle Book"
+  },
+  {
+    "hub_id": 23389,
+    "series_name": "Dept. Heaven"
+  },
+  {
+    "hub_id": 23395,
+    "series_name": "Cake Mania"
+  },
+  {
+    "hub_id": 23409,
+    "series_name": "Nicktoons"
+  },
+  {
+    "hub_id": 23411,
+    "series_name": "Joust"
+  },
+  {
+    "hub_id": 23420,
+    "series_name": "Luxor"
+  },
+  {
+    "hub_id": 23422,
+    "series_name": "Star Soldier"
+  },
+  {
+    "hub_id": 23424,
+    "series_name": "Psychic Force"
+  },
+  {
+    "hub_id": 23432,
+    "series_name": "Kururin"
+  },
+  {
+    "hub_id": 23433,
+    "series_name": "Virtual-On"
+  },
+  {
+    "hub_id": 23436,
+    "series_name": "Evolution"
+  },
+  {
+    "hub_id": 24381,
+    "series_name": "Tokyo Majin Gakuen"
+  },
+  {
+    "hub_id": 24382,
+    "series_name": "Haruhi Suzumiya"
+  },
+  {
+    "hub_id": 24383,
+    "series_name": "Far East of Eden | Tengai Makyou"
+  },
+  {
+    "hub_id": 24384,
+    "series_name": "Hissatsu Pachinko | Pachi-Slot"
+  },
+  {
+    "hub_id": 24385,
+    "series_name": "PGA Tour"
+  },
+  {
+    "hub_id": 24386,
+    "series_name": "Formula One (Psygnosis/Sony)"
+  },
+  {
+    "hub_id": 24387,
+    "series_name": "EA Sports Formula One"
+  },
+  {
+    "hub_id": 24388,
+    "series_name": "NHL 2K"
+  },
+  {
+    "hub_id": 24389,
+    "series_name": "The Chronicles of Narnia"
+  },
+  {
+    "hub_id": 24390,
+    "series_name": "International Superstar Soccer"
+  },
+  {
+    "hub_id": 24391,
+    "series_name": "Yu-Gi-Oh! Duel Monsters"
+  },
+  {
+    "hub_id": 24392,
+    "series_name": "Tenchi o Kurau"
+  },
+  {
+    "hub_id": 24393,
+    "series_name": "MVP Baseball"
+  },
+  {
+    "hub_id": 24394,
+    "series_name": "NFL Blitz"
+  },
+  {
+    "hub_id": 24396,
+    "series_name": "Postman Pat"
+  },
+  {
+    "hub_id": 24398,
+    "series_name": "King Kong"
+  },
+  {
+    "hub_id": 24399,
+    "series_name": "Kosodate Quiz: My Angel"
+  },
+  {
+    "hub_id": 24400,
+    "series_name": "Gussun Oyoyo"
+  },
+  {
+    "hub_id": 24401,
+    "series_name": "Marl Kingdom | Marl Oukoku"
+  },
+  {
+    "hub_id": 24402,
+    "series_name": "UEFA"
+  },
+  {
+    "hub_id": 24403,
+    "series_name": "AFL"
+  },
+  {
+    "hub_id": 24412,
+    "series_name": "Roland"
+  },
+  {
+    "hub_id": 24418,
+    "series_name": "Momotarou"
+  },
+  {
+    "hub_id": 24426,
+    "series_name": "Spectral | Neverland"
+  },
+  {
+    "hub_id": 24434,
+    "series_name": "Jake Hunter"
+  },
+  {
+    "hub_id": 24437,
+    "series_name": "Famicom Detective Club"
+  },
+  {
+    "hub_id": 24438,
+    "series_name": "Lilo and Stitch"
+  },
+  {
+    "hub_id": 24441,
+    "series_name": "Unou no Tatsujin"
+  },
+  {
+    "hub_id": 24443,
+    "series_name": "Variable Geo"
+  },
+  {
+    "hub_id": 24444,
+    "series_name": "Taisen Puzzle Dama"
+  },
+  {
+    "hub_id": 24447,
+    "series_name": "Imagine"
+  },
+  {
+    "hub_id": 24448,
+    "series_name": "Dungeon Master"
+  },
+  {
+    "hub_id": 24449,
+    "series_name": "Clever Kids"
+  },
+  {
+    "hub_id": 24450,
+    "series_name": "Cosmic Fantasy"
+  },
+  {
+    "hub_id": 24451,
+    "series_name": "Nancy Drew"
+  },
+  {
+    "hub_id": 25573,
+    "series_name": "Legends of Wrestling"
+  },
+  {
+    "hub_id": 25576,
+    "series_name": "Monster High"
+  },
+  {
+    "hub_id": 25578,
+    "series_name": "Itadaki Street"
+  },
+  {
+    "hub_id": 25584,
+    "series_name": "Higurashi When They Cry"
+  },
+  {
+    "hub_id": 25586,
+    "series_name": "Tsukihime | Melty Blood"
+  },
+  {
+    "hub_id": 25594,
+    "series_name": "NFL GameDay"
+  },
+  {
+    "hub_id": 25599,
+    "series_name": "Strikers 1945"
+  },
+  {
+    "hub_id": 25600,
+    "series_name": "Chibi Maruko-chan"
+  },
+  {
+    "hub_id": 25603,
+    "series_name": "Tenchi Muyo!"
+  },
+  {
+    "hub_id": 25604,
+    "series_name": "Princess Maker"
+  },
+  {
+    "hub_id": 25606,
+    "series_name": "Record of Lodoss War"
+  },
+  {
+    "hub_id": 25609,
+    "series_name": "Donald Duck"
+  },
+  {
+    "hub_id": 25610,
+    "series_name": "NFL 2K"
+  },
+  {
+    "hub_id": 25613,
+    "series_name": "Prehistorik"
+  },
+  {
+    "hub_id": 25614,
+    "series_name": "Scrabble"
+  },
+  {
+    "hub_id": 25617,
+    "series_name": "Xak"
+  },
+  {
+    "hub_id": 25621,
+    "series_name": "Dick Tracy"
+  },
+  {
+    "hub_id": 25622,
+    "series_name": "Judge Dredd"
+  },
+  {
+    "hub_id": 25623,
+    "series_name": "Men in Black"
+  },
+  {
+    "hub_id": 25628,
+    "series_name": "Densha de Go!"
+  },
+  {
+    "hub_id": 25632,
+    "series_name": "Powerful Pro Baseball | Power Pros"
+  },
+  {
+    "hub_id": 25667,
+    "series_name": "The Humans"
+  },
+  {
+    "hub_id": 25669,
+    "series_name": "Knightmare"
+  },
+  {
+    "hub_id": 25670,
+    "series_name": "Solomon's Key"
+  },
+  {
+    "hub_id": 25679,
+    "series_name": "Yakuza | Like A Dragon | Ryu ga Gotoku"
+  },
+  {
+    "hub_id": 26181,
+    "series_name": "Cubix"
+  },
+  {
+    "hub_id": 26201,
+    "series_name": "Invizimals"
+  },
+  {
+    "hub_id": 26202,
+    "series_name": "Street Fighter Alpha"
+  },
+  {
+    "hub_id": 26204,
+    "series_name": "SD Gundam G Generation"
+  },
+  {
+    "hub_id": 26205,
+    "series_name": "Lucky Star"
+  },
+  {
+    "hub_id": 26206,
+    "series_name": "Final Lap"
+  },
+  {
+    "hub_id": 26210,
+    "series_name": "Who Wants to Be a Millionaire"
+  },
+  {
+    "hub_id": 26216,
+    "series_name": "Street Fighter EX"
+  },
+  {
+    "hub_id": 26864,
+    "series_name": "Gundam VS."
+  },
+  {
+    "hub_id": 26870,
+    "series_name": "El Dorado Gate"
+  },
+  {
+    "hub_id": 26872,
+    "series_name": "Baroque"
+  },
+  {
+    "hub_id": 27423,
+    "series_name": "Loppi Puzzle Magazine"
+  },
+  {
+    "hub_id": 27424,
+    "series_name": "Felix the Cat"
+  },
+  {
+    "hub_id": 27425,
+    "series_name": "Tank Battalion | Battle City"
+  },
+  {
+    "hub_id": 27440,
+    "series_name": "Cocoto"
+  },
+  {
+    "hub_id": 27442,
+    "series_name": "Hakuoki"
+  },
+  {
+    "hub_id": 27449,
+    "series_name": "Power Stone"
+  },
+  {
+    "hub_id": 27451,
+    "series_name": "Fullmetal Alchemist"
+  },
+  {
+    "hub_id": 27456,
+    "series_name": "Phantom Brave"
+  },
+  {
+    "hub_id": 27458,
+    "series_name": "Warhammer Fantasy"
+  },
+  {
+    "hub_id": 27469,
+    "series_name": "The Land Before Time"
+  },
+  {
+    "hub_id": 27481,
+    "series_name": "Dragon Quest Monsters"
+  },
+  {
+    "hub_id": 27482,
+    "series_name": "Jig-A-Pix"
+  },
+  {
+    "hub_id": 27483,
+    "series_name": "Puzzle Series"
+  },
+  {
+    "hub_id": 27485,
+    "series_name": "TouchMaster"
+  },
+  {
+    "hub_id": 27487,
+    "series_name": "Games Workshop"
+  },
+  {
+    "hub_id": 27489,
+    "series_name": "E.T.: The Extra-Terrestrial"
+  },
+  {
+    "hub_id": 27491,
+    "series_name": "Mission: Impossible"
+  },
+  {
+    "hub_id": 27492,
+    "series_name": "The Mummy"
+  },
+  {
+    "hub_id": 27493,
+    "series_name": "Predator"
+  },
+  {
+    "hub_id": 27494,
+    "series_name": "Rocky"
+  },
+  {
+    "hub_id": 27495,
+    "series_name": "TRON"
+  },
+  {
+    "hub_id": 27496,
+    "series_name": "Digimon Adventure"
+  },
+  {
+    "hub_id": 27498,
+    "series_name": "Strawberry Shortcake"
+  },
+  {
+    "hub_id": 27499,
+    "series_name": "Dr. Seuss"
+  },
+  {
+    "hub_id": 27501,
+    "series_name": "Maya the Bee"
+  },
+  {
+    "hub_id": 27502,
+    "series_name": "Matchbox"
+  },
+  {
+    "hub_id": 27503,
+    "series_name": "Franklin the Turtle"
+  },
+  {
+    "hub_id": 27504,
+    "series_name": "Rocket Power"
+  },
+  {
+    "hub_id": 27505,
+    "series_name": "Finding Nemo"
+  },
+  {
+    "hub_id": 27506,
+    "series_name": "Fantastic Four"
+  },
+  {
+    "hub_id": 27507,
+    "series_name": "Iron Man"
+  },
+  {
+    "hub_id": 27508,
+    "series_name": "Masters of the Universe"
+  },
+  {
+    "hub_id": 27509,
+    "series_name": "Ed"
+  },
+  {
+    "hub_id": 27510,
+    "series_name": "Dexter's Laboratory"
+  },
+  {
+    "hub_id": 27511,
+    "series_name": "The Powerpuff Girls"
+  },
+  {
+    "hub_id": 27512,
+    "series_name": "Sabrina the Teenage Witch"
+  },
+  {
+    "hub_id": 27513,
+    "series_name": "Knight Rider"
+  },
+  {
+    "hub_id": 27514,
+    "series_name": "Beauty and the Beast"
+  },
+  {
+    "hub_id": 27515,
+    "series_name": "Deception"
+  },
+  {
+    "hub_id": 27516,
+    "series_name": "G.I. Joe"
+  },
+  {
+    "hub_id": 27517,
+    "series_name": "Disney Sports"
+  },
+  {
+    "hub_id": 27520,
+    "series_name": "Warhammer 40K"
+  },
+  {
+    "hub_id": 27521,
+    "series_name": "Over the Hedge"
+  },
+  {
+    "hub_id": 27948,
+    "series_name": "Airforce Delta"
+  },
+  {
+    "hub_id": 27950,
+    "series_name": "Aerowings"
+  },
+  {
+    "hub_id": 27951,
+    "series_name": "Ginga Eiyuu Densetsu"
+  },
+  {
+    "hub_id": 27952,
+    "series_name": "Slayers"
+  },
+  {
+    "hub_id": 27953,
+    "series_name": "Winning Post"
+  },
+  {
+    "hub_id": 27954,
+    "series_name": "3x3 Eyes"
+  },
+  {
+    "hub_id": 27955,
+    "series_name": "Cobra"
+  },
+  {
+    "hub_id": 27956,
+    "series_name": "Ninku"
+  },
+  {
+    "hub_id": 27957,
+    "series_name": "Urusei Yatsura"
+  },
+  {
+    "hub_id": 27958,
+    "series_name": "Nakayoshi Cooking"
+  },
+  {
+    "hub_id": 27959,
+    "series_name": "NBA 2K"
+  },
+  {
+    "hub_id": 27960,
+    "series_name": "Brothers in Arms"
+  },
+  {
+    "hub_id": 27961,
+    "series_name": "Heretic | Hexen"
+  },
+  {
+    "hub_id": 27962,
+    "series_name": "Dead to Rights"
+  },
+  {
+    "hub_id": 27963,
+    "series_name": "Bass Landing"
+  },
+  {
+    "hub_id": 27965,
+    "series_name": "Kindaichi Case Files"
+  },
+  {
+    "hub_id": 27966,
+    "series_name": "Patlabor"
+  },
+  {
+    "hub_id": 27967,
+    "series_name": "Mushihimesama"
+  },
+  {
+    "hub_id": 27970,
+    "series_name": "NiGHTS"
+  },
+  {
+    "hub_id": 27971,
+    "series_name": "Virtua Cop"
+  },
+  {
+    "hub_id": 27972,
+    "series_name": "Kung Fu Panda"
+  },
+  {
+    "hub_id": 27973,
+    "series_name": "Virtua Tennis"
+  },
+  {
+    "hub_id": 27976,
+    "series_name": "Star Force"
+  },
+  {
+    "hub_id": 27978,
+    "series_name": "Conflict"
+  },
+  {
+    "hub_id": 27979,
+    "series_name": "Sengoku"
+  },
+  {
+    "hub_id": 27980,
+    "series_name": "Monster Jam"
+  },
+  {
+    "hub_id": 27981,
+    "series_name": "NBA Live | NBA Playoffs"
+  },
+  {
+    "hub_id": 27982,
+    "series_name": "NFL Quarterback Club"
+  },
+  {
+    "hub_id": 27983,
+    "series_name": "NFL Street"
+  },
+  {
+    "hub_id": 27984,
+    "series_name": "NHL Hitz"
+  },
+  {
+    "hub_id": 27985,
+    "series_name": "Zoids"
+  },
+  {
+    "hub_id": 27986,
+    "series_name": "MLB (Sony)"
+  },
+  {
+    "hub_id": 27987,
+    "series_name": "MLB SlugFest"
+  },
+  {
+    "hub_id": 27988,
+    "series_name": "Defender"
+  },
+  {
+    "hub_id": 27990,
+    "series_name": "Super Real Mahjong"
+  },
+  {
+    "hub_id": 27991,
+    "series_name": "PreCure"
+  },
+  {
+    "hub_id": 27992,
+    "series_name": "Major League Baseball 2K"
+  },
+  {
+    "hub_id": 27993,
+    "series_name": "Rastan"
+  },
+  {
+    "hub_id": 27994,
+    "series_name": "WRC"
+  },
+  {
+    "hub_id": 27995,
+    "series_name": "Black/Matrix"
+  },
+  {
+    "hub_id": 27996,
+    "series_name": "Uchuu Senkan Yamato"
+  },
+  {
+    "hub_id": 27997,
+    "series_name": "Totally Spies!"
+  },
+  {
+    "hub_id": 27998,
+    "series_name": "Lord Monarch"
+  },
+  {
+    "hub_id": 28001,
+    "series_name": "Oni"
+  },
+  {
+    "hub_id": 28002,
+    "series_name": "1500 DS Spirits"
+  },
+  {
+    "hub_id": 28003,
+    "series_name": "NBA (Sony)"
+  },
+  {
+    "hub_id": 28004,
+    "series_name": "Rampart"
+  },
+  {
+    "hub_id": 28006,
+    "series_name": "World Snooker Championship"
+  },
+  {
+    "hub_id": 28007,
+    "series_name": "World Series Baseball"
+  },
+  {
+    "hub_id": 28008,
+    "series_name": "The Idolmaster"
+  },
+  {
+    "hub_id": 28009,
+    "series_name": "Keroro Gunsou"
+  },
+  {
+    "hub_id": 28010,
+    "series_name": "NCAA March Madness"
+  },
+  {
+    "hub_id": 28011,
+    "series_name": "College Hoops"
+  },
+  {
+    "hub_id": 28012,
+    "series_name": "Tom Clancy's Splinter Cell"
+  },
+  {
+    "hub_id": 28014,
+    "series_name": "Tom Clancy's Ghost Recon"
+  },
+  {
+    "hub_id": 28020,
+    "series_name": "Dynasty Warriors"
+  },
+  {
+    "hub_id": 28021,
+    "series_name": "Samurai Warriors"
+  },
+  {
+    "hub_id": 28023,
+    "series_name": "Bonanza Bros. | Puzzle &amp; Action"
+  },
+  {
+    "hub_id": 28024,
+    "series_name": "Phineas and Ferb"
+  },
+  {
+    "hub_id": 28025,
+    "series_name": "Hannah Montana"
+  },
+  {
+    "hub_id": 28026,
+    "series_name": "High School Musical"
+  },
+  {
+    "hub_id": 28028,
+    "series_name": "Pinball Dreams"
+  },
+  {
+    "hub_id": 28031,
+    "series_name": "NHL FaceOff | Gretzky NHL"
+  },
+  {
+    "hub_id": 28032,
+    "series_name": "Captain America"
+  },
+  {
+    "hub_id": 28033,
+    "series_name": "Yogi Bear"
+  },
+  {
+    "hub_id": 28034,
+    "series_name": "The Jetsons"
+  },
+  {
+    "hub_id": 28035,
+    "series_name": "The Wild Thornberrys"
+  },
+  {
+    "hub_id": 28036,
+    "series_name": "Antz"
+  },
+  {
+    "hub_id": 28037,
+    "series_name": "Tonka"
+  },
+  {
+    "hub_id": 28043,
+    "series_name": "EA Sports College Football"
+  },
+  {
+    "hub_id": 29369,
+    "series_name": "Phantasie"
+  },
+  {
+    "hub_id": 29382,
+    "series_name": "Cabbage Patch Kids"
+  },
+  {
+    "hub_id": 29398,
+    "series_name": "Ikki Tousen"
+  },
+  {
+    "hub_id": 29399,
+    "series_name": "Kenka Bancho"
+  },
+  {
+    "hub_id": 29408,
+    "series_name": "Croket!"
+  },
+  {
+    "hub_id": 29409,
+    "series_name": "Infinity"
+  },
+  {
+    "hub_id": 29410,
+    "series_name": "Dunjonquest"
+  },
+  {
+    "hub_id": 29420,
+    "series_name": "Deep Dungeon"
+  },
+  {
+    "hub_id": 29425,
+    "series_name": "Action Man"
+  },
+  {
+    "hub_id": 29466,
+    "series_name": "B-Daman"
+  },
+  {
+    "hub_id": 29467,
+    "series_name": "High Heat Baseball"
+  },
+  {
+    "hub_id": 29471,
+    "series_name": "Top Trumps"
+  },
+  {
+    "hub_id": 29472,
+    "series_name": "Magical Taruruuto-kun"
+  },
+  {
+    "hub_id": 29583,
+    "series_name": "Ottifants"
+  },
+  {
+    "hub_id": 29701,
+    "series_name": "MotoGP"
+  },
+  {
+    "hub_id": 29702,
+    "series_name": "SBK: Superbike World Championship"
+  },
+  {
+    "hub_id": 29727,
+    "series_name": "Boku no Natsuyasumi"
+  },
+  {
+    "hub_id": 29728,
+    "series_name": "Bob the Builder"
+  },
+  {
+    "hub_id": 29737,
+    "series_name": "Populous"
+  },
+  {
+    "hub_id": 29773,
+    "series_name": "Discovery Kids"
+  },
+  {
+    "hub_id": 29799,
+    "series_name": "Honoo no Toukyuuji"
+  },
+  {
+    "hub_id": 29802,
+    "series_name": "Gambler Jiko Chuushinha"
+  },
+  {
+    "hub_id": 29806,
+    "series_name": "Battle of Giants"
+  },
+  {
+    "hub_id": 29818,
+    "series_name": "BoxBoy"
+  },
+  {
+    "hub_id": 29819,
+    "series_name": "Illusion"
+  },
+  {
+    "hub_id": 29831,
+    "series_name": "From the Abyss"
+  },
+  {
+    "hub_id": 29843,
+    "series_name": "Memories Off"
+  },
+  {
+    "hub_id": 29868,
+    "series_name": "Marvel Cinematic Universe"
+  },
+  {
+    "hub_id": 29870,
+    "series_name": "Blood"
+  },
+  {
+    "hub_id": 29899,
+    "series_name": "Castle of Shikigami"
+  },
+  {
+    "hub_id": 29916,
+    "series_name": "Tarzan"
+  },
+  {
+    "hub_id": 29946,
+    "series_name": "FIFA Street"
+  },
+  {
+    "hub_id": 29947,
+    "series_name": "Formula One"
+  },
+  {
+    "hub_id": 29949,
+    "series_name": "NFL"
+  },
+  {
+    "hub_id": 29950,
+    "series_name": "Tecmo Bowl"
+  },
+  {
+    "hub_id": 29951,
+    "series_name": "NBA"
+  },
+  {
+    "hub_id": 29952,
+    "series_name": "NHL"
+  },
+  {
+    "hub_id": 29953,
+    "series_name": "NCAA"
+  },
+  {
+    "hub_id": 29954,
+    "series_name": "NCAA Final Four (989 Studios)"
+  },
+  {
+    "hub_id": 29955,
+    "series_name": "NCAA GameBreaker"
+  },
+  {
+    "hub_id": 29961,
+    "series_name": "History Channel"
+  },
+  {
+    "hub_id": 29962,
+    "series_name": "Playmobil"
+  },
+  {
+    "hub_id": 29965,
+    "series_name": "EA Sports NASCAR"
+  },
+  {
+    "hub_id": 29966,
+    "series_name": "MLB"
+  },
+  {
+    "hub_id": 29986,
+    "series_name": "Brain Age"
+  },
+  {
+    "hub_id": 29988,
+    "series_name": "BlazBlue"
+  },
+  {
+    "hub_id": 29998,
+    "series_name": "Skylanders"
+  },
+  {
+    "hub_id": 30091,
+    "series_name": "Just Dance"
+  },
+  {
+    "hub_id": 30094,
+    "series_name": "Radirgy"
+  },
+  {
+    "hub_id": 30114,
+    "series_name": "Wii"
+  },
+  {
+    "hub_id": 30122,
+    "series_name": "Bravo Music"
+  },
+  {
+    "hub_id": 30133,
+    "series_name": "Yarudora"
+  },
+  {
+    "hub_id": 30139,
+    "series_name": "This Is Football | World Tour Soccer"
+  },
+  {
+    "hub_id": 30141,
+    "series_name": "Paws &amp; Claws"
+  },
+  {
+    "hub_id": 30144,
+    "series_name": "Pachinko Paradise"
+  },
+  {
+    "hub_id": 30145,
+    "series_name": "Castle Conqueror"
+  },
+  {
+    "hub_id": 30146,
+    "series_name": "Chuck E. Cheese"
+  },
+  {
+    "hub_id": 30157,
+    "series_name": "Buck Rogers"
+  },
+  {
+    "hub_id": 30159,
+    "series_name": "Caesars Palace"
+  },
+  {
+    "hub_id": 30160,
+    "series_name": "The Dukes of Hazzard"
+  },
+  {
+    "hub_id": 30174,
+    "series_name": "Mr. Bean"
+  },
+  {
+    "hub_id": 30220,
+    "series_name": "Crush Pinball"
+  },
+  {
+    "hub_id": 30222,
+    "series_name": "Alien Syndrome"
+  },
+  {
+    "hub_id": 30223,
+    "series_name": "Barnyard"
+  },
+  {
+    "hub_id": 30229,
+    "series_name": "Club Penguin"
+  },
+  {
+    "hub_id": 30230,
+    "series_name": "Death Jr."
+  },
+  {
+    "hub_id": 30233,
+    "series_name": "I Spy"
+  },
+  {
+    "hub_id": 30237,
+    "series_name": "Puzz Loop"
+  },
+  {
+    "hub_id": 30239,
+    "series_name": "Mercury"
+  },
+  {
+    "hub_id": 30241,
+    "series_name": "Neopets"
+  },
+  {
+    "hub_id": 30242,
+    "series_name": "OneChanbara"
+  },
+  {
+    "hub_id": 30259,
+    "series_name": "Bibi Blocksberg"
+  },
+  {
+    "hub_id": 30271,
+    "series_name": "Titeuf | Tootuff"
+  },
+  {
+    "hub_id": 30295,
+    "series_name": "iCarly"
+  },
+  {
+    "hub_id": 30304,
+    "series_name": "GI Jockey"
+  },
+  {
+    "hub_id": 30305,
+    "series_name": "America Oudan Ultra Quiz"
+  },
+  {
+    "hub_id": 30316,
+    "series_name": "Kid Paddle"
+  },
+  {
+    "hub_id": 30322,
+    "series_name": "Karaoke Revolution"
+  },
+  {
+    "hub_id": 30337,
+    "series_name": "CSI: Crime Scene Investigation"
+  },
+  {
+    "hub_id": 30338,
+    "series_name": "Mahou Sensei Negima!"
+  },
+  {
+    "hub_id": 30341,
+    "series_name": "Code Lyoko"
+  },
+  {
+    "hub_id": 30345,
+    "series_name": "Alvin and the Chipmunks"
+  },
+  {
+    "hub_id": 30362,
+    "series_name": "Top Spin"
+  },
+  {
+    "hub_id": 30373,
+    "series_name": "Soul Eater"
+  },
+  {
+    "hub_id": 30374,
+    "series_name": "Speed Racer"
+  },
+  {
+    "hub_id": 30388,
+    "series_name": "Mystery Case Files"
+  },
+  {
+    "hub_id": 30392,
+    "series_name": "Kotoba no Puzzle"
+  },
+  {
+    "hub_id": 30396,
+    "series_name": "Carnival Games"
+  },
+  {
+    "hub_id": 30406,
+    "series_name": "Jaws"
+  },
+  {
+    "hub_id": 30417,
+    "series_name": "Myth Makers"
+  },
+  {
+    "hub_id": 30424,
+    "series_name": "Disney Sing It"
+  },
+  {
+    "hub_id": 30428,
+    "series_name": "American Idol"
+  },
+  {
+    "hub_id": 30437,
+    "series_name": "Top Model"
+  },
+  {
+    "hub_id": 30443,
+    "series_name": "Build-A-Bear Workshop"
+  },
+  {
+    "hub_id": 30472,
+    "series_name": "Diner Dash"
+  },
+  {
+    "hub_id": 30495,
+    "series_name": "ZhuZhu Pets"
+  },
+  {
+    "hub_id": 30496,
+    "series_name": "National Geographic"
+  },
+  {
+    "hub_id": 30497,
+    "series_name": "Bass Pro Shops"
+  },
+  {
+    "hub_id": 30498,
+    "series_name": "Remington"
+  },
+  {
+    "hub_id": 30499,
+    "series_name": "Rapala"
+  },
+  {
+    "hub_id": 30500,
+    "series_name": "Sega Bass Fishing"
+  },
+  {
+    "hub_id": 30573,
+    "series_name": "Hasbro Family Game Night"
+  },
+  {
+    "hub_id": 30574,
+    "series_name": "Trivial Pursuit"
+  },
+  {
+    "hub_id": 30575,
+    "series_name": "You Don't Know Jack"
+  },
+  {
+    "hub_id": 30576,
+    "series_name": "Deal or No Deal"
+  },
+  {
+    "hub_id": 30577,
+    "series_name": "Are You Smarter than a 5th Grader?"
+  },
+  {
+    "hub_id": 30578,
+    "series_name": "Formation Soccer"
+  },
+  {
+    "hub_id": 30580,
+    "series_name": "Kawasaki"
+  },
+  {
+    "hub_id": 30583,
+    "series_name": "The Game of Life"
+  },
+  {
+    "hub_id": 30584,
+    "series_name": "PDC World Championship Darts"
+  },
+  {
+    "hub_id": 30585,
+    "series_name": "World Championship Poker"
+  },
+  {
+    "hub_id": 30696,
+    "series_name": "Reader Rabbit"
+  },
+  {
+    "hub_id": 30704,
+    "series_name": "We Sing"
+  },
+  {
+    "hub_id": 30705,
+    "series_name": "The Voice"
+  },
+  {
+    "hub_id": 30708,
+    "series_name": "EA Sports Active"
+  },
+  {
+    "hub_id": 30723,
+    "series_name": "RTL Winter Sports"
+  },
+  {
+    "hub_id": 30724,
+    "series_name": "Wipeout (Game Show)"
+  },
+  {
+    "hub_id": 30734,
+    "series_name": "NRL"
+  },
+  {
+    "hub_id": 30739,
+    "series_name": "Let's Sing"
+  },
+  {
+    "hub_id": 30804,
+    "series_name": "Ojamajo Doremi"
+  },
+  {
+    "hub_id": 30805,
+    "series_name": "Uta no Prince-sama"
+  },
+  {
+    "hub_id": 30827,
+    "series_name": "Midway Arcade Treasures"
+  },
+  {
+    "hub_id": 30829,
+    "series_name": "Dezaemon"
+  },
+  {
+    "hub_id": 30842,
+    "series_name": "HardBall"
+  },
+  {
+    "hub_id": 30871,
+    "series_name": "Valkyrie Profile"
+  },
+  {
+    "hub_id": 30878,
+    "series_name": "Time Bokan"
+  },
+  {
+    "hub_id": 30938,
+    "series_name": "Syberia"
+  },
+  {
+    "hub_id": 30939,
+    "series_name": "Sword World"
+  },
+  {
+    "hub_id": 30981,
+    "series_name": "Crayola"
+  },
+  {
+    "hub_id": 30985,
+    "series_name": "Mahjong Taikai"
+  },
+  {
+    "hub_id": 30997,
+    "series_name": "MeltyLancer"
+  },
+  {
+    "hub_id": 30998,
+    "series_name": "Striker"
+  },
+  {
+    "hub_id": 31001,
+    "series_name": "EVE"
+  },
+  {
+    "hub_id": 31011,
+    "series_name": "Mirumo de Pon!"
+  },
+  {
+    "hub_id": 31019,
+    "series_name": "Soukou Kihei Votoms"
+  },
+  {
+    "hub_id": 31021,
+    "series_name": "EA Sports Rugby"
+  },
+  {
+    "hub_id": 31026,
+    "series_name": "Aa! Megami-sama"
+  },
+  {
+    "hub_id": 31030,
+    "series_name": "Sakigake!! Otokojuku"
+  },
+  {
+    "hub_id": 31036,
+    "series_name": "Burai"
+  },
+  {
+    "hub_id": 31037,
+    "series_name": "The Price Is Right"
+  },
+  {
+    "hub_id": 31049,
+    "series_name": "Cooking Navi"
+  },
+  {
+    "hub_id": 31050,
+    "series_name": "Dino Breeder"
+  },
+  {
+    "hub_id": 31053,
+    "series_name": "Love Hina"
+  },
+  {
+    "hub_id": 31054,
+    "series_name": "Nakayoshi Pet"
+  },
+  {
+    "hub_id": 31055,
+    "series_name": "Nintama Rantarou"
+  },
+  {
+    "hub_id": 31059,
+    "series_name": "Monster Race"
+  },
+  {
+    "hub_id": 31070,
+    "series_name": "Sylvanian Families"
+  },
+  {
+    "hub_id": 31085,
+    "series_name": "Bikkuriman"
+  },
+  {
+    "hub_id": 31086,
+    "series_name": "Gintama"
+  },
+  {
+    "hub_id": 31090,
+    "series_name": "Minna no"
+  },
+  {
+    "hub_id": 31091,
+    "series_name": "Pet Shop Monogatari"
+  },
+  {
+    "hub_id": 31092,
+    "series_name": "Gunpey"
+  },
+  {
+    "hub_id": 31095,
+    "series_name": "Muscle Bomber | Slam Masters"
+  },
+  {
+    "hub_id": 31105,
+    "series_name": "Anpanman"
+  },
+  {
+    "hub_id": 31131,
+    "series_name": "Thunderbirds"
+  },
+  {
+    "hub_id": 31135,
+    "series_name": "Little League Baseball"
+  },
+  {
+    "hub_id": 31136,
+    "series_name": "Kidz Sports"
+  },
+  {
+    "hub_id": 31137,
+    "series_name": "Maximum Racing"
+  },
+  {
+    "hub_id": 31140,
+    "series_name": "Family Trainer"
+  },
+  {
+    "hub_id": 31148,
+    "series_name": "Silent Scope"
+  },
+  {
+    "hub_id": 31173,
+    "series_name": "Pingu"
+  },
+  {
+    "hub_id": 31182,
+    "series_name": "Animal Life"
+  },
+  {
+    "hub_id": 31183,
+    "series_name": "Cosmetic Paradise"
+  },
+  {
+    "hub_id": 31196,
+    "series_name": "Youda"
+  },
+  {
+    "hub_id": 31209,
+    "series_name": "Gokujou!! Mecha Mote Iinchou"
+  },
+  {
+    "hub_id": 31222,
+    "series_name": "Gallop Racer"
+  },
+  {
+    "hub_id": 31223,
+    "series_name": "Knockout Kings"
+  },
+  {
+    "hub_id": 31224,
+    "series_name": "Zorro"
+  },
+  {
+    "hub_id": 31252,
+    "series_name": "Rance"
+  },
+  {
+    "hub_id": 31253,
+    "series_name": "Cool Boarders"
+  },
+  {
+    "hub_id": 31259,
+    "series_name": "Tsuppari Oozumou"
+  },
+  {
+    "hub_id": 31312,
+    "series_name": "Hidden Mysteries"
+  },
+  {
+    "hub_id": 31425,
+    "series_name": "Nectaris"
+  },
+  {
+    "hub_id": 31432,
+    "series_name": "Monster 4x4"
+  },
+  {
+    "hub_id": 31507,
+    "series_name": "Electronic Arts' Theme"
+  },
+  {
+    "hub_id": 31514,
+    "series_name": "Private Idol"
+  },
+  {
+    "hub_id": 31536,
+    "series_name": "Shaun White"
+  },
+  {
+    "hub_id": 31559,
+    "series_name": "Super Chinese"
+  },
+  {
+    "hub_id": 31611,
+    "series_name": "Touge"
+  },
+  {
+    "hub_id": 31617,
+    "series_name": "Ayrton Senna"
+  },
+  {
+    "hub_id": 31714,
+    "series_name": "Project Diva"
+  },
+  {
+    "hub_id": 31736,
+    "series_name": "Shin Nihon Pro Wrestling"
+  }
+]

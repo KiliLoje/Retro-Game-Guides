@@ -1,0 +1,191 @@
+/* ══════════════════════════════════════════════════════════════════════
+   guide_render.css  —  Panel & Component Styles
+   Shared by guide.html (viewer + editor modes).
+   All values use CSS variables defined by the active theme + palette.
+   ══════════════════════════════════════════════════════════════════════ */
+
+/* ── Panel Wrapper ── */
+.gr-panel-wrap { margin-bottom: 14px; }
+
+/* ── Section Card ── */
+.gr-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card, 8px);
+  overflow: hidden;
+  box-shadow: var(--shadow-card, 0 2px 8px rgba(0,0,0,0.08));
+}
+.gr-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: var(--surface2);
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.12s;
+}
+.gr-card-header:hover { background: var(--surface); }
+.gr-card-title {
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--emphasis);
+  flex: 1;
+  min-width: 0;
+}
+.gr-card-toggle {
+  color: var(--textMuted);
+  font-size: 12px;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.gr-card.gr-collapsed .gr-card-toggle { transform: rotate(-90deg); }
+.gr-card-body { padding: 12px 14px; }
+.gr-card.gr-collapsed .gr-card-body { display: none; }
+
+/* ── Infobox ── */
+.gr-infobox {
+  background: var(--surface);
+  border: 1px solid var(--borderL);
+  border-left: 3px solid var(--emphasis);
+  border-radius: 0 var(--radius-input, 5px) var(--radius-input, 5px) 0;
+  padding: 9px 13px;
+  font-size: 12.5px;
+  color: var(--textMid);
+  line-height: 1.65;
+  margin-bottom: 10px;
+}
+.gr-infobox strong { color: var(--text); }
+
+/* ── Text Panel ── */
+.gr-text { font-size: 13px; color: var(--text); line-height: 1.8; }
+.gr-p { margin: 0 0 8px; }
+.gr-p:last-child { margin-bottom: 0; }
+.gr-h3 {
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--emphasis);
+  margin: 12px 0 4px;
+}
+.gr-ul { padding-left: 18px; margin: 4px 0 8px; color: var(--text); }
+.gr-ul li { margin-bottom: 3px; font-size: 13px; }
+.gr-code {
+  font-family: var(--font-mono, monospace);
+  font-size: 11.5px;
+  background: var(--surface2);
+  border: 1px solid var(--borderL);
+  border-radius: 3px;
+  padding: 1px 5px;
+  color: var(--emphasis);
+}
+.gr-internal-link { color: var(--emphasis); text-decoration: underline; cursor: pointer; }
+.gr-link { color: var(--emphasis); }
+
+/* ── Shared Table Wrap ── */
+.gr-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--borderL);
+  border-radius: var(--radius-input, 5px);
+}
+.gr-table-wrap table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.gr-table-wrap th {
+  padding: 6px 10px;
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--emphasis);
+  background: var(--surface2);
+  border-bottom: 2px solid var(--border);
+  text-align: left;
+  white-space: nowrap;
+}
+.gr-table-wrap td {
+  padding: 5px 10px;
+  color: var(--text);
+  border-bottom: 1px solid var(--borderL);
+  vertical-align: top;
+  line-height: 1.5;
+}
+.gr-table-wrap tbody tr:last-child td { border-bottom: none; }
+.gr-table-wrap tbody tr:nth-child(even) td { background: var(--surface); }
+
+/* ── Key-Value ── */
+.gr-kv-table { width: 100%; border-collapse: collapse; }
+.gr-kv-table tr { border-bottom: 1px solid var(--borderL); }
+.gr-kv-table tr:last-child { border-bottom: none; }
+.gr-kv-key {
+  padding: 6px 12px 6px 10px;
+  font-weight: 600;
+  color: var(--textMid);
+  white-space: nowrap;
+  width: 38%;
+  font-size: 12px;
+  vertical-align: top;
+}
+.gr-kv-val { padding: 6px 10px; color: var(--text); font-size: 12.5px; }
+
+/* ── Progress Bar ── */
+.gr-progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: var(--surface);
+  border: 1px solid var(--borderL);
+  border-radius: var(--radius-btn, 6px);
+  margin-bottom: 10px;
+}
+.gr-progress-bar { flex: 1; height: 7px; background: var(--borderL); border-radius: 10px; overflow: hidden; }
+.gr-progress-fill { height: 100%; background: var(--positive); border-radius: 10px; transition: width 0.3s ease; }
+.gr-progress-label { font-family: var(--font-mono, monospace); font-size: 11px; color: var(--textMid); white-space: nowrap; }
+.gr-progress-count { color: var(--positive); font-weight: 700; }
+
+/* ── Checklist ── */
+.gr-check-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.gr-cb-col { width: 36px; text-align: center; }
+.gr-check-num { width: 36px; text-align: center; color: var(--textMid); font-weight: 600; font-size: 11px; }
+.gr-check-row { cursor: pointer; transition: opacity 0.1s; }
+.gr-check-row:nth-child(even) > td { background: var(--bg); }
+.gr-check-row:nth-child(odd)  > td { background: var(--surface); }
+.gr-check-row:hover > td { filter: brightness(1.05); }
+.gr-check-row > td { padding: 5px 10px; border-bottom: 1px solid var(--borderL); vertical-align: middle; color: var(--text); }
+.gr-check-row:last-child > td { border-bottom: none; }
+.gr-check-row.gr-checked > td { background: var(--positiveDim) !important; border-bottom-color: var(--positiveBdr) !important; opacity: 0.52; }
+.gr-check-row.gr-checked .gr-check-cell { text-decoration: line-through; }
+.gr-check-row.gr-checked .gr-check-num { text-decoration: line-through; }
+.gr-checkbox {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 15px; height: 15px;
+  border: 2px solid var(--border);
+  border-radius: 3px;
+  background: transparent;
+  vertical-align: middle;
+  transition: all 0.12s;
+  font-size: 9px; font-weight: 900; color: #fff;
+}
+.gr-checkbox.gr-checked { background: var(--positive); border-color: var(--positive); }
+.gr-check-note { font-size: 10.5px; color: var(--textMuted); margin-top: 1px; }
+.gr-accent { color: var(--emphasis); font-weight: 700; }
+.gr-dim    { font-size: 11px; color: var(--textMid); }
+
+/* ── Cards ── */
+.gr-cards { display: flex; flex-direction: column; gap: 8px; }
+.gr-card-item {
+  background: var(--surface);
+  border: 1px solid var(--borderL);
+  border-radius: var(--radius-card, 8px);
+  padding: 11px 14px;
+}
+.gr-card-name { font-family: var(--font-display, Georgia, serif); font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 5px; }
+.gr-card-row { font-size: 12px; color: var(--textMid); line-height: 1.65; }
+.gr-card-label { font-weight: 600; }
+.gr-card-value { color: var(--text); }
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .gr-card-body { padding: 10px; }
+  .gr-dim { display: none; }
+}

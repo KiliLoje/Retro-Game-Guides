@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Guide</title>
+<link rel="stylesheet" href="guide.css">
+<link rel="stylesheet" href="guide_render.css">
+<link rel="stylesheet" href="builder.css">
+</head>
+<body>
+
+<!-- ── EDITOR CHROME HEADER (editor-only) ── -->
+<header id="editor-header" class="editor-only">
+  <a class="b-back" href="index.html">← Guides</a>
+  <div class="b-header-title">Guide Builder › <strong id="b-header-name">New Guide</strong></div>
+  <div class="b-header-spacer"></div>
+  <button class="b-btn b-btn-ghost" id="b-open-btn">📂 Open Guide</button>
+  <button class="b-btn b-btn-ghost" id="b-meta-btn">⚙ Game Meta</button>
+  <button class="b-btn b-btn-ghost" id="b-index-btn">⬇ Index Entry</button>
+  <button class="b-btn b-btn-primary" id="b-gen-btn">⬇ Generate ZIP</button>
+  <input type="file" id="b-zip-input" accept=".zip" style="display:none">
+</header>
+
+<!-- ── GUIDE HEADER ── -->
+<header id="guide-header">
+  <a class="back-link viewer-only" href="index.html">← Guides</a>
+  <span id="guide-icon">🎮</span>
+  <div class="header-text">
+    <div id="guide-title">Loading…</div>
+    <div id="guide-meta"></div>
+  </div>
+  <!-- viewer controls -->
+  <div class="header-right viewer-only">
+    <span class="storage-badge" id="storage-badge" style="display:none">● saved</span>
+    <button class="display-btn" id="filter-btn" style="display:none" title="Toggle checked item visibility">Show remaining</button>
+    <button class="display-btn" id="clear-btn" title="Clear all progress for this guide">Clear Progress</button>
+    <button class="display-btn" id="display-btn" title="Change display theme">🎨</button>
+  </div>
+  <!-- editor control -->
+  <button class="gp-header-edit editor-only" id="edit-meta-btn">✎ Edit Meta</button>
+</header>
+
+<!-- ── TAB BAR ── -->
+<nav id="tab-bar" role="tablist" aria-label="Guide sections"></nav>
+
+<!-- ── CONTENT ── -->
+<main id="tab-content" role="main">
+  <div class="loading-state">
+    Loading<span class="loading-dot">.</span><span class="loading-dot">.</span><span class="loading-dot">.</span>
+  </div>
+</main>
+
+<!-- ── DISPLAY OVERRIDE SHEET (viewer-only) ── -->
+<div id="do-backdrop" class="viewer-only"></div>
+<div id="do-sheet" class="viewer-only">
+  <div id="do-sheet-handle"></div>
+  <div id="do-sheet-header">
+    <span id="do-sheet-title">Display Preferences</span>
+    <span id="do-current"></span>
+    <button id="do-sheet-close">×</button>
+  </div>
+  <div id="do-sheet-body">
+    <div class="do-section-label">Theme</div>
+    <div class="do-grid" id="do-theme-grid"></div>
+    <div class="do-section-label" style="margin-top:16px">Palette</div>
+    <div class="do-grid" id="do-palette-grid"></div>
+    <div id="do-reset-row">
+      <span id="do-guide-default"></span>
+      <button id="do-reset-btn">Reset to guide default</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── CLEAR PROGRESS MODAL (viewer-only) ── -->
+<div id="clear-backdrop" class="viewer-only">
+  <div id="clear-modal">
+    <div id="clear-modal-title">Clear all progress?</div>
+    <p id="clear-modal-body">This permanently removes all saved checkmarks for this guide. It cannot be undone.</p>
+    <div id="clear-modal-btns">
+      <button id="clear-cancel">Cancel</button>
+      <button id="clear-confirm">Clear Progress</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── EDITOR BOTTOM SHEET (editor-only) ── -->
+<div id="b-backdrop" class="editor-only"></div>
+<div id="b-sheet" class="editor-only">
+  <div id="b-sheet-handle"></div>
+  <div id="b-sheet-header">
+    <span id="b-sheet-title">Sheet</span>
+    <button id="b-sheet-close">×</button>
+  </div>
+  <div id="b-sheet-body"></div>
+  <div id="b-sheet-footer">
+    <button class="b-btn b-btn-ghost" id="b-sheet-cancel">Cancel</button>
+    <button class="b-btn b-btn-primary" id="b-sheet-confirm">Save</button>
+  </div>
+</div>
+
+<script src="guide_render.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="guide_engine.js"></script>
+<script src="builder.js"></script>
+<script src="builder_forms.js"></script>
+</body>
+</html>

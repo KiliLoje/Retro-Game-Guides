@@ -1,0 +1,182 @@
+{
+  "label": "🧶 Yarn, Honey & Perfume",
+  "panels": [
+    {
+      "id": "p_yarn_dyed",
+      "panelType": "table",
+      "title": "Dyed Yarn — Sale Prices",
+      "infobox": "💡 Blue dye is always the most profitable. Never dye Shining Silk Yarn to any color except Blue — all others result in a net loss. Shining Wool Yarn dyed Yellow is also a loss.",
+      "columns": [
+        "Color",
+        "Wool Yarn",
+        "Flax Yarn",
+        "Silk Yarn",
+        "Dyeing Ingredients"
+      ],
+      "rows": [
+        [
+          "🔵 Blue",
+          "930G",
+          "1,080G",
+          "2,100G ★",
+          "Morning Glory, Blue Mist, Blue Herb"
+        ],
+        [
+          "🔴 Red",
+          "620G",
+          "720G",
+          "1,400G",
+          "Tulip, Hibiscus, Rose, Cosmos, Red Herb, Anemone"
+        ],
+        [
+          "🟣 Purple",
+          "560G",
+          "650G",
+          "1,260G",
+          "Lavender, Pinkcat, Begonia, Purple Herb"
+        ],
+        [
+          "🟢 Green",
+          "530G",
+          "610G",
+          "1,190G",
+          "Green Bell, Green Herb"
+        ],
+        [
+          "🟡 Yellow",
+          "500G",
+          "580G",
+          "1,120G",
+          "Hyacinth, Pansy, Sunflower, Lily, Chrysanthemum, Snowflake, Yellow Herb"
+        ],
+        [
+          "⬜ Undyed Wool",
+          "250/310/430/620G",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "⬜ Undyed Silk",
+          "420/700/980/1,400G",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "⬜ Undyed Flax",
+          "220/360/500/720G",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "id": "p_yarn_honey",
+      "panelType": "table",
+      "title": "Honey",
+      "infobox": "Honey appears randomly from flowers on your farm. Water flowers daily even after full growth. Royal Jelly is also used in Cold Medicine — the only honey that works in that recipe.",
+      "columns": [
+        "Type",
+        "Sale Price",
+        "Stamina",
+        "Source Flowers"
+      ],
+      "rows": [
+        [
+          "Decent Honey",
+          "90G",
+          "+100",
+          "Any flower"
+        ],
+        [
+          "Yellow Honey",
+          "250G",
+          "+150",
+          "Hyacinth, Pansy, Sunflower, Lily, Chrysanthemum, Snowflake"
+        ],
+        [
+          "Purple Honey",
+          "300G",
+          "+150",
+          "Lavender, Pinkcat, Begonia"
+        ],
+        [
+          "Red Honey",
+          "330G",
+          "+150",
+          "Tulip, Hibiscus, Rose, Cosmos, Anemone — **Rainbow 5 ingredient**"
+        ],
+        [
+          "Blue Honey",
+          "500G ★",
+          "+150",
+          "Morning Glory, Blue Mist — highest value honey"
+        ],
+        [
+          "Royal Jelly",
+          "450G",
+          "+500",
+          "Any flower — also the **Cold Medicine ingredient**"
+        ]
+      ]
+    },
+    {
+      "id": "p_yarn_perfume",
+      "panelType": "table",
+      "title": "Perfume",
+      "infobox": "Perfume is made in the Mixer with two flowers. Rule: same flower type → colored perfume. Mix with Blue Mist and total flower value > 500G → Shining Perfume. Blue Perfume (2× Blue Mist) is almost always more profitable than Shining Perfume.",
+      "columns": [
+        "Type",
+        "Sale Price",
+        "Buy Price",
+        "Recipe"
+      ],
+      "rows": [
+        [
+          "Decent Perfume",
+          "100G",
+          "—",
+          "Any two flowers with combined value < 500G"
+        ],
+        [
+          "Yellow Perfume",
+          "160G",
+          "240G (Flower Festival)",
+          "2× Moondrop"
+        ],
+        [
+          "Purple Perfume",
+          "170G",
+          "—",
+          "2× Lavender"
+        ],
+        [
+          "Red Perfume",
+          "210G",
+          "315G (Flower Festival)",
+          "2× Rose"
+        ],
+        [
+          "Green Perfume",
+          "290G",
+          "—",
+          "2× Green Bell"
+        ],
+        [
+          "Blue Perfume",
+          "1,210G ★",
+          "1,815G (Flower Festival)",
+          "2× Blue Mist"
+        ],
+        [
+          "Shining Perfume",
+          "1,030G",
+          "—",
+          "Any two flowers including ≥1 Blue Mist with total value > 500G"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "label": "🌾 Farming",
+  "panels": [
+    {
+      "id": "p_farm_intro",
+      "panelType": "text",
+      "title": "Farming Overview",
+      "content": "Check off crops as you grow them — useful for tracking the **Every Crop** and **Full Bloom** achievements.\n\n- **Re-growing crops** continue to produce after harvest each season; plant early for best value.\n- **Flowers** don't have quality tiers — only one sale price.\n- All tree seeds are available year-round from Souffle Farm or Taylor's Seeds (call 881).\n- **Days shown** are for Good quality soil. Decent soil adds 1–2 days; Good is standard."
+    },
+    {
+      "id": "p_farm_spring",
+      "panelType": "checklist",
+      "title": "🌸 Spring Crops, Flowers & Herbs",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Type",
+          "style": "plain"
+        },
+        {
+          "key": "seed",
+          "label": "Seed",
+          "style": "accent"
+        },
+        {
+          "key": "sale",
+          "label": "Sale D/G/P/S",
+          "style": "accent"
+        },
+        {
+          "key": "days",
+          "label": "Days (G)",
+          "style": "dim"
+        },
+        {
+          "key": "regrow",
+          "label": "Regrow",
+          "style": "dim"
+        }
+      ],
+      "entry_Crop": [
+        {
+          "id": "i_crop_sp_turnip",
+          "name": "Turnip",
+          "type": "Crop",
+          "seed": "60G",
+          "sale": "50/60/70/120",
+          "days": "5",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_sp_potato",
+          "name": "Potato",
+          "type": "Crop",
+          "seed": "75G",
+          "sale": "60/70/80/140",
+          "days": "4",
+          "regrow": "—",
+          "note": "Can't eat raw"
+        },
+        {
+          "id": "i_crop_sp_cabbage",
+          "name": "Cabbage",
+          "type": "Crop",
+          "seed": "135G",
+          "sale": "80/130/180/260",
+          "days": "7",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_sp_flax",
+          "name": "Flax",
+          "type": "Crop",
+          "seed": "120G",
+          "sale": "50/60/70/120",
+          "days": "6",
+          "regrow": "—",
+          "note": "Makes Flax Yarn"
+        },
+        {
+          "id": "i_crop_sp_straw",
+          "name": "Strawberry",
+          "type": "Crop",
+          "seed": "600G",
+          "sale": "130/210/290/420",
+          "days": "11",
+          "regrow": "5",
+          "note": "Best Spring crop"
+        },
+        {
+          "id": "i_crop_sp_bread",
+          "name": "Breadfruit",
+          "type": "Crop",
+          "seed": "210G",
+          "sale": "70/90/110/180",
+          "days": "7",
+          "regrow": "4",
+          "note": "Used in many baked goods"
+        },
+        {
+          "id": "i_crop_sp_hyacinth",
+          "name": "Hyacinth",
+          "type": "Flower",
+          "seed": "75G",
+          "sale": "80/—/—/—",
+          "days": "7",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_sp_lavender",
+          "name": "Lavender",
+          "type": "Flower",
+          "seed": "60G",
+          "sale": "50/—/—/—",
+          "days": "5",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_sp_moondrop",
+          "name": "Moondrop",
+          "type": "Flower",
+          "seed": "75G",
+          "sale": "40/—/—/—",
+          "days": "5",
+          "regrow": "—",
+          "note": "Makes Yellow Perfume"
+        },
+        {
+          "id": "i_crop_sp_tulip",
+          "name": "Tulip",
+          "type": "Flower",
+          "seed": "90G",
+          "sale": "60/—/—/—",
+          "days": "6",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_sp_gherb",
+          "name": "Green Herb",
+          "type": "Herb",
+          "seed": "105G",
+          "sale": "30/—/—/—",
+          "days": "5",
+          "regrow": "—",
+          "note": "Goddess Quest ingredient; makes Green Yarn"
+        }
+      ]
+    },
+    {
+      "id": "p_farm_summer",
+      "panelType": "checklist",
+      "title": "☀️ Summer Crops, Flowers & Herbs",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Type",
+          "style": "plain"
+        },
+        {
+          "key": "seed",
+          "label": "Seed",
+          "style": "accent"
+        },
+        {
+          "key": "sale",
+          "label": "Sale D/G/P/S",
+          "style": "accent"
+        },
+        {
+          "key": "days",
+          "label": "Days (G)",
+          "style": "dim"
+        },
+        {
+          "key": "regrow",
+          "label": "Regrow",
+          "style": "dim"
+        }
+      ],
+      "entry_Crop": [
+        {
+          "id": "i_crop_su_cocoa",
+          "name": "Cocoa",
+          "type": "Crop",
+          "seed": "225G",
+          "sale": "120/150/180/300",
+          "days": "8",
+          "regrow": "4",
+          "note": "Seeds only on Toucan Island"
+        },
+        {
+          "id": "i_crop_su_corn",
+          "name": "Corn",
+          "type": "Crop",
+          "seed": "210G",
+          "sale": "100/120/140/240",
+          "days": "9",
+          "regrow": "4"
+        },
+        {
+          "id": "i_crop_su_honeydew",
+          "name": "Honeydew",
+          "type": "Crop",
+          "seed": "735G",
+          "sale": "200/330/460/660",
+          "days": "9",
+          "regrow": "—",
+          "note": "Goddess Quest ingredient"
+        },
+        {
+          "id": "i_crop_su_onion",
+          "name": "Onion",
+          "type": "Crop",
+          "seed": "75G",
+          "sale": "60/70/80/140",
+          "days": "5",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_su_tomato",
+          "name": "Tomato",
+          "type": "Crop",
+          "seed": "225G",
+          "sale": "90/110/130/220",
+          "days": "7",
+          "regrow": "4",
+          "note": "Goddess Quest ingredient"
+        },
+        {
+          "id": "i_crop_su_watermelon",
+          "name": "Watermelon",
+          "type": "Crop",
+          "seed": "480G",
+          "sale": "110/180/250/360",
+          "days": "7",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_su_begonia",
+          "name": "Begonia",
+          "type": "Flower",
+          "seed": "75G",
+          "sale": "50/—/—/—",
+          "days": "5",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_su_hibiscus",
+          "name": "Hibiscus",
+          "type": "Flower",
+          "seed": "90G",
+          "sale": "80/—/—/—",
+          "days": "7",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_su_lily",
+          "name": "Lily",
+          "type": "Flower",
+          "seed": "120G",
+          "sale": "70/—/—/—",
+          "days": "6",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_su_pansy",
+          "name": "Pansy",
+          "type": "Flower",
+          "seed": "60G",
+          "sale": "30/—/—/—",
+          "days": "5",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_su_pinkcat",
+          "name": "Pinkcat",
+          "type": "Flower",
+          "seed": "60G",
+          "sale": "50/—/—/—",
+          "days": "5",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_su_sunflower",
+          "name": "Sunflower",
+          "type": "Flower",
+          "seed": "75G",
+          "sale": "70/—/—/—",
+          "days": "6",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_su_bherb",
+          "name": "Blue Herb",
+          "type": "Herb",
+          "seed": "120G",
+          "sale": "70/—/—/—",
+          "days": "5",
+          "regrow": "—",
+          "note": "Makes Blue Yarn — highest value dye"
+        }
+      ]
+    },
+    {
+      "id": "p_farm_fall",
+      "panelType": "checklist",
+      "title": "🍂 Fall Crops, Flowers & Herbs",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Type",
+          "style": "plain"
+        },
+        {
+          "key": "seed",
+          "label": "Seed",
+          "style": "accent"
+        },
+        {
+          "key": "sale",
+          "label": "Sale D/G/P/S",
+          "style": "accent"
+        },
+        {
+          "key": "days",
+          "label": "Days (G)",
+          "style": "dim"
+        },
+        {
+          "key": "regrow",
+          "label": "Regrow",
+          "style": "dim"
+        }
+      ],
+      "entry_Crop": [
+        {
+          "id": "i_crop_fa_bellpepper",
+          "name": "Bell Pepper",
+          "type": "Crop",
+          "seed": "90G",
+          "sale": "60/70/80/140",
+          "days": "6",
+          "regrow": "3"
+        },
+        {
+          "id": "i_crop_fa_carrot",
+          "name": "Carrot",
+          "type": "Crop",
+          "seed": "60G",
+          "sale": "80/100/120/200",
+          "days": "6",
+          "regrow": "—",
+          "note": "Goddess Quest ingredient"
+        },
+        {
+          "id": "i_crop_fa_eggplant",
+          "name": "Eggplant",
+          "type": "Crop",
+          "seed": "285G",
+          "sale": "100/120/140/240",
+          "days": "8",
+          "regrow": "4",
+          "note": "Goddess Quest ingredient"
+        },
+        {
+          "id": "i_crop_fa_pumpkin",
+          "name": "Pumpkin",
+          "type": "Crop",
+          "seed": "195G",
+          "sale": "130/160/190/320",
+          "days": "8",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_fa_rice",
+          "name": "Rice",
+          "type": "Crop",
+          "seed": "120G",
+          "sale": "50/90/130/180",
+          "days": "5",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_fa_spicy",
+          "name": "Spicy Pepper",
+          "type": "Crop",
+          "seed": "30G",
+          "sale": "60/70/80/140",
+          "days": "5",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_fa_spinach",
+          "name": "Spinach",
+          "type": "Crop",
+          "seed": "75G",
+          "sale": "60/80/100/160",
+          "days": "5",
+          "regrow": "—",
+          "note": "Goddess Quest ingredient"
+        },
+        {
+          "id": "i_crop_fa_yam",
+          "name": "Yam",
+          "type": "Crop",
+          "seed": "135G",
+          "sale": "50/90/120/170",
+          "days": "8",
+          "regrow": "4"
+        },
+        {
+          "id": "i_crop_fa_bluemist",
+          "name": "Blue Mist",
+          "type": "Flower",
+          "seed": "525G",
+          "sale": "320/—/—/—",
+          "days": "13",
+          "regrow": "—",
+          "note": "Most valuable flower; blue dye + perfume + Rainbow 5"
+        },
+        {
+          "id": "i_crop_fa_chrysanth",
+          "name": "Chrysanthemum",
+          "type": "Flower",
+          "seed": "60G",
+          "sale": "50/—/—/—",
+          "days": "6",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_fa_cosmos",
+          "name": "Cosmos",
+          "type": "Flower",
+          "seed": "75G",
+          "sale": "50/—/—/—",
+          "days": "5",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_fa_mglory",
+          "name": "Morning Glory",
+          "type": "Flower",
+          "seed": "75G",
+          "sale": "90/—/—/—",
+          "days": "7",
+          "regrow": "—"
+        },
+        {
+          "id": "i_crop_fa_rose",
+          "name": "Rose",
+          "type": "Flower",
+          "seed": "105G",
+          "sale": "100/—/—/—",
+          "days": "7",
+          "regrow": "—",
+          "note": "Makes Red Perfume; Rainbow 5 honey"
+        },
+        {
+          "id": "i_crop_fa_pherb",
+          "name": "Purple Herb",
+          "type": "Herb",
+          "seed": "135G",
+          "sale": "60/—/—/—",
+          "days": "5",
+          "regrow": "—",
+          "note": "Ingredient in Bodigizer XL"
+        },
+        {
+          "id": "i_crop_fa_rherb",
+          "name": "Red Herb",
+          "type": "Herb",
+          "seed": "135G",
+          "sale": "50/—/—/—",
+          "days": "5",
+          "regrow": "—",
+          "note": "Ingredient in Bodigizer"
+        }
+      ]
+    },
+    {
+      "id": "p_farm_winter",
+      "panelType": "checklist",
+      "title": "❄️ Winter Crops, Flowers & Herbs",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Type",
+          "style": "plain"
+        },
+        {
+          "key": "seed",
+          "label": "Seed",
+          "style": "accent"
+        },
+        {
+          "key": "sale",
+          "label": "Sale D/G/P/S",
+          "style": "accent"
+        },
+        {
+          "key": "days",
+          "label": "Days (G)",
+          "style": "dim"
+        },
+        {
+          "key": "regrow",
+          "label": "Regrow",
+          "style": "dim"
+        }
+      ],
+      "entry_Crop": [
+        {
+          "id": "i_crop_wi_buckwheat",
+          "name": "Buckwheat",
+          "type": "Crop",
+          "seed": "150G",
+          "sale": "50/80/110/160",
+          "days": "5",
+          "regrow": "—",
+          "note": "Only Winter crop"
+        },
+        {
+          "id": "i_crop_wi_anemone",
+          "name": "Anemone",
+          "type": "Flower",
+          "seed": "90G",
+          "sale": "30/—/—/—",
+          "days": "6",
+          "regrow": "—",
+          "note": "Alan's Rainbow honey"
+        },
+        {
+          "id": "i_crop_wi_greenbell",
+          "name": "Green Bell",
+          "type": "Flower",
+          "seed": "165G",
+          "sale": "70/—/—/—",
+          "days": "6",
+          "regrow": "—",
+          "note": "Rainbow 4 ingredient; ★ Alan's"
+        },
+        {
+          "id": "i_crop_wi_snowflake",
+          "name": "Snowflake",
+          "type": "Flower",
+          "seed": "150G",
+          "sale": "80/—/—/—",
+          "days": "6",
+          "regrow": "—",
+          "note": "Rainbow 5 ingredient; ★ Edge's"
+        },
+        {
+          "id": "i_crop_wi_yherb",
+          "name": "Yellow Herb",
+          "type": "Herb",
+          "seed": "120G",
+          "sale": "40/—/—/—",
+          "days": "6",
+          "regrow": "—",
+          "note": "Makes Yellow Yarn"
+        }
+      ]
+    },
+    {
+      "id": "p_farm_trees",
+      "panelType": "checklist",
+      "title": "🌳 Fruit Trees",
+      "infobox": "Tree seeds are available year-round. Trees take one full year to grow before first harvest.",
+      "columns": [
+        {
+          "key": "season",
+          "label": "Harvest",
+          "style": "accent"
+        },
+        {
+          "key": "sale",
+          "label": "Sale R/S",
+          "style": "accent"
+        },
+        {
+          "key": "buy",
+          "label": "Buy Price",
+          "style": "dim"
+        }
+      ],
+      "entry_Fruit/Nut": [
+        {
+          "id": "i_tree_apple",
+          "name": "Apple",
+          "season": "Fall",
+          "sale": "150/300",
+          "buy": "570G",
+          "note": "Rainbow 1 ingredient"
+        },
+        {
+          "id": "i_tree_cherry",
+          "name": "Cherry (Mora)",
+          "season": "Spring",
+          "sale": "210/420",
+          "buy": "450G"
+        },
+        {
+          "id": "i_tree_chestnut",
+          "name": "Chestnut",
+          "season": "Fall",
+          "sale": "80/150",
+          "buy": "525G"
+        },
+        {
+          "id": "i_tree_grape",
+          "name": "Grape",
+          "season": "Fall",
+          "sale": "140/280",
+          "buy": "555G"
+        },
+        {
+          "id": "i_tree_orange",
+          "name": "Orange",
+          "season": "Summer",
+          "sale": "130/260",
+          "buy": "540G"
+        },
+        {
+          "id": "i_tree_hali",
+          "name": "Hali (Lumber)",
+          "season": "—",
+          "sale": "—",
+          "buy": "300G",
+          "note": "Lumber only — no fruit"
+        }
+      ]
+    },
+    {
+      "id": "p_farm_soil",
+      "panelType": "table",
+      "title": "Soil Quality → Crop Quality Distribution",
+      "columns": [
+        "Soil Type",
+        "% Decent",
+        "% Good",
+        "% Perfect",
+        "% Shining"
+      ],
+      "rows": [
+        [
+          "Poor",
+          "70%",
+          "26%",
+          "4%",
+          "0%"
+        ],
+        [
+          "Decent",
+          "0%",
+          "80%",
+          "18%",
+          "2%"
+        ],
+        [
+          "Good",
+          "0%",
+          "30%",
+          "64%",
+          "6%"
+        ]
+      ]
+    },
+    {
+      "id": "p_farm_fert",
+      "panelType": "table",
+      "title": "Fertilizer",
+      "infobox": "💡 Regular fertilizer is never more cost-effective than Rapid or Happy. Buy Happy Fertilizer at the Flower Festival early on.",
+      "columns": [
+        "Type",
+        "Cost",
+        "Effect",
+        "Duration",
+        "Available At"
+      ],
+      "rows": [
+        [
+          "Regular Fertilizer",
+          "90G",
+          "Raises soil +1 level (Poor→Decent→Good)",
+          "~1 season",
+          "Souffle Farm (★★)"
+        ],
+        [
+          "Rapid Fertilizer",
+          "180G",
+          "Raises soil to Good from any level",
+          "~2 seasons",
+          "Souffle Farm (★★★)"
+        ],
+        [
+          "Happy Fertilizer",
+          "225G",
+          "Raises soil to Good from any level",
+          "~3 seasons",
+          "Souffle Farm (★★★); Flower Festival (Spring 10)"
+        ]
+      ]
+    },
+    {
+      "id": "p_farm_unlocks",
+      "panelType": "table",
+      "title": "Shop Unlock Thresholds",
+      "columns": [
+        "Shop",
+        "Unlock Condition",
+        "New Access"
+      ],
+      "rows": [
+        [
+          "Brownie Ranch",
+          "Auto: Spring 28 (Animal Festival) OR Level 3 Hammer",
+          "Animal purchases, animal tools"
+        ],
+        [
+          "Souffle Farm (★★)",
+          "Sell 5,000G of crops",
+          "Fertilizer (Regular), more seeds"
+        ],
+        [
+          "Souffle Farm (★★★)",
+          "Sell 10,000G total crops",
+          "Fertilizer (Rapid/Happy), more seeds"
+        ],
+        [
+          "Brownie Ranch (★★)",
+          "Sell 5,000G of animal products",
+          "Horses, Goats"
+        ],
+        [
+          "Brownie Ranch (★★★)",
+          "Sell 10,000G of animal products",
+          "Ducks, Ostriches"
+        ],
+        [
+          "General Store",
+          "Ship non-crop, non-ranch items (mine products etc.)",
+          "New books at higher levels"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "storagePrefix": "2919_",
+  "subtitle": "Reference guide — progress saved in your browser",
+  "theme": "clean",
+  "palette": "parchment",
+  "primaryName": "Harvest Moon: Hero of Leaf Valley",
+  "primarySystem": "PSP",
+  "altSystems": [],
+  "altNames": ["Bokujō Monogatari: Ohayō! Minato no Machi"],
+  "series": "Harvest Moon",
+  "year": 2007,
+  "icon": "🌾",
+  "author": "BigDonRob",
+  "tabs": [
+    {"num": "01","label": "💰 Sales"},
+    {"num": "02","label": "🍳 Recipes"},
+    {"num": "03","label": "📋 Basics"},
+    {"num": "04","label": "🌾 Farming"},
+    {"num": "05","label": "🎣 Fishing"},
+    {"num": "06","label": "⛏️ Mining"},
+    {"num": "07","label": "🐄 Ranch & Jobs"},
+    {"num": "08","label": "🏘️ Shops"},
+    {"num": "09","label": "👥 People"}
+  ]
+}

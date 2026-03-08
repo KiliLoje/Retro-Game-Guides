@@ -1,0 +1,1024 @@
+{
+  "label": "🍳 Recipes",
+  "panels": [
+    {
+      "id": "recipes_info",
+      "panelType": "text",
+      "title": "🍳 Cooking",
+      "infobox": "Requires Kitchen upgrade (10,000G + 50 lumber, needs 1 prior expansion). Max 3 ingredients per recipe. Upgrade utensils at Louis' shop for more capacity.",
+      "content": "Cook at your Kitchen using the Pot, Frying Pan, Oven, or Mixer. Cooked dishes sell at the Bar (evenings), Café (daytime), or Ronald's Grocery."
+    },
+    {
+      "id": "recipes_pot",
+      "panelType": "checklist",
+      "title": "🥘 Pot",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Sells",
+          "style": "accent"
+        },
+        {
+          "key": "ing",
+          "label": "Ingredients",
+          "style": "plain"
+        }
+      ],
+      "entry_Recipe": [
+        {
+          "id": "p1",
+          "name": "Strawberry Jam",
+          "price": "160G",
+          "ing": "Strawberry ×3"
+        },
+        {
+          "id": "p2",
+          "name": "Cranberry Jam",
+          "price": "100G",
+          "ing": "Cranberry ×3"
+        },
+        {
+          "id": "p3",
+          "name": "Blueberry Jam",
+          "price": "100G",
+          "ing": "Blueberry ×3"
+        },
+        {
+          "id": "p4",
+          "name": "Veryberry Jam",
+          "price": "140G",
+          "ing": "Veryberry ×3"
+        },
+        {
+          "id": "p5",
+          "name": "Mixed Jam",
+          "price": "110G",
+          "ing": "Veryberry + Blueberry + Cranberry"
+        },
+        {
+          "id": "p6",
+          "name": "Orange Marmalade",
+          "price": "130G",
+          "ing": "Orange ×3"
+        },
+        {
+          "id": "p7",
+          "name": "Apple Jam",
+          "price": "120G",
+          "ing": "Apple ×3"
+        },
+        {
+          "id": "p8",
+          "name": "Cheese",
+          "price": "500G",
+          "ing": "Milk S×3 / Milk M×2 / Milk L×1"
+        },
+        {
+          "id": "p9",
+          "name": "Cheese Risotto",
+          "price": "600G",
+          "ing": "Rice + Olive Oil + Cheese"
+        },
+        {
+          "id": "p10",
+          "name": "Hot Milk",
+          "price": "180G",
+          "ing": "Milk S"
+        },
+        {
+          "id": "p11",
+          "name": "Yogurt",
+          "price": "350G",
+          "ing": "Milk S×2 / Milk M×1"
+        },
+        {
+          "id": "p12",
+          "name": "Fine Cheese",
+          "price": "600G",
+          "ing": "Milk G"
+        },
+        {
+          "id": "p13",
+          "name": "Onion Soup",
+          "price": "100G",
+          "ing": "Onion"
+        },
+        {
+          "id": "p14",
+          "name": "Gazpacho",
+          "price": "200G",
+          "ing": "Tomato + Onion + Olive Oil"
+        },
+        {
+          "id": "p15",
+          "name": "Cream of Mushroom Soup",
+          "price": "250G",
+          "ing": "Mushroom (any) + Milk (any)"
+        },
+        {
+          "id": "p16",
+          "name": "Mushroom and Rice",
+          "price": "330G",
+          "ing": "Mushroom (any) + Rice"
+        },
+        {
+          "id": "p17",
+          "name": "Carrot Soup",
+          "price": "230G",
+          "ing": "Carrot + Milk (any)"
+        },
+        {
+          "id": "p18",
+          "name": "Chestnut and Rice",
+          "price": "220G",
+          "ing": "Rice + Chestnut"
+        },
+        {
+          "id": "p19",
+          "name": "Cream of Corn Soup",
+          "price": "190G",
+          "ing": "Corn + Milk (any)"
+        },
+        {
+          "id": "p20",
+          "name": "Tomato Cream Soup",
+          "price": "180G",
+          "ing": "Tomato + Milk (any)"
+        },
+        {
+          "id": "p21",
+          "name": "Porridge",
+          "price": "210G",
+          "ing": "Potato + Milk (any)"
+        },
+        {
+          "id": "p22",
+          "name": "Stew",
+          "price": "300G",
+          "ing": "Milk (any) + Butter"
+        },
+        {
+          "id": "p23",
+          "name": "Croquette",
+          "price": "250G",
+          "ing": "Potato + Olive Oil + Breadfruit"
+        },
+        {
+          "id": "p24",
+          "name": "Buttered Potato",
+          "price": "260G",
+          "ing": "Potato + Butter"
+        },
+        {
+          "id": "p25",
+          "name": "Tomato Risotto",
+          "price": "280G",
+          "ing": "Tomato + Rice + Olive Oil"
+        },
+        {
+          "id": "p26",
+          "name": "Pumpkin Soup",
+          "price": "240G",
+          "ing": "Pumpkin + Milk (any)"
+        },
+        {
+          "id": "p27",
+          "name": "Steamed Gold Potato",
+          "price": "210G",
+          "ing": "Gold Potato"
+        },
+        {
+          "id": "p28",
+          "name": "Spinach Risotto",
+          "price": "310G",
+          "ing": "Rice + Spinach + Olive Oil"
+        },
+        {
+          "id": "p29",
+          "name": "French Fries",
+          "price": "360G",
+          "ing": "Potato + Olive Oil"
+        },
+        {
+          "id": "p30",
+          "name": "Mashed Potato",
+          "price": "90G",
+          "ing": "Potato"
+        },
+        {
+          "id": "p31",
+          "name": "Minestrone",
+          "price": "200G",
+          "ing": "Tomato + Onion"
+        },
+        {
+          "id": "p32",
+          "name": "Boiled Corn",
+          "price": "80G",
+          "ing": "Corn"
+        },
+        {
+          "id": "p33",
+          "name": "Egg Custard",
+          "price": "290G",
+          "ing": "Mushroom + Fullmoon Berry + Egg"
+        },
+        {
+          "id": "p34",
+          "name": "Monkfish Stew",
+          "price": "310G",
+          "ing": "Monkfish + any Vegetable"
+        },
+        {
+          "id": "p35",
+          "name": "Fried Squid",
+          "price": "180G",
+          "ing": "Squid + Breadfruit"
+        },
+        {
+          "id": "p36",
+          "name": "Squid Rice",
+          "price": "220G",
+          "ing": "Squid + Rice"
+        },
+        {
+          "id": "p37",
+          "name": "Chicken Grunt Vinegar",
+          "price": "330G",
+          "ing": "Chicken Grunt + Miso + Herb"
+        },
+        {
+          "id": "p38",
+          "name": "Fried Huchen",
+          "price": "350G",
+          "ing": "Huchen + Breadfruit + Olive Oil"
+        },
+        {
+          "id": "p39",
+          "name": "Marinated Sardines",
+          "price": "290G",
+          "ing": "Sardine + Olive Oil"
+        },
+        {
+          "id": "p40",
+          "name": "Pickled Char",
+          "price": "200G",
+          "ing": "Char + Rice"
+        },
+        {
+          "id": "p41",
+          "name": "Porgy and Rice",
+          "price": "270G",
+          "ing": "Porgy + Rice"
+        },
+        {
+          "id": "p42",
+          "name": "Fried Shrimp",
+          "price": "330G",
+          "ing": "Shrimp + Breadfruit + Olive Oil"
+        },
+        {
+          "id": "p43",
+          "name": "Canh Chua",
+          "price": "280G",
+          "ing": "Blotch Snakehead + Tomato + G.Herb"
+        },
+        {
+          "id": "p44",
+          "name": "Fried Leatherfish",
+          "price": "200G",
+          "ing": "Leatherfish + Breadfruit"
+        },
+        {
+          "id": "p45",
+          "name": "Grouper Stew",
+          "price": "340G",
+          "ing": "Kelp Bass + Potato or Carrot"
+        },
+        {
+          "id": "p46",
+          "name": "Clam Chowder",
+          "price": "280G",
+          "ing": "Clam + Milk (any)"
+        },
+        {
+          "id": "p47",
+          "name": "Marinated Salmon",
+          "price": "280G",
+          "ing": "Salmon + Olive Oil"
+        },
+        {
+          "id": "p48",
+          "name": "Salmon Cream Stew",
+          "price": "330G",
+          "ing": "Milk (any) + Butter + Salmon"
+        },
+        {
+          "id": "p49",
+          "name": "Miso Mackerel",
+          "price": "280G",
+          "ing": "Miso + Mackerel"
+        },
+        {
+          "id": "p50",
+          "name": "Spanish Mackerel (dish)",
+          "price": "360G",
+          "ing": "Mackerel + Spinach + Shrimp"
+        },
+        {
+          "id": "p51",
+          "name": "Pike Rice",
+          "price": "?",
+          "ing": "Pike + Rice"
+        },
+        {
+          "id": "p52",
+          "name": "Seafood Stew",
+          "price": "350G",
+          "ing": "Milk (any) + Butter + Fish (any)"
+        },
+        {
+          "id": "p53",
+          "name": "Seafood Risotto",
+          "price": "360G",
+          "ing": "Rice + Olive Oil + Fish (any)"
+        },
+        {
+          "id": "p54",
+          "name": "Marinated Octopus",
+          "price": "360G",
+          "ing": "Octopus + Olive Oil"
+        },
+        {
+          "id": "p55",
+          "name": "Cod Soup",
+          "price": "340G",
+          "ing": "Cod + Miso + Carrot"
+        },
+        {
+          "id": "p56",
+          "name": "Dark Sleeper Stew",
+          "price": "320G",
+          "ing": "Vegetable + Miso + Dark Sleeper"
+        },
+        {
+          "id": "p57",
+          "name": "Marinated Herring",
+          "price": "270G",
+          "ing": "Herring + Olive Oil"
+        },
+        {
+          "id": "p58",
+          "name": "Tiger Globefish Stew",
+          "price": "340G",
+          "ing": "Globefish + Vegetable (any)"
+        },
+        {
+          "id": "p59",
+          "name": "Stewed Masu Salmon",
+          "price": "240G",
+          "ing": "Salmon + Honey"
+        },
+        {
+          "id": "p60",
+          "name": "Boiled Octopus",
+          "price": "90G",
+          "ing": "Octopus"
+        },
+        {
+          "id": "p61",
+          "name": "Boiled Egg",
+          "price": "80G",
+          "ing": "Egg"
+        },
+        {
+          "id": "p62",
+          "name": "Boiled Lobster",
+          "price": "140G",
+          "ing": "Lobster"
+        },
+        {
+          "id": "p63",
+          "name": "Marinated Smelt",
+          "price": "230G",
+          "ing": "Smelt + Olive Oil"
+        },
+        {
+          "id": "p64",
+          "name": "Fried Smelt",
+          "price": "180G",
+          "ing": "Smelt + Onion"
+        },
+        {
+          "id": "p65",
+          "name": "Stewed Fish",
+          "price": "120G",
+          "ing": "Salmon or Rainbow Trout"
+        },
+        {
+          "id": "p66",
+          "name": "Triangle Soup",
+          "price": "240G",
+          "ing": "Salmon + Vegetable (any)"
+        },
+        {
+          "id": "p67",
+          "name": "Loach Stew",
+          "price": "260G",
+          "ing": "Loach + Egg"
+        },
+        {
+          "id": "p68",
+          "name": "Bouillabaisse",
+          "price": "240G",
+          "ing": "Tomato + Fish (any)"
+        }
+      ]
+    },
+    {
+      "id": "recipes_fp",
+      "panelType": "checklist",
+      "title": "🍳 Frying Pan",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Sells",
+          "style": "accent"
+        },
+        {
+          "key": "ing",
+          "label": "Ingredients",
+          "style": "plain"
+        }
+      ],
+      "entry_Recipe": [
+        {
+          "id": "f1",
+          "name": "Sandwich",
+          "price": "400G",
+          "ing": "Bread + Cheese + Boiled Egg + Tomato"
+        },
+        {
+          "id": "f2",
+          "name": "Jam Sandwich",
+          "price": "300G",
+          "ing": "Bread (shop) + Jam (not mixed)"
+        },
+        {
+          "id": "f3",
+          "name": "Baked Apple",
+          "price": "60G",
+          "ing": "Apple"
+        },
+        {
+          "id": "f4",
+          "name": "Assorted Platter",
+          "price": "480G",
+          "ing": "Cheese ×3"
+        },
+        {
+          "id": "f5",
+          "name": "Tomato Salad",
+          "price": "340G",
+          "ing": "Tomato ×3"
+        },
+        {
+          "id": "f6",
+          "name": "Pancake",
+          "price": "240G",
+          "ing": "Breadfruit + Milk (any) + Egg"
+        },
+        {
+          "id": "f7",
+          "name": "Loaded Omelette",
+          "price": "300G",
+          "ing": "Egg + Mushroom + Nut + Vegetable"
+        },
+        {
+          "id": "f8",
+          "name": "Cheese Omelette",
+          "price": "400G",
+          "ing": "Cheese + Egg"
+        },
+        {
+          "id": "f9",
+          "name": "Fruit Omelette",
+          "price": "290G",
+          "ing": "Egg + Fruit (Apple/Orange/Grape)"
+        },
+        {
+          "id": "f10",
+          "name": "Plain Omelette",
+          "price": "250G",
+          "ing": "Egg + Milk (any)"
+        },
+        {
+          "id": "f11",
+          "name": "Fried Egg",
+          "price": "80G",
+          "ing": "Egg"
+        },
+        {
+          "id": "f12",
+          "name": "French Toast",
+          "price": "350G",
+          "ing": "Bread + Egg + Milk (any)"
+        },
+        {
+          "id": "f13",
+          "name": "Omelette Rice",
+          "price": "280G",
+          "ing": "Egg + Rice + Tomato"
+        },
+        {
+          "id": "f14",
+          "name": "Fried Rice",
+          "price": "250G",
+          "ing": "Rice + Egg"
+        },
+        {
+          "id": "f15",
+          "name": "Sautéed Mushrooms",
+          "price": "350G",
+          "ing": "Mushroom (any) + Butter"
+        },
+        {
+          "id": "f16",
+          "name": "Fried Mushroom",
+          "price": "80G",
+          "ing": "Mushroom (any)"
+        },
+        {
+          "id": "f17",
+          "name": "Gourmet Mushroom Sauté",
+          "price": "400G",
+          "ing": "Mushroom ×2 + Butter"
+        },
+        {
+          "id": "f18",
+          "name": "Sautéed Spinach",
+          "price": "280G",
+          "ing": "Spinach + Butter"
+        },
+        {
+          "id": "f19",
+          "name": "Buttered Corn",
+          "price": "220G",
+          "ing": "Corn + Butter"
+        },
+        {
+          "id": "f20",
+          "name": "Popcorn",
+          "price": "240G",
+          "ing": "Corn + Olive Oil"
+        },
+        {
+          "id": "f21",
+          "name": "Roasted Corn",
+          "price": "80G",
+          "ing": "Corn"
+        },
+        {
+          "id": "f22",
+          "name": "Fish Meal",
+          "price": "300G",
+          "ing": "Fish (any) + Vegetable/Mushroom/Nut/Herb"
+        },
+        {
+          "id": "f23",
+          "name": "Broiled Eel",
+          "price": "130G",
+          "ing": "Eel"
+        },
+        {
+          "id": "f24",
+          "name": "Pilaf",
+          "price": "250G",
+          "ing": "Rice + Butter"
+        },
+        {
+          "id": "f25",
+          "name": "Seafood Pilaf",
+          "price": "410G",
+          "ing": "Seafood + Butter + Rice"
+        },
+        {
+          "id": "f26",
+          "name": "Shrimp Pilaf",
+          "price": "390G",
+          "ing": "Shrimp + Rice + Butter"
+        },
+        {
+          "id": "f27",
+          "name": "Grilled Chub",
+          "price": "60G",
+          "ing": "Chub fish"
+        },
+        {
+          "id": "f28",
+          "name": "Teriyaki Swordfish",
+          "price": "180G",
+          "ing": "Swordfish"
+        },
+        {
+          "id": "f29",
+          "name": "Butter-Fried Salmon",
+          "price": "280G",
+          "ing": "Salmon + Butter"
+        },
+        {
+          "id": "f30",
+          "name": "Fish Cream Sauté",
+          "price": "550G",
+          "ing": "Butter + Milk + Salmon"
+        },
+        {
+          "id": "f31",
+          "name": "Porgy Carpaccio",
+          "price": "280G",
+          "ing": "Porgy + Olive Oil"
+        },
+        {
+          "id": "f32",
+          "name": "Broiled Catfish",
+          "price": "110G",
+          "ing": "Catfish"
+        },
+        {
+          "id": "f33",
+          "name": "Grilled Horse Mackerel",
+          "price": "300G",
+          "ing": "Mackerel + Mushroom"
+        },
+        {
+          "id": "f34",
+          "name": "Broiled Squid",
+          "price": "90G",
+          "ing": "Squid"
+        },
+        {
+          "id": "f35",
+          "name": "Rainbow Trout Kebab",
+          "price": "290G",
+          "ing": "Rainbow Trout + Miso"
+        },
+        {
+          "id": "f36",
+          "name": "Teriyaki Amberjack",
+          "price": "120G",
+          "ing": "Amberjack"
+        },
+        {
+          "id": "f37",
+          "name": "Fried Lobster",
+          "price": "230G",
+          "ing": "Lobster + Butter"
+        },
+        {
+          "id": "f38",
+          "name": "Sautéed Clam",
+          "price": "240G",
+          "ing": "Clam + Butter"
+        },
+        {
+          "id": "f39",
+          "name": "Fish Meunière",
+          "price": "350G",
+          "ing": "Fish (any) + Butter + Breadfruit"
+        },
+        {
+          "id": "f40",
+          "name": "Flounder Meunière",
+          "price": "370G",
+          "ing": "Flounder + Breadfruit + Butter"
+        },
+        {
+          "id": "f41",
+          "name": "Tuna Carpaccio",
+          "price": "260G",
+          "ing": "Tuna + Olive Oil"
+        },
+        {
+          "id": "f42",
+          "name": "Tuna Steak",
+          "price": "200G",
+          "ing": "Tuna"
+        },
+        {
+          "id": "f43",
+          "name": "Stewed Rockfish",
+          "price": "60G",
+          "ing": "Rockfish (Red or Black)"
+        },
+        {
+          "id": "f44",
+          "name": "Broiled Fish",
+          "price": "120G",
+          "ing": "Fish (any)"
+        }
+      ]
+    },
+    {
+      "id": "recipes_oven",
+      "panelType": "checklist",
+      "title": "🫕 Oven",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Sells",
+          "style": "accent"
+        },
+        {
+          "key": "ing",
+          "label": "Ingredients",
+          "style": "plain"
+        }
+      ],
+      "entry_Recipe": [
+        {
+          "id": "o1",
+          "name": "Cookies",
+          "price": "220G",
+          "ing": "Breadfruit + Butter + Egg"
+        },
+        {
+          "id": "o2",
+          "name": "Orange Cookies",
+          "price": "270G",
+          "ing": "Breadfruit + Egg + Orange"
+        },
+        {
+          "id": "o3",
+          "name": "Herb Cookie",
+          "price": "200G",
+          "ing": "Breadfruit + Egg + Herb"
+        },
+        {
+          "id": "o4",
+          "name": "Cake",
+          "price": "240G",
+          "ing": "Breadfruit + Milk (any) + Egg"
+        },
+        {
+          "id": "o5",
+          "name": "Carrot Cake",
+          "price": "370G",
+          "ing": "Carrot + Breadfruit + Milk (any)"
+        },
+        {
+          "id": "o6",
+          "name": "Strawberry Shortcake",
+          "price": "340G",
+          "ing": "Breadfruit + Milk (any) + Strawberry"
+        },
+        {
+          "id": "o7",
+          "name": "Cheesecake",
+          "price": "340G",
+          "ing": "Breadfruit + Milk (any) + Cheese"
+        },
+        {
+          "id": "o8",
+          "name": "Honey Cake",
+          "price": "400G",
+          "ing": "Breadfruit + Egg + Honey"
+        },
+        {
+          "id": "o9",
+          "name": "Fruitcake",
+          "price": "320G",
+          "ing": "Breadfruit + Milk (any) + Berry (any)"
+        },
+        {
+          "id": "o10",
+          "name": "Pumpkin Cake",
+          "price": "330G",
+          "ing": "Breadfruit + Milk (any) + Pumpkin"
+        },
+        {
+          "id": "o11",
+          "name": "Special Cheesecake",
+          "price": "400G",
+          "ing": "Fine Cheese + Milk (any) + Breadfruit"
+        },
+        {
+          "id": "o12",
+          "name": "Muffin",
+          "price": "180G",
+          "ing": "Breadfruit + Veryberry + any Fruit"
+        },
+        {
+          "id": "o13",
+          "name": "Mont Blanc",
+          "price": "350G",
+          "ing": "Breadfruit + Milk (any) + Chestnut"
+        },
+        {
+          "id": "o14",
+          "name": "Onion Bread",
+          "price": "260G",
+          "ing": "Onion + Breadfruit"
+        },
+        {
+          "id": "o15",
+          "name": "Herb Bread",
+          "price": "120G",
+          "ing": "Breadfruit + Herb"
+        },
+        {
+          "id": "o16",
+          "name": "Walnut Bread",
+          "price": "210G",
+          "ing": "Breadfruit + Walnut"
+        },
+        {
+          "id": "o17",
+          "name": "Butter Roll",
+          "price": "170G",
+          "ing": "Breadfruit + Butter"
+        },
+        {
+          "id": "o18",
+          "name": "Pudding",
+          "price": "250G",
+          "ing": "Egg + Milk (any)"
+        },
+        {
+          "id": "o19",
+          "name": "Fruit Pudding",
+          "price": "280G",
+          "ing": "Egg + Milk (any) + Berry (any)"
+        },
+        {
+          "id": "o20",
+          "name": "Pumpkin Pudding",
+          "price": "240G",
+          "ing": "Egg + Milk (any) + Pumpkin"
+        },
+        {
+          "id": "o21",
+          "name": "Cornflakes",
+          "price": "190G",
+          "ing": "Corn + Milk (any)"
+        },
+        {
+          "id": "o22",
+          "name": "Cheese Potato",
+          "price": "410G",
+          "ing": "Cheese + Potato"
+        },
+        {
+          "id": "o23",
+          "name": "Pizza",
+          "price": "520G",
+          "ing": "Cheese + Tomato + Breadfruit"
+        },
+        {
+          "id": "o24",
+          "name": "Mushroom Gratin",
+          "price": "440G",
+          "ing": "Mushroom (any) + Milk (any) + Cheese"
+        },
+        {
+          "id": "o25",
+          "name": "Potato Gratin",
+          "price": "460G",
+          "ing": "Potato + Milk (any) + Cheese"
+        },
+        {
+          "id": "o26",
+          "name": "Seafood Gratin",
+          "price": "450G",
+          "ing": "Milk (any) + Cheese (any) + Seafood"
+        },
+        {
+          "id": "o27",
+          "name": "Corn Bread",
+          "price": "180G",
+          "ing": "Corn + Breadfruit"
+        },
+        {
+          "id": "o28",
+          "name": "Doria",
+          "price": "—",
+          "ing": "Rice + Milk (any) + Cheese"
+        },
+        {
+          "id": "o29",
+          "name": "Mushroom Doria",
+          "price": "440G",
+          "ing": "Mushroom (any) + Milk (any) + Rice"
+        },
+        {
+          "id": "o30",
+          "name": "Roasted Lobster",
+          "price": "480G",
+          "ing": "Lobster + Butter + Olive Oil"
+        },
+        {
+          "id": "o31",
+          "name": "Herb Grilled Fish & Mushrooms",
+          "price": "320G",
+          "ing": "Fish (any) + Mushroom (any) + Herb"
+        },
+        {
+          "id": "o32",
+          "name": "Mediterranean Fish & Tomato",
+          "price": "350G",
+          "ing": "Olive Oil + Tomato + Salmon/Flounder"
+        },
+        {
+          "id": "o33",
+          "name": "Roasted Fish",
+          "price": "300G",
+          "ing": "Salmon + Olive Oil + Breadfruit"
+        },
+        {
+          "id": "o34",
+          "name": "Foil Grilled Fish",
+          "price": "130G",
+          "ing": "Trout + Salmon + one other fish"
+        },
+        {
+          "id": "o35",
+          "name": "Herb Grilled Fish",
+          "price": "280G",
+          "ing": "Rainbow Trout + Salmon + Herb"
+        },
+        {
+          "id": "o36",
+          "name": "Fried Clam",
+          "price": "60G",
+          "ing": "Clam"
+        }
+      ]
+    },
+    {
+      "id": "recipes_mix",
+      "panelType": "checklist",
+      "title": "🥤 Mixer",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Sells",
+          "style": "accent"
+        },
+        {
+          "key": "ing",
+          "label": "Ingredients",
+          "style": "plain"
+        }
+      ],
+      "entry_Recipe": [
+        {
+          "id": "m1",
+          "name": "Apple Juice",
+          "price": "120G",
+          "ing": "Apple ×3"
+        },
+        {
+          "id": "m2",
+          "name": "Orange Juice",
+          "price": "140G",
+          "ing": "Orange ×3"
+        },
+        {
+          "id": "m3",
+          "name": "Grape Juice",
+          "price": "170G",
+          "ing": "Grape ×3"
+        },
+        {
+          "id": "m4",
+          "name": "Tomato Juice",
+          "price": "120G",
+          "ing": "Tomato ×3"
+        },
+        {
+          "id": "m5",
+          "name": "Mix Juice",
+          "price": "130G",
+          "ing": "Apple + Orange + Grape"
+        },
+        {
+          "id": "m6",
+          "name": "Vegetable Juice",
+          "price": "180G",
+          "ing": "Potato + Tomato + Carrot"
+        },
+        {
+          "id": "m7",
+          "name": "Strawberry Milk",
+          "price": "100G",
+          "ing": "Strawberry + Milk"
+        },
+        {
+          "id": "m8",
+          "name": "Butter",
+          "price": "450G",
+          "ing": "Milk S×3 / Milk M×2 / Milk L×1"
+        }
+      ]
+    }
+  ]
+}

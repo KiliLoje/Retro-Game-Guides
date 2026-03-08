@@ -1,0 +1,301 @@
+{
+  "label": "🌾 Farming",
+  "panels": [
+    {
+      "id": "farming_crops",
+      "panelType": "table",
+      "title": "🌾 Crop List",
+      "columns": [
+        "Crop",
+        "Seasons",
+        "Growth",
+        "Reharvest",
+        "Seed",
+        "Price",
+        "Best"
+      ],
+      "rows": [
+        [
+          "Potato",
+          "All",
+          "4d",
+          "—",
+          "30G",
+          "60G",
+          "70G (Villa/Winter)"
+        ],
+        [
+          "Tomato",
+          "All",
+          "6d",
+          "2d",
+          "30G",
+          "30G",
+          "50G (Villa/Summer)"
+        ],
+        [
+          "Corn",
+          "All",
+          "10d",
+          "3d",
+          "40G",
+          "40G",
+          "60G (Village/Summer)"
+        ],
+        [
+          "Breadfruit",
+          "All",
+          "9d",
+          "4d",
+          "50G",
+          "40G",
+          "—"
+        ],
+        [
+          "Rice",
+          "Sp–Fa",
+          "7d",
+          "3d",
+          "60G",
+          "50G",
+          "—"
+        ],
+        [
+          "Carrot",
+          "Spring",
+          "5d",
+          "—",
+          "30G",
+          "80G",
+          "100G (Villa/Sp,Wi)"
+        ],
+        [
+          "Strawberry",
+          "Spring",
+          "10d",
+          "3d",
+          "40G",
+          "50G",
+          "80G (Cafe/Winter)"
+        ],
+        [
+          "Watermelon",
+          "Summer",
+          "16d",
+          "5d",
+          "50G",
+          "150G",
+          "180G (Cafe/Winter)"
+        ],
+        [
+          "Onion",
+          "Fall",
+          "6d",
+          "—",
+          "30G",
+          "70G",
+          "90G (Villa/Fall)"
+        ],
+        [
+          "Pumpkin",
+          "Fall",
+          "9d",
+          "3d",
+          "40G",
+          "40G",
+          "70G (Cafe/Fall)"
+        ],
+        [
+          "Spinach",
+          "Winter",
+          "5d",
+          "—",
+          "40G",
+          "60G",
+          "—"
+        ],
+        [
+          "Alfalfa Sprouts",
+          "All",
+          "8d",
+          "—",
+          "20G",
+          "40G",
+          "60G (FlowerShop/Wi)"
+        ]
+      ]
+    },
+    {
+      "id": "farming_herbs",
+      "panelType": "table",
+      "title": "🌸 Herbs / Flowers",
+      "columns": [
+        "Herb",
+        "Season",
+        "Base Price",
+        "Best Price"
+      ],
+      "rows": [
+        [
+          "Fairy Dress",
+          "Season: Spring",
+          "40G",
+          "60G (FlowerShop/Wi)"
+        ],
+        [
+          "Silver Bell",
+          "Season: Spring",
+          "40G",
+          "50G (FlowerShop/Su)"
+        ],
+        [
+          "Wild Mint",
+          "Season: Summer",
+          "40G",
+          "50G (FlowerShop/Fa)"
+        ],
+        [
+          "Frost Pansy",
+          "Season: Fall",
+          "40G",
+          "60G (FlowerShop/Su)"
+        ],
+        [
+          "Mistbloom",
+          "Season: Fall",
+          "40G",
+          "50G (FlowerShop/Wi)"
+        ],
+        [
+          "Stardust",
+          "Season: ?",
+          "50G",
+          "60G (FlowerShop/Fa)"
+        ]
+      ]
+    },
+    {
+      "id": "farming_synthesis_info",
+      "panelType": "text",
+      "title": "🧬 Crop Synthesis",
+      "infobox": "Win the Obstacle Horse Race (1st place) to receive the Crop Synthesizer. Seeds inserted are consumed even if you press Cancel. Results are single-harvest only.",
+      "content": ""
+    },
+    {
+      "id": "farming_synthesis_table",
+      "panelType": "table",
+      "title": "Synthesis Combinations",
+      "columns": [
+        "Result",
+        "Seed 1",
+        "Seed 2"
+      ],
+      "rows": [
+        [
+          "Musessou",
+          "Any seed",
+          "Same seed ×2"
+        ],
+        [
+          "Pomato",
+          "Potato",
+          "Tomato"
+        ],
+        [
+          "Potanich",
+          "Potato",
+          "Spinach"
+        ],
+        [
+          "Potanion",
+          "Potato",
+          "Onion"
+        ],
+        [
+          "Pobread",
+          "Potato",
+          "Breadfruit"
+        ],
+        [
+          "TaterTater",
+          "Potato",
+          "Golden Potato"
+        ],
+        [
+          "Oniato",
+          "Onion",
+          "Tomato"
+        ],
+        [
+          "Tomorn",
+          "Corn",
+          "Tomato"
+        ],
+        [
+          "StrawCorn",
+          "Corn",
+          "Strawberry"
+        ],
+        [
+          "Corrot",
+          "Corn",
+          "Carrot"
+        ],
+        [
+          "Rice Corn",
+          "Corn",
+          "Rice"
+        ],
+        [
+          "Rice Carrot (Comet)",
+          "Carrot",
+          "Rice"
+        ],
+        [
+          "Cornich",
+          "Breadfruit",
+          "Rice"
+        ],
+        [
+          "Spinkin",
+          "Spinach",
+          "Pumpkin"
+        ],
+        [
+          "Waterkin",
+          "Watermelon",
+          "Pumpkin"
+        ],
+        [
+          "StrawterMellon",
+          "Watermelon",
+          "Strawberry"
+        ],
+        [
+          "Waterniche",
+          "Watermelon",
+          "Spinach"
+        ],
+        [
+          "Water Rice (Waterice)",
+          "Watermelon",
+          "Rice"
+        ]
+      ]
+    },
+    {
+      "id": "farming_mushrooms",
+      "panelType": "text",
+      "title": "🍄 Mushrooms",
+      "infobox": "Place a lumber log at the back of the Storehouse. Water daily, harvest next day. Single harvest. Up to 4 at a time. Give to Harvest Sprites (not truffles) for Special Fishing Bait.",
+      "content": "- **Mushroom (Kinoko)** — Basic type\n- **Big Mushroom** — Larger variety\n- **Super Mushroom** — ~50G at ToolShop seasonal\n- **Gold Mushroom** — Rarest; exchange for medals at horse race"
+    },
+    {
+      "id": "farming_mineral",
+      "panelType": "text",
+      "title": "✨ Mineral Crops",
+      "infobox": "Use **Mineral Crystal** on a growing crop to produce a \"Mineral\" version that sells for more.",
+      "content": "Feed **Mineral Alfalfa** to cows or chickens to get **Gold Milk** or **Golden Eggs**."
+    }
+  ]
+}

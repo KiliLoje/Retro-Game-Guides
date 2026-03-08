@@ -1,0 +1,1214 @@
+{
+  "label": "💰 Sales",
+  "panels": [
+    {
+      "id": "crops_list",
+      "panelType": "checklist",
+      "title": "🌾 Crops",
+      "columns": [
+        {
+          "key": "seasons",
+          "label": "Seasons",
+          "style": "plain"
+        },
+        {
+          "key": "seedP",
+          "label": "Seed",
+          "style": "dim"
+        },
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "best",
+          "label": "Best Price",
+          "style": "accent"
+        }
+      ],
+      "entry_Crop": [
+        {
+          "id": "c_potato",
+          "name": "Potato",
+          "seasons": "All",
+          "seedP": "30G",
+          "price": "60G",
+          "best": "70G (Villa/Winter)",
+          "note": "Growth: 4d"
+        },
+        {
+          "id": "c_tomato",
+          "name": "Tomato",
+          "seasons": "All",
+          "seedP": "30G",
+          "price": "30G",
+          "best": "50G (Villa/Summer)",
+          "note": "Growth: 6d · Reharvest: 2d"
+        },
+        {
+          "id": "c_corn",
+          "name": "Corn",
+          "seasons": "All",
+          "seedP": "40G",
+          "price": "40G",
+          "best": "60G (Village/Summer)",
+          "note": "Growth: 10d · Reharvest: 3d"
+        },
+        {
+          "id": "c_bread",
+          "name": "Breadfruit",
+          "seasons": "All",
+          "seedP": "50G",
+          "price": "40G",
+          "best": "—",
+          "note": "Growth: 9d · Reharvest: 4d"
+        },
+        {
+          "id": "c_rice",
+          "name": "Rice",
+          "seasons": "Sp–Fa",
+          "seedP": "60G",
+          "price": "50G",
+          "best": "—",
+          "note": "Growth: 7d · Reharvest: 3d"
+        },
+        {
+          "id": "c_carrot",
+          "name": "Carrot",
+          "seasons": "Spring",
+          "seedP": "30G",
+          "price": "80G",
+          "best": "100G (Villa/Sp,Wi)",
+          "note": "Growth: 5d"
+        },
+        {
+          "id": "c_straw",
+          "name": "Strawberry",
+          "seasons": "Spring",
+          "seedP": "40G",
+          "price": "50G",
+          "best": "80G (Cafe/Winter)",
+          "note": "Growth: 10d · Reharvest: 3d"
+        },
+        {
+          "id": "c_wmelon",
+          "name": "Watermelon",
+          "seasons": "Summer",
+          "seedP": "50G",
+          "price": "150G",
+          "best": "180G (Cafe/Winter)",
+          "note": "Growth: 16d · Reharvest: 5d"
+        },
+        {
+          "id": "c_onion",
+          "name": "Onion",
+          "seasons": "Fall",
+          "seedP": "30G",
+          "price": "70G",
+          "best": "90G (Villa/Fall)",
+          "note": "Growth: 6d"
+        },
+        {
+          "id": "c_pumpkin",
+          "name": "Pumpkin",
+          "seasons": "Fall",
+          "seedP": "40G",
+          "price": "40G",
+          "best": "70G (Cafe/Fall)",
+          "note": "Growth: 9d · Reharvest: 3d"
+        },
+        {
+          "id": "c_spinach",
+          "name": "Spinach",
+          "seasons": "Winter",
+          "seedP": "40G",
+          "price": "60G",
+          "best": "—",
+          "note": "Growth: 5d"
+        },
+        {
+          "id": "c_alfalfa",
+          "name": "Alfalfa Sprouts",
+          "seasons": "All",
+          "seedP": "20G",
+          "price": "40G",
+          "best": "60G (FlowerShop/Wi)",
+          "note": "Growth: 8d"
+        }
+      ],
+      "infobox": "Seeds wash out on rainy days. Must replant when season changes, even for multi-season crops."
+    },
+    {
+      "id": "herbs_list",
+      "panelType": "checklist",
+      "title": "🌸 Herbs / Flowers",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "best",
+          "label": "Best Price",
+          "style": "dim"
+        }
+      ],
+      "entry_Flower": [
+        {
+          "id": "h_fairy",
+          "name": "Fairy Dress",
+          "note": "Season: Spring",
+          "price": "40G",
+          "best": "60G (FlowerShop/Wi)"
+        },
+        {
+          "id": "h_silver",
+          "name": "Silver Bell",
+          "note": "Season: Spring",
+          "price": "40G",
+          "best": "50G (FlowerShop/Su)"
+        },
+        {
+          "id": "h_mint",
+          "name": "Wild Mint",
+          "note": "Season: Summer",
+          "price": "40G",
+          "best": "50G (FlowerShop/Fa)"
+        },
+        {
+          "id": "h_frost",
+          "name": "Frost Pansy",
+          "note": "Season: Fall",
+          "price": "40G",
+          "best": "60G (FlowerShop/Su)"
+        },
+        {
+          "id": "h_mist",
+          "name": "Mistbloom",
+          "note": "Season: Fall",
+          "price": "40G",
+          "best": "50G (FlowerShop/Wi)"
+        },
+        {
+          "id": "h_star",
+          "name": "Stardust",
+          "note": "Season: ?",
+          "price": "50G",
+          "best": "60G (FlowerShop/Fa)"
+        }
+      ],
+      "infobox": "Seed price: 10G each from Lyla's shop. Growth: ~5–6 days. Single harvest only."
+    },
+    {
+      "id": "forage_list",
+      "panelType": "checklist",
+      "title": "🍃 Forageables",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "best",
+          "label": "Best Price",
+          "style": "dim"
+        }
+      ],
+      "entry_Plant": [
+        {
+          "id": "fo_gherb",
+          "name": "Green Herb",
+          "note": "",
+          "price": "10G",
+          "best": "30G (FlowerShop/Su,Wi)"
+        },
+        {
+          "id": "fo_rherb",
+          "name": "Red Herb",
+          "note": "Restores stamina",
+          "price": "20G",
+          "best": "40G (ToolShop/Su,Fa)"
+        },
+        {
+          "id": "fo_vberry",
+          "name": "Veryberry",
+          "note": "Plaza, regrows 3d",
+          "price": "20G",
+          "best": "—"
+        },
+        {
+          "id": "fo_blue",
+          "name": "Blueberry",
+          "note": "Under trees; great gift for Dia",
+          "price": "20G",
+          "best": "—"
+        },
+        {
+          "id": "fo_cran",
+          "name": "Cranberry",
+          "note": "Fall",
+          "price": "30G",
+          "best": "50G (FlowerShop/Su)"
+        },
+        {
+          "id": "fo_walnut",
+          "name": "Walnut",
+          "note": "Knock trees",
+          "price": "20G",
+          "best": "—"
+        },
+        {
+          "id": "fo_chest",
+          "name": "Chestnut",
+          "note": "Knock trees",
+          "price": "20G",
+          "best": "30G (FlowerShop/Fa)"
+        },
+        {
+          "id": "fo_full",
+          "name": "Fullmoon Berry",
+          "note": "",
+          "price": "40G",
+          "best": "80G (ToolShop/Su, FlowerShop/Fa)"
+        },
+        {
+          "id": "fo_btruffle",
+          "name": "Baby Truffle",
+          "note": "Dog search / timber",
+          "price": "40G",
+          "best": "—"
+        },
+        {
+          "id": "fo_wtruffle",
+          "name": "White Truffle",
+          "note": "Dog search / timber",
+          "price": "60G",
+          "best": "—"
+        },
+        {
+          "id": "fo_bktruffle",
+          "name": "Black Truffle",
+          "note": "Dog search / timber",
+          "price": "60G",
+          "best": "80G (Bar/Spring)"
+        },
+        {
+          "id": "fo_struffle",
+          "name": "Star Truffle",
+          "note": "Dog search / timber",
+          "price": "80G",
+          "best": "—"
+        },
+        {
+          "id": "fo_pontata",
+          "name": "Pontata Root",
+          "note": "Dog search",
+          "price": "80G",
+          "best": "100G"
+        },
+        {
+          "id": "fo_moon",
+          "name": "Moondrop Herb",
+          "note": "Regrows 3d",
+          "price": "10G",
+          "best": "20G (FlowerShop/Sp)"
+        },
+        {
+          "id": "fo_pink",
+          "name": "Pinkcat Mint",
+          "note": "Pike Mountain",
+          "price": "20G",
+          "best": "—"
+        },
+        {
+          "id": "fo_coral",
+          "name": "Coral",
+          "note": "Beach sand",
+          "price": "350G",
+          "best": "—"
+        }
+      ]
+    },
+    {
+      "id": "fruits_list",
+      "panelType": "checklist",
+      "title": "🍎 Fruits",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "best",
+          "label": "Best Price",
+          "style": "dim"
+        }
+      ],
+      "entry_Fruit": [
+        {
+          "id": "fr_apple",
+          "name": "Apple",
+          "note": "Sp & Fa · H.G. Spring (right tree)",
+          "price": "30G",
+          "best": "50G (Villa/Fall)"
+        },
+        {
+          "id": "fr_orange",
+          "name": "Orange",
+          "note": "Spring · H.G. Spring, Pike Mtn",
+          "price": "30G",
+          "best": "50G (Villa/Fall)"
+        },
+        {
+          "id": "fr_grape",
+          "name": "Grape",
+          "note": "Su & Fa · H.G. Spring, Carpenter's, Supermarket",
+          "price": "40G",
+          "best": "60G (Bar/Cafe Winter)"
+        }
+      ]
+    },
+    {
+      "id": "animal_list",
+      "panelType": "checklist",
+      "title": "🥛 Animal Products",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "best",
+          "label": "Best Price",
+          "style": "dim"
+        }
+      ],
+      "entry_Produce": [
+        {
+          "id": "an_egg",
+          "name": "Egg",
+          "price": "50G",
+          "best": "—"
+        },
+        {
+          "id": "an_gegg",
+          "name": "Golden Egg",
+          "price": "150G",
+          "best": "180G (after Cake Contest ending)"
+        },
+        {
+          "id": "an_ms",
+          "name": "Milk S",
+          "price": "130G",
+          "best": "—"
+        },
+        {
+          "id": "an_mm",
+          "name": "Milk M",
+          "price": "200G",
+          "best": "270G"
+        },
+        {
+          "id": "an_ml",
+          "name": "Milk L",
+          "price": "300G",
+          "best": "—"
+        },
+        {
+          "id": "an_mg",
+          "name": "Milk G (Gold)",
+          "price": "400G",
+          "best": "480G (after Cake Contest ending)"
+        }
+      ],
+      "infobox": "Feed Mineral Alfalfa to cows/chickens to get Gold Milk or Golden Eggs."
+    },
+    {
+      "id": "mush_list",
+      "panelType": "checklist",
+      "title": "🍄 Mushrooms",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        }
+      ],
+      "entry_Mushroom": [
+        {
+          "id": "mu_mush",
+          "name": "Mushroom",
+          "note": "Give to sprites → fishing bait",
+          "price": "—"
+        },
+        {
+          "id": "mu_big",
+          "name": "Big Mushroom",
+          "note": "Give to sprites → fishing bait",
+          "price": "—"
+        },
+        {
+          "id": "mu_super",
+          "name": "Super Mushroom",
+          "note": "Give to sprites → fishing bait",
+          "price": "~50G (ToolShop)"
+        },
+        {
+          "id": "mu_gold",
+          "name": "Gold Mushroom",
+          "note": "Give to sprites → fishing bait (NOT truffles)",
+          "price": "—"
+        }
+      ],
+      "infobox": "Place a lumber log at back of Storehouse to grow. Water daily, harvest next day. Give to Harvest Sprites (not truffles) for Special Fishing Bait."
+    },
+    {
+      "id": "ores_list",
+      "panelType": "checklist",
+      "title": "⛏️ Ores & Minerals",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "note",
+          "label": "Layers",
+          "style": "dim"
+        }
+      ],
+      "entry_Mineral": [
+        {
+          "id": "or_scrap",
+          "name": "Scrap Iron",
+          "price": "10G",
+          "note": "All layers"
+        },
+        {
+          "id": "or_coal",
+          "name": "Coal (Limestone)",
+          "price": "20G",
+          "note": "All layers"
+        },
+        {
+          "id": "or_crystal",
+          "name": "Mineral Crystal 💡",
+          "price": "30G",
+          "note": "All layers · use on crops for mineral produce"
+        },
+        {
+          "id": "or_iron",
+          "name": "Iron Ore",
+          "price": "60G",
+          "note": "All (not 5B)"
+        },
+        {
+          "id": "or_copper",
+          "name": "Copper Ore",
+          "price": "40G",
+          "note": "All (not 4B, 5B)"
+        },
+        {
+          "id": "or_silver",
+          "name": "Silver Ore",
+          "price": "80G",
+          "note": "All (not 4B, 5B)"
+        },
+        {
+          "id": "or_gold",
+          "name": "Gold Ore",
+          "price": "140G",
+          "note": "All (not 4B, 5B)"
+        },
+        {
+          "id": "or_blue",
+          "name": "Blue Rock",
+          "price": "90G",
+          "note": "All (not 5B)"
+        },
+        {
+          "id": "or_ori",
+          "name": "Orichalcum",
+          "price": "160G",
+          "note": "All (not 5B)"
+        },
+        {
+          "id": "or_rare",
+          "name": "Rare Metal",
+          "price": "180G",
+          "note": "All (not 5B)"
+        },
+        {
+          "id": "or_moon",
+          "name": "Moonlight Stone",
+          "price": "100G",
+          "note": "All (not 4B)"
+        }
+      ],
+      "infobox": "Use Mineral Crystal on a growing crop to produce a Mineral version that sells for more."
+    },
+    {
+      "id": "jewels_list",
+      "panelType": "checklist",
+      "title": "💎 Jewels",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "note",
+          "label": "Layers",
+          "style": "dim"
+        }
+      ],
+      "entry_Jewel": [
+        {
+          "id": "je_dia",
+          "name": "Diamond",
+          "price": "200G",
+          "note": "Layer 8"
+        },
+        {
+          "id": "je_eme",
+          "name": "Emerald",
+          "price": "170G",
+          "note": "Layer 7"
+        },
+        {
+          "id": "je_sap",
+          "name": "Sapphire",
+          "price": "180G",
+          "note": "5A, 5B, 6"
+        },
+        {
+          "id": "je_aqu",
+          "name": "Aquamarine",
+          "price": "160G",
+          "note": "Layer 6"
+        },
+        {
+          "id": "je_ruby",
+          "name": "Ruby",
+          "price": "180G",
+          "note": "5A, 5B"
+        },
+        {
+          "id": "je_gar",
+          "name": "Garnet",
+          "price": "160G",
+          "note": "?"
+        },
+        {
+          "id": "je_ame",
+          "name": "Amethyst",
+          "price": "120G",
+          "note": "5A, 5B"
+        },
+        {
+          "id": "je_opal",
+          "name": "Opal",
+          "price": "140G",
+          "note": "Layer 8"
+        }
+      ]
+    },
+    {
+      "id": "fossils_list",
+      "panelType": "checklist",
+      "title": "🦴 Fossils & Artifacts",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "note",
+          "label": "Layers",
+          "style": "dim"
+        }
+      ],
+      "entry_Fossil": [
+        {
+          "id": "ff_ammo",
+          "name": "Ammonite Fossil",
+          "price": "500G",
+          "note": "5A, 5B, 6, 7"
+        },
+        {
+          "id": "ff_tri",
+          "name": "Trilobite Fossil",
+          "price": "500G",
+          "note": "5A, 5B"
+        },
+        {
+          "id": "ff_plant",
+          "name": "Plant Fossil",
+          "price": "500G",
+          "note": "5A, 5B, 6, 7"
+        },
+        {
+          "id": "ff_fish",
+          "name": "Ancient Fish Fossil",
+          "price": "500G",
+          "note": "5A, 5B, 6"
+        },
+        {
+          "id": "ff_pot",
+          "name": "Pottery",
+          "price": "750G",
+          "note": "All (not 4B, 8)"
+        },
+        {
+          "id": "ff_myst",
+          "name": "Mysterious Object",
+          "price": "10G",
+          "note": "All (not 4B, 7)"
+        },
+        {
+          "id": "ff_clay",
+          "name": "Mysterious Clay Soldier",
+          "price": "750G",
+          "note": "All (not 6, 8)"
+        },
+        {
+          "id": "ff_jar",
+          "name": "Unusual Pot/Jar",
+          "price": "750G",
+          "note": "All (not 3, 4B, 7, 8)"
+        }
+      ],
+      "infobox": "First unique find of each item is auto-displayed in your Storehouse. Subsequent finds can be sold."
+    },
+    {
+      "id": "treasure_list",
+      "panelType": "checklist",
+      "title": "💰 Storehouse Treasures",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        }
+      ],
+      "entry_Treasure": [
+        {
+          "id": "tr_sunken",
+          "name": "Sunken Ship Treasure",
+          "note": "Fish at Crystal Bay (Beach)",
+          "price": "1000G"
+        },
+        {
+          "id": "tr_pirate",
+          "name": "Pirate Treasure",
+          "note": "Fish at Crystal Bay (Beach)",
+          "price": "1200G"
+        },
+        {
+          "id": "tr_chest",
+          "name": "Mysterious Treasure Chest",
+          "note": "Fish at Underground Lake",
+          "price": "500G"
+        }
+      ]
+    },
+    {
+      "id": "fishprints_list",
+      "panelType": "checklist",
+      "title": "🐟 Fish Prints (54)",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "loc",
+          "label": "Location",
+          "style": "plain"
+        },
+        {
+          "key": "season",
+          "label": "Season",
+          "style": "dim"
+        }
+      ],
+      "entry_Fish": [
+        {
+          "id": "fp1",
+          "name": "#1 Char",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp2",
+          "name": "#2 White Spot Char",
+          "price": "50G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Summer / Sp,Su"
+        },
+        {
+          "id": "fp3",
+          "name": "#3 Masu Salmon",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Winter"
+        },
+        {
+          "id": "fp4",
+          "name": "#4 Sakura Salmon",
+          "price": "60G",
+          "loc": "Underground Lake",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp5",
+          "name": "#5 Pale Chub",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Spring"
+        },
+        {
+          "id": "fp6",
+          "name": "#6 Dark Chub",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Spring"
+        },
+        {
+          "id": "fp7",
+          "name": "#7 Smelt",
+          "price": "20G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "All (mostly Winter)"
+        },
+        {
+          "id": "fp8",
+          "name": "#8 Surfsmelt",
+          "price": "20G",
+          "loc": "Crystal Bay / Mallard / Underground",
+          "season": "Sp,Wi / Sp,Wi / Wi"
+        },
+        {
+          "id": "fp9",
+          "name": "#9 Loach",
+          "price": "30G",
+          "loc": "H.G. Spring",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp10",
+          "name": "#10 Rainbow Trout",
+          "price": "40G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Spring"
+        },
+        {
+          "id": "fp11",
+          "name": "#11 C. Rainbow Trout",
+          "price": "60G",
+          "loc": "Underground Lake",
+          "season": "Spring"
+        },
+        {
+          "id": "fp12",
+          "name": "#12 Sardine",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "All seasons"
+        },
+        {
+          "id": "fp13",
+          "name": "#13 Anchovy",
+          "price": "30G",
+          "loc": "Crystal Bay",
+          "season": "Sp, Su, Fa"
+        },
+        {
+          "id": "fp14",
+          "name": "#14 Horse Mackerel",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "Summer, Fall"
+        },
+        {
+          "id": "fp15",
+          "name": "#15 White Trevally",
+          "price": "50G",
+          "loc": "Underground Lake",
+          "season": "Summer"
+        },
+        {
+          "id": "fp16",
+          "name": "#16 Mackerel",
+          "price": "30G",
+          "loc": "Crystal Bay",
+          "season": "Summer, Fall"
+        },
+        {
+          "id": "fp17",
+          "name": "#17 Blue Mackerel",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "Summer, Fall"
+        },
+        {
+          "id": "fp18",
+          "name": "#18 Black Rockfish",
+          "price": "20G",
+          "loc": "Crystal Bay",
+          "season": "Spring"
+        },
+        {
+          "id": "fp19",
+          "name": "#19 Red Rockfish",
+          "price": "40G",
+          "loc": "Underground Lake",
+          "season": "Spring"
+        },
+        {
+          "id": "fp20",
+          "name": "#20 Sweetfish",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp21",
+          "name": "#21 Dace",
+          "price": "50G",
+          "loc": "H.G. Spring",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp22",
+          "name": "#22 Eel",
+          "price": "60G",
+          "loc": "Mallard / H.G. Spring / Underground",
+          "season": "Su–Wi / Su–Fa / Su–Wi"
+        },
+        {
+          "id": "fp23",
+          "name": "#23 Garden Eel",
+          "price": "80G",
+          "loc": "Crystal Bay / Mallard Lake",
+          "season": "Sp,Su / Summer"
+        },
+        {
+          "id": "fp24",
+          "name": "#24 Dark Sleeper",
+          "price": "60G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Winter"
+        },
+        {
+          "id": "fp25",
+          "name": "#25 Catfish",
+          "price": "60G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp26",
+          "name": "#26 Blackbass",
+          "price": "70G",
+          "loc": "Underground Lake",
+          "season": "All seasons"
+        },
+        {
+          "id": "fp27",
+          "name": "#27 Blotch Snakehead",
+          "price": "90G",
+          "loc": "Underground Lake",
+          "season": "All seasons"
+        },
+        {
+          "id": "fp28",
+          "name": "#28 Tiger Globefish",
+          "price": "80G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp29",
+          "name": "#29 Raven Globefish",
+          "price": "100G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp30",
+          "name": "#30 Porgy",
+          "price": "80G",
+          "loc": "Crystal Bay",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp31",
+          "name": "#31 Black Porgy",
+          "price": "90G",
+          "loc": "Underground Lake",
+          "season": "Sp, Fa, Wi"
+        },
+        {
+          "id": "fp32",
+          "name": "#32 Pike",
+          "price": "60G",
+          "loc": "Crystal Bay",
+          "season": "Fall"
+        },
+        {
+          "id": "fp33",
+          "name": "#33 Cod",
+          "price": "80G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Winter"
+        },
+        {
+          "id": "fp34",
+          "name": "#34 Alaska Pollock",
+          "price": "70G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp35",
+          "name": "#35 Greenling",
+          "price": "60G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp36",
+          "name": "#36 Amberjack",
+          "price": "80G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Winter"
+        },
+        {
+          "id": "fp37",
+          "name": "#37 Young Amberjack",
+          "price": "60G",
+          "loc": "Crystal Bay",
+          "season": "Winter"
+        },
+        {
+          "id": "fp38",
+          "name": "#38 Chicken Grunt",
+          "price": "70G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp39",
+          "name": "#39 Mountain Grunt",
+          "price": "60G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Sp, Fa, Wi"
+        },
+        {
+          "id": "fp40",
+          "name": "#40 Leatherfish",
+          "price": "60G",
+          "loc": "Crystal Bay",
+          "season": "Fall"
+        },
+        {
+          "id": "fp41",
+          "name": "#41 Black Scraper Fish",
+          "price": "80G",
+          "loc": "Crystal Bay",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp42",
+          "name": "#42 Pacific Herring",
+          "price": "70G",
+          "loc": "Crystal Bay",
+          "season": "Winter"
+        },
+        {
+          "id": "fp43",
+          "name": "#43 Flounder",
+          "price": "80G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Summer"
+        },
+        {
+          "id": "fp44",
+          "name": "#44 Righteye Flounder",
+          "price": "70G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Winter"
+        },
+        {
+          "id": "fp45",
+          "name": "#45 Salmon",
+          "price": "80G",
+          "loc": "Crystal Bay / H.G. Spring",
+          "season": "Fall"
+        },
+        {
+          "id": "fp46",
+          "name": "#46 Huchen",
+          "price": "110G",
+          "loc": "Underground Lake",
+          "season": "Spring"
+        },
+        {
+          "id": "fp47",
+          "name": "#47 Dolphin Fish",
+          "price": "140G",
+          "loc": "Underground Lake",
+          "season": "Summer"
+        },
+        {
+          "id": "fp48",
+          "name": "#48 Monkfish",
+          "price": "120G",
+          "loc": "Underground Lake",
+          "season": "Spring, Winter"
+        },
+        {
+          "id": "fp49",
+          "name": "#49 Tuna",
+          "price": "160G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Fall"
+        },
+        {
+          "id": "fp50",
+          "name": "#50 Albacore",
+          "price": "90G",
+          "loc": "Crystal Bay",
+          "season": "Spring, Fall"
+        },
+        {
+          "id": "fp51",
+          "name": "#51 Longtooth Grouper",
+          "price": "80G",
+          "loc": "Crystal Bay",
+          "season": "Summer"
+        },
+        {
+          "id": "fp52",
+          "name": "#52 Spanish Mackerel",
+          "price": "90G",
+          "loc": "Crystal Bay",
+          "season": "Spring"
+        },
+        {
+          "id": "fp53",
+          "name": "#53 Nagi",
+          "price": "90G",
+          "loc": "Crystal Bay",
+          "season": "Spring"
+        },
+        {
+          "id": "fp54",
+          "name": "#54 Swordfish",
+          "price": "150G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Spring, Summer"
+        }
+      ],
+      "infobox": "Get 10 prints → unlock H.G. Spring. Get 20 prints → unlock Underground Lake. Find Ponta at Crystal Bay 3–7 PM or Mallard Lake 7–11 PM on sunny/cloudy days."
+    },
+    {
+      "id": "fishother_list",
+      "panelType": "checklist",
+      "title": "🦑 Other Catches",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "loc",
+          "label": "Location",
+          "style": "plain"
+        },
+        {
+          "key": "season",
+          "label": "Season",
+          "style": "dim"
+        }
+      ],
+      "entry_Fish": [
+        {
+          "id": "fo_squid",
+          "name": "Squid",
+          "price": "60G",
+          "loc": "Crystal Bay",
+          "season": "Sp, Su"
+        },
+        {
+          "id": "fo_pfsquid",
+          "name": "Pacific Flying Squid",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "All"
+        },
+        {
+          "id": "fo_octo",
+          "name": "Octopus",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "All"
+        },
+        {
+          "id": "fo_oocto",
+          "name": "Ocellated Octopus",
+          "price": "50G",
+          "loc": "Crystal Bay",
+          "season": "Fa, Wi"
+        },
+        {
+          "id": "fo_shrimp",
+          "name": "Shrimp",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "Sp–Fa"
+        },
+        {
+          "id": "fo_sshrimp",
+          "name": "Sweet Shrimp",
+          "price": "20G",
+          "loc": "Crystal Bay",
+          "season": "Su, Fa"
+        },
+        {
+          "id": "fo_lobster",
+          "name": "Lobster",
+          "price": "70G",
+          "loc": "Crystal Bay",
+          "season": "Su, Fa"
+        },
+        {
+          "id": "fo_homard",
+          "name": "Lake Homard",
+          "price": "100G",
+          "loc": "Underground Lake",
+          "season": "Su, Fa"
+        },
+        {
+          "id": "fo_clam",
+          "name": "Clam",
+          "price": "30G",
+          "loc": "Beach sand",
+          "season": "Sp–Fa"
+        }
+      ]
+    }
+  ]
+}

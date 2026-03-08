@@ -1,0 +1,393 @@
+{
+  "label": "📋 Basics",
+  "panels": [
+    {
+      "id": "basics_goal",
+      "panelType": "text",
+      "title": "🌾 Goal",
+      "content": "Save Leaf Valley! Either earn **50,000G** by end of Year 2, or trigger at least **3 alternative endings of the same type** (Nature or Tourist) to stop Funland. There are **16 unique endings** total."
+    },
+    {
+      "id": "basics_controls",
+      "panelType": "keyvalue",
+      "title": "🎮 Controls",
+      "rows": [
+        {
+          "key": "Analog stick",
+          "value": "Move"
+        },
+        {
+          "key": "D-pad",
+          "value": "Camera"
+        },
+        {
+          "key": "○ Circle",
+          "value": "Cancel / store to bag"
+        },
+        {
+          "key": "□ Square",
+          "value": "Use tool"
+        },
+        {
+          "key": "✕ Cross",
+          "value": "Confirm / equip"
+        },
+        {
+          "key": "△ Triangle",
+          "value": "Center camera"
+        },
+        {
+          "key": "L + D←",
+          "value": "Dog whistle"
+        },
+        {
+          "key": "L + D→",
+          "value": "Horse whistle"
+        },
+        {
+          "key": "R + D←",
+          "value": "Items rucksack"
+        },
+        {
+          "key": "R + D→",
+          "value": "Tools rucksack"
+        },
+        {
+          "key": "Select",
+          "value": "Map"
+        },
+        {
+          "key": "Start",
+          "value": "Rucksack / money / events / requests"
+        }
+      ]
+    },
+    {
+      "id": "basics_fp_info",
+      "panelType": "text",
+      "title": "💖 Heart / FP System",
+      "infobox": "FP gains: Favorite gift +3 | Liked gift +2 | Normal gift +1 | Talking +1 | H.G. wish → +5 to random girl",
+      "content": ""
+    },
+    {
+      "id": "basics_fp_table",
+      "panelType": "table",
+      "title": "FP Thresholds",
+      "columns": [
+        "Hearts",
+        "FP Range",
+        "Color"
+      ],
+      "rows": [
+        [
+          "0",
+          "0–39",
+          "⚫ Black"
+        ],
+        [
+          "1",
+          "40–79",
+          "🟣 Purple"
+        ],
+        [
+          "2",
+          "80–129",
+          "🔵 Blue"
+        ],
+        [
+          "3",
+          "130–179",
+          "🟢 Green"
+        ],
+        [
+          "4",
+          "180–259",
+          "🟡 Yellow"
+        ],
+        [
+          "5",
+          "260–349",
+          "🟠 Orange"
+        ],
+        [
+          "6",
+          "350+",
+          "🔴 Red"
+        ]
+      ]
+    },
+    {
+      "id": "basics_calendar",
+      "panelType": "table",
+      "title": "📅 Calendar & Birthdays",
+      "columns": [
+        "Date",
+        "Event"
+      ],
+      "rows": [
+        [
+          "Spring 1",
+          "Renton's Birthday"
+        ],
+        [
+          "Spring 5",
+          "Alice's Birthday"
+        ],
+        [
+          "Spring 11",
+          "Ronald's Birthday + Goddess Festival 🎁"
+        ],
+        [
+          "Spring 16",
+          "Parsley's Birthday"
+        ],
+        [
+          "Spring 22",
+          "Spring Horse Race 🏇"
+        ],
+        [
+          "Spring 27",
+          "Lyla's Birthday"
+        ],
+        [
+          "Summer 1",
+          "Bob's Birthday + Earth Day 🌿 (no picking/harvesting!)"
+        ],
+        [
+          "Summer 8",
+          "Gwen's Birthday"
+        ],
+        [
+          "Summer 10",
+          "Joe's Birthday"
+        ],
+        [
+          "Summer 14",
+          "Rudolph's Birthday"
+        ],
+        [
+          "Summer 20",
+          "Fireworks Festival 🎆 (Pasture, 8 PM)"
+        ],
+        [
+          "Summer 21",
+          "Wallace's Birthday"
+        ],
+        [
+          "Summer 24",
+          "Chester's Birthday"
+        ],
+        [
+          "Summer 27",
+          "Summer Horse Race 🏇"
+        ],
+        [
+          "Fall 2",
+          "Louis' Birthday"
+        ],
+        [
+          "Fall 5",
+          "Aurelia's Birthday"
+        ],
+        [
+          "Fall 10",
+          "Harvest Festival 🍂 (Plaza 4 PM — girl w/ highest FP)"
+        ],
+        [
+          "Fall 12",
+          "Tim's Birthday"
+        ],
+        [
+          "Fall 20",
+          "Gina's Birthday"
+        ],
+        [
+          "Fall 25",
+          "Fall Horse Race 🏇"
+        ],
+        [
+          "Fall 29",
+          "Katie's Birthday"
+        ],
+        [
+          "Winter 2",
+          "Woody's Birthday"
+        ],
+        [
+          "Winter 9",
+          "Dia's Birthday"
+        ],
+        [
+          "Winter 10",
+          "Kurt's Birthday"
+        ],
+        [
+          "Winter 22",
+          "Liar's Day 🤥 (talk to all villagers exc. H.G. & Ponta)"
+        ],
+        [
+          "Winter 23",
+          "Charles' Birthday"
+        ],
+        [
+          "Winter 25",
+          "Martha's & Chester's Birthday"
+        ],
+        [
+          "Winter 30",
+          "New Year's Eve 🎊 (Beach, 5 PM — girl w/ highest FP)"
+        ]
+      ]
+    },
+    {
+      "id": "basics_powerberry_info",
+      "panelType": "text",
+      "title": "🫐 Power Berries",
+      "infobox": "Train your dog to **Search** (Down, Left, Up via Ocarina) and send them to find Power Berries. Need 3+ hearts on dog. Also occasionally finds Truffles and Pontata Roots!",
+      "content": ""
+    },
+    {
+      "id": "basics_powerberry_table",
+      "panelType": "table",
+      "title": "Power Berry Locations",
+      "columns": [
+        "Area",
+        "Location Detail"
+      ],
+      "rows": [
+        [
+          "Flower/Tool Shop",
+          "Left of the flower bed near Lyla's store"
+        ],
+        [
+          "Supermarket",
+          "Mound of earth in front, between two trees"
+        ],
+        [
+          "Bar/Cafe Area",
+          "Tree near northern part of area"
+        ],
+        [
+          "Goddess Spring",
+          "Near two trees in the middle"
+        ],
+        [
+          "Pike Mountain (×2)",
+          "Center of area + top of stairs"
+        ],
+        [
+          "Clove Villa",
+          "Top-right tree near stairs"
+        ],
+        [
+          "Carpenter's (×2)",
+          "Near center stairs + right-hand stairs"
+        ],
+        [
+          "Plaza",
+          "Left of the Flower/Tool shop sign"
+        ]
+      ]
+    },
+    {
+      "id": "basics_dog_info",
+      "panelType": "text",
+      "title": "🐕 Dog Training (Ocarina)",
+      "infobox": "Equip Ocarina → press Square + D-pad directions.",
+      "content": ""
+    },
+    {
+      "id": "basics_dog_table",
+      "panelType": "table",
+      "title": "Dog Commands",
+      "columns": [
+        "Command",
+        "Buttons",
+        "FP Required"
+      ],
+      "rows": [
+        [
+          "Sit",
+          "U, L, U",
+          "31+"
+        ],
+        [
+          "Stay",
+          "U, D, D",
+          "31+"
+        ],
+        [
+          "Come",
+          "L, R, R",
+          "51+"
+        ],
+        [
+          "Search",
+          "D, L, U",
+          "71+"
+        ],
+        [
+          "Pursue",
+          "R, L, R",
+          "71+"
+        ],
+        [
+          "Jump",
+          "L, U, R",
+          "96+"
+        ],
+        [
+          "Beg",
+          "D, U, U",
+          "126+"
+        ]
+      ]
+    },
+    {
+      "id": "basics_selling",
+      "panelType": "table",
+      "title": "🏪 Selling Locations",
+      "columns": [
+        "Shop",
+        "What They Buy"
+      ],
+      "rows": [
+        [
+          "Lyla's Flower Shop",
+          "Flowers, Herbs"
+        ],
+        [
+          "Louis' Item Shop",
+          "Ores, Minerals"
+        ],
+        [
+          "Moon Garden Pub (Bar)",
+          "Cooked Food (evening)"
+        ],
+        [
+          "Ronald's Grocery Store",
+          "Dairy, Fish, Cooked food"
+        ],
+        [
+          "Sunny Garden Café",
+          "Cooked food (daytime)"
+        ],
+        [
+          "Clove Villa",
+          "Crops, Fish"
+        ],
+        [
+          "Carpentry",
+          "Ores"
+        ]
+      ]
+    },
+    {
+      "id": "basics_marriage",
+      "panelType": "text",
+      "title": "💍 Marriage Requirements",
+      "infobox": "Requirements: Girl at ❤️ Red heart (350+ FP) · Full house upgrades (Kitchen + Bathroom + Extra Bed) · Year 3 or later · Blue Feather (2,000G from Louis' shop, available Year 3)",
+      "content": "🌊 **H. Goddess:** Throw offering + wish instead of giving feather\n\n⚙️ **Alice:** Must complete all Mecha Events first\n\n⚠️ **No shipment box** in this game — bring items directly to shops to sell."
+    }
+  ]
+}

@@ -1,0 +1,1652 @@
+{
+  "label": "🍳 Recipes",
+  "panels": [
+    {
+      "id": "p_rec_all",
+      "panelType": "table",
+      "title": "Complete Recipe List",
+      "infobox": "Notes key: * = also purchasable at a shop  · ! = goddess tree recipe ingredient  · + = multi-fish dish; more fish improves quality  · $ = quality based on total sale value of fish ingredients  · ~ = name differs between bookshelf and inventory  · Grilled Puffer Fish gives −150 stamina.",
+      "columns": [
+        "Recipe",
+        "Utensil",
+        "Ingredients",
+        "Stamina",
+        "Sale Price (G)",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Apple Jam",
+          "Pot",
+          "Apple × 2",
+          "200",
+          "420",
+          "*"
+        ],
+        [
+          "Bamboo Noodles with Egg",
+          "Pot",
+          "Egg, Buckwheat",
+          "450",
+          "460",
+          ""
+        ],
+        [
+          "Bamboo Stew",
+          "Pot",
+          "Bamboo Shoot",
+          "100",
+          "370",
+          ""
+        ],
+        [
+          "Bouillabaisse (Decent/Good/Perfect/Shining)",
+          "Pot",
+          "Fish, Crustacean, Onion, Tomato, Red Herb",
+          "280",
+          "360/450/540/1,320",
+          "$ quality = fish value"
+        ],
+        [
+          "Buckwheat Noodles",
+          "Pot",
+          "Buckwheat",
+          "400",
+          "300",
+          ""
+        ],
+        [
+          "Cheese Fondue",
+          "Pot",
+          "Grape Cocktail, Cheese, Bread",
+          "230",
+          "300",
+          ""
+        ],
+        [
+          "Cheese Risotto",
+          "Pot",
+          "Onion, Cheese, Rice",
+          "250",
+          "460",
+          ""
+        ],
+        [
+          "Clam Soup",
+          "Pot",
+          "Clam",
+          "150",
+          "320",
+          ""
+        ],
+        [
+          "Corn Soup",
+          "Pot",
+          "Corn, Milk",
+          "150",
+          "260",
+          ""
+        ],
+        [
+          "Egg Soup",
+          "Pot",
+          "Milk, Egg",
+          "120",
+          "280",
+          ""
+        ],
+        [
+          "Fish Soup",
+          "Pot",
+          "Sea Bream",
+          "180",
+          "460",
+          "*"
+        ],
+        [
+          "Herbal Tea",
+          "Pot",
+          "Herb (any)",
+          "80",
+          "70",
+          "*"
+        ],
+        [
+          "Hot Cocoa",
+          "Pot",
+          "Cocoa, Milk",
+          "150",
+          "380",
+          "*"
+        ],
+        [
+          "Hot Milk",
+          "Pot",
+          "Milk",
+          "130",
+          "220",
+          "*"
+        ],
+        [
+          "Milk Tea",
+          "Pot",
+          "Milk, Herb (any)",
+          "100",
+          "270",
+          "*"
+        ],
+        [
+          "Potato Miso Soup",
+          "Pot",
+          "Seaweed, Potato",
+          "120",
+          "210",
+          ""
+        ],
+        [
+          "Potato Stew",
+          "Pot",
+          "Potato",
+          "100",
+          "130",
+          ""
+        ],
+        [
+          "Pumpkin Stew",
+          "Pot",
+          "Pumpkin",
+          "100",
+          "220",
+          ""
+        ],
+        [
+          "Salmon Cream Stew",
+          "Pot",
+          "Salmon, Onion, Milk, Carrot, Butter",
+          "300",
+          "520",
+          ""
+        ],
+        [
+          "Sardine Tomato Stew",
+          "Pot",
+          "Herb, Sardine, Tomato",
+          "180",
+          "230",
+          ""
+        ],
+        [
+          "Saury Tomato Stew",
+          "Pot",
+          "Tomato, Herb, Saury",
+          "180",
+          "250",
+          ""
+        ],
+        [
+          "Seafood Rice",
+          "Pot",
+          "Clam, Rice, Squid, Onion, Crustacean",
+          "300",
+          "740",
+          "~"
+        ],
+        [
+          "Seafood Stew",
+          "Pot",
+          "Butter, Clam, Crustacean, Squid, Milk",
+          "360",
+          "620",
+          ""
+        ],
+        [
+          "Seaweed Miso Soup",
+          "Pot",
+          "Seaweed",
+          "100",
+          "170",
+          ""
+        ],
+        [
+          "Shark Fin Soup",
+          "Pot",
+          "Spinach, Herb, Shark",
+          "250",
+          "1,740",
+          "Highest sale price"
+        ],
+        [
+          "Shark Fin Stew",
+          "Pot",
+          "Shark",
+          "180",
+          "1,020",
+          "*"
+        ],
+        [
+          "Spicy Seafood Stew",
+          "Pot",
+          "Spicy Pepper, Onion, Tomato, Prawn",
+          "260",
+          "450",
+          "~"
+        ],
+        [
+          "Spicy Stew",
+          "Pot",
+          "Onion, Milk, Spicy Pepper, Potato, Carrot",
+          "300",
+          "480",
+          ""
+        ],
+        [
+          "Spinach Risotto",
+          "Pot",
+          "Onion, Spinach, Rice",
+          "180",
+          "320",
+          ""
+        ],
+        [
+          "Squid Tomato Stew",
+          "Pot",
+          "Tomato, Squid, Herb",
+          "160",
+          "200",
+          ""
+        ],
+        [
+          "Steamed Egg",
+          "Pot",
+          "Spinach, Prawn, Egg",
+          "200",
+          "280",
+          ""
+        ],
+        [
+          "Steamed Turnip",
+          "Pot",
+          "Sea Bream, Turnips",
+          "150",
+          "380",
+          ""
+        ],
+        [
+          "Stew",
+          "Pot",
+          "Potato, Carrot, Butter, Onion, Milk",
+          "320",
+          "450",
+          ""
+        ],
+        [
+          "Strawberry Jam",
+          "Pot",
+          "Strawberry × 2",
+          "250",
+          "550",
+          ""
+        ],
+        [
+          "Tempura Buckwheat Noodles",
+          "Pot",
+          "Crustacean, Buckwheat, Eggplant",
+          "550",
+          "600",
+          ""
+        ],
+        [
+          "Tomato Risotto",
+          "Pot",
+          "Tomato, Onion, Rice",
+          "200",
+          "440",
+          "*"
+        ],
+        [
+          "Tomato Soup",
+          "Pot",
+          "Tomato, Milk",
+          "150",
+          "250",
+          ""
+        ],
+        [
+          "Blueberry Jam",
+          "Pot",
+          "Blueberry × 2",
+          "180",
+          "160",
+          ""
+        ],
+        [
+          "Berry (Very) Jam",
+          "Pot",
+          "Very Berry × 2",
+          "150",
+          "140",
+          "*"
+        ],
+        [
+          "Marmalade Jam",
+          "Pot",
+          "Orange × 2",
+          "210",
+          "330",
+          "*"
+        ],
+        [
+          "Cheese Omelet",
+          "Frying Pan",
+          "Butter, Cheese, Egg",
+          "260",
+          "290",
+          "*"
+        ],
+        [
+          "Croquette",
+          "Frying Pan",
+          "Egg, Potato, Breadfruit",
+          "180",
+          "250",
+          ""
+        ],
+        [
+          "Fish Meuniere (D/G/P/S)",
+          "Frying Pan",
+          "Herb, Butter, Spinach, Fish",
+          "180",
+          "280/420/640/1,350",
+          "$ quality = fish value"
+        ],
+        [
+          "Fried Egg",
+          "Frying Pan",
+          "Egg",
+          "120",
+          "150",
+          ""
+        ],
+        [
+          "Fried Rice",
+          "Frying Pan",
+          "Rice, Onion, Egg",
+          "320",
+          "280",
+          ""
+        ],
+        [
+          "Omelet Rice",
+          "Frying Pan",
+          "Egg, Butter, Rice",
+          "350",
+          "220",
+          "*"
+        ],
+        [
+          "Pancakes",
+          "Frying Pan",
+          "Egg, Breadfruit, Honey, Milk",
+          "300",
+          "590",
+          ""
+        ],
+        [
+          "Plain Omelet",
+          "Frying Pan",
+          "Egg, Butter",
+          "200",
+          "160",
+          "*!"
+        ],
+        [
+          "Potato Pancake",
+          "Frying Pan",
+          "Milk, Potato, Egg",
+          "300",
+          "430",
+          ""
+        ],
+        [
+          "Pumpkin Croquette",
+          "Frying Pan",
+          "Egg, Breadfruit, Pumpkin",
+          "180",
+          "320",
+          ""
+        ],
+        [
+          "Ratatouille",
+          "Frying Pan",
+          "Bell Pepper, Eggplant, Onion, Tomato",
+          "280",
+          "380",
+          ""
+        ],
+        [
+          "Salmon Fried Rice",
+          "Frying Pan",
+          "Egg, Rice, Salmon",
+          "430",
+          "410",
+          ""
+        ],
+        [
+          "Sauteed Clam",
+          "Frying Pan",
+          "Butter, Clam",
+          "220",
+          "230",
+          ""
+        ],
+        [
+          "Sauteed Mushroom",
+          "Frying Pan",
+          "Butter, Mushroom",
+          "150",
+          "180",
+          ""
+        ],
+        [
+          "Sauteed Potato",
+          "Frying Pan",
+          "Butter, Potato",
+          "170",
+          "120",
+          "*"
+        ],
+        [
+          "Sauteed Spinach",
+          "Frying Pan",
+          "Spinach, Butter",
+          "160",
+          "210",
+          ""
+        ],
+        [
+          "Seafood Fried Rice",
+          "Frying Pan",
+          "Squid, Rice, Onion, Egg, Crustacean",
+          "400",
+          "600",
+          ""
+        ],
+        [
+          "Southern Fried Rice",
+          "Frying Pan",
+          "Crustacean, Pineapple, Spicy Pepper, Rice",
+          "370",
+          "510",
+          "*"
+        ],
+        [
+          "Southern Omelet",
+          "Frying Pan",
+          "Spicy Pepper, Pineapple, Egg, Rice, Crustacean",
+          "400",
+          "370",
+          "*"
+        ],
+        [
+          "Stir-Fry",
+          "Frying Pan",
+          "Vegetable (any)",
+          "150",
+          "230",
+          ""
+        ],
+        [
+          "Tomato Omelet",
+          "Frying Pan",
+          "Butter, Egg, Tomato",
+          "220",
+          "270",
+          ""
+        ],
+        [
+          "Apple Pie",
+          "Oven",
+          "Egg, Apple, Pie Crust",
+          "350",
+          "420",
+          "*"
+        ],
+        [
+          "Bamboo en Papilote",
+          "Oven",
+          "Bamboo Shoot",
+          "200",
+          "370",
+          ""
+        ],
+        [
+          "Banana Pudding",
+          "Oven",
+          "Milk, Banana, Egg",
+          "320",
+          "560",
+          "*"
+        ],
+        [
+          "Bread",
+          "Oven",
+          "Breadfruit, Butter, Milk",
+          "300",
+          "350",
+          ""
+        ],
+        [
+          "Carrot Cake",
+          "Oven",
+          "Breadfruit, Milk, Egg, Butter, Carrot",
+          "320",
+          "600",
+          "*!"
+        ],
+        [
+          "Cheesecake",
+          "Oven",
+          "Milk, Cheese, Butter, Egg, Breadfruit",
+          "350",
+          "680",
+          ""
+        ],
+        [
+          "Chestnut Pie",
+          "Oven",
+          "Pie Crust, Egg, Chestnut",
+          "380",
+          "370",
+          "*"
+        ],
+        [
+          "Chocolate Cake",
+          "Oven",
+          "Breadfruit, Butter, Milk, Cocoa, Egg",
+          "360",
+          "650",
+          ""
+        ],
+        [
+          "Chocolate Cookie",
+          "Oven",
+          "Cocoa, Egg, Breadfruit, Butter",
+          "340",
+          "440",
+          ""
+        ],
+        [
+          "Chocolate Fondue",
+          "Oven",
+          "Milk, Cocoa, Bread",
+          "240",
+          "340",
+          "*"
+        ],
+        [
+          "Chocolate Pie",
+          "Oven",
+          "Cocoa, Egg, Pie Crust",
+          "360",
+          "530",
+          ""
+        ],
+        [
+          "Chocolate Pudding",
+          "Oven",
+          "Milk, Cocoa, Egg",
+          "300",
+          "380",
+          ""
+        ],
+        [
+          "Cookie",
+          "Oven",
+          "Breadfruit, Egg, Butter",
+          "300",
+          "200",
+          ""
+        ],
+        [
+          "Corn Bread",
+          "Oven",
+          "Breadfruit, Corn, Butter, Milk",
+          "300",
+          "440",
+          ""
+        ],
+        [
+          "Doria",
+          "Oven",
+          "Milk, Mushroom, Cheese, Rice",
+          "300",
+          "600",
+          ""
+        ],
+        [
+          "French Fries",
+          "Oven",
+          "Potato",
+          "120",
+          "140",
+          ""
+        ],
+        [
+          "Herb Bread",
+          "Oven",
+          "Breadfruit, Herb, Milk, Butter",
+          "300",
+          "350",
+          ""
+        ],
+        [
+          "Herb Cookie",
+          "Oven",
+          "Butter, Egg, Breadfruit, Herb",
+          "320",
+          "230",
+          "*"
+        ],
+        [
+          "Herb Fish (D/G/P/S)",
+          "Oven",
+          "Fish, Herb",
+          "280",
+          "260/320/630/1,320",
+          "+$ quality = fish value"
+        ],
+        [
+          "Mashed Potatoes",
+          "Oven",
+          "Butter, Potato, Milk",
+          "280",
+          "320",
+          ""
+        ],
+        [
+          "Mont Blanc Cake",
+          "Oven",
+          "Butter, Chestnut, Egg, Breadfruit, Milk",
+          "380",
+          "580",
+          "*"
+        ],
+        [
+          "Mushroom Gratin",
+          "Oven",
+          "Mushroom, Milk, Cheese, Butter",
+          "280",
+          "450",
+          "*"
+        ],
+        [
+          "Onion Bread",
+          "Oven",
+          "Milk, Butter, Onion, Breadfruit",
+          "300",
+          "390",
+          ""
+        ],
+        [
+          "Orange Cake",
+          "Oven",
+          "Milk, Butter, Orange, Egg, Breadfruit",
+          "320",
+          "630",
+          ""
+        ],
+        [
+          "Orange Cookie",
+          "Oven",
+          "Breadfruit, Butter, Egg, Orange",
+          "330",
+          "320",
+          "*"
+        ],
+        [
+          "Orange Pie",
+          "Oven",
+          "Egg, Pie Crust, Orange",
+          "350",
+          "400",
+          ""
+        ],
+        [
+          "Pizza",
+          "Oven",
+          "Cheese, Pie Crust",
+          "500",
+          "900",
+          ""
+        ],
+        [
+          "Potato Gratin",
+          "Oven",
+          "Butter, Potato, Cheese, Milk",
+          "400",
+          "530",
+          ""
+        ],
+        [
+          "Pudding",
+          "Oven",
+          "Egg, Milk",
+          "260",
+          "200",
+          ""
+        ],
+        [
+          "Pumpkin Cake",
+          "Oven",
+          "Breadfruit, Milk, Egg, Pumpkin, Butter",
+          "320",
+          "660",
+          "*"
+        ],
+        [
+          "Pumpkin Pie",
+          "Oven",
+          "Pumpkin, Egg, Pie Crust",
+          "360",
+          "430",
+          "*"
+        ],
+        [
+          "Pumpkin Pudding",
+          "Oven",
+          "Pumpkin, Milk, Egg",
+          "350",
+          "330",
+          "*"
+        ],
+        [
+          "Seafood Doria",
+          "Oven",
+          "Cheese, Crustacean, Milk, Clam, Rice",
+          "320",
+          "820",
+          ""
+        ],
+        [
+          "Seafood Gratin",
+          "Oven",
+          "Butter, Milk, Cheese, Squid, Crustacean",
+          "380",
+          "820",
+          ""
+        ],
+        [
+          "Seafood Pizza",
+          "Oven",
+          "Crustacean, Cheese, Pie Crust, Squid",
+          "530",
+          "1,200",
+          "Most expensive recipe"
+        ],
+        [
+          "Shortcake",
+          "Oven",
+          "Egg, Milk, Butter, Breadfruit, Strawberry",
+          "350",
+          "730",
+          "*"
+        ],
+        [
+          "Spinach Cake",
+          "Oven",
+          "Milk, Breadfruit, Egg, Butter, Spinach",
+          "320",
+          "600",
+          ""
+        ],
+        [
+          "Sweet Yam Cake",
+          "Oven",
+          "Yam, Milk, Butter, Egg",
+          "400",
+          "440",
+          "*"
+        ],
+        [
+          "Vegetable Pizza",
+          "Oven",
+          "Cheese, Vegetable, Pie Crust",
+          "510",
+          "1,000",
+          ""
+        ],
+        [
+          "Yam Cake",
+          "Oven",
+          "Egg, Butter, Milk, Breadfruit, Yam",
+          "320",
+          "590",
+          ""
+        ],
+        [
+          "Apple Juice",
+          "Mixer",
+          "Apple",
+          "180",
+          "170",
+          ""
+        ],
+        [
+          "Banana Milk",
+          "Mixer",
+          "Banana, Milk",
+          "260",
+          "400",
+          ""
+        ],
+        [
+          "Blueberry Juice",
+          "Mixer",
+          "Blueberry",
+          "80",
+          "70",
+          ""
+        ],
+        [
+          "Bodigizer",
+          "Mixer",
+          "Red Herb, Pontata Root, Honey",
+          "300",
+          "200",
+          "*"
+        ],
+        [
+          "Bodigizer XL",
+          "Mixer",
+          "Egg, Honey, Pontata Root, Purple Herb",
+          "800",
+          "350",
+          "*"
+        ],
+        [
+          "Carrot Juice",
+          "Mixer",
+          "Carrot",
+          "100",
+          "140",
+          ""
+        ],
+        [
+          "Coconut Juice",
+          "Mixer",
+          "Coconut",
+          "100",
+          "250",
+          "*"
+        ],
+        [
+          "Cold Medicine",
+          "Mixer",
+          "Royal Jelly, Mushroom, Pontata Root",
+          "10",
+          "300",
+          "*"
+        ],
+        [
+          "Grape Juice",
+          "Mixer",
+          "Grape",
+          "150",
+          "160",
+          ""
+        ],
+        [
+          "Honeydew Juice",
+          "Mixer",
+          "Honeydew",
+          "210",
+          "270",
+          ""
+        ],
+        [
+          "Honeydew Milk",
+          "Mixer",
+          "Milk, Honeydew",
+          "280",
+          "470",
+          "*"
+        ],
+        [
+          "Orange Juice",
+          "Mixer",
+          "Orange",
+          "100",
+          "150",
+          "*"
+        ],
+        [
+          "Perfume (Blue/Green/Purple/Red/Yellow/Shining)",
+          "Mixer",
+          "Flowers",
+          "0",
+          "100–1,210",
+          "See Yarn tab"
+        ],
+        [
+          "Pineapple Juice",
+          "Mixer",
+          "Pineapple",
+          "160",
+          "270",
+          "Buy 180G → sell 270G = +90G profit"
+        ],
+        [
+          "Stay Awake",
+          "Mixer",
+          "Spicy Pepper, Pontata Root, Milk",
+          "10",
+          "250",
+          "*"
+        ],
+        [
+          "Strawberry Milk",
+          "Mixer",
+          "Milk, Strawberry",
+          "250",
+          "390",
+          ""
+        ],
+        [
+          "Super Stay Awake",
+          "Mixer",
+          "Red Herb, Pontata Root, Milk, Spicy Pepper",
+          "200",
+          "350",
+          "*"
+        ],
+        [
+          "Tomato Juice",
+          "Mixer",
+          "Tomato",
+          "100",
+          "160",
+          "*"
+        ],
+        [
+          "Vegetable Juice",
+          "Mixer",
+          "Green Herb, Spinach, Bell Pepper, Cabbage",
+          "300",
+          "280",
+          "*"
+        ],
+        [
+          "Very Berry Juice",
+          "Mixer",
+          "Very Berry",
+          "80",
+          "70",
+          "*"
+        ],
+        [
+          "Yogurt Drink",
+          "Mixer",
+          "Yogurt, Honey",
+          "250",
+          "260",
+          ""
+        ],
+        [
+          "Bamboo Rice",
+          "Cutting Board",
+          "Bamboo Shoot, Rice",
+          "250",
+          "520",
+          ""
+        ],
+        [
+          "Buckwheat Chips",
+          "Cutting Board",
+          "Buckwheat",
+          "80",
+          "130",
+          ""
+        ],
+        [
+          "Chestnut Rice",
+          "Cutting Board",
+          "Chestnut, Rice",
+          "200",
+          "200",
+          ""
+        ],
+        [
+          "Chirashi Sushi",
+          "Cutting Board",
+          "Mushroom, Rock Lobster, Rice, Conger Eel, Egg",
+          "150",
+          "160",
+          ""
+        ],
+        [
+          "Chocolate Banana",
+          "Cutting Board",
+          "Cocoa, Banana, Milk",
+          "320",
+          "330",
+          "*"
+        ],
+        [
+          "Chocolate Bar",
+          "Cutting Board",
+          "Milk, Cocoa",
+          "300",
+          "300",
+          ""
+        ],
+        [
+          "Conger Eel Bowl",
+          "Cutting Board",
+          "Conger Eel, Rice",
+          "260",
+          "450",
+          ""
+        ],
+        [
+          "Eel Bowl",
+          "Cutting Board",
+          "Eel, Rice",
+          "350",
+          "660",
+          ""
+        ],
+        [
+          "Egg Rice",
+          "Cutting Board",
+          "Egg, Rice",
+          "150",
+          "300",
+          ""
+        ],
+        [
+          "Egg Salad",
+          "Cutting Board",
+          "Mayonnaise, Vegetable, Egg",
+          "120",
+          "320",
+          ""
+        ],
+        [
+          "Egg Sandwich",
+          "Cutting Board",
+          "Egg, Mayonnaise, Bread, Butter",
+          "180",
+          "260",
+          ""
+        ],
+        [
+          "Marinated Fish (D/G/P/S)",
+          "Cutting Board",
+          "Fish, Herb, Onion",
+          "300",
+          "160/310/620/1,240",
+          "$ quality = fish value"
+        ],
+        [
+          "Marinated Mushroom",
+          "Cutting Board",
+          "Herb, Mushroom",
+          "100",
+          "320",
+          "*"
+        ],
+        [
+          "Mushroom Rice",
+          "Cutting Board",
+          "Rice, Mushroom",
+          "150",
+          "210",
+          ""
+        ],
+        [
+          "Pie Crust",
+          "Cutting Board",
+          "Breadfruit, Butter",
+          "10",
+          "130",
+          ""
+        ],
+        [
+          "Rice Ball",
+          "Cutting Board",
+          "Rice",
+          "180",
+          "50",
+          ""
+        ],
+        [
+          "Sashimi (D/G/P/S)",
+          "Cutting Board",
+          "Fish × 1–5",
+          "80–140",
+          "270/530/1,060/2,120",
+          "+$ quality = fish value; 2120G best single dish"
+        ],
+        [
+          "Sushi (D/G/P/S)",
+          "Cutting Board",
+          "Fish × 1–4, Rice",
+          "180–270",
+          "310/620/1,240/2,480",
+          "+$ highest sale price in game (2480G Shining)"
+        ],
+        [
+          "Sweet Potato Rice",
+          "Cutting Board",
+          "Rice, Yam",
+          "200",
+          "250",
+          "~ called 'Potato Rice' on bookshelf"
+        ],
+        [
+          "Tuna Bowl",
+          "Cutting Board",
+          "Rice, Tuna",
+          "320",
+          "560",
+          ""
+        ],
+        [
+          "Vegetable Salad",
+          "Cutting Board",
+          "Mayonnaise, Vegetable",
+          "100",
+          "240",
+          ""
+        ],
+        [
+          "Vegetable Sandwich",
+          "Cutting Board",
+          "Butter, Mayo, Bread, Vegetable",
+          "200",
+          "300",
+          "*"
+        ],
+        [
+          "Apple Cocktail",
+          "Aging Pot",
+          "Apple × 2",
+          "210",
+          "230",
+          "*"
+        ],
+        [
+          "Blueberry Cocktail",
+          "Aging Pot",
+          "Blueberry × 2",
+          "160",
+          "120",
+          "*"
+        ],
+        [
+          "Buckwheat Cocktail",
+          "Aging Pot",
+          "Buckwheat × 2",
+          "160",
+          "140",
+          "*"
+        ],
+        [
+          "Coconut Cocktail",
+          "Aging Pot",
+          "Coconut × 2",
+          "180",
+          "330",
+          "*"
+        ],
+        [
+          "Grape Cocktail",
+          "Aging Pot",
+          "Grape × 2",
+          "200",
+          "200",
+          "*"
+        ],
+        [
+          "Kimchi",
+          "Aging Pot",
+          "Cabbage, Spicy Pepper, Carrot",
+          "130",
+          "350",
+          ""
+        ],
+        [
+          "Pickled Cabbage",
+          "Aging Pot",
+          "Cabbage",
+          "110",
+          "210",
+          ""
+        ],
+        [
+          "Pickled Eggplant",
+          "Aging Pot",
+          "Eggplant",
+          "100",
+          "220",
+          ""
+        ],
+        [
+          "Pickled Turnips",
+          "Aging Pot",
+          "Turnips",
+          "100",
+          "200",
+          ""
+        ],
+        [
+          "Rice Cocktail",
+          "Aging Pot",
+          "Rice × 2",
+          "200",
+          "230",
+          "*"
+        ],
+        [
+          "Sardine in Oil",
+          "Aging Pot",
+          "Sardine",
+          "90",
+          "150",
+          ""
+        ],
+        [
+          "Seasoned Egg",
+          "Aging Pot",
+          "Egg",
+          "100",
+          "190",
+          ""
+        ],
+        [
+          "Yam Cocktail",
+          "Aging Pot",
+          "Yam × 2",
+          "180",
+          "190",
+          "*"
+        ],
+        [
+          "Yogurt",
+          "Aging Pot",
+          "Milk",
+          "150",
+          "230",
+          "*"
+        ],
+        [
+          "Grilled Angler Fish",
+          "Match Set",
+          "Angler Fish",
+          "200",
+          "800",
+          ""
+        ],
+        [
+          "Grilled Bonito",
+          "Match Set",
+          "Bonito",
+          "120",
+          "330",
+          ""
+        ],
+        [
+          "Grilled Carp",
+          "Match Set",
+          "Carp",
+          "120",
+          "150",
+          ""
+        ],
+        [
+          "Grilled Catfish",
+          "Match Set",
+          "Catfish",
+          "100",
+          "110",
+          ""
+        ],
+        [
+          "Grilled Char",
+          "Match Set",
+          "Char",
+          "100",
+          "150",
+          ""
+        ],
+        [
+          "Grilled Clam",
+          "Match Set",
+          "Clam",
+          "120",
+          "130",
+          "*"
+        ],
+        [
+          "Grilled Cod",
+          "Match Set",
+          "Cod",
+          "120",
+          "110",
+          ""
+        ],
+        [
+          "Grilled Conger Eel",
+          "Match Set",
+          "Conger Eel",
+          "150",
+          "240",
+          ""
+        ],
+        [
+          "Grilled Eel",
+          "Match Set",
+          "Eel",
+          "180",
+          "630",
+          ""
+        ],
+        [
+          "Grilled Eggplant",
+          "Match Set",
+          "Eggplant",
+          "80",
+          "140",
+          "! goddess recipe"
+        ],
+        [
+          "Grilled King Fish",
+          "Match Set",
+          "King Fish",
+          "500",
+          "1,630",
+          ""
+        ],
+        [
+          "Grilled Lobster",
+          "Match Set",
+          "Lobster",
+          "150",
+          "630",
+          ""
+        ],
+        [
+          "Grilled Mahi-Mahi",
+          "Match Set",
+          "Mahi-Mahi",
+          "90",
+          "340",
+          ""
+        ],
+        [
+          "Grilled Manta Ray",
+          "Match Set",
+          "Manta Ray",
+          "120",
+          "380",
+          ""
+        ],
+        [
+          "Grilled Puffer Fish",
+          "Match Set",
+          "Puffer Fish",
+          "-150",
+          "80",
+          "⚠️ NEGATIVE stamina!"
+        ],
+        [
+          "Grilled Salmon",
+          "Match Set",
+          "Salmon",
+          "150",
+          "270",
+          "*"
+        ],
+        [
+          "Grilled Sea Urchin",
+          "Match Set",
+          "Sea Urchin",
+          "150",
+          "550",
+          ""
+        ],
+        [
+          "Grilled Seasky Fish",
+          "Match Set",
+          "Seasky Fish",
+          "200",
+          "980",
+          ""
+        ],
+        [
+          "Grilled Shark",
+          "Match Set",
+          "Shark",
+          "150",
+          "630",
+          ""
+        ],
+        [
+          "Grilled Skull Jellyfish",
+          "Match Set",
+          "Skull Jellyfish",
+          "200",
+          "930",
+          ""
+        ],
+        [
+          "Grilled Swordfish",
+          "Match Set",
+          "Swordfish",
+          "120",
+          "780",
+          ""
+        ],
+        [
+          "Grilled Tuna",
+          "Match Set",
+          "Tuna",
+          "200",
+          "630",
+          ""
+        ],
+        [
+          "Grilled Wood Fish",
+          "Match Set",
+          "Wood Fish",
+          "200",
+          "1,630",
+          ""
+        ],
+        [
+          "Grilled Yam",
+          "Match Set",
+          "Yam",
+          "150",
+          "110",
+          "*! Daren's Rainbow ingredient"
+        ],
+        [
+          "Roasted Chestnuts",
+          "Match Set",
+          "Chestnut",
+          "120",
+          "100",
+          ""
+        ],
+        [
+          "Roasted Corn",
+          "Match Set",
+          "Corn",
+          "140",
+          "160",
+          "*"
+        ],
+        [
+          "Flax Yarn (Blue)",
+          "Dyeing Pot",
+          "Flax Yarn, Blue Herb/Flower",
+          "0",
+          "1,080",
+          ""
+        ],
+        [
+          "Flax Yarn (Green)",
+          "Dyeing Pot",
+          "Flax Yarn, Green Herb/Flower",
+          "0",
+          "610",
+          ""
+        ],
+        [
+          "Flax Yarn (Purple)",
+          "Dyeing Pot",
+          "Flax Yarn, Purple Herb/Flower",
+          "0",
+          "650",
+          ""
+        ],
+        [
+          "Flax Yarn (Red)",
+          "Dyeing Pot",
+          "Flax Yarn, Red Herb/Flower",
+          "0",
+          "720",
+          ""
+        ],
+        [
+          "Flax Yarn (Yellow)",
+          "Dyeing Pot",
+          "Flax Yarn, Yellow Herb/Flower",
+          "0",
+          "580",
+          ""
+        ],
+        [
+          "Silk Yarn (Blue)",
+          "Dyeing Pot",
+          "Silk Yarn, Blue Herb/Flower",
+          "0",
+          "2,100",
+          "★ Best item in game"
+        ],
+        [
+          "Silk Yarn (Green)",
+          "Dyeing Pot",
+          "Silk Yarn, Green Herb/Flower",
+          "0",
+          "1,190",
+          ""
+        ],
+        [
+          "Silk Yarn (Purple)",
+          "Dyeing Pot",
+          "Silk Yarn, Purple Herb/Flower",
+          "0",
+          "1,260",
+          ""
+        ],
+        [
+          "Silk Yarn (Red)",
+          "Dyeing Pot",
+          "Silk Yarn, Red Herb/Flower",
+          "0",
+          "1,400",
+          ""
+        ],
+        [
+          "Silk Yarn (Yellow)",
+          "Dyeing Pot",
+          "Silk Yarn, Yellow Herb/Flower",
+          "0",
+          "1,120",
+          ""
+        ],
+        [
+          "Wool Yarn (Blue)",
+          "Dyeing Pot",
+          "Wool Yarn, Blue Herb/Flower",
+          "0",
+          "930",
+          ""
+        ],
+        [
+          "Wool Yarn (Green)",
+          "Dyeing Pot",
+          "Wool Yarn, Green Herb/Flower",
+          "0",
+          "530",
+          ""
+        ],
+        [
+          "Wool Yarn (Purple)",
+          "Dyeing Pot",
+          "Wool Yarn, Purple Herb/Flower",
+          "0",
+          "560",
+          ""
+        ],
+        [
+          "Wool Yarn (Red)",
+          "Dyeing Pot",
+          "Wool Yarn, Red Herb/Flower",
+          "0",
+          "620",
+          ""
+        ],
+        [
+          "Wool Yarn (Yellow)",
+          "Dyeing Pot",
+          "Wool Yarn, Yellow Herb/Flower",
+          "0",
+          "500",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "p_rec_notes",
+      "panelType": "keyvalue",
+      "title": "Quality Fish Dish Thresholds",
+      "rows": [
+        {
+          "key": "Herb Fish — Good",
+          "value": "Total fish ingredient sale value ≥ 300G"
+        },
+        {
+          "key": "Herb Fish — Perfect",
+          "value": "Total fish ingredient sale value ≥ 600G"
+        },
+        {
+          "key": "Herb Fish — Shining",
+          "value": "Total fish ingredient sale value ≥ 1,200G"
+        },
+        {
+          "key": "Sashimi/Sushi — Good",
+          "value": "Total fish sale value ≥ 600G"
+        },
+        {
+          "key": "Sashimi/Sushi — Perfect",
+          "value": "Total fish sale value ≥ 1,200G"
+        },
+        {
+          "key": "Sashimi/Sushi — Shining",
+          "value": "Total fish sale value ≥ 2,000G (e.g. two King Fish)"
+        },
+        {
+          "key": "Profit tip",
+          "value": "Pineapple Juice: buy Pineapple for 180G → sell juice for 270G = +90G guaranteed profit."
+        },
+        {
+          "key": "Top earners",
+          "value": "Shining Sushi 2,480G · Blue Silk Yarn 2,100G · Shark Fin Soup 1,740G · Shining Sashimi 2,120G · Grilled King/Wood Fish 1,630G"
+        }
+      ]
+    }
+  ]
+}

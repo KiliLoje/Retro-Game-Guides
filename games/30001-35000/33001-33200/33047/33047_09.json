@@ -1,0 +1,24 @@
+{
+  "label": "♾️ Endless",
+  "panels": [
+    {
+      "id": "panel_endless_milestones",
+      "panelType": "checklist",
+      "title": "♾️ Milestones",
+      "infobox": "♾️ Endless Mode unlocks after getting at least 1 ending with *each* character. Play through the story endings first, then dive in. Endless Mode is longer than all 10 prior runs combined.",
+      "columns": [
+        { "key": "action", "label": "Investment / Action", "style": "plain" },
+        { "key": "reward", "label": "Reward",               "style": "accent" }
+      ],
+      "entry_Goal": [
+        { "id": "Endless|0", "name": "Pay 150,000 silver",       "action": "Lighthouse",         "reward": "Unlocks Silk Hats to sell" },
+        { "id": "Endless|1", "name": "Pay 300,000 silver",       "action": "Road",               "reward": "Unlocks Sweaters to sell" },
+        { "id": "Endless|2", "name": "Pay 600,000 silver",       "action": "Bigger Lighthouse",  "reward": "Unlocks Tuxedo to sell" },
+        { "id": "Endless|3", "name": "Pay 1,000,000 silver",     "action": "Complete the City",  "reward": "Unlocks Fancy Dress. 'Completes' Endless Mode (keep playing)" },
+        { "id": "Endless|4", "name": "Buy + sell a Fancy Dress", "action": "Exemplary Merchant achievement", "reward": "Only if you've sold all other goods at least once" },
+        { "id": "Endless|5", "name": "Save, then main menu → Options → Replay Scenes → Misc → Extra Spicey and Wolf", "action": "A Man's Dream achievement", "reward": "Save before doing this so you can reload" },
+        { "id": "Endless|6", "name": "Reload, grind to 9,999,999 silver", "action": "Rich Man achievement", "reward": "8+ hours of grinding. The reward cutscene is... brief." }
+      ]
+    }
+  ]
+}

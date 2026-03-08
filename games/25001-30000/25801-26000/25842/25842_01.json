@@ -1,0 +1,1667 @@
+{
+  "label": "⚔️ Treasures",
+  "panels": [
+    {
+      "id": "treasures_legend",
+      "panelType": "text",
+      "title": "Legend",
+      "infobox": "180 trackable treasure locations sourced from the Prima guide.\n\n⚠️ = MISSABLE — permanently lost after event/choice\n🟡 = HIDDEN — requires Upgraded Trap Finder or secret trigger",
+      "content": ""
+    },
+    {
+      "id": "treasures_tales_of_the_unknown_haul",
+      "panelType": "checklist",
+      "title": "Tales of the Unknown Haul",
+      "columns": [
+        {
+          "key": "chapter",
+          "label": "Chapter",
+          "style": "accent"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "style": "plain"
+        },
+        {
+          "key": "contents",
+          "label": "Contents",
+          "style": "plain"
+        }
+      ],
+      "entry_Tales": [
+        {
+          "id": "25842_t01_000",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Town of Houton (Drunken Rat)",
+          "label": "—",
+          "contents": "Silver Candlestick (8 SP), Widow's Diary (8 SP)",
+          "note": "Back-room chest, no map — accessible before descending to cellar"
+        },
+        {
+          "id": "25842_t01_001",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Town of Houton",
+          "label": "A",
+          "contents": "Wanted Poster (10 SP), Self-Help Book (10 SP)"
+        },
+        {
+          "id": "25842_t01_002",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Town of Houton",
+          "label": "B",
+          "contents": "Beer Bottle x2 (8 SP), 5 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_003",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Town of Houton",
+          "label": "C",
+          "contents": "Diary (8 SP), approx. 10 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_004",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Fairyhaunt Woods",
+          "label": "A",
+          "contents": "30 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_005",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Fairyhaunt Woods",
+          "label": "B",
+          "contents": "Adderstone x1, 10 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_006",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Fairyhaunt Woods",
+          "label": "C",
+          "contents": "approx. 20 Silver Pieces, Beer Bottle (4 SP)"
+        },
+        {
+          "id": "25842_t01_007",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Hunting Grounds",
+          "label": "A",
+          "contents": "150 Silver Pieces, Swimming Trunks (8 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_008",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Hunting Grounds",
+          "label": "B",
+          "contents": "Token: Findruine Charm, approx. 250 Silver Pieces, Adderstone x1",
+          "note": "TOKEN: Findruine Charm (+1 Vitality)"
+        },
+        {
+          "id": "25842_t01_009",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Hunting Grounds",
+          "label": "C",
+          "contents": "approx. 100 Silver Pieces, Adderstone x2"
+        },
+        {
+          "id": "25842_t01_010",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Bugbear Cairn",
+          "label": "A",
+          "contents": "Polished Bones (4 SP) x2, Wolf Pelt (8 SP), Copper Goblet (8 SP)"
+        },
+        {
+          "id": "25842_t01_011",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Bugbear Cairn",
+          "label": "B",
+          "contents": "Caladbolg",
+          "note": "WEAPON"
+        },
+        {
+          "id": "25842_t01_012",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Bugbear Cairn",
+          "label": "C",
+          "contents": "Polished Bones (4 SP) x2, Boar Pelt (8 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_013",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Bugbear Cairn",
+          "label": "D",
+          "contents": "500 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_014",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Bugbear Cairn",
+          "label": "E",
+          "contents": "Brass Ring (4 SP), Polished Bones (4 SP) x2, Adderstone x1"
+        },
+        {
+          "id": "25842_t01_015",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Houton Forest",
+          "label": "A",
+          "contents": "approx. 20 Silver Pieces, Silver Pouch (4 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_016",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Houton Forest",
+          "label": "B",
+          "contents": "Trow Sword (8 SP), Trow Pants (8 SP)"
+        },
+        {
+          "id": "25842_t01_017",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Houton Forest",
+          "label": "C",
+          "contents": "approx. 30 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_018",
+          "flag": "",
+          "chapter": "Ch.1: Houton",
+          "area": "Houton Forest",
+          "label": "D",
+          "contents": "Snowglobe o' Houton (15 SP)"
+        },
+        {
+          "id": "25842_t01_019",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "A",
+          "contents": "approx. 30 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_020",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "B",
+          "contents": "20 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_021",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "C",
+          "contents": "Adderstone x1, Trow Pants (8 SP)"
+        },
+        {
+          "id": "25842_t01_022",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "D",
+          "contents": "Adderstone x1"
+        },
+        {
+          "id": "25842_t01_023",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "E",
+          "contents": "Tune: Crone",
+          "note": "TUNE"
+        },
+        {
+          "id": "25842_t01_024",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "F",
+          "contents": "Token: Eagle Charm",
+          "note": "TOKEN: Eagle Charm (+1 Rhythm)"
+        },
+        {
+          "id": "25842_t01_025",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "G",
+          "contents": "200 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_026",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "H",
+          "contents": "Token: Badger Hide Gloves",
+          "note": "TOKEN: Badger Hide Gloves (+1 Strength)"
+        },
+        {
+          "id": "25842_t01_027",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "I",
+          "contents": "Beer Bottle (4 SP) x2"
+        },
+        {
+          "id": "25842_t01_028",
+          "flag": "",
+          "chapter": "Ch.2: Neversdale",
+          "area": "Neversdale Forest",
+          "label": "J",
+          "contents": "Trow Sword (8 SP)"
+        },
+        {
+          "id": "25842_t01_029",
+          "flag": "",
+          "chapter": "Ch.3: Kirkwall",
+          "area": "Town of Kirkwall",
+          "label": "A",
+          "contents": "Token: Falstone",
+          "note": "TOKEN: Falstone (+10% XP)"
+        },
+        {
+          "id": "25842_t01_030",
+          "flag": "",
+          "chapter": "Ch.3: Kirkwall",
+          "area": "Town of Kirkwall",
+          "label": "B",
+          "contents": "Tune: Bodyguard",
+          "note": "TUNE"
+        },
+        {
+          "id": "25842_t01_031",
+          "flag": "",
+          "chapter": "Ch.4: Highland Park",
+          "area": "Highland Park",
+          "label": "B",
+          "contents": "Tune: Upgraded Rat (Vorpal Rat), Brass Ring (4 SP), Copper Goblet (4 SP), Silver Candlestick (1 SP), Jeweled Bracelet (60 SP), Adderstone x1",
+          "note": "TUNE: Upgraded Rat"
+        },
+        {
+          "id": "25842_t01_032",
+          "flag": "",
+          "chapter": "Ch.4: Highland Park",
+          "area": "Highland Park",
+          "label": "C",
+          "contents": "Silver Candlestick (1 SP), Jeweled Bracelet (60 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_033",
+          "flag": "",
+          "chapter": "Ch.4: Highland Park",
+          "area": "Highland Park",
+          "label": "D",
+          "contents": "2-Handed Sword (20 SP), Brass Ring (8 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_034",
+          "flag": "",
+          "chapter": "Ch.4: Highland Park",
+          "area": "Highland Park",
+          "label": "E",
+          "contents": "50 Silver Pieces, Copper Goblet (4 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_035",
+          "flag": "",
+          "chapter": "Ch.4: Highland Park",
+          "area": "Highland Park",
+          "label": "F",
+          "contents": "200 Silver Pieces, Ruby (100 SP), Adderstone x1"
+        }
+      ]
+    },
+    {
+      "id": "treasures_the_destiny_knight_s_treasure",
+      "panelType": "checklist",
+      "title": "The Destiny Knight's Treasure",
+      "columns": [
+        {
+          "key": "chapter",
+          "label": "Chapter",
+          "style": "accent"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "style": "plain"
+        },
+        {
+          "key": "contents",
+          "label": "Contents",
+          "style": "dim"
+        }
+      ],
+      "entry_The": [
+        {
+          "id": "25842_t01_036",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Forest Tower Grove",
+          "label": "A",
+          "contents": "approx. 60 Silver Pieces, Adderstone x2",
+          "note": "Stump-chests on west side of grove"
+        },
+        {
+          "id": "25842_t01_037",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Forest Tower Grove",
+          "label": "B",
+          "contents": "Diamond (300 SP), Adderstone x2"
+        },
+        {
+          "id": "25842_t01_038",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 1",
+          "label": "A",
+          "contents": "Tune: Upgraded Thunder Spider",
+          "note": "TUNE — north corridor"
+        },
+        {
+          "id": "25842_t01_039",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 1",
+          "label": "B",
+          "contents": "Druid's Almanac (15 SP), Tune: Explorer (Trap Finder), Ruby (100 SP)",
+          "note": "TUNE: Explorer/Trap Finder"
+        },
+        {
+          "id": "25842_t01_040",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 1",
+          "label": "C",
+          "contents": "100 Silver Pieces",
+          "note": "Top of westernmost path — wait for Boulder"
+        },
+        {
+          "id": "25842_t01_041",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 1",
+          "label": "D",
+          "contents": "approx. 75 Silver Pieces, Jeweled Bracelet (60 SP)"
+        },
+        {
+          "id": "25842_t01_042",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 2",
+          "label": "A",
+          "contents": "approx. 100 Silver Pieces, Adderstone x2"
+        },
+        {
+          "id": "25842_t01_043",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 2",
+          "label": "B",
+          "contents": "approx. 75 Silver Pieces, Jeweled Bracelet (60 SP)"
+        },
+        {
+          "id": "25842_t01_044",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 2",
+          "label": "C",
+          "contents": "Houton Land Deed (60 SP), Pearl (80 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_045",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 2",
+          "label": "D",
+          "contents": "100 Silver Pieces, Adderstone x1"
+        },
+        {
+          "id": "25842_t01_046",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 3",
+          "label": "A",
+          "contents": "Token: Silver Torc",
+          "note": "TOKEN: Silver Torc (+1 Charisma)"
+        },
+        {
+          "id": "25842_t01_047",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 3",
+          "label": "B",
+          "contents": "Crannderg",
+          "note": "WEAPON"
+        },
+        {
+          "id": "25842_t01_048",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 3",
+          "label": "C",
+          "contents": "Ruby (100 SP), Mistletoe (8 SP)"
+        },
+        {
+          "id": "25842_t01_049",
+          "flag": "",
+          "chapter": "Ch.5: Forest Tower",
+          "area": "Level 3",
+          "label": "D",
+          "contents": "350 Silver Pieces, Stonehenge Keepsake (12 SP)"
+        },
+        {
+          "id": "25842_t01_050",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Mountain Pass",
+          "label": "A",
+          "contents": "Viking Axe (20 SP), Viking Sword (20 SP), Viking Pants (10 SP)"
+        },
+        {
+          "id": "25842_t01_051",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Mountain Pass",
+          "label": "B",
+          "contents": "100 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_052",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Mountain Pass",
+          "label": "C",
+          "contents": "250 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_053",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Mountain Pass",
+          "label": "D",
+          "contents": "Tune: Upgraded Mercenary",
+          "note": "TUNE — chest at apparent dead-end; it's a trap!"
+        },
+        {
+          "id": "25842_t01_054",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen River",
+          "label": "A",
+          "contents": "approx. 100 Silver Pieces, Snowglobe O' Houton (15 SP)"
+        },
+        {
+          "id": "25842_t01_055",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen River",
+          "label": "B",
+          "contents": "75 Silver Pieces, Adderstone x1"
+        },
+        {
+          "id": "25842_t01_056",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen River",
+          "label": "C",
+          "contents": "Pearl (80 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_057",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen River",
+          "label": "D",
+          "contents": "approx. 150 Silver Pieces, Ruby (100 SP), Casgair",
+          "note": "WEAPON: Casgair (Magic Aura 100% 3d5)"
+        },
+        {
+          "id": "25842_t01_058",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen Tombs",
+          "label": "A",
+          "contents": "approx. 60 Silver Pieces, Frozen Pants (16 SP), Adderstone x2"
+        },
+        {
+          "id": "25842_t01_066",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Burial Chamber",
+          "label": "A",
+          "contents": "Golden Chalice (200 SP), Viking Sword (20 SP), Adderstone x1",
+          "note": "Northern chamber; guide Hrafn north"
+        },
+        {
+          "id": "25842_t01_067",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Burial Chamber",
+          "label": "",
+          "contents": "Jeweled Sword (20 SP), Amethyst (80 SP), Ruby (100 SP)",
+          "note": "Eastern chamber while guiding Hrafn"
+        },
+        {
+          "id": "25842_t01_059",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Burial Chamber",
+          "label": "B",
+          "contents": "Kite Shield",
+          "note": "Prima Guide has it marked wrong and is missing the previous treasure"
+        },
+        {
+          "id": "25842_t01_060",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen Tombs",
+          "label": "C",
+          "contents": "300 Silver Pieces, Adderstone x2",
+          "note": "Behind ice wall melted by Elemental"
+        },
+        {
+          "id": "25842_t01_061",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen Tombs",
+          "label": "D",
+          "contents": "Diamond (300 SP), Adderstone x3"
+        },
+        {
+          "id": "25842_t01_062",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen Tombs",
+          "label": "E",
+          "contents": "Token: Golden Coronet, Adderstone x2",
+          "note": "TOKEN: Golden Coronet (+2 Charisma) — locked room via Tree Stone"
+        },
+        {
+          "id": "25842_t01_063",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen Tombs",
+          "label": "F",
+          "contents": "approx. 150 Silver Pieces, Adderstone x1"
+        },
+        {
+          "id": "25842_t01_064",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen Tombs",
+          "label": "G",
+          "contents": "approx. 80 Silver Pieces, Pearl (80 SP), Black Pearl (175 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_065",
+          "flag": "",
+          "chapter": "Ch.6: Mountain Pass",
+          "area": "The Frozen Tombs",
+          "label": "H",
+          "contents": "approx. 100 Silver Pieces",
+          "note": "This chest has no flag and is not counted for the achievement"
+        }
+      ]
+    },
+    {
+      "id": "treasures_the_thief_of_fate_s_hoard",
+      "panelType": "checklist",
+      "title": "The Thief of Fate's Hoard",
+      "columns": [
+        {
+          "key": "chapter",
+          "label": "Chapter",
+          "style": "accent"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "style": "plain"
+        },
+        {
+          "key": "contents",
+          "label": "Contents",
+          "style": "dim"
+        }
+      ],
+      "entry_The": [
+        {
+          "id": "25842_t01_068",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Mountain Tower Grove",
+          "label": "A",
+          "contents": "approx. 250 Silver Pieces, Pearl (80 SP), 2-Handed Sword (30 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_069",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Mountain Tower Grove",
+          "label": "B",
+          "contents": "approx. 425 Silver Pieces, 2-Handed Hammer (10 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_070",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Mountain Tower Grove",
+          "label": "C",
+          "contents": "approx. 300 Silver Pieces, Jeweled Bracelet (60 SP)"
+        },
+        {
+          "id": "25842_t01_071",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 1",
+          "label": "A",
+          "contents": "Ancient Bracelet (300 SP), Adderstone x3",
+          "note": "Arena antechamber"
+        },
+        {
+          "id": "25842_t01_072",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 1",
+          "label": "B",
+          "contents": "Tune: Upgraded Light Fairy",
+          "note": "TUNE — NE antechamber, on a corpse"
+        },
+        {
+          "id": "25842_t01_073",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 2",
+          "label": "A",
+          "contents": "2-Handed Sword (20 SP), 2-Handed Axe (10 SP), Golden Chalice (200 SP), Jeweled Sword (200 SP)"
+        },
+        {
+          "id": "25842_t01_074",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 2",
+          "label": "B",
+          "contents": "Ruby (100 SP), Adderstone x1, Pearl (80 SP)"
+        },
+        {
+          "id": "25842_t01_075",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 2",
+          "label": "C",
+          "contents": "Ancient Bracelet (300 SP), Adderstone x2"
+        },
+        {
+          "id": "25842_t01_076",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 2",
+          "label": "D",
+          "contents": "Token: Silver Horseshoe",
+          "note": "TOKEN: Silver Horseshoe (+2 Luck) — trapped passage"
+        },
+        {
+          "id": "25842_t01_077",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 2",
+          "label": "E",
+          "contents": "Gears (16 SP) x3, Adderstone x2, Jeweled Sword (200 SP), Gears (16 SP), Fancy Pants (120 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_078",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 3",
+          "label": "A",
+          "contents": "approx. 600 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_079",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 3",
+          "label": "B",
+          "contents": "Adderstone x1, Claidheamh Soluis",
+          "note": "WEAPON: Claidheamh Soluis (Electrical 100% 2d5)"
+        },
+        {
+          "id": "25842_t01_080",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 3",
+          "label": "C",
+          "contents": "Emerald (200 SP), 2-Handed Sword (30 SP), Amethyst (80 SP), Pearl (80 SP)"
+        },
+        {
+          "id": "25842_t01_081",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 3",
+          "label": "D",
+          "contents": "approx. 500 Silver Pieces, Emerald (200 SP), Jeweled Bracelet (60 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_082",
+          "flag": "",
+          "chapter": "Ch.7: Mountain Tower",
+          "area": "Level 3",
+          "label": "E",
+          "contents": "2-Handed Sword (30 SP), 2-Handed Axe (10 SP), Ceremonial Sword (200 SP), Jeweled Sword (200 SP), Fancy Pants (120 SP), Ruby (100 SP), Houton Land Deed (60 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_083",
+          "flag": "",
+          "chapter": "Ch.8: Dounby",
+          "area": "The Old City",
+          "label": "A",
+          "contents": "Tune: Upgraded Crone, Amethyst (80 SP), Adderstone x2",
+          "note": "TUNE — first chest from West Dounby entrance"
+        },
+        {
+          "id": "25842_t01_084",
+          "flag": "",
+          "chapter": "Ch.8: Dounby",
+          "area": "The Old City",
+          "label": "B",
+          "contents": "Tune: Brute, Adderstone x2, Fancy Pants (120 SP)",
+          "note": "TUNE — south"
+        },
+        {
+          "id": "25842_t01_085",
+          "flag": "",
+          "chapter": "Ch.8: Dounby",
+          "area": "The Old City",
+          "label": "C",
+          "contents": "Silver Harp, Ceremonial Sword (200 SP), Amethyst (80 SP), Adderstone x1",
+          "note": "INSTRUMENT: Silver Harp (3 summons, 400 mana) — extreme southwest"
+        },
+        {
+          "id": "25842_t01_086",
+          "flag": "",
+          "chapter": "Ch.8: Dounby",
+          "area": "The Old City",
+          "label": "D",
+          "contents": "Jeweled Sword (200 SP), Adderstone x3"
+        },
+        {
+          "id": "25842_t01_087",
+          "flag": "🟡",
+          "chapter": "Ch.8: Dounby",
+          "area": "The Old City",
+          "label": "E",
+          "contents": "approx. 500 Silver Pieces, Black Pearl (175 SP), Adderstone x2",
+          "note": "Hidden room — Explorer required"
+        },
+        {
+          "id": "25842_t01_088",
+          "flag": "",
+          "chapter": "Ch.9: Finstown",
+          "area": "Town of Finstown (Armory)",
+          "label": "A",
+          "contents": "Viking Pants (10 SP), Token: Broonie's Cloak, Viking Axe (20 SP), Diary (8 SP)",
+          "note": "TOKEN: Broonie's Cloak (+10% health regen)"
+        },
+        {
+          "id": "25842_t01_089",
+          "flag": "",
+          "chapter": "Ch.9: Finstown",
+          "area": "Town of Finstown (Armory)",
+          "label": "B",
+          "contents": "Granite Flail, Amethyst (80 SP), Viking Sword (20 SP), Pearl (80 SP)",
+          "note": "WEAPON: Granite Flail"
+        },
+        {
+          "id": "25842_t01_090",
+          "flag": "",
+          "chapter": "Ch.9: Finstown",
+          "area": "Town of Finstown (Armory)",
+          "label": "C",
+          "contents": "Viking Axe (20 SP), Diamond (300 SP), Jeweled Bracelet (60 SP), Scathach's Mail",
+          "note": "ARMOR: Scathach's Mail"
+        },
+        {
+          "id": "25842_t01_091",
+          "flag": "",
+          "chapter": "Ch.9: Finstown",
+          "area": "Town of Finstown (Armory)",
+          "label": "D",
+          "contents": "300 Silver Pieces, Ceremonial Sword (200 SP), Copper Goblet (4 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_092",
+          "flag": "",
+          "chapter": "Ch.9: Finstown",
+          "area": "Town of Finstown (Armory)",
+          "label": "E",
+          "contents": "200 Silver Pieces, Adderstone x1, Black Pearl (175 SP), Amethyst (80 SP)"
+        },
+        {
+          "id": "25842_t01_093",
+          "flag": "",
+          "chapter": "Ch.9: Finstown",
+          "area": "Town of Finstown (Silkbeard)",
+          "label": "F",
+          "contents": "Amethyst (80 SP), Jeweled Bracelet (60 SP), Adderstone x1, Tune: Rogue",
+          "note": "TUNE: Rogue — Silkbeard's treasure room"
+        },
+        {
+          "id": "25842_t01_094",
+          "flag": "",
+          "chapter": "Ch.9: Finstown",
+          "area": "Town of Finstown (Silkbeard)",
+          "label": "G",
+          "contents": "475 Silver Pieces, Adderstone x1, Pearl (80 SP), Houton Land Deed (60 SP)"
+        },
+        {
+          "id": "25842_t01_095",
+          "flag": "",
+          "chapter": "Ch.9: Finstown",
+          "area": "Town of Finstown (Silkbeard)",
+          "label": "H",
+          "contents": "Tune: Gouger (Health Stealer), Jeweled Sword (200 SP), Ruby (100 SP), Adderstone x1",
+          "note": "TUNE: Health Stealer"
+        }
+      ]
+    },
+    {
+      "id": "treasures_fargo_s_fortune",
+      "panelType": "checklist",
+      "title": "Fargo's Fortune",
+      "columns": [
+        {
+          "key": "chapter",
+          "label": "Chapter",
+          "style": "accent"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "style": "plain"
+        },
+        {
+          "key": "contents",
+          "label": "Contents",
+          "style": "dim"
+        }
+      ],
+      "entry_Fargos": [
+        {
+          "id": "25842_t01_096",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "Greenlands North Plain",
+          "label": "A",
+          "contents": "approx. 666 Silver Pieces, Adderstone x3"
+        },
+        {
+          "id": "25842_t01_097",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "Greenlands North Plain",
+          "label": "B",
+          "contents": "666 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_098",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "Greenlands North Plain",
+          "label": "C",
+          "contents": "approx. 575 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_099",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "Greenlands North Plain",
+          "label": "D",
+          "contents": "500 Silver Pieces, Adderstone x1, Self-Help Book (10 SP), Diary (8 SP), Chianti (60 SP) x2"
+        },
+        {
+          "id": "25842_t01_100",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 2",
+          "label": "A",
+          "contents": "Token: Fae Locket, Adderstone x1",
+          "note": "TOKEN: Fae Locket (+2 Vitality) — HIDDEN ROOM, Explorer required"
+        },
+        {
+          "id": "25842_t01_101",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 2",
+          "label": "B",
+          "contents": "Brain (8 SP), Eyeball (4 SP), Ruby (100 SP), Pearl (80 SP)"
+        },
+        {
+          "id": "25842_t01_102",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 4",
+          "label": "C",
+          "contents": "Token: Belt of the Oak, Skinsalve (10 SP), Adderstone x2",
+          "note": "TOKEN: Belt of Oak (+2 Strength) — Lord Merrimont's Chamber"
+        },
+        {
+          "id": "25842_t01_103",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 4",
+          "label": "D",
+          "contents": "Tune: Behemoth, Adderstone x2, Amethyst (80 SP)",
+          "note": "TUNE: Behemoth"
+        },
+        {
+          "id": "25842_t01_104",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 6",
+          "label": "A",
+          "contents": "Tune: Upgraded Heroine, Adderstone x1",
+          "note": "TUNE — Hidden room"
+        },
+        {
+          "id": "25842_t01_105",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 6",
+          "label": "B",
+          "contents": "Tune: Upgraded Knight, Adderstone x1",
+          "note": "TUNE — Hidden room"
+        },
+        {
+          "id": "25842_t01_106",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 7",
+          "label": "C",
+          "contents": "350 Silver Pieces, Houton Land Deed (60 SP), Adderstone x2"
+        },
+        {
+          "id": "25842_t01_107",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 7",
+          "label": "D",
+          "contents": "500 Silver Pieces, Adderstone x1"
+        },
+        {
+          "id": "25842_t01_108",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 9",
+          "label": "E",
+          "contents": "approx. 800 Silver Pieces, Adderstone x1"
+        },
+        {
+          "id": "25842_t01_109",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 10",
+          "label": "A",
+          "contents": "approx. 200 Silver Pieces, Jeweled Bracelet (60 SP), Skinsalve (10 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_110",
+          "flag": "",
+          "chapter": "Ch.10: Greenlands",
+          "area": "MacRath's Dungeon - Room 11",
+          "label": "B",
+          "contents": "approx. 350 Silver Pieces, Emerald (200 SP), Black Pearl (175 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_111",
+          "flag": "",
+          "chapter": "Ch.11: Stromness",
+          "area": "Town of Stromness",
+          "label": "A",
+          "contents": "666 Silver Pieces, Adderstone x1",
+          "note": "Stump-chest"
+        },
+        {
+          "id": "25842_t01_112",
+          "flag": "",
+          "chapter": "Ch.11: Stromness",
+          "area": "Town of Stromness",
+          "label": "B",
+          "contents": "666 Silver Pieces, Adderstone x3",
+          "note": "Stump-chest"
+        },
+        {
+          "id": "25842_t01_113",
+          "flag": "",
+          "chapter": "Ch.11: Stromness",
+          "area": "Town of Stromness",
+          "label": "C",
+          "contents": "666 Silver Pieces, Adderstone x2",
+          "note": "Stump-chest"
+        },
+        {
+          "id": "25842_t01_114",
+          "flag": "",
+          "chapter": "Ch.11: Stromness",
+          "area": "Town of Stromness",
+          "label": "D",
+          "contents": "666 Silver Pieces, Armor of Llyr",
+          "note": "ARMOR: Armor of Llyr (4d2+1) — stump-chest"
+        },
+        {
+          "id": "25842_t01_115",
+          "flag": "",
+          "chapter": "Ch.11: Stromness",
+          "area": "The Farm",
+          "label": "A",
+          "contents": "approx. 600 Silver Pieces, Adderstone x3"
+        },
+        {
+          "id": "25842_t01_116",
+          "flag": "",
+          "chapter": "Ch.11: Stromness",
+          "area": "The Farm",
+          "label": "B",
+          "contents": "approx. 300 Silver Pieces, Token: Four Leaf Clover, Adderstone x1",
+          "note": "TOKEN: Four Leaf Clover (+2 Luck)"
+        },
+        {
+          "id": "25842_t01_117",
+          "flag": "",
+          "chapter": "Ch.11: Stromness",
+          "area": "The Farm",
+          "label": "C",
+          "contents": "250 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_118",
+          "flag": "",
+          "chapter": "Ch.11: Stromness",
+          "area": "The Farm",
+          "label": "D",
+          "contents": "approx. 450 Silver Pieces, Token: Golden Thistle Ring, Adderstone x1",
+          "note": "TOKEN: Golden Thistle Ring (+50 max HP)"
+        },
+        {
+          "id": "25842_t01_119",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "The Firbolg Mines",
+          "label": "B",
+          "contents": "1000 Silver Pieces, Coal (1 SP) x3, Diamond (300 SP), Ruby (100 SP), Amethyst (80 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_120",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "The Firbolg Mines",
+          "label": "C",
+          "contents": "2000 Silver Pieces, Adderstone x2"
+        },
+        {
+          "id": "25842_t01_121",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "The Firbolg Mines",
+          "label": "D",
+          "contents": "250 Silver Pieces, Ruby (100 SP), Diamond (300 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_122",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "Underground River",
+          "label": "A",
+          "contents": "666 Silver Pieces, Ruby (100 SP), Adderstone x2"
+        },
+        {
+          "id": "25842_t01_123",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "Underground River",
+          "label": "B",
+          "contents": "Diamond (300 SP), Adderstone x3"
+        },
+        {
+          "id": "25842_t01_124",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "Finfolk Caverns",
+          "label": "A",
+          "contents": "Diamond (300 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_125",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "Finfolk Caverns",
+          "label": "B",
+          "contents": "approx. 600 Silver Pieces, Black Pearl (175 SP), Lobster Bib (12 SP), Swim Trunks (8 SP), Adderstone x2"
+        },
+        {
+          "id": "25842_t01_126",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "Finfolk Caverns",
+          "label": "C",
+          "contents": "Diamond (300 SP), Tune: Upgraded Knocker",
+          "note": "TUNE: Upgraded Knocker — in locked/gated chamber"
+        },
+        {
+          "id": "25842_t01_127",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "Finfolk Caverns",
+          "label": "D",
+          "contents": "Black Pearl (175 SP), Pearl (80 SP), Adderstone x2"
+        },
+        {
+          "id": "25842_t01_128",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "The Narrow Sea",
+          "label": "A",
+          "contents": "approx. 1000 Silver Pieces, Black Pearl (175 SP), Adderstone x1, Jeweled Bracelet (60 SP)"
+        },
+        {
+          "id": "25842_t01_129",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "The Narrow Sea",
+          "label": "B",
+          "contents": "approx. 900 Silver Pieces, Swim Trunks (8 SP), Diamond (300 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_130",
+          "flag": "",
+          "chapter": "Ch.12: Firbolg Mines",
+          "area": "The Narrow Sea",
+          "label": "C",
+          "contents": "approx. 800 Silver Pieces, Black Pearl (175 SP), Adderstone x2"
+        }
+      ]
+    },
+    {
+      "id": "treasures_cranford_s_cache",
+      "panelType": "checklist",
+      "title": "Cranford's Cache",
+      "columns": [
+        {
+          "key": "chapter",
+          "label": "Chapter",
+          "style": "accent"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "style": "plain"
+        },
+        {
+          "key": "contents",
+          "label": "Contents",
+          "style": "dim"
+        }
+      ],
+      "entry_Cranfords": [
+        {
+          "id": "25842_t01_131",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Island Tower Grove",
+          "label": "A",
+          "contents": "Emerald (200 SP), Ancient Bracelet (300 SP), Diamond (300 SP)"
+        },
+        {
+          "id": "25842_t01_132",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Island Tower Grove",
+          "label": "B",
+          "contents": "Jeweled Sword (200 SP), Adderstone x1, History of Dounby (90 SP)"
+        },
+        {
+          "id": "25842_t01_133",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Island Tower Grove",
+          "label": "C",
+          "contents": "Adderstone x2, Black Pearl (175 SP)"
+        },
+        {
+          "id": "25842_t01_134",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 1",
+          "label": "A",
+          "contents": "Tune: Upgraded Enchantress, Adderstone x1, Diamond (300 SP)",
+          "note": "TUNE: Upgraded Enchantress — first chest"
+        },
+        {
+          "id": "25842_t01_135",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 1",
+          "label": "B",
+          "contents": "Ossian's Lute, Adderstone x1, Diamond (300 SP), Ancient Bracelet (300 SP)",
+          "note": "INSTRUMENT: Ossian's Lute (4 summons, 800 mana)"
+        },
+        {
+          "id": "25842_t01_136",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 2",
+          "label": "A",
+          "contents": "Basluath, Ruby (100 SP), Ceremonial Sword (200 SP), Diamond (300 SP)",
+          "note": "WEAPON: Basluath (most powerful Dirk) — Arrow Trap in front"
+        },
+        {
+          "id": "25842_t01_137",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 2",
+          "label": "B",
+          "contents": "Adderstone x1, Golden Chalice (200 SP), Amethyst (80 SP), Emerald (200 SP)"
+        },
+        {
+          "id": "25842_t01_138",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 2",
+          "label": "C",
+          "contents": "Ruby (100 SP), Black Pearl (175 SP), Houton Land Deed (60 SP)"
+        },
+        {
+          "id": "25842_t01_139",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 2",
+          "label": "D",
+          "contents": "Jeweled Sword (200 SP), Emerald (200 SP), Fancy Pants (120 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_140",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 2",
+          "label": "E",
+          "contents": "Tune: Upgraded Rogue, Diamond (300 SP), History of Dounby (90 SP), Amethyst (80 SP)",
+          "note": "TUNE: Upgraded Rogue — NE chest"
+        },
+        {
+          "id": "25842_t01_141",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 2",
+          "label": "F",
+          "contents": "Ceremonial Sword (200 SP), Ancient Bracelet (300 SP), Emerald (200 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_142",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 3",
+          "label": "A",
+          "contents": "999 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_143",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 3",
+          "label": "B",
+          "contents": "approx. 850 Silver Pieces, Adderstone x1, Golden Chalice (200 SP), Stonehenge Keepsake (12 SP)"
+        },
+        {
+          "id": "25842_t01_144",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 3",
+          "label": "C",
+          "contents": "approx. 500 Silver Pieces, Book of the Dun Cow (200 SP), Adderstone x1, Balor's Eye",
+          "note": "WEAPON: Balor's Eye (most powerful Flail) — easternmost room"
+        },
+        {
+          "id": "25842_t01_145",
+          "flag": "",
+          "chapter": "Ch.13: Island Tower",
+          "area": "Level 3",
+          "label": "D",
+          "contents": "History of Dounby (90 SP), Druidic Pants (15 SP), Fancy Pants (120 SP), Chianti (68 SP)"
+        },
+        {
+          "id": "25842_t01_146",
+          "flag": "",
+          "chapter": "Ch.14: Dounby Tower",
+          "area": "Floor 7",
+          "label": "A",
+          "contents": "Adderstone x1",
+          "note": "4 chests on Floor 7, one Adderstone each"
+        },
+        {
+          "id": "25842_t01_147",
+          "flag": "",
+          "chapter": "Ch.14: Dounby Tower",
+          "area": "Floor 7",
+          "label": "B",
+          "contents": "Adderstone x1"
+        },
+        {
+          "id": "25842_t01_148",
+          "flag": "",
+          "chapter": "Ch.14: Dounby Tower",
+          "area": "Floor 7",
+          "label": "C",
+          "contents": "Adderstone x1"
+        },
+        {
+          "id": "25842_t01_149",
+          "flag": "",
+          "chapter": "Ch.14: Dounby Tower",
+          "area": "Floor 7",
+          "label": "D",
+          "contents": "Adderstone x1",
+          "note": "Save point also on Floor 7"
+        },
+        {
+          "id": "25842_t01_150",
+          "flag": "",
+          "chapter": "Ch.14: Dounby Tower",
+          "area": "Floor 12",
+          "label": "A",
+          "contents": "Adderstone x1",
+          "note": "4 chests on Floor 12, one Adderstone each"
+        },
+        {
+          "id": "25842_t01_151",
+          "flag": "",
+          "chapter": "Ch.14: Dounby Tower",
+          "area": "Floor 12",
+          "label": "B",
+          "contents": "Adderstone x1"
+        },
+        {
+          "id": "25842_t01_152",
+          "flag": "",
+          "chapter": "Ch.14: Dounby Tower",
+          "area": "Floor 12",
+          "label": "C",
+          "contents": "Adderstone x1"
+        },
+        {
+          "id": "25842_t01_153",
+          "flag": "",
+          "chapter": "Ch.14: Dounby Tower",
+          "area": "Floor 12",
+          "label": "D",
+          "contents": "Adderstone x1",
+          "note": "Save point also on Floor 12"
+        }
+      ]
+    },
+    {
+      "id": "treasures_inxile_s_inheritance",
+      "panelType": "checklist",
+      "title": "inXile's Inheritance",
+      "columns": [
+        {
+          "key": "chapter",
+          "label": "Chapter",
+          "style": "accent"
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "style": "plain"
+        },
+        {
+          "key": "contents",
+          "label": "Contents",
+          "style": "dim"
+        }
+      ],
+      "entry_InXiles": [
+        {
+          "id": "25842_t01_154",
+          "flag": "⚠️",
+          "chapter": "Extra Dungeon 1",
+          "area": "Ruins of Dun Ailinne",
+          "label": "A",
+          "contents": "Gnimh's Flute, History of Dounby (90 SP), Amethyst (80 SP), Ancient Bracelet (300 SP)",
+          "note": "INSTRUMENT: Gnimh's Flute (4 summons, 700 mana) — HIDDEN ROOM, western wing; WARNING: getting this before Stromness prevents Upgraded Brute"
+        },
+        {
+          "id": "25842_t01_155",
+          "flag": "",
+          "chapter": "Extra Dungeon 1",
+          "area": "Ruins of Dun Ailinne",
+          "label": "B",
+          "contents": "Amethyst (80 SP), Ancient Bracelet (300 SP), Golden Chalice (200 SP), 666 Silver Pieces"
+        },
+        {
+          "id": "25842_t01_156",
+          "flag": "",
+          "chapter": "Extra Dungeon 1",
+          "area": "Ruins of Dun Ailinne",
+          "label": "C",
+          "contents": "666 Silver Pieces, Adderstone x1, Jeweled Sword (200 SP), Diamond (300 SP)",
+          "note": "Anti-magic zone"
+        },
+        {
+          "id": "25842_t01_157",
+          "flag": "",
+          "chapter": "Extra Dungeon 1",
+          "area": "Ruins of Dun Ailinne",
+          "label": "D",
+          "contents": "Amethyst (80 SP), Adderstone x2, Ruby (100 SP)"
+        },
+        {
+          "id": "25842_t01_158",
+          "flag": "",
+          "chapter": "Extra Dungeon 1",
+          "area": "Ruins of Dun Ailinne",
+          "label": "E",
+          "contents": "Amethyst (80 SP), Emerald (200 SP), Diamond (300 SP), Token: Golden Spyglass",
+          "note": "TOKEN: Golden Spyglass (+10% treasure value) — final northern room, anti-magic zone"
+        },
+        {
+          "id": "25842_t01_159",
+          "flag": "",
+          "chapter": "Extra Dungeon 2",
+          "area": "Cairn of Ardagh",
+          "label": "A",
+          "contents": "700 Silver Pieces, Black Pearl (175 SP), Emerald (200 SP)"
+        },
+        {
+          "id": "25842_t01_160",
+          "flag": "",
+          "chapter": "Extra Dungeon 2",
+          "area": "Cairn of Ardagh",
+          "label": "B",
+          "contents": "approx. 500 Silver Pieces, Adderstone x1, Jeweled Sword (200 SP), Amethyst (80 SP)"
+        },
+        {
+          "id": "25842_t01_161",
+          "flag": "🟡",
+          "chapter": "Extra Dungeon 2",
+          "area": "Cairn of Ardagh",
+          "label": "C",
+          "contents": "History of Dounby (90 SP), Diamond (300 SP)",
+          "note": "HIDDEN ROOM, NE section"
+        },
+        {
+          "id": "25842_t01_162",
+          "flag": "",
+          "chapter": "Extra Dungeon 2",
+          "area": "Cairn of Ardagh",
+          "label": "D",
+          "contents": "Token: Amulet of Llyr, Ruby (100 SP), Pearl (80 SP), Emerald (200 SP)",
+          "note": "TOKEN: Amulet of Llyr (+1d5 armor) — HIDDEN ROOM, NE section"
+        },
+        {
+          "id": "25842_t01_163",
+          "flag": "",
+          "chapter": "Extra Dungeon 3",
+          "area": "Cairn of Carrowmore",
+          "label": "A",
+          "contents": "approx. 800 Silver Pieces, Self-Help Book (10 SP), Pearl (80 SP), Golden Chalice (200 SP)"
+        },
+        {
+          "id": "25842_t01_164",
+          "flag": "",
+          "chapter": "Extra Dungeon 3",
+          "area": "Cairn of Carrowmore",
+          "label": "B",
+          "contents": "approx. 500 Silver Pieces, Amethyst (80 SP), Adderstone x1, Ceremonial Sword (200 SP)"
+        },
+        {
+          "id": "25842_t01_165",
+          "flag": "",
+          "chapter": "Extra Dungeon 3",
+          "area": "Cairn of Carrowmore",
+          "label": "C",
+          "contents": "approx. 1400 Silver Pieces, Ruby (100 SP), Adderstone x1, Diamond (300 SP)",
+          "note": "First burial chamber (north); other 2 chambers have Arrow Traps, not worth entering"
+        },
+        {
+          "id": "25842_t01_166",
+          "flag": "🟡",
+          "chapter": "Extra Dungeon 3",
+          "area": "Cairn of Carrowmore",
+          "label": "D",
+          "contents": "approx. 300 Silver Pieces, Pearl (80 SP), Ancient Bracelet (300 SP), Houton Land Deed (60 SP)",
+          "note": "HIDDEN ROOM"
+        },
+        {
+          "id": "25842_t01_167",
+          "flag": "🟡",
+          "chapter": "Extra Dungeon 3",
+          "area": "Cairn of Carrowmore",
+          "label": "E",
+          "contents": "1000 Silver Pieces, Viking Pants (10 SP), Fancy Pants (120 SP), Druidic Pants (15 SP)",
+          "note": "HIDDEN ROOM"
+        },
+        {
+          "id": "25842_t01_168",
+          "flag": "",
+          "chapter": "Extra Dungeon 3",
+          "area": "Cairn of Carrowmore",
+          "label": "F",
+          "contents": "approx. 500 Silver Pieces, Adderstone x2, Dubgilla",
+          "note": "SHIELD: Dubgilla (2d2+1, 10% healing) — HIDDEN ROOM"
+        },
+        {
+          "id": "25842_t01_169",
+          "flag": "",
+          "chapter": "Extra Dungeon 3",
+          "area": "Cairn of Carrowmore",
+          "label": "G",
+          "contents": "Token: Phial of Medb, Adderstone x1, Jeweled Sword (200 SP), Jeweled Bracelet (60 SP)",
+          "note": "TOKEN: Phial of Medb (+3 Vitality) — HIDDEN ROOM"
+        },
+        {
+          "id": "25842_t01_170",
+          "flag": "",
+          "chapter": "Extra Dungeon 4",
+          "area": "Ruin of Emain Macha",
+          "label": "A",
+          "contents": "Emerald (200 SP), Black Pearl (175 SP), Ruby (100 SP), Amethyst (80 SP)",
+          "note": "Bring Light Fairy — pitch black at start; anti-magic zones near D and E"
+        },
+        {
+          "id": "25842_t01_171",
+          "flag": "",
+          "chapter": "Extra Dungeon 4",
+          "area": "Ruin of Emain Macha",
+          "label": "B",
+          "contents": "Ceremonial Sword (200 SP), Golden Chalice (200 SP), Ancient Bracelet (300 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_172",
+          "flag": "",
+          "chapter": "Extra Dungeon 4",
+          "area": "Ruin of Emain Macha",
+          "label": "C",
+          "contents": "Brain (8 SP), Jeweled Bracelet (60 SP) x2, Haggis (20 SP), Emerald (200 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_173",
+          "flag": "",
+          "chapter": "Extra Dungeon 4",
+          "area": "Ruin of Emain Macha",
+          "label": "D",
+          "contents": "Fancy Pants (120 SP), Bottle of Chianti (60 SP), Skin Salve (10 SP)",
+          "note": "Anti-magic zone"
+        },
+        {
+          "id": "25842_t01_174",
+          "flag": "",
+          "chapter": "Extra Dungeon 4",
+          "area": "Ruin of Emain Macha",
+          "label": "E",
+          "contents": "Ceremonial Sword (200 SP), Book of the Dun Cow (200 SP), Houton Land Deed (60 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_175",
+          "flag": "",
+          "chapter": "Extra Dungeon 4",
+          "area": "Ruin of Emain Macha",
+          "label": "F",
+          "contents": "1200 Silver Pieces, Ruby (100 SP), Adderstone x1, Token: White Book of Hergest",
+          "note": "TOKEN: White Book of Hergest (+10% mana regen) — final chamber"
+        },
+        {
+          "id": "25842_t01_176",
+          "flag": "",
+          "chapter": "Extra Dungeon 5",
+          "area": "Ruins of Tara",
+          "label": "A",
+          "contents": "Emerald (200 SP), Ancient Bracelet (300 SP), Ruby (100 SP), Adderstone x1"
+        },
+        {
+          "id": "25842_t01_177",
+          "flag": "",
+          "chapter": "Extra Dungeon 5",
+          "area": "Ruins of Tara",
+          "label": "B",
+          "contents": "approx. 1000 Silver Pieces, Meat (10 SP), Mutton (10 SP), Jeweled Sword (200 SP)"
+        },
+        {
+          "id": "25842_t01_178",
+          "flag": "",
+          "chapter": "Extra Dungeon 5",
+          "area": "Ruins of Tara",
+          "label": "C",
+          "contents": "approx. 1000 Silver Pieces, Haggis (20 SP), Meat (10 SP), Mutton (10 SP)"
+        },
+        {
+          "id": "25842_t01_179",
+          "flag": "",
+          "chapter": "Extra Dungeon 5",
+          "area": "Ruins of Tara",
+          "label": "D",
+          "contents": "approx. 1000 Silver Pieces, Adderstone x3, Token: Cormac's Chalice",
+          "note": "TOKEN: Cormac's Chalice (+3 Rhythm) — room NE past spikey chamber"
+        }
+      ]
+    }
+  ]
+}

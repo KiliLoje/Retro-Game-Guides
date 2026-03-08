@@ -1,0 +1,39 @@
+{
+  "label": "🌟 Rare Goods",
+  "panels": [
+    {
+      "id": "panel_raregoods_timelocked",
+      "panelType": "checklist",
+      "title": "⏰ Time-Locked Goods",
+      "infobox": "🌟 Time-limited goods disappear at month end if you haven't found the rumor. Sell one of each for the *Exemplary Merchant* achievement.",
+      "columns": [
+        { "key": "town",     "label": "Town",     "style": "plain" },
+        { "key": "deadline", "label": "Deadline", "style": "accent" }
+      ],
+      "entry_Product": [
+        { "id": "Rare|0", "name": "Baby Elephant",             "town": "Bourattia",  "deadline": "March",  "note": "⚠️ Missable — find the rumor before the deadline." },
+        { "id": "Rare|1", "name": "Foie Gras",                 "town": "Lune",       "deadline": "April",  "note": "⚠️ Missable — find the rumor before the deadline." },
+        { "id": "Rare|2", "name": "Phantom Wheat",             "town": "Graha",      "deadline": "May",    "note": "⚠️ Missable — find the rumor before the deadline." },
+        { "id": "Rare|3", "name": "Fine Perfumes",             "town": "Ruckiholk",  "deadline": "May",    "note": "⚠️ Missable — find the rumor before the deadline." },
+        { "id": "Rare|4", "name": "Luxury Carpet (Fancy Rug)", "town": "Delintskolz","deadline": "June",   "note": "⚠️ Missable — find the rumor before the deadline." },
+        { "id": "Rare|5", "name": "Tuna",                      "town": "Lenos",      "deadline": "July",   "note": "⚠️ Missable — find the rumor before the deadline." },
+        { "id": "Rare|6", "name": "High-grade Fabric",         "town": "Leyage",     "deadline": "August", "note": "⚠️ Missable — find the rumor before the deadline." }
+      ]
+    },
+    {
+      "id": "panel_raregoods_alchemy",
+      "panelType": "checklist",
+      "title": "⚗️ Alchemy Goods",
+      "infobox": "Alchemy goods are unlocked via the side quest in Ulrich.",
+      "columns": [
+        { "key": "process", "label": "Process",  "style": "plain" },
+        { "key": "result",  "label": "Result",   "style": "accent" }
+      ],
+      "entry_Product": [
+        { "id": "Rare|7", "name": "Beer → Whiskey",   "process": "Delintskolz: buy Beer → deliver to Ulrich",  "result": "Unlocks Whiskey" },
+        { "id": "Rare|8", "name": "Sugar → Caramel",  "process": "Rossalt: buy Sugar → deliver to Ulrich",     "result": "Unlocks Caramel" },
+        { "id": "Rare|9", "name": "Iron → Steel",      "process": "Gahno: buy Iron → deliver to Ulrich",        "result": "Unlocks Steel" }
+      ]
+    }
+  ]
+}

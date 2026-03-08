@@ -1,0 +1,269 @@
+{
+  "label": "🏘️ World & Festivals",
+  "panels": [
+    {
+      "id": "p_world_areas",
+      "panelType": "table",
+      "title": "Areas & Unlock Conditions",
+      "columns": [
+        "Area",
+        "Unlock",
+        "Key Features"
+      ],
+      "rows": [
+        [
+          "Caramel River District (Farm)",
+          "Start",
+          "Your farm, river fishing, Hot Spring (Caramel Falls — full stamina once/day)"
+        ],
+        [
+          "Waffle Town",
+          "Start",
+          "All main shops, most festivals. More shops/NPCs arrive over time."
+        ],
+        [
+          "Waffle Town Beach",
+          "Start",
+          "Fishing pier, beach forageables, festivals"
+        ],
+        [
+          "Maple Lake District",
+          "Start",
+          "Residential zone, Maple Lake (exclusive fish). No shops."
+        ],
+        [
+          "Ganache Mine District",
+          "Start",
+          "Blacksmith, Carpenter's Shop, Praline Forest (herbs/berries/lumber), Ganache Mine"
+        ],
+        [
+          "Brownie Ranch",
+          "Spring 28 Animal Festival OR Level 3 Hammer",
+          "Animal purchases, Souffle Farm, animal care tools"
+        ],
+        [
+          "Caramel River ↔ Mine Shortcut",
+          "Talk to Gill near log → visit Carpenter's Shop",
+          "⚠️ Do NOT examine the root before meeting Dale — causes permanent glitch!"
+        ],
+        [
+          "Toucan Island",
+          "Complete Daren's Rainbow (ferry starts)",
+          "Inn (rare seeds), exotic fruits, unique fish. Ferry: 6AM–10PM, closed Mondays."
+        ],
+        [
+          "West Gull Island",
+          "Complete Daren's Rainbow (walk the rainbow)",
+          "Grapes, oranges, Collin sprite, squirrel pet"
+        ],
+        [
+          "East Gull Island",
+          "Unlock West Gull Island first; find Ben's badge here",
+          "Best fishing in game (Angler Fish, Shark, Swordfish, Tuna). Go before completing Ben's Rainbow."
+        ],
+        [
+          "Mt. Gelato Base & Goddess Spring",
+          "Ben's badge from East Gull Island",
+          "Second mine, Goddess Spring, Bamboo Shoots, bear/rabbit/weasel/raccoon pets"
+        ],
+        [
+          "Mt. Gelato Peak",
+          "Complete Alan's (Red) Rainbow",
+          "Fifth sprite, leads to Harvest Goddess tree — final story area"
+        ]
+      ]
+    },
+    {
+      "id": "p_world_festivals",
+      "panelType": "table",
+      "title": "Festivals",
+      "infobox": "Romantic festivals (Fireworks, Firefly, Starry Night) require asking your chosen partner the day before with 3+ hearts. Standing them up costs a full heart level.",
+      "columns": [
+        "Festival",
+        "Date",
+        "Time",
+        "Type",
+        "Notable / Tips"
+      ],
+      "rows": [
+        [
+          "New Year's Day Sunrise",
+          "Spring 1",
+          "After midnight",
+          "Romantic",
+          "Watch sunrise with spouse or alone. Follows New Year's Eve automatically."
+        ],
+        [
+          "Flower Festival",
+          "Spring 10",
+          "9AM–5PM",
+          "Market",
+          "⚠️ MEET SELENA here at 10AM+ — miss it and wait a full year! Bug-catching mini-game (talk to Gill). Buy Happy Fertilizer (225G) and Blue Herb Seeds."
+        ],
+        [
+          "Spring Market",
+          "Spring 22",
+          "9AM–5PM",
+          "Market",
+          "**Only place** to buy Grilled Yam & Apple before late Summer/Fall (both needed for Daren's Rainbow). Last call before Summer."
+        ],
+        [
+          "Animal Festival",
+          "Spring 28",
+          "9AM–5PM",
+          "Market + Contest",
+          "Contest: auto-enters highest-heart animal. 10 hearts = guaranteed prize; 1st place is partially random. **Buy yarns here** (Good Flax/Wool/Silk Yarn) for rucksack upgrades."
+        ],
+        [
+          "Ocean Festival",
+          "Summer 7",
+          "9AM–5PM",
+          "Market",
+          "Grilled Clam (195G) is loved by 50%+ of villagers — great cheap gifting day."
+        ],
+        [
+          "Fireworks Display",
+          "Summer 7",
+          "7PM–10PM",
+          "Romantic",
+          "Ask on Summer 6 (3+ hearts). Location: in front of General Store / beach stairs."
+        ],
+        [
+          "Summer Market",
+          "Summer 22",
+          "9AM–5PM",
+          "Market",
+          "Same stock as Spring Market. Last chance for Apple, Grilled Yam, Omelet."
+        ],
+        [
+          "Firefly Festival",
+          "Summer 24",
+          "7PM–10PM",
+          "Romantic",
+          "Ask on Summer 23. Location: waterfall area."
+        ],
+        [
+          "Arts Festival",
+          "Fall 12",
+          "9AM–5PM",
+          "Market",
+          "Buy refrigerators here (only 1/size per house, extra storage). Mira's booth has jewelry."
+        ],
+        [
+          "Fall Market",
+          "Fall 22",
+          "9AM–5PM",
+          "Market",
+          "**Buy metals from Julius** (Copper 120G, Silver 165G, Gold 225G) — cheaper than mining for last-tier tool upgrades."
+        ],
+        [
+          "Harvest Festival",
+          "Fall 27",
+          "9AM–5PM",
+          "Market + Contest",
+          "Cooking contest — 1st prize: 10 Bodigizer XLs. Claim from Hamilton before 6PM. Results are largely random regardless of dish quality."
+        ],
+        [
+          "Thanksgiving",
+          "Winter 10",
+          "All day",
+          "Romantic",
+          "Bachelorette with highest hearts (3+) brings you a cake. Give cakes to others for bonus affection. Shops closed."
+        ],
+        [
+          "Winter Market",
+          "Winter 22",
+          "9AM–5PM",
+          "Market",
+          "Same stock as Fall Market. Last chance for metals and Taylor accessories."
+        ],
+        [
+          "Starry Night Festival",
+          "Winter 25",
+          "7PM–10PM",
+          "Romantic",
+          "Ask on Winter 24. Location: Alan's Tree at Brownie Ranch (past coop/barn by the sign)."
+        ],
+        [
+          "New Year's Eve",
+          "Winter 28",
+          "Auto at 10PM",
+          "Romantic",
+          "Transported home automatically. Married: 9PM event with spouse. Leads directly into New Year's Sunrise."
+        ]
+      ]
+    },
+    {
+      "id": "p_world_weather",
+      "panelType": "table",
+      "title": "Weather Guide",
+      "infobox": "📺 TV weather: 6AM–10AM and 6PM–10PM show today's/tomorrow's forecast. Call 010 (Weather Forecast) anytime. Gill will warn you about upcoming typhoons/blizzards if you talk to him. **Save the night before** if a typhoon/blizzard is forecast — you can reload to get a different outcome.",
+      "columns": [
+        "Weather",
+        "Seasons",
+        "Auto-Water?",
+        "Animals Outside?",
+        "Illness Risk?",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Sunny",
+          "All",
+          "No",
+          "Yes",
+          "No",
+          "Normal day"
+        ],
+        [
+          "Cloudy",
+          "All",
+          "No",
+          "Yes",
+          "No",
+          "Normal day"
+        ],
+        [
+          "Rainy",
+          "Spring/Summer/Fall",
+          "Yes",
+          "No — keep inside",
+          "Low",
+          "Also increases fish catch rates. Good for mining."
+        ],
+        [
+          "Thunderstorm",
+          "Spring/Summer/Fall",
+          "Yes",
+          "No",
+          "Low",
+          "Random crop damage possible."
+        ],
+        [
+          "Snowy",
+          "Winter",
+          "No",
+          "No",
+          "Low",
+          "Must water manually."
+        ],
+        [
+          "Typhoon",
+          "Summer/Fall",
+          "Yes",
+          "MUST keep inside",
+          "Yes",
+          "⚠️ Crops may be damaged. Can still leave house. **Seasky Fish** only catchable now."
+        ],
+        [
+          "Blizzard",
+          "Winter",
+          "No",
+          "MUST keep inside",
+          "Yes",
+          "Must water manually despite snow. Can still leave house. **Seasky Fish** only catchable now."
+        ]
+      ]
+    }
+  ]
+}

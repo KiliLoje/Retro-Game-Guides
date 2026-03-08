@@ -1,0 +1,566 @@
+{
+  "label": "🎣 Fishing",
+  "panels": [
+    {
+      "id": "fishing_info",
+      "panelType": "text",
+      "title": "🎣 Fishing Overview",
+      "infobox": "Fishing Rod: 600G from Louis' Item Shop. Character **Ponta** (tanuki) manages fish prints — find him at Crystal Bay 3–7 PM or Mallard Lake 7–11 PM on sunny/cloudy days.",
+      "content": "Get **10 prints** to unlock H.G. Spring. Get **20 prints** to unlock Underground Lake."
+    },
+    {
+      "id": "fishing_spots",
+      "panelType": "table",
+      "title": "📍 Fishing Spots",
+      "columns": [
+        "Spot",
+        "Location",
+        "Unlock"
+      ],
+      "rows": [
+        [
+          "Crystal Bay",
+          "Far left of map / from Clove Villa path",
+          "From start"
+        ],
+        [
+          "Mallard Lake",
+          "Between H.G. Spring and Bar area, down right stairs from church",
+          "From start"
+        ],
+        [
+          "H.G. Spring",
+          "Behind the large rock at Goddess Spring",
+          "Collect 10 fish prints"
+        ],
+        [
+          "Underground Lake",
+          "In the Mine — take right path at first intersection",
+          "Collect 20 fish prints"
+        ]
+      ]
+    },
+    {
+      "id": "fishing_underground_note",
+      "panelType": "text",
+      "title": "⚠️ Underground Lake Note",
+      "content": "Underground Lake is the **only indoor spot where time flows** — watch the clock!"
+    },
+    {
+      "id": "fishing_items",
+      "panelType": "table",
+      "title": "🎣 Special Fishing Items",
+      "columns": [
+        "Item",
+        "Effect",
+        "How to Get"
+      ],
+      "rows": [
+        [
+          "Special Fishing Bait",
+          "No trash catches for ~half a day",
+          "Give Mushrooms to Harvest Sprites; also from Fish Bait Maker prize"
+        ],
+        [
+          "Super Rod",
+          "Better catches in deep water",
+          "Buy at Louis' for 1800G + 1 Silver Ore"
+        ],
+        [
+          "Hyper DX Fishing Rod",
+          "Best rod, great for Phantom Fish",
+          "Buy at Louis' for 5400G"
+        ]
+      ]
+    },
+    {
+      "id": "fishing_prints",
+      "panelType": "checklist",
+      "title": "🐟 Fish Prints (54)",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "loc",
+          "label": "Location",
+          "style": "plain"
+        },
+        {
+          "key": "season",
+          "label": "Season",
+          "style": "dim"
+        }
+      ],
+      "entry_Fish": [
+        {
+          "id": "fp1",
+          "name": "#1 Char",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp2",
+          "name": "#2 White Spot Char",
+          "price": "50G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Summer / Sp,Su"
+        },
+        {
+          "id": "fp3",
+          "name": "#3 Masu Salmon",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Winter"
+        },
+        {
+          "id": "fp4",
+          "name": "#4 Sakura Salmon",
+          "price": "60G",
+          "loc": "Underground Lake",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp5",
+          "name": "#5 Pale Chub",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Spring"
+        },
+        {
+          "id": "fp6",
+          "name": "#6 Dark Chub",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Spring"
+        },
+        {
+          "id": "fp7",
+          "name": "#7 Smelt",
+          "price": "20G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "All (mostly Winter)"
+        },
+        {
+          "id": "fp8",
+          "name": "#8 Surfsmelt",
+          "price": "20G",
+          "loc": "Crystal Bay / Mallard / Underground",
+          "season": "Sp,Wi / Sp,Wi / Wi"
+        },
+        {
+          "id": "fp9",
+          "name": "#9 Loach",
+          "price": "30G",
+          "loc": "H.G. Spring",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp10",
+          "name": "#10 Rainbow Trout",
+          "price": "40G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Spring"
+        },
+        {
+          "id": "fp11",
+          "name": "#11 C. Rainbow Trout",
+          "price": "60G",
+          "loc": "Underground Lake",
+          "season": "Spring"
+        },
+        {
+          "id": "fp12",
+          "name": "#12 Sardine",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "All seasons"
+        },
+        {
+          "id": "fp13",
+          "name": "#13 Anchovy",
+          "price": "30G",
+          "loc": "Crystal Bay",
+          "season": "Sp, Su, Fa"
+        },
+        {
+          "id": "fp14",
+          "name": "#14 Horse Mackerel",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "Summer, Fall"
+        },
+        {
+          "id": "fp15",
+          "name": "#15 White Trevally",
+          "price": "50G",
+          "loc": "Underground Lake",
+          "season": "Summer"
+        },
+        {
+          "id": "fp16",
+          "name": "#16 Mackerel",
+          "price": "30G",
+          "loc": "Crystal Bay",
+          "season": "Summer, Fall"
+        },
+        {
+          "id": "fp17",
+          "name": "#17 Blue Mackerel",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "Summer, Fall"
+        },
+        {
+          "id": "fp18",
+          "name": "#18 Black Rockfish",
+          "price": "20G",
+          "loc": "Crystal Bay",
+          "season": "Spring"
+        },
+        {
+          "id": "fp19",
+          "name": "#19 Red Rockfish",
+          "price": "40G",
+          "loc": "Underground Lake",
+          "season": "Spring"
+        },
+        {
+          "id": "fp20",
+          "name": "#20 Sweetfish",
+          "price": "40G",
+          "loc": "H.G. Spring",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp21",
+          "name": "#21 Dace",
+          "price": "50G",
+          "loc": "H.G. Spring",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp22",
+          "name": "#22 Eel",
+          "price": "60G",
+          "loc": "Mallard / H.G. Spring / Underground",
+          "season": "Su–Wi / Su–Fa / Su–Wi"
+        },
+        {
+          "id": "fp23",
+          "name": "#23 Garden Eel",
+          "price": "80G",
+          "loc": "Crystal Bay / Mallard Lake",
+          "season": "Sp,Su / Summer"
+        },
+        {
+          "id": "fp24",
+          "name": "#24 Dark Sleeper",
+          "price": "60G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Winter"
+        },
+        {
+          "id": "fp25",
+          "name": "#25 Catfish",
+          "price": "60G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp26",
+          "name": "#26 Blackbass",
+          "price": "70G",
+          "loc": "Underground Lake",
+          "season": "All seasons"
+        },
+        {
+          "id": "fp27",
+          "name": "#27 Blotch Snakehead",
+          "price": "90G",
+          "loc": "Underground Lake",
+          "season": "All seasons"
+        },
+        {
+          "id": "fp28",
+          "name": "#28 Tiger Globefish",
+          "price": "80G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp29",
+          "name": "#29 Raven Globefish",
+          "price": "100G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp30",
+          "name": "#30 Porgy",
+          "price": "80G",
+          "loc": "Crystal Bay",
+          "season": "Spring, Summer"
+        },
+        {
+          "id": "fp31",
+          "name": "#31 Black Porgy",
+          "price": "90G",
+          "loc": "Underground Lake",
+          "season": "Sp, Fa, Wi"
+        },
+        {
+          "id": "fp32",
+          "name": "#32 Pike",
+          "price": "60G",
+          "loc": "Crystal Bay",
+          "season": "Fall"
+        },
+        {
+          "id": "fp33",
+          "name": "#33 Cod",
+          "price": "80G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Winter"
+        },
+        {
+          "id": "fp34",
+          "name": "#34 Alaska Pollock",
+          "price": "70G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp35",
+          "name": "#35 Greenling",
+          "price": "60G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp36",
+          "name": "#36 Amberjack",
+          "price": "80G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Winter"
+        },
+        {
+          "id": "fp37",
+          "name": "#37 Young Amberjack",
+          "price": "60G",
+          "loc": "Crystal Bay",
+          "season": "Winter"
+        },
+        {
+          "id": "fp38",
+          "name": "#38 Chicken Grunt",
+          "price": "70G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp39",
+          "name": "#39 Mountain Grunt",
+          "price": "60G",
+          "loc": "Mallard Lake / H.G. Spring",
+          "season": "Sp, Fa, Wi"
+        },
+        {
+          "id": "fp40",
+          "name": "#40 Leatherfish",
+          "price": "60G",
+          "loc": "Crystal Bay",
+          "season": "Fall"
+        },
+        {
+          "id": "fp41",
+          "name": "#41 Black Scraper Fish",
+          "price": "80G",
+          "loc": "Crystal Bay",
+          "season": "Fall, Winter"
+        },
+        {
+          "id": "fp42",
+          "name": "#42 Pacific Herring",
+          "price": "70G",
+          "loc": "Crystal Bay",
+          "season": "Winter"
+        },
+        {
+          "id": "fp43",
+          "name": "#43 Flounder",
+          "price": "80G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Summer"
+        },
+        {
+          "id": "fp44",
+          "name": "#44 Righteye Flounder",
+          "price": "70G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Winter"
+        },
+        {
+          "id": "fp45",
+          "name": "#45 Salmon",
+          "price": "80G",
+          "loc": "Crystal Bay / H.G. Spring",
+          "season": "Fall"
+        },
+        {
+          "id": "fp46",
+          "name": "#46 Huchen",
+          "price": "110G",
+          "loc": "Underground Lake",
+          "season": "Spring"
+        },
+        {
+          "id": "fp47",
+          "name": "#47 Dolphin Fish",
+          "price": "140G",
+          "loc": "Underground Lake",
+          "season": "Summer"
+        },
+        {
+          "id": "fp48",
+          "name": "#48 Monkfish",
+          "price": "120G",
+          "loc": "Underground Lake",
+          "season": "Spring, Winter"
+        },
+        {
+          "id": "fp49",
+          "name": "#49 Tuna",
+          "price": "160G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Fall"
+        },
+        {
+          "id": "fp50",
+          "name": "#50 Albacore",
+          "price": "90G",
+          "loc": "Crystal Bay",
+          "season": "Spring, Fall"
+        },
+        {
+          "id": "fp51",
+          "name": "#51 Longtooth Grouper",
+          "price": "80G",
+          "loc": "Crystal Bay",
+          "season": "Summer"
+        },
+        {
+          "id": "fp52",
+          "name": "#52 Spanish Mackerel",
+          "price": "90G",
+          "loc": "Crystal Bay",
+          "season": "Spring"
+        },
+        {
+          "id": "fp53",
+          "name": "#53 Nagi",
+          "price": "90G",
+          "loc": "Crystal Bay",
+          "season": "Spring"
+        },
+        {
+          "id": "fp54",
+          "name": "#54 Swordfish",
+          "price": "150G",
+          "loc": "Crystal Bay / Underground",
+          "season": "Spring, Summer"
+        }
+      ]
+    },
+    {
+      "id": "fishing_others",
+      "panelType": "checklist",
+      "title": "🦑 Other Catches",
+      "columns": [
+        {
+          "key": "price",
+          "label": "Price",
+          "style": "accent"
+        },
+        {
+          "key": "loc",
+          "label": "Location",
+          "style": "plain"
+        },
+        {
+          "key": "season",
+          "label": "Season",
+          "style": "dim"
+        }
+      ],
+      "entry_Fish": [
+        {
+          "id": "fo_squid",
+          "name": "Squid",
+          "price": "60G",
+          "loc": "Crystal Bay",
+          "season": "Sp, Su"
+        },
+        {
+          "id": "fo_pfsquid",
+          "name": "Pacific Flying Squid",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "All"
+        },
+        {
+          "id": "fo_octo",
+          "name": "Octopus",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "All"
+        },
+        {
+          "id": "fo_oocto",
+          "name": "Ocellated Octopus",
+          "price": "50G",
+          "loc": "Crystal Bay",
+          "season": "Fa, Wi"
+        },
+        {
+          "id": "fo_shrimp",
+          "name": "Shrimp",
+          "price": "40G",
+          "loc": "Crystal Bay",
+          "season": "Sp–Fa"
+        },
+        {
+          "id": "fo_sshrimp",
+          "name": "Sweet Shrimp",
+          "price": "20G",
+          "loc": "Crystal Bay",
+          "season": "Su, Fa"
+        },
+        {
+          "id": "fo_lobster",
+          "name": "Lobster",
+          "price": "70G",
+          "loc": "Crystal Bay",
+          "season": "Su, Fa"
+        },
+        {
+          "id": "fo_homard",
+          "name": "Lake Homard",
+          "price": "100G",
+          "loc": "Underground Lake",
+          "season": "Su, Fa"
+        },
+        {
+          "id": "fo_clam",
+          "name": "Clam",
+          "price": "30G",
+          "loc": "Beach sand",
+          "season": "Sp–Fa"
+        }
+      ]
+    }
+  ]
+}

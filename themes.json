@@ -1,0 +1,101 @@
+{
+  "bubbles": {
+    "label": "Soft Bubbles",
+    "description": "Rounded, warm, and approachable.",
+    "vars": {
+      "--radius-card":  "16px",
+      "--radius-btn":   "20px",
+      "--radius-input": "10px",
+      "--radius-tag":   "20px",
+      "--shadow-card":  "0 4px 24px rgba(0,0,0,0.09)",
+      "--shadow-sm":    "0 2px 8px rgba(0,0,0,0.07)",
+      "--shadow-lg":    "0 8px 32px rgba(0,0,0,0.13)"
+    },
+    "fonts": {
+      "googleFonts": "https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap",
+      "body":        "'Nunito', sans-serif",
+      "display":     "'Nunito', sans-serif",
+      "mono":        "'Courier New', monospace"
+    }
+  },
+
+  "clean": {
+    "label": "Clean Pro",
+    "description": "Crisp, professional, and uncluttered.",
+    "vars": {
+      "--radius-card":  "8px",
+      "--radius-btn":   "6px",
+      "--radius-input": "5px",
+      "--radius-tag":   "4px",
+      "--shadow-card":  "0 2px 12px rgba(0,0,0,0.09)",
+      "--shadow-sm":    "0 1px 4px rgba(0,0,0,0.08)",
+      "--shadow-lg":    "0 6px 24px rgba(0,0,0,0.12)"
+    },
+    "fonts": {
+      "googleFonts": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@700;900&family=JetBrains+Mono:wght@400;600&display=swap",
+      "body":        "'Lora', Georgia, serif",
+      "display":     "'Playfair Display', serif",
+      "mono":        "'JetBrains Mono', monospace"
+    }
+  },
+
+  "sharp": {
+    "label": "Sharp Modern",
+    "description": "Angular, bold, and technical.",
+    "vars": {
+      "--radius-card":  "2px",
+      "--radius-btn":   "2px",
+      "--radius-input": "2px",
+      "--radius-tag":   "2px",
+      "--shadow-card":  "none",
+      "--shadow-sm":    "none",
+      "--shadow-lg":    "0 4px 20px rgba(0,0,0,0.22)"
+    },
+    "fonts": {
+      "googleFonts": "https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@700;900&family=JetBrains+Mono:wght@400;600&display=swap",
+      "body":        "'Barlow', sans-serif",
+      "display":     "'Barlow Condensed', sans-serif",
+      "mono":        "'JetBrains Mono', monospace"
+    }
+  },
+
+  "editorial": {
+    "label": "Editorial",
+    "description": "Refined serif typography, magazine-quality reading.",
+    "vars": {
+      "--radius-card":  "4px",
+      "--radius-btn":   "3px",
+      "--radius-input": "3px",
+      "--radius-tag":   "2px",
+      "--shadow-card":  "0 1px 6px rgba(0,0,0,0.1)",
+      "--shadow-sm":    "none",
+      "--shadow-lg":    "0 3px 18px rgba(0,0,0,0.14)"
+    },
+    "fonts": {
+      "googleFonts": "https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Abril+Fatface&family=JetBrains+Mono:wght@400;600&display=swap",
+      "body":        "'Merriweather', Georgia, serif",
+      "display":     "'Abril Fatface', Georgia, serif",
+      "mono":        "'JetBrains Mono', monospace"
+    }
+  },
+
+  "retro": {
+    "label": "Retro Terminal",
+    "description": "Monospace-first, structured, screen-accurate.",
+    "vars": {
+      "--radius-card":  "0px",
+      "--radius-btn":   "0px",
+      "--radius-input": "0px",
+      "--radius-tag":   "0px",
+      "--shadow-card":  "none",
+      "--shadow-sm":    "none",
+      "--shadow-lg":    "none"
+    },
+    "fonts": {
+      "googleFonts": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400&display=swap",
+      "body":        "'IBM Plex Mono', 'Courier New', monospace",
+      "display":     "'IBM Plex Mono', 'Courier New', monospace",
+      "mono":        "'IBM Plex Mono', 'Courier New', monospace"
+    }
+  }
+}

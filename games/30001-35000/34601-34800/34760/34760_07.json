@@ -1,0 +1,521 @@
+{
+  "label": "🎣 Fishing",
+  "panels": [
+    {
+      "id": "p_fish_all",
+      "panelType": "table",
+      "title": "Complete Fish List",
+      "infobox": "Button Presses = approximate reel inputs to land the fish. Rarity: 1 (common) → 5 (extremely rare). Sort by Sale Price to find most profitable fish. ⚠️ Grilled Puffer Fish restores −150 stamina.",
+      "columns": [
+        "Fish",
+        "Type",
+        "Sale (Raw)",
+        "Grilled",
+        "Presses",
+        "Rarity",
+        "Locations",
+        "Seasons",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Algae",
+          "Trash",
+          "10G",
+          "—",
+          "18",
+          "1",
+          "Waffle Ocean",
+          "All",
+          "Drains stamina — discard!"
+        ],
+        [
+          "Angler Fish",
+          "Fish",
+          "770G",
+          "800G",
+          "62",
+          "4",
+          "E. Gull Island",
+          "Winter",
+          ""
+        ],
+        [
+          "Bonito",
+          "Fish",
+          "280G",
+          "330G",
+          "50",
+          "2",
+          "Waffle Ocean, Gull Islands",
+          "All",
+          ""
+        ],
+        [
+          "Carp",
+          "Fish",
+          "120G",
+          "150G",
+          "35",
+          "2",
+          "River Mid/Down, Maple Lake",
+          "All",
+          "Daren's Rainbow ingredient"
+        ],
+        [
+          "Catfish",
+          "Fish",
+          "80G",
+          "110G",
+          "28",
+          "1",
+          "Maple Lake",
+          "All",
+          ""
+        ],
+        [
+          "Char",
+          "Fish",
+          "120G",
+          "150G",
+          "34",
+          "2",
+          "River Upstream",
+          "All",
+          "Ben's Rainbow ingredient"
+        ],
+        [
+          "Cod",
+          "Fish",
+          "80G",
+          "110G",
+          "36",
+          "1",
+          "Waffle Ocean",
+          "Fall, Winter",
+          ""
+        ],
+        [
+          "Conger Eel",
+          "Fish",
+          "210G",
+          "240G",
+          "42",
+          "2",
+          "Waffle Ocean",
+          "Summer",
+          ""
+        ],
+        [
+          "Crawfish",
+          "Crustacean",
+          "20G",
+          "50G",
+          "22",
+          "1",
+          "Maple Lake, Goddess Cave",
+          "Spring–Fall",
+          ""
+        ],
+        [
+          "Eel",
+          "Fish",
+          "600G",
+          "630G",
+          "38",
+          "3",
+          "River, Goddess Cave",
+          "All",
+          ""
+        ],
+        [
+          "Flounder",
+          "Fish",
+          "120G",
+          "150G",
+          "38",
+          "1",
+          "Waffle Ocean, Gull Islands",
+          "All exc. Summer",
+          ""
+        ],
+        [
+          "Freshwater Prawn",
+          "Crustacean",
+          "150G",
+          "180G",
+          "42",
+          "2",
+          "Maple Lake",
+          "Spring–Fall",
+          ""
+        ],
+        [
+          "Goby",
+          "Fish",
+          "40G",
+          "70G",
+          "24",
+          "1",
+          "Waffle Ocean, W. Gull Island",
+          "All",
+          ""
+        ],
+        [
+          "Halibut",
+          "Fish",
+          "190G",
+          "220G",
+          "38",
+          "2",
+          "Waffle Ocean, Gull Islands",
+          "Fall, Winter",
+          ""
+        ],
+        [
+          "Horse Mackerel",
+          "Fish",
+          "70G",
+          "100G",
+          "22",
+          "1",
+          "Waffle Ocean",
+          "All",
+          ""
+        ],
+        [
+          "Huchen",
+          "Fish",
+          "1,000G",
+          "990G",
+          "122",
+          "4",
+          "River, Goddess Cave, Ganache Mine",
+          "All",
+          ""
+        ],
+        [
+          "King Fish",
+          "Fish",
+          "1,600G",
+          "1,630G",
+          "140",
+          "4",
+          "Goddess Cave, Ganache Mine Floor 30",
+          "All",
+          "Only in Goddess Cave & Floor 30"
+        ],
+        [
+          "Lobster",
+          "Crustacean",
+          "600G",
+          "630G",
+          "82",
+          "3",
+          "Toucan Island",
+          "Fall, Winter",
+          ""
+        ],
+        [
+          "Mackerel",
+          "Fish",
+          "60G",
+          "90G",
+          "46",
+          "1",
+          "Waffle Ocean",
+          "Fall, Winter",
+          ""
+        ],
+        [
+          "Mahi-Mahi",
+          "Fish",
+          "310G",
+          "340G",
+          "52",
+          "2",
+          "Toucan Island",
+          "All",
+          ""
+        ],
+        [
+          "Manta Ray",
+          "Fish",
+          "350G",
+          "380G",
+          "54",
+          "3",
+          "Toucan Island",
+          "Spring, Summer",
+          ""
+        ],
+        [
+          "Masu Trout",
+          "Fish",
+          "110G",
+          "140G",
+          "26",
+          "2",
+          "River Up/Mid",
+          "Spring–Fall",
+          ""
+        ],
+        [
+          "Octopus",
+          "Fish",
+          "140G",
+          "170G",
+          "44",
+          "2",
+          "Waffle Ocean, Gull Islands",
+          "All",
+          ""
+        ],
+        [
+          "Pond Smelt",
+          "Fish",
+          "20G",
+          "50G",
+          "18",
+          "1",
+          "Maple Lake",
+          "Summer–Winter",
+          ""
+        ],
+        [
+          "Puffer Fish",
+          "Fish",
+          "50G",
+          "80G ⚠️",
+          "24",
+          "1",
+          "Waffle Ocean",
+          "All exc. Summer",
+          "Grilled = −150 stamina!"
+        ],
+        [
+          "Rainbow Trout",
+          "Fish",
+          "70G",
+          "100G",
+          "32",
+          "1",
+          "River Up/Mid",
+          "All",
+          ""
+        ],
+        [
+          "Redfin",
+          "Fish",
+          "30G",
+          "50G",
+          "25",
+          "1",
+          "River Mid/Down/Lake",
+          "All",
+          ""
+        ],
+        [
+          "Rock Lobster",
+          "Crustacean",
+          "240G",
+          "270G",
+          "62",
+          "2",
+          "Gull Islands",
+          "Spring, Winter",
+          ""
+        ],
+        [
+          "Rock Trout",
+          "Fish",
+          "180G",
+          "210G",
+          "40",
+          "2",
+          "Waffle Ocean, Gull Islands",
+          "Spring, Winter",
+          ""
+        ],
+        [
+          "Rockfish",
+          "Fish",
+          "230G",
+          "260G",
+          "30",
+          "2",
+          "Waffle Ocean",
+          "Spring, Summer",
+          ""
+        ],
+        [
+          "Salmon",
+          "Fish",
+          "240G",
+          "270G",
+          "38",
+          "2",
+          "River",
+          "Fall, Winter",
+          ""
+        ],
+        [
+          "Sardine",
+          "Fish",
+          "50G",
+          "80G",
+          "18",
+          "1",
+          "Waffle Ocean",
+          "Fall, Winter",
+          ""
+        ],
+        [
+          "Saury",
+          "Fish",
+          "70G",
+          "120G",
+          "44",
+          "1",
+          "Waffle Ocean",
+          "Fall, Winter",
+          "Collin's Rainbow ingredient"
+        ],
+        [
+          "Sea Bream",
+          "Fish",
+          "300G",
+          "330G",
+          "42",
+          "2",
+          "Waffle Ocean, Gull Islands",
+          "Spring–Fall",
+          ""
+        ],
+        [
+          "Seasky Fish",
+          "Fish",
+          "1,000G",
+          "980G",
+          "168",
+          "5",
+          "River",
+          "All",
+          "⚠️ ONLY during typhoon or blizzard"
+        ],
+        [
+          "Shark",
+          "Fish",
+          "700G",
+          "630G",
+          "98",
+          "4",
+          "Toucan Island, E. Gull Island",
+          "Summer–Fall",
+          ""
+        ],
+        [
+          "Skull Jellyfish",
+          "Fish",
+          "950G",
+          "930G",
+          "178",
+          "4",
+          "Toucan Island, Goddess Cave",
+          "All",
+          "⚠️ ONLY 4AM–11AM"
+        ],
+        [
+          "Squid",
+          "Fish",
+          "110G",
+          "140G",
+          "24",
+          "2",
+          "Waffle Ocean, Gull Islands",
+          "All exc. Fall",
+          ""
+        ],
+        [
+          "Swordfish",
+          "Fish",
+          "750G",
+          "780G",
+          "102",
+          "4",
+          "Toucan Island, E. Gull Island",
+          "All",
+          ""
+        ],
+        [
+          "Tuna",
+          "Fish",
+          "600G",
+          "630G",
+          "82",
+          "3",
+          "Waffle Ocean, E. Gull Island",
+          "All exc. Summer",
+          "Edge's Rainbow ingredient"
+        ],
+        [
+          "Wood Fish",
+          "Fish",
+          "900G",
+          "1,630G",
+          "216",
+          "5",
+          "Goddess Spring, Goddess Cave",
+          "All",
+          "⚠️ ONLY 6PM–4AM · Silver+ rod & Level 3+ · Alan's Rainbow ingredient"
+        ],
+        [
+          "Yellowtail",
+          "Fish",
+          "300G",
+          "330G",
+          "52",
+          "2",
+          "Waffle Ocean, Gull Islands",
+          "All exc. Summer",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "p_fish_rod",
+      "panelType": "keyvalue",
+      "title": "Rod Levels & Tips",
+      "rows": [
+        {
+          "key": "Leveling",
+          "value": "Rod levels up from repeated catches only — upgrading (Iron/Copper/Silver/Gold) is separate from leveling."
+        },
+        {
+          "key": "Level 3 reward",
+          "value": "Cast immediately after reaching Level 3 to fish up a **Power Berry** (+100 max stamina permanently)."
+        },
+        {
+          "key": "Level 3+ rod",
+          "value": "Required to catch Wood Fish and most rare fish. Silver+ upgrade also required for Wood Fish."
+        },
+        {
+          "key": "Rod upgrade path",
+          "value": "Starter → Iron (1,000G + Iron) → Copper (2,500G + Copper) → Silver (5,000G + Silver) → Gold (10,000G + Gold) at Blacksmith's Shop"
+        },
+        {
+          "key": "Best spots",
+          "value": "**East Gull Island** (profit/variety), **Goddess Cave** (King Fish + Skull Jellyfish + Wood Fish), **Ganache Mine Floor 30** (King Fish + lake)"
+        },
+        {
+          "key": "Fishing in rain",
+          "value": "Catch rate and rare fish frequency both increase during rainy weather."
+        },
+        {
+          "key": "Typhoon/blizzard tip",
+          "value": "Keep a rod in your rucksack every day — the Seasky Fish (1,000G) is ONLY catchable during these weather events."
+        }
+      ]
+    }
+  ]
+}

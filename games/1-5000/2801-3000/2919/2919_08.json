@@ -1,0 +1,477 @@
+{
+  "label": "🏘️ Shops",
+  "panels": [
+    {
+      "id": "shops_map",
+      "panelType": "text",
+      "title": "🗺️ Village Map Layout",
+      "infobox": "Mine (top) → Pike Mtn / H.G. Spring → Mallard Lake → Clove Villa / Carpenter's → Bar & Café → Crystal Bay (Beach, far left) → Plaza (center) → FlowerShop/ToolShop → Grocery / Your Farm (right)",
+      "content": ""
+    },
+    {
+      "id": "shop_🍺_moon_garden_pub_(b_items",
+      "panelType": "table",
+      "title": "🍺 Moon Garden Pub (Bar) — ⏰ 6 PM – Midnight | Closed: Monday",
+      "columns": [
+        "Item",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Water",
+          "50G"
+        ],
+        [
+          "Milk",
+          "150G"
+        ],
+        [
+          "Nut Wine",
+          "200G"
+        ],
+        [
+          "Wheat Wine",
+          "250G"
+        ],
+        [
+          "Herb Wine",
+          "350G"
+        ],
+        [
+          "Sautéed Mushroom",
+          "400G"
+        ],
+        [
+          "Tomato Salad",
+          "400G"
+        ],
+        [
+          "French Fries",
+          "400G"
+        ],
+        [
+          "Assorted Cheese",
+          "500G"
+        ],
+        [
+          "Fish Meal",
+          "500G"
+        ]
+      ]
+    },
+    {
+      "id": "shop_🍺_moon_garden_pub_(b_seasonal",
+      "panelType": "text",
+      "title": "🍺 Moon Garden Pub (Bar) — Seasonal Wanted Items",
+      "infobox": "Spring: Cheese 550G, Black Truffle 80G, G.Herb 20G | Summer: Porgy 110G, Snakehead 120G, Broiled Eel 150G, Gazpacho 220G | Fall: B.Mushroom 40G, Clam 60G, Pike 90G | Winter: Porgy 110G, Cheese 550G, Milk M 270G",
+      "content": ""
+    },
+    {
+      "id": "shop_☕_sunny_garden_café_items",
+      "panelType": "table",
+      "title": "☕ Sunny Garden Café — ⏰ Noon – 5 PM | Closed: Monday",
+      "columns": [
+        "Item",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Tea",
+          "150G"
+        ],
+        [
+          "Herb Tea",
+          "200G"
+        ],
+        [
+          "Milk Tea",
+          "200G"
+        ],
+        [
+          "Cookies",
+          "250G"
+        ],
+        [
+          "Muffin",
+          "250G"
+        ],
+        [
+          "Cakes",
+          "300G"
+        ],
+        [
+          "Pancake",
+          "300G"
+        ],
+        [
+          "Cheesecake",
+          "350G"
+        ]
+      ]
+    },
+    {
+      "id": "shop_☕_sunny_garden_café_seasonal",
+      "panelType": "text",
+      "title": "☕ Sunny Garden Café — Seasonal Wanted Items",
+      "infobox": "Spring: Veryberry 20G, Strawberry 70G, Yogurt 450G | Summer: G.Herb 30G, Grapes 50G, Chestnuts 30G | Fall: Pumpkin 70G, Chestnut 40G, Moondrop 80G, Cranberry 50G | Winter: Strawberry 80G, Grape 60G, Watermelon 180G",
+      "content": ""
+    },
+    {
+      "id": "shop_🐄_starling_ranch_sho_items",
+      "panelType": "table",
+      "title": "🐄 Starling Ranch Shop — ⏰ 8 AM – 6 PM | Closed: Tuesday",
+      "columns": [
+        "Item",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Chicken Feed",
+          "10G"
+        ],
+        [
+          "Fodder",
+          "20G"
+        ],
+        [
+          "Animal Medicine",
+          "500G"
+        ],
+        [
+          "Chicken",
+          "500G"
+        ],
+        [
+          "Cow",
+          "2,500G"
+        ],
+        [
+          "Horse",
+          "5,000G"
+        ],
+        [
+          "Miracle Potion",
+          "1,500G"
+        ]
+      ]
+    },
+    {
+      "id": "shop_🐄_starling_ranch_sho_seasonal",
+      "panelType": "text",
+      "title": "🐄 Starling Ranch Shop — Seasonal Wanted Items",
+      "infobox": "Spring: Alfalfa Sprouts 50G, Mineral Crystal 40G",
+      "content": ""
+    },
+    {
+      "id": "shop_🌸_lylas_flower_shop_items",
+      "panelType": "table",
+      "title": "🌸 Lyla's Flower Shop — ⏰ 9 AM – 5 PM | Closed: Sunday",
+      "columns": [
+        "Item",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Alfalfa Seed",
+          "20G"
+        ],
+        [
+          "Potato Seed",
+          "30G"
+        ],
+        [
+          "Tomato Seed",
+          "30G"
+        ],
+        [
+          "Corn Seed",
+          "40G"
+        ],
+        [
+          "Breadfruit Seed",
+          "50G"
+        ],
+        [
+          "Silver Bell Seed",
+          "10G"
+        ],
+        [
+          "Carrot Seed",
+          "30G"
+        ],
+        [
+          "Strawberry Seed",
+          "40G"
+        ],
+        [
+          "Rice Seed",
+          "60G"
+        ],
+        [
+          "Wild Mint Seed",
+          "10G"
+        ],
+        [
+          "Watermelon Seed",
+          "50G"
+        ],
+        [
+          "Mistbloom Seed",
+          "10G"
+        ],
+        [
+          "Onion Seed",
+          "30G"
+        ],
+        [
+          "Pumpkin Seed",
+          "40G"
+        ],
+        [
+          "Stardust Seed",
+          "60G"
+        ],
+        [
+          "Spinach Seed",
+          "30G"
+        ]
+      ]
+    },
+    {
+      "id": "shop_🌸_lylas_flower_shop_seasonal",
+      "panelType": "text",
+      "title": "🌸 Lyla's Flower Shop — Seasonal Wanted Items",
+      "infobox": "Spring: Fairy Dress 50G, Pink Cat Mint 20G, Moondrop 20G, Coal 40G | Summer: Frost Pansy 60G, Silverbell 50G | Fall: Mineral Crystal 50G, Wild Mint 50G, Stardust 60G | Winter: Alfalfa 60G, G.Herb 40G, Fairy Dress 60G, Mistbloom 50G",
+      "content": ""
+    },
+    {
+      "id": "shop_🔧_louis_item_shop_items",
+      "panelType": "table",
+      "title": "🔧 Louis' Item Shop — ⏰ 10 AM – 6 PM | Closed: Wed & Sat",
+      "columns": [
+        "Item",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Bug Net",
+          "200G"
+        ],
+        [
+          "Brush",
+          "300G"
+        ],
+        [
+          "Bell",
+          "300G"
+        ],
+        [
+          "Ocarina",
+          "450G"
+        ],
+        [
+          "Milker",
+          "500G"
+        ],
+        [
+          "Fishing Rod",
+          "600G"
+        ],
+        [
+          "Energizer",
+          "1,000G"
+        ],
+        [
+          "Oven",
+          "1,500G"
+        ],
+        [
+          "Mixer",
+          "2,000G"
+        ],
+        [
+          "Blue Feather",
+          "2,000G (Year 3)"
+        ]
+      ]
+    },
+    {
+      "id": "shop_🔧_louis_item_shop_upgrades",
+      "panelType": "table",
+      "title": "🔧 Louis' Item Shop — Upgrades",
+      "columns": [
+        "Upgrade",
+        "Cost"
+      ],
+      "rows": [
+        [
+          "Light Tools",
+          "1,000G + 1 Blue Rock"
+        ],
+        [
+          "Super Rod",
+          "1,800G + 1 Silver Ore"
+        ],
+        [
+          "Super Tools",
+          "2,500G + 1 Orichalcum"
+        ],
+        [
+          "Ultra Tools",
+          "4,500G + 1 Rare Metal"
+        ],
+        [
+          "Rucksack (Med)",
+          "1,500G"
+        ],
+        [
+          "Rucksack (Large)",
+          "5,000G"
+        ],
+        [
+          "Pot (Med)",
+          "1,500G + 1 Silver Ore"
+        ],
+        [
+          "Pot (Large)",
+          "3,000G + 1 Gold Ore"
+        ],
+        [
+          "Frying Pan (Med)",
+          "1,500G + 1 Silver Ore"
+        ],
+        [
+          "Frying Pan (Large)",
+          "3,000G + 1 Gold Ore"
+        ]
+      ]
+    },
+    {
+      "id": "shop_🔧_louis_item_shop_seasonal",
+      "panelType": "text",
+      "title": "🔧 Louis' Item Shop — Seasonal Wanted Items",
+      "infobox": "Spring: Iron Ore 80G, Copper Ore 60G, Mineral Crystal 30G | Summer: Red Herb 40G, Pontata Root 100G, Colorful Seashell 30G | Fall: Moonlight Stone 120G, Scrap Iron 30G, Super Mushroom 50G | Winter: Pontata Root 100G, Mineral Crystal 60G, Coal 50G",
+      "content": ""
+    },
+    {
+      "id": "shop_🛒_ronalds_grocery_st_note",
+      "panelType": "text",
+      "title": "🛒 Ronald's Grocery Store",
+      "content": "💡 Buy Cheese for 500G and sell it during Spring for 550G (+50G profit) via Wanted Items!"
+    },
+    {
+      "id": "shop_🛒_ronalds_grocery_st_items",
+      "panelType": "table",
+      "title": "🛒 Ronald's Grocery Store — ⏰ 8 AM – 6 PM | Closed: Sunday",
+      "columns": [
+        "Item",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Egg",
+          "70G"
+        ],
+        [
+          "Rice Balls",
+          "120G"
+        ],
+        [
+          "Fluffy Bread",
+          "150G"
+        ],
+        [
+          "Milk S",
+          "150G"
+        ],
+        [
+          "Honey",
+          "200G"
+        ],
+        [
+          "Olive Oil",
+          "200G"
+        ],
+        [
+          "Miso",
+          "200G"
+        ],
+        [
+          "Sandwich",
+          "400G"
+        ],
+        [
+          "Cheese",
+          "500G"
+        ],
+        [
+          "Butter",
+          "500G"
+        ]
+      ]
+    },
+    {
+      "id": "shop_🛒_ronalds_grocery_st_seasonal",
+      "panelType": "text",
+      "title": "🛒 Ronald's Grocery Store — Seasonal Wanted Items",
+      "infobox": "Spring: Boiled Egg 100G, Milk M 270G, Fried Clams 50G | Summer: Black Watermelon 250G, Strawberry Jam 180G, Grilled Loach 90G, Fried Corn 100G | Fall: Cranberry Jam 120G, Stewed Apple 80G, Baked Gold Potato 230G | Winter: Onion Soup 120G, Doria 440G, Clam Chowder 300G",
+      "content": ""
+    },
+    {
+      "id": "shop_🪵_carpentry_note",
+      "panelType": "text",
+      "title": "🪵 Carpentry",
+      "content": "💡 Work lumber job 5× to unlock free tree-cutting. Stock lumber early — you'll need a LOT!"
+    },
+    {
+      "id": "shop_🪵_carpentry_items",
+      "panelType": "table",
+      "title": "🪵 Carpentry — ⏰ 6 AM – 5 PM | Closed: Tue, Thu & Rainy",
+      "columns": [
+        "Item",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Dog House",
+          "3,000G + 10 lumber"
+        ],
+        [
+          "Chicken Coop Expansion",
+          "3,000G + 25 lumber"
+        ],
+        [
+          "Barn Expansion",
+          "5,000G + 25 lumber"
+        ],
+        [
+          "Kitchen & Bathroom",
+          "10,000G + 50 lumber (need 1 prior expansion)"
+        ],
+        [
+          "New TV",
+          "20,000G (Year 3)"
+        ],
+        [
+          "Extra Bed",
+          "4,000G + 25 lumber (Year 3)"
+        ],
+        [
+          "Greenhouse",
+          "45,000G + 40 lumber (Year 3)"
+        ],
+        [
+          "Sprinkler",
+          "75,000G + 50 lumber (Year 3)"
+        ]
+      ]
+    },
+    {
+      "id": "shop_🪵_carpentry_seasonal",
+      "panelType": "text",
+      "title": "🪵 Carpentry — Seasonal Wanted Items",
+      "infobox": "Spring: Blue Rock 110G, Silver Ore 90G, Copper Ore 50G | Summer: Gold Ore 160G, Silver Ore 40G, Coal 40G | Fall: Sapphire 200G, Ruby 200G, Opal 160G | Winter: Scrap Metal 20G, Lumber 50G",
+      "content": ""
+    }
+  ]
+}

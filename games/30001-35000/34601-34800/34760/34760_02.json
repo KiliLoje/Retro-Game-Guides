@@ -1,0 +1,430 @@
+{
+  "label": "🌈 Goddess Quest",
+  "panels": [
+    {
+      "id": "p_gq_intro",
+      "panelType": "text",
+      "title": "Overview",
+      "content": "Complete the Goddess Quest to restore the Harvest Goddess and win the game. The main steps are:\n\n1. Obtain the full **Goddess Quilt** (4 steps)\n2. Build all **5 Rainbow Bridges** — each requires 5 specific items\n3. **Post-Quest**: find and plant 3 Seedlings of Hope\n4. Accumulate **50 total villager hearts** to grow the Goddess Tree\n\nEach rainbow also opens new areas of the island."
+    },
+    {
+      "id": "p_gq_quilt",
+      "panelType": "checklist",
+      "title": "📜 Quilt (Prerequisite)",
+      "columns": [
+        {
+          "key": "season",
+          "label": "Season / Condition",
+          "style": "accent"
+        },
+        {
+          "key": "obtain",
+          "label": "How to Obtain",
+          "style": "dim"
+        }
+      ],
+      "entry_Quest": [
+        {
+          "id": "i_gq_q1",
+          "name": "Step 1 — Ship 1,000G of goods",
+          "season": "Any season",
+          "obtain": "Any items: crops, fish, herbs, gems. Mayor visits after this."
+        },
+        {
+          "id": "i_gq_q2",
+          "name": "Step 2 — Ship another 1,000G (total 2,000G)",
+          "season": "Any season",
+          "obtain": "Mayor gives left half of the quilt."
+        },
+        {
+          "id": "i_gq_q3",
+          "name": "Step 3 — Upgrade house to Level 2",
+          "season": "Any season",
+          "obtain": "3,000G + 16 wood + 16 stone. Talk to Gill, then Dale, then Mayor."
+        },
+        {
+          "id": "i_gq_q4",
+          "name": "Step 4 — Get key from Mayor; collect right half from Clock Tower",
+          "season": "Any season",
+          "obtain": "Mayor gives key; use it on clock tower door in Town Square."
+        }
+      ],
+      "infobox": "Complete all 4 steps to enable the rainbows."
+    },
+    {
+      "id": "p_gq_r1",
+      "panelType": "checklist",
+      "title": "🟢 Rainbow 1 — Daren's (Green)",
+      "columns": [
+        {
+          "key": "season",
+          "label": "Season / Condition",
+          "style": "accent"
+        },
+        {
+          "key": "obtain",
+          "label": "How to Obtain",
+          "style": "dim"
+        }
+      ],
+      "entry_Ingredient": [
+        {
+          "id": "i_gq_r1_1",
+          "name": "Good Herb Fish",
+          "season": "All seasons",
+          "obtain": "Oven + fish + any herb. Fish sale value must total ≥300G for Good quality."
+        },
+        {
+          "id": "i_gq_r1_2",
+          "name": "Grilled Yam",
+          "season": "Cook any; buy Spring/Summer",
+          "obtain": "Yam + Match Set at beach bonfire. OR buy from Maya at Spring/Summer Market."
+        },
+        {
+          "id": "i_gq_r1_3",
+          "name": "Apple",
+          "season": "Fall; buy Spring/Summer",
+          "obtain": "Grow apple tree (harvest Fall). OR buy from Simon at Spring/Summer Market."
+        },
+        {
+          "id": "i_gq_r1_4",
+          "name": "Common Seashell",
+          "season": "All seasons",
+          "obtain": "Find on any beach."
+        },
+        {
+          "id": "i_gq_r1_5",
+          "name": "Carp",
+          "season": "All seasons",
+          "obtain": "Catch in river (mid/downstream) or Maple Lake."
+        }
+      ],
+      "infobox": "Opens: West Gull Island + Toucan Island (ferry). Tree location: Town Square."
+    },
+    {
+      "id": "p_gq_r2",
+      "panelType": "checklist",
+      "title": "🔵 Rainbow 2 — Ben's (Blue)",
+      "columns": [
+        {
+          "key": "season",
+          "label": "Season / Condition",
+          "style": "accent"
+        },
+        {
+          "key": "obtain",
+          "label": "How to Obtain",
+          "style": "dim"
+        }
+      ],
+      "entry_Ingredient": [
+        {
+          "id": "i_gq_r2_1",
+          "name": "Grilled Eggplant",
+          "season": "Cook any; eggplant in Fall",
+          "obtain": "Eggplant + Match Set at beach bonfire. Buy Eggplant seeds from Souffle Farm (Fall)."
+        },
+        {
+          "id": "i_gq_r2_2",
+          "name": "Plain Omelet",
+          "season": "All seasons",
+          "obtain": "Frying Pan + butter + egg. OR buy from Simon at Spring/Summer Market."
+        },
+        {
+          "id": "i_gq_r2_3",
+          "name": "Green Herb",
+          "season": "All seasons",
+          "obtain": "Forage in Praline Forest. OR grow on farm (Spring). OR buy at Flower Festival."
+        },
+        {
+          "id": "i_gq_r2_4",
+          "name": "Char",
+          "season": "All seasons",
+          "obtain": "Catch in river, upstream."
+        },
+        {
+          "id": "i_gq_r2_5",
+          "name": "Good Tomato",
+          "season": "Summer / Fall",
+          "obtain": "Grow on farm (Summer). OR buy at Harvest Festival (Fall)."
+        }
+      ],
+      "infobox": "Opens: Mt. Gelato base (after Collin's). Tree location: Maple Lake. ⚠️ After completing, find Ben's badge on East Gull Island (cross Collin's rainbow first)."
+    },
+    {
+      "id": "p_gq_r3",
+      "panelType": "checklist",
+      "title": "🟡 Rainbow 3 — Collin's (Yellow)",
+      "columns": [
+        {
+          "key": "season",
+          "label": "Season / Condition",
+          "style": "accent"
+        },
+        {
+          "key": "obtain",
+          "label": "How to Obtain",
+          "style": "dim"
+        }
+      ],
+      "entry_Ingredient": [
+        {
+          "id": "i_gq_r3_1",
+          "name": "Blue Wonderful",
+          "season": "All seasons",
+          "obtain": "Dig from crystals in either mine. ⚠️ Do NOT have Mira refine it!"
+        },
+        {
+          "id": "i_gq_r3_2",
+          "name": "Perfect Spinach",
+          "season": "Fall",
+          "obtain": "Grow on farm (Fall). Buy seeds from Souffle Farm."
+        },
+        {
+          "id": "i_gq_r3_3",
+          "name": "Saury",
+          "season": "Fall and Winter",
+          "obtain": "Catch in Waffle Town Ocean."
+        },
+        {
+          "id": "i_gq_r3_4",
+          "name": "Red Wool Yarn",
+          "season": "All seasons (need barn)",
+          "obtain": "Wool + yarn maker → dye with red herb/flower + dye pot. Buy Wool Yarn at Animal Festival!"
+        },
+        {
+          "id": "i_gq_r3_5",
+          "name": "Banana",
+          "season": "All seasons (post-rainbow 1)",
+          "obtain": "Buy at Pineapple Inn (Toucan Island) or forage on Toucan Island."
+        }
+      ],
+      "infobox": "Opens: East Gull Island. Tree location: West Gull Island."
+    },
+    {
+      "id": "p_gq_r4",
+      "panelType": "checklist",
+      "title": "🔴 Rainbow 4 — Alan's (Red)",
+      "columns": [
+        {
+          "key": "season",
+          "label": "Season / Condition",
+          "style": "accent"
+        },
+        {
+          "key": "obtain",
+          "label": "How to Obtain",
+          "style": "dim"
+        }
+      ],
+      "entry_Ingredient": [
+        {
+          "id": "i_gq_r4_1",
+          "name": "Wood Fish",
+          "season": "All seasons (need Goddess Spring)",
+          "obtain": "Fish at Goddess Spring at NIGHT (6PM–4AM). Need Silver+ rod + Level 3+ rod. Give Mother Bear 14 honey to access spring (max 2/day)."
+        },
+        {
+          "id": "i_gq_r4_2",
+          "name": "Green Bell Flower",
+          "season": "Winter",
+          "obtain": "Grow on farm (Winter). Buy seeds from Pineapple Inn or Taylor's Seeds."
+        },
+        {
+          "id": "i_gq_r4_3",
+          "name": "Ostrich Mayonnaise",
+          "season": "All seasons (need ostrich)",
+          "obtain": "Put ostrich egg in Mayo Maker. OR buy from Maya at Spring/Summer Market."
+        },
+        {
+          "id": "i_gq_r4_4",
+          "name": "Carrot Cake",
+          "season": "Carrot in Fall; buy Fall/Winter",
+          "obtain": "Oven + milk + egg + butter + carrot + breadfruit. OR buy from Elli at Fall/Winter Market."
+        },
+        {
+          "id": "i_gq_r4_5",
+          "name": "Toadstool",
+          "season": "All seasons",
+          "obtain": "Find in mines (spotted on ground). Floors 19 (Ganache) and 28 (Gelato) have many."
+        }
+      ],
+      "infobox": "Opens: Top of Mt. Gelato. Tree location: Brownie Ranch."
+    },
+    {
+      "id": "p_gq_r5",
+      "panelType": "checklist",
+      "title": "🟣 Rainbow 5 — Edge's (Purple)",
+      "columns": [
+        {
+          "key": "season",
+          "label": "Season / Condition",
+          "style": "accent"
+        },
+        {
+          "key": "obtain",
+          "label": "How to Obtain",
+          "style": "dim"
+        }
+      ],
+      "entry_Ingredient": [
+        {
+          "id": "i_gq_r5_1",
+          "name": "Snowflake Flower",
+          "season": "Winter; buy Summer Y2+",
+          "obtain": "Grow on farm (Winter). Buy seeds from Souffle Farm. OR buy from Candace at Summer Market (Year 2+)."
+        },
+        {
+          "id": "i_gq_r5_2",
+          "name": "Red Honey",
+          "season": "Spring/Summer/Fall/Winter",
+          "obtain": "Grow red flowers (Tulip-Spring, Rose-Fall, Hibiscus-Summer, Anemone-Winter). Watch for bees."
+        },
+        {
+          "id": "i_gq_r5_3",
+          "name": "Tuna",
+          "season": "Spring, Fall, Winter",
+          "obtain": "Catch in ocean with high-level rod."
+        },
+        {
+          "id": "i_gq_r5_4",
+          "name": "Perfect Honeydew",
+          "season": "Summer",
+          "obtain": "Grow on farm (Summer). Buy seeds/fruit from Souffle Farm in Summer."
+        },
+        {
+          "id": "i_gq_r5_5",
+          "name": "Lapis Lazuli",
+          "season": "All seasons",
+          "obtain": "Dig in mines (1-sparkle Blue Wonderful). ⚠️ Have Mira REFINE it first!"
+        }
+      ],
+      "infobox": "Opens: Goddess Tree. Tree location: Top of Mt. Gelato."
+    },
+    {
+      "id": "p_gq_post",
+      "panelType": "checklist",
+      "title": "🌱 Post-Quest — Reviving the Goddess Tree",
+      "infobox": "After all 5 rainbows are complete, climb Mt. Gelato peak to trigger the next phase.",
+      "columns": [
+        {
+          "key": "where",
+          "label": "Location",
+          "style": "dim"
+        }
+      ],
+      "entry_Quest": [
+        {
+          "id": "i_gq_pq1",
+          "name": "Step 1 — Climb Mt. Gelato peak",
+          "where": "Mt. Gelato",
+          "note": "Pass out; objective becomes finding the Seedling of Hope."
+        },
+        {
+          "id": "i_gq_pq2",
+          "name": "Step 2 — Talk to Jin at clinic",
+          "where": "Meringue Clinic",
+          "note": "Must be at his office, not home or walking."
+        },
+        {
+          "id": "i_gq_pq3",
+          "name": "Step 3 — Examine lighthouse door",
+          "where": "Far left of Waffle Town",
+          "note": "Climb lighthouse steps."
+        },
+        {
+          "id": "i_gq_pq4",
+          "name": "Step 4 — Plant seedling at Goddess Spring",
+          "where": "Goddess Spring",
+          "note": "Take the seedling to the Goddess Spring area and plant it."
+        },
+        {
+          "id": "i_gq_pq5",
+          "name": "Step 5 — Talk to Calvin → go to Ganache Mine Floor 10",
+          "where": "Ganache Mine",
+          "note": "Calvin mentions a mural; meet him there for another seedling."
+        },
+        {
+          "id": "i_gq_pq6",
+          "name": "Step 6 — Plant second seedling at Goddess Spring",
+          "where": "Goddess Spring",
+          "note": ""
+        },
+        {
+          "id": "i_gq_pq7",
+          "name": "Step 7 — Find Gill at Town Hall → talk to Mayor at Sundae Inn at night",
+          "where": "Sundae Inn (Mon/Wed/Sat at night)",
+          "note": ""
+        },
+        {
+          "id": "i_gq_pq8",
+          "name": "Step 8 — Get key from church altar (when empty)",
+          "where": "Church",
+          "note": "Wait for no one in church; use key on Mayor's back garden door."
+        },
+        {
+          "id": "i_gq_pq9",
+          "name": "Step 9 — Get third seedling from Mayor's garden → plant at Goddess Spring",
+          "where": "Mayor's Garden → Goddess Spring",
+          "note": "Return for one more scene to trigger tree growth."
+        },
+        {
+          "id": "i_gq_pq10",
+          "name": "Step 10 — Accumulate 50 total hearts with all villagers",
+          "where": "Goddess Spring",
+          "note": "Each villager/pet heart counts. Likely already done by now."
+        },
+        {
+          "id": "i_gq_pq11",
+          "name": "Step 11 — Witness 4 night scenes of tree growing",
+          "where": "Goddess Spring",
+          "note": "After 50 hearts, scenes play over several nights automatically. Edge sends a letter when done."
+        }
+      ]
+    },
+    {
+      "id": "p_gq_ng",
+      "panelType": "checklist",
+      "title": "♾️ Journey Rucksack (New Game+)",
+      "columns": [
+        {
+          "key": "season",
+          "label": "Season / Condition",
+          "style": "accent"
+        },
+        {
+          "key": "obtain",
+          "label": "How to Obtain",
+          "style": "dim"
+        }
+      ],
+      "entry_Ingredient": [
+        {
+          "id": "i_gq_ng1",
+          "name": "Rare Metal",
+          "season": "Any",
+          "obtain": "Dig Rare Ore from mine → have Mira refine it."
+        },
+        {
+          "id": "i_gq_ng2",
+          "name": "Black Pearl",
+          "season": "Any",
+          "obtain": "Find on beaches."
+        },
+        {
+          "id": "i_gq_ng3",
+          "name": "Shining Flax Yarn",
+          "season": "Spring (Flax crop)",
+          "obtain": "Grow Shining Flax on farm → Yarn Maker."
+        },
+        {
+          "id": "i_gq_ng4",
+          "name": "Shining Wool Yarn",
+          "season": "Any (need max-heart sheep)",
+          "obtain": "Shining Wool from max-heart sheep → Yarn Maker."
+        }
+      ],
+      "infobox": "Complete the Rucksack to send your child to New Game+. Requires fully grown child + completed Goddess Quest."
+    }
+  ]
+}

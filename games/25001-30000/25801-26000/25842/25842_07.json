@@ -1,0 +1,123 @@
+{
+  "label": "🔮 Artifacts",
+  "panels": [
+    {
+      "id": "artifacts_info",
+      "panelType": "text",
+      "title": "🔮 Artifacts",
+      "infobox": "Artifacts are permanent companions upgraded with Adderstones. Each artifact has three levels.",
+      "content": ""
+    },
+    {
+      "id": "artifacts_table",
+      "panelType": "table",
+      "title": "All Artifacts",
+      "columns": [
+        "#",
+        "Artifact",
+        "Level",
+        "Adderstones",
+        "Effect",
+        "How to Obtain"
+      ],
+      "rows": [
+        [
+          "1",
+          "Caleigh",
+          "1",
+          "1",
+          "Heals Bard's party",
+          "Starting artifact — given by old man in Houton"
+        ],
+        [
+          "1",
+          "Caleigh",
+          "2",
+          "2",
+          "Heals party + 50% damage reduction for Bard",
+          "—"
+        ],
+        [
+          "1",
+          "Caleigh",
+          "3",
+          "3",
+          "Heals party + Bard invulnerability",
+          "—"
+        ],
+        [
+          "2",
+          "Herne",
+          "1",
+          "1",
+          "Entangle nearby enemies",
+          "Obtained after defeating Herne (Ch. V Forest Tower)"
+        ],
+        [
+          "2",
+          "Herne",
+          "2",
+          "2",
+          "Entangle enemies at larger radius + poison nearby",
+          "—"
+        ],
+        [
+          "2",
+          "Herne",
+          "3",
+          "3",
+          "Entangle + poison at large radius + kill nearby enemies",
+          "—"
+        ],
+        [
+          "3",
+          "Lugh",
+          "1",
+          "1",
+          "Whirling blades around the Bard",
+          "Obtained after defeating Lugh (Ch. VII Mountain Tower)"
+        ],
+        [
+          "3",
+          "Lugh",
+          "2",
+          "2",
+          "Whirling blades + arrows shoot forward and rain down",
+          "—"
+        ],
+        [
+          "3",
+          "Lugh",
+          "3",
+          "3",
+          "Whirling blades + arrows + starburst of projectiles",
+          "—"
+        ],
+        [
+          "4",
+          "Mannanan",
+          "1",
+          "1",
+          "Summons Tornados",
+          "Obtained after defeating Mannanan (Ch. XIII Island Tower)"
+        ],
+        [
+          "4",
+          "Mannanan",
+          "2",
+          "2",
+          "Summons Tornados and Lightning",
+          "—"
+        ],
+        [
+          "4",
+          "Mannanan",
+          "3",
+          "3",
+          "Summons Tornados, Lightning, and Fireballs",
+          "—"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "label": "😈 Snarky vs. Nice",
+  "panels": [
+    {
+      "id": "snarky_info",
+      "panelType": "text",
+      "title": "😈 Snarky vs. Nice",
+      "infobox": "Track which choices you have made. Checking a row = you have resolved this encounter. Snarky choices generally unlock missable items and XP bonuses.",
+      "content": ""
+    },
+    {
+      "id": "snarky_list",
+      "panelType": "checklist",
+      "title": "All Choices",
+      "columns": [
+        {
+          "key": "chapter",
+          "label": "Chapter",
+          "style": "dim"
+        },
+        {
+          "key": "snarky",
+          "label": "😈 Snarky",
+          "style": "plain"
+        },
+        {
+          "key": "nice",
+          "label": "😊 Nice",
+          "style": "plain"
+        },
+        {
+          "key": "notes",
+          "label": "Notes",
+          "style": "accent"
+        }
+      ],
+      "entry_All": [
+        {
+          "id": "25842_t02_000",
+          "name": "Mary (Houton pub – after killing the giant rat)",
+          "chapter": "Ch.1: Houton",
+          "snarky": "You get laid.",
+          "nice": "Mary considers you a milksop and you sleep alone.",
+          "notes": "One of the game's first joke choices."
+        },
+        {
+          "id": "25842_t02_001",
+          "name": "Bannafeet the Trow (Houton)",
+          "chapter": "Ch.1: Houton",
+          "snarky": "Bannafeet sends you on a fake errand to the Well – empty room, 200 XP for your trouble. He then reveals the real quest on your return.",
+          "nice": "Bannafeet skips the runaround and gives you the quest info directly. Miss the 200 XP bonus.",
+          "notes": "Snarky is worth doing just for the XP, but the outcome is the same."
+        },
+        {
+          "id": "25842_t02_002",
+          "name": "Daurrad (after clearing the Bugbear Cairn)",
+          "chapter": "Ch.1: Houton",
+          "snarky": "You receive 5 Silver Pieces.",
+          "nice": "You receive 75 Silver Pieces.",
+          "notes": "Be nice here."
+        },
+        {
+          "id": "25842_t02_003",
+          "name": "Ketill (tied up in Houton Forest jail)",
+          "chapter": "Ch.1: Houton",
+          "snarky": "He stays tied up. No help.",
+          "nice": "He fights alongside you but abandons you partway through — still draws enemy fire while he lasts.",
+          "notes": "Nice is better. Even brief ally support helps."
+        },
+        {
+          "id": "25842_t02_004",
+          "name": "Chubnik's ferry (Neversdale Forest)",
+          "chapter": "Ch.2: Neversdale",
+          "snarky": "Keep being snarky: price drops from 15 SP → 10 SP → free. The ride costs nothing.",
+          "nice": "Pay 15 Silver Pieces for the ferry crossing.",
+          "notes": "This choice carries forward: if snarky to Chubnik, Piskey charges 105 SP later; if nice, Piskey is free."
+        },
+        {
+          "id": "25842_t02_005",
+          "name": "Piskey's ferry (northern Neversdale) — downstream effect of Chubnik choice",
+          "chapter": "Ch.2: Neversdale",
+          "snarky": "105 Silver Pieces (penalty for being snarky to Chubnik earlier).",
+          "nice": "Free (reward for being nice to Chubnik earlier).",
+          "notes": "Not a direct choice here — result depends entirely on how you treated Chubnik."
+        },
+        {
+          "id": "25842_t02_006",
+          "name": "Ketill (tied up in northern Neversdale, just before the Fnarf boss fight)",
+          "chapter": "Ch.2: Neversdale",
+          "snarky": "He stays tied up. Fight Fnarf alone.",
+          "nice": "He fights alongside you temporarily before betraying you and running. Still draws attack while present.",
+          "notes": "Nice is worth it — having a distraction during Fnarf is genuinely helpful."
+        },
+        {
+          "id": "25842_t02_007",
+          "name": "Ogan's mum (Houton — return visit after Neversdale events)",
+          "chapter": "Ch.2: Neversdale",
+          "snarky": "Anything other than being nice twice yields 300 XP, but no token.",
+          "nice": "Be nice TWICE (tell her you avenged Ogan): 200 XP + Token: Rabbit's Foot (+1 Luck).",
+          "notes": "Must visit her TWICE, being nice both times. Easy to miss."
+        },
+        {
+          "id": "25842_t02_008",
+          "name": "Bodb chain (multiple Bodbs in Kirkwall leading to Light Fairy tune)",
+          "chapter": "Ch.3: Kirkwall",
+          "snarky": "Being snarky to each Bodb earns his respect — he leads you to the next one.",
+          "nice": "Being nice causes each Bodb to brush you off until you give him some sass.",
+          "notes": "Must be snarky throughout the entire chain to progress. The one time snarky is the only option."
+        },
+        {
+          "id": "25842_t02_009",
+          "name": "Bodb on The Hidden Bluff / Finn's Farm (north of Kirkwall)",
+          "chapter": "Ch.3: Kirkwall",
+          "snarky": "150 Silver Pieces.",
+          "nice": "Nothing.",
+          "notes": "Be snarky. Another unusual case where snarky pays."
+        },
+        {
+          "id": "25842_t02_010",
+          "name": "Farmer Finn (asking for the Magic Bell)",
+          "chapter": "Ch.3: Kirkwall",
+          "snarky": "Finn hands over the Bell immediately — but the Farmer's Daughter scene plays out anyway.",
+          "nice": "Finn makes you do a Scarecrow-clearing quest first, then gives you the Bell. Same result in the end.",
+          "notes": "Both paths lead to the Conner subplot. Snarky saves time; nice has a slightly richer scene."
+        },
+        {
+          "id": "25842_t02_011",
+          "name": "Conner (The Fat Lute pub)",
+          "chapter": "Ch.3: Kirkwall",
+          "snarky": "He starts swinging. DO NOT fight back — let Conner beat the Bard to near-death. The Farmer's Daughter leaves with him and you get 300 XP. Bonus: summon the Rat in the pub for 50 SP + 275 XP.",
+          "nice": "Conner goes to Finn's peacefully. Less satisfying outcome; miss the Rat pub trick.",
+          "notes": "Tip: Even if nice, summon the Rat in the pub afterward for the 275 XP bonus regardless."
+        },
+        {
+          "id": "25842_t02_012",
+          "name": "Mell (Highland Park — gatekeeper to the electrified energy corridors)",
+          "chapter": "Ch.4: Highland Park",
+          "snarky": "He simply waits for you to be nice. You cannot proceed without him.",
+          "nice": "He guides you through the energy-gated park sections.",
+          "notes": "Snarky is a dead end here. Must be nice."
+        },
+        {
+          "id": "25842_t02_013",
+          "name": "Gower (Mountain Pass entrance — offers warming brew)",
+          "chapter": "Ch.6: Mountain Pass",
+          "snarky": "Pay 100 Silver Pieces for the brew.",
+          "nice": "The brew is free.",
+          "notes": "Gower appears again at the end — that choice matters too (see below)."
+        },
+        {
+          "id": "25842_t02_014",
+          "name": "Hrafn the Viking King (Burial Chamber, Frozen Tombs)",
+          "chapter": "Ch.6: Mountain Pass",
+          "snarky": "Provoke him repeatedly — Hrafn becomes a powerful temporary ally and leads your assault on the Draugr.",
+          "nice": "He ignores you entirely.",
+          "notes": "Must be repeatedly snarky to trigger the ally event. Being nice accomplishes nothing here."
+        },
+        {
+          "id": "25842_t02_015",
+          "name": "Dolyn (trapped behind ice wall in Frozen Tombs)",
+          "chapter": "Ch.6: Mountain Pass",
+          "snarky": "If unrelentingly snarky, Dolyn runs away after being freed and is killed by a trap. Loot his body for Token: Ring of Tara (+2 Rhythm). WARNING: Dolyn being dead prevents you from getting the White Book of Rhydderch later (Ch.12).",
+          "nice": "Dolyn unlocks doors, grants access to Token: Golden Coronet (+2 Charisma), and gives 880 XP before departing. Keeping him alive lets you get the White Book of Rhydderch token in Ch.12 (worth +50 max mana).",
+          "notes": "IMPORTANT LONG-TERM CHOICE. Being nice to Dolyn is strongly recommended — the White Book of Rhydderch is far more valuable than the Ring of Tara."
+        },
+        {
+          "id": "25842_t02_016",
+          "name": "Gower (Mountain Pass — returns after you emerge from the Tombs)",
+          "chapter": "Ch.6: Mountain Pass",
+          "snarky": "Keep the Casgair sword. Get 330 XP.",
+          "nice": "Return the Casgair to Gower — your sword reverts to what you had before. Receive Token: Badge of Wind (+1 Dexterity).",
+          "notes": "Tough call. If you don't need the Token, keeping the Casgair (a strong weapon) is reasonable."
+        },
+        {
+          "id": "25842_t02_017",
+          "name": "Cathbad the Druid (Mountain Tower Grove — boss encounter)",
+          "chapter": "Ch.7: Mountain Tower",
+          "snarky": "Cathbad's pride is wounded and he dismisses his Kunaltrow guards. Fight Cathbad one-on-one. He drops 5 Adderstones.",
+          "nice": "Cathbad brings ALL surrounding Kunaltrow into the fight with him. Much harder.",
+          "notes": "Be snarky. Fighting Cathbad alone is significantly easier."
+        },
+        {
+          "id": "25842_t02_018",
+          "name": "Reynard Brothers (West Dounby — extortion quest)",
+          "chapter": "Ch.8: Dounby",
+          "snarky": "Escorted out the door. Quest unavailable.",
+          "nice": "They explain the task (get 50 Silver from Donnan). Then be nice to Donnan → nice to Caltir → confront brothers → earn Tune: Knocker + 1100 XP. Bonus: summon the Knocker in front of the brothers for another 1100 XP.",
+          "notes": "Must be nice throughout this entire questline to get the Knocker tune."
+        },
+        {
+          "id": "25842_t02_019",
+          "name": "Finstown Armory door guards (Ch.9 — asking your identity)",
+          "chapter": "Ch.8: Dounby",
+          "snarky": "Fight begins immediately.",
+          "nice": "Fight begins, but the guards exchange an amusing dialogue first.",
+          "notes": "Purely cosmetic difference. Fight is unavoidable either way."
+        },
+        {
+          "id": "25842_t02_020",
+          "name": "Prison Camp gate guard (Finstown)",
+          "chapter": "Ch.8: Dounby — Ch.9 Finstown",
+          "snarky": "Nothing. Gate stays closed.",
+          "nice": "Gate opens, earn 1100 XP. Speak to the refugee inside for Instrument: Finn's Lute (3 summons, 400 mana).",
+          "notes": "Be nice. The Lute is a meaningful upgrade."
+        },
+        {
+          "id": "25842_t02_021",
+          "name": "Refugee girl (Finstown prison camp — calls you a chiseler)",
+          "chapter": "Ch.9: Finstown",
+          "snarky": "Kicked in the nuts. 451 XP.",
+          "nice": "400 XP.",
+          "notes": "Snarky technically gets more XP, but only by 51. The guide seems amused by this."
+        },
+        {
+          "id": "25842_t02_022",
+          "name": "Village Elder (Finstown — after defeating Silkbeard)",
+          "chapter": "Ch.9: Finstown",
+          "snarky": "Gratitude of nothing.",
+          "nice": "Gratitude of nothing.",
+          "notes": "Irrelevant choice — same outcome regardless."
+        },
+        {
+          "id": "25842_t02_023",
+          "name": "Apologize Man (MacRath's Dungeon — Room 1)",
+          "chapter": "Ch.10: Greenlands",
+          "snarky": "1100 XP.",
+          "nice": "(Not mentioned — snarky is the recommended path here.)",
+          "notes": "Be as snarky as possible. He is the man from Houton who wronged you earlier."
+        },
+        {
+          "id": "25842_t02_024",
+          "name": "Trow by Hatcher's house (Stromness)",
+          "chapter": "Ch.11: Stromness",
+          "snarky": "Tune: Upgraded Gouger + 880 XP.",
+          "nice": "Warnings about the Finfolk in the Mines. No tune.",
+          "notes": "Snarky wins here. The Upgraded Gouger is the better reward."
+        },
+        {
+          "id": "25842_t02_025",
+          "name": "Trow on the east pier (Stromness)",
+          "chapter": "Ch.11: Stromness",
+          "snarky": "Nothing.",
+          "nice": "Tune: Upgraded Elemental + 880 XP.",
+          "notes": "Be nice to this one. Together with the Hatcher Trow, you need one snarky and one nice response."
+        },
+        {
+          "id": "25842_t02_026",
+          "name": "Culainn the Firbolg (Firbolg Mines — trapped miners quest)",
+          "chapter": "Ch.12: Firbolg Mines",
+          "snarky": "1000 Silver Pieces immediately, then 3300 XP. If snarky AGAIN on the follow-up offer, get 2000 Silver Pieces total but NO Ego Sword.",
+          "nice": "Rescue quest: gather scattered miners → 2200 XP + Ego Sword (powerful, long-range) + 2200 Silver Pieces.",
+          "notes": "Nice is the better outcome overall (Ego Sword is excellent), but snarky gives more raw Silver."
+        },
+        {
+          "id": "25842_t02_027",
+          "name": "Firbolg Bannock (Finfolk Caverns — trapped Firbolg in SW section)",
+          "chapter": "Ch.12: Firbolg Mines",
+          "snarky": "He runs to a clearing and is mauled by Finfolk. If you let him die: 550 XP. Miss the Armbands + Bodyguard Tune.",
+          "nice": "Lead Bannock safely to the raft: he gives you Firbolg Armbands (Strength +3). Then report to Olav: 1650 XP + Tune: Upgraded Bodyguard.",
+          "notes": "Be nice. The Strength token and Bodyguard upgrade are much better than 550 XP."
+        },
+        {
+          "id": "25842_t02_028",
+          "name": "Olav (Finfolk Caverns — long-winded man north of the caverns)",
+          "chapter": "Ch.12: Firbolg Mines",
+          "snarky": "Interrupt him repeatedly: he stops rambling and gives you the Firbolg Armbands task.",
+          "nice": "Let him finish speaking without interrupting: 850 XP + Token: Lightning Stone (+3 Dexterity).",
+          "notes": "Nice (letting him finish) is the better outcome. The Lightning Stone is one of the strongest Dex tokens."
+        },
+        {
+          "id": "25842_t02_029",
+          "name": "Chosen One (Obligatory Lava Level, Finfolk Caverns exit)",
+          "chapter": "Ch.12: Firbolg Mines",
+          "snarky": "He runs across the rock bridge to open the chest — dies on the way back. Loot his body for Tune: Upgraded Behemoth.",
+          "nice": "Convince him to sit down: 2200 XP + Instrument: Harp of Ages (4 summons, 600 mana).",
+          "notes": "Tough call — Harp of Ages is excellent (best mana capacity alongside Ossian's Lute), but the Upgraded Behemoth is required to complete the tune collection."
+        }
+      ]
+    }
+  ]
+}

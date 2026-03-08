@@ -1,0 +1,63 @@
+{
+  "text": {
+    "label": "Text / Prose",
+    "icon": "📝",
+    "description": "Freeform content with markdown formatting. Good for tips, lore, introductions, and walkthroughs.",
+    "fields": [
+      { "key": "title",   "type": "text",     "label": "Panel Title",        "required": true },
+      { "key": "infobox", "type": "text",     "label": "Tip box (optional)", "required": false,
+        "hint": "Appears as a highlighted callout above the main text." },
+      { "key": "content", "type": "richtext", "label": "Content",            "required": true,
+        "hint": "Supports **bold**, *italic*, `code`, [links](url), ### headings, and - lists." }
+    ]
+  },
+
+  "keyvalue": {
+    "label": "Key / Value",
+    "icon": "🗂️",
+    "description": "Two-column reference list. Best for stats, settings, quick facts, and controls.",
+    "fields": [
+      { "key": "title", "type": "text",    "label": "Panel Title", "required": true },
+      { "key": "rows",  "type": "kv-list", "label": "Rows",        "required": true,
+        "hint": "Each row is a key-value pair. Values support **bold** and *italic*." }
+    ]
+  },
+
+  "checklist": {
+    "label": "Checklist",
+    "icon": "☑️",
+    "description": "Trackable item list. Each user's progress is saved in their browser.",
+    "fields": [
+      { "key": "title",   "type": "text",      "label": "Panel Title",        "required": true },
+      { "key": "infobox", "type": "text",       "label": "Tip box (optional)", "required": false },
+      { "key": "columns", "type": "col-def",    "label": "Extra Columns",      "required": false,
+        "hint": "The Name column is always included. Add optional extra columns (e.g. Price, Season, Note)." },
+      { "key": "items",   "type": "item-list",  "label": "Items",              "required": true,
+        "hint": "Each item can have a Name, an optional sub-note, and values for any extra columns." }
+    ]
+  },
+
+  "table": {
+    "label": "Table",
+    "icon": "📊",
+    "description": "Reference table with user-defined columns. Good for stat comparisons, item data, and schedules.",
+    "fields": [
+      { "key": "title",   "type": "text",     "label": "Panel Title", "required": true },
+      { "key": "columns", "type": "col-def",  "label": "Columns",     "required": true,
+        "hint": "Define the column headers. Column order here matches display order." },
+      { "key": "rows",    "type": "row-list", "label": "Rows",        "required": true }
+    ]
+  },
+
+  "cards": {
+    "label": "Cards",
+    "icon": "🃏",
+    "description": "Repeated rich entries. Good for characters, items, enemies, locations, recipes — anything with a name and multiple attributes.",
+    "fields": [
+      { "key": "title",      "type": "text",       "label": "Panel Title",  "required": true },
+      { "key": "cardFields", "type": "field-def",  "label": "Card Fields",  "required": true,
+        "hint": "Define the fields each card has. The first field becomes the card's title/name." },
+      { "key": "cards",      "type": "card-list",  "label": "Cards",        "required": true }
+    ]
+  }
+}

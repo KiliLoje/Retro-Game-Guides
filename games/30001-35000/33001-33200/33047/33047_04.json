@@ -1,0 +1,35 @@
+{
+  "label": "📋 Contracts",
+  "panels": [
+    {
+      "id": "panel_contracts_all",
+      "panelType": "checklist",
+      "title": "All Contracts",
+      "infobox": "📋 Complete contracts to earn silver and unlock the Contract Master achievement. No penalty for failure — accept freely. You need at least 1 day remaining when you deliver. **Save after completing each contract** for it to count.",
+      "columns": [
+        { "key": "num",    "label": "#",              "style": "dim" },
+        { "key": "goods",  "label": "Goods Required",  "style": "plain" },
+        { "key": "days",   "label": "Days",             "style": "dim" },
+        { "key": "reward", "label": "Reward",           "style": "accent" },
+        { "key": "note",   "label": "Notes",            "style": "dim" }
+      ],
+      "entry_Contract": [
+        { "id": "Contracts|0",  "name": "Kumersun (Tutorial)", "num": "14", "goods": "Kumersun: Carp ×4 → Lenos", "days": "10 days", "reward": "2,000 silver", "note": "Tutorial only — skipped if you choose Skip Tutorial in NG+" },
+        { "id": "Contracts|1",  "name": "Ruvinheigen", "num": "1", "goods": "Kumersun: Carp ×3, Diemoln: Soda Water ×3, Lamtra: Sulfur ×3, Graha: Wheat ×1 → Ruvinheigen", "days": "50 days", "reward": "6,000 silver" },
+        { "id": "Contracts|2",  "name": "Gahno A", "num": "2", "goods": "Graha: Wheat ×1, Ulrich: Grapes ×1, Ruckiholk: Apple ×1, Delintskolz: Onion ×1 → Gahno", "days": "60 days", "reward": "8,000 silver", "note": "Requires at least 40 days; not especially worth it" },
+        { "id": "Contracts|3",  "name": "Gahno B", "num": "3", "goods": "Ahrmaln: Wool ×2, Bourattia: Cotton ×2, Delintskolz: Beer ×1, Lune: Egg ×2 → Gahno", "days": "50 days", "reward": "7,000 silver" },
+        { "id": "Contracts|4",  "name": "Liberkant", "num": "4", "goods": "Erne: Milk ×1, Ruckiholk: Dried Fruit ×2, Bourattia: Cotton ×3 → Liberkant", "days": "45 days", "reward": "6,000 silver" },
+        { "id": "Contracts|5",  "name": "Lune / Bourattia", "num": "5", "goods": "Delintskolz: Onion ×2, Liberkant: Crystal ×1, Ruckiholk: Dried Fruit ×2, Rossalt: Statue ×1 → Bourattia", "days": "45 days", "reward": "10,000 silver", "note": "Contract destination is Bourattia despite being called Lune" },
+        { "id": "Contracts|6",  "name": "Diemoln / Delintskolz", "num": "6", "goods": "Beorein: Oyster ×4, Ulrich: Clove ×1, Lune: Farm Tool ×3 → Delintskolz", "days": "60 days", "reward": "9,000 silver", "note": "Requires 26 days. Overlaps perfectly with medicine quest route" },
+        { "id": "Contracts|7",  "name": "Leyage A", "num": "7", "goods": "Ulrich: Wine ×1, Erne: Jerky ×3, Beorein: Mussel ×3 → drop off → Diemoln: Herring ×3, Lenos: Nutmeg ×1 → Leyage", "days": "60 days", "reward": "20,000 silver", "note": "Two-stage contract" },
+        { "id": "Contracts|8",  "name": "Lamtra", "num": "8", "goods": "Leyage: Cotton Cloth ×2, Lenos: Wood ×2, Kumersun: Perry ×1 → drop off → Ulrich: Grapes ×2 → Lamtra", "days": "50 days", "reward": "18,000 silver", "note": "Two-stage contract" },
+        { "id": "Contracts|9",  "name": "Bourattia A / Lune", "num": "9", "goods": "Bourattia: Saffron ×1, Gahno: Iron ×1 → drop off Lune → Delintskolz: Mead ×1, Erne: Pig ×1 → Lune", "days": "55 days", "reward": "23,000 silver", "note": "All square items — requires 2 trips even at max cart size" },
+        { "id": "Contracts|10", "name": "Delintskolz A / Diemoln", "num": "10", "goods": "Lune: Egg ×1, Erne: Milk ×1, Beorein: Mussel ×2 → Diemoln", "days": "40 days", "reward": "4,000 silver" },
+        { "id": "Contracts|11", "name": "Delintskolz B", "num": "11", "goods": "Erne: Jerky ×1, Graha: Wheat Bread ×1 + Rye Bread ×1, Ruckiholk: Dried Fruit ×1, Rossalt: Sugar ×1, Bourattia: Honey ×1 → Delintskolz", "days": "70 days", "reward": "10,000 silver" },
+        { "id": "Contracts|12", "name": "Lenos", "num": "12", "goods": "Leyage: Green Pea ×3, Lamtra: Wool Cloth ×1, Poroson: Stone ×1, Kumersun: Pike ×2 → Lenos", "days": "50 days", "reward": "12,000 silver" },
+        { "id": "Contracts|13", "name": "Leyage B / Diemoln", "num": "13", "goods": "Kumersun: Char ×2, Ruvinheigen: Goldwork ×1, Liberkant: Weapon ×1, Erne: Goat ×1 → Diemoln", "days": "65 days", "reward": "23,000 silver" },
+        { "id": "Contracts|14", "name": "Bourattia B ⭐", "num": "15", "goods": "Beorein: Oyster ×1 + Mussel ×1, Diemoln: Shrimp ×1 + Herring ×1 + Caviar ×1, Kumersun: Pike ×1 + Carp ×1 → Bourattia", "days": "50 days", "reward": "25,000 silver (+10,000 speed bonus)", "note": "Most profitable at +795 silver/day. Did not appear in Endless Mode. Contract must be found in-game to appear." }
+      ]
+    }
+  ]
+}

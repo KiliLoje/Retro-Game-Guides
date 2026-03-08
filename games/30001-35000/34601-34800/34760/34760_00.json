@@ -1,0 +1,30 @@
+{
+  "storagePrefix": "34760_",
+  "subtitle": "Completion tracker — progress saved in your browser",
+  "theme": "bubbles",
+  "palette": "dusk",
+  "primaryName": "Harvest Moon: Tree of Tranquility",
+  "primarySystem": "Wii",
+  "altSystems": [],
+  "altNames": [
+    "Bokujou Monogatari: Yasuragi no Ki"
+  ],
+  "series": "Harvest Moon",
+  "year": 2007,
+  "icon": "🌳",
+  "author": "BigDonRob",
+  "tabs": [
+    {"num":"01","label":"🏆Achievements (Proposed)"},
+    {"num":"02","label":"🌈GoddessQuest"},
+    {"num":"03","label":"🌾Farming"},
+    {"num":"04","label":"🐄Animals&Pets"},
+    {"num":"05","label":"🧶Yarn,Honey&Perfume"},
+    {"num":"06","label":"🍳Recipes"},
+    {"num":"07","label":"🎣Fishing"},
+    {"num":"08","label":"⛏️Mining"},
+    {"num":"09","label":"🏘️World&Festivals"},
+    {"num":"10","label":"👥Villagers"},
+    {"num":"11","label":"🛒Shops&Prices"},
+    {"num":"12","label":"📋Reference"}
+  ]
+}

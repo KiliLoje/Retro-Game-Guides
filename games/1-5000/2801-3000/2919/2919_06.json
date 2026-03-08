@@ -1,0 +1,294 @@
+{
+  "label": "⛏️ Mining",
+  "panels": [
+    {
+      "id": "mining_info",
+      "panelType": "text",
+      "title": "⛏️ Mining Overview",
+      "infobox": "The Mine is west of the H.G. Spring. Talk to Rudolph and do the **Ore Excavation part-time job 4–5 times** to unlock free access. Mining is puzzle-based — arrange crystals to break all in one hit.",
+      "content": ""
+    },
+    {
+      "id": "mining_layers",
+      "panelType": "table",
+      "title": "🗂️ Layer Unlock Schedule",
+      "columns": [
+        "Layer",
+        "Unlocks"
+      ],
+      "rows": [
+        [
+          "1st Layer",
+          "From start"
+        ],
+        [
+          "2nd Layer",
+          "Summer 1, Year 1"
+        ],
+        [
+          "3rd Layer",
+          "Fall 1, Year 1"
+        ],
+        [
+          "4th Layer",
+          "Winter 1, Year 1"
+        ],
+        [
+          "5th (A & B)",
+          "Winter Year 1 — after Mole Event"
+        ],
+        [
+          "6th Layer",
+          "Summer 1, Year 2"
+        ],
+        [
+          "7th Layer",
+          "Fall 1, Year 2"
+        ],
+        [
+          "8th Layer",
+          "Winter 1, Year 2"
+        ]
+      ]
+    },
+    {
+      "id": "mining_ores",
+      "panelType": "table",
+      "title": "⛏️ Ores & Minerals",
+      "columns": [
+        "Ore",
+        "Price",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Scrap Iron",
+          "10G",
+          "All layers"
+        ],
+        [
+          "Coal (Limestone)",
+          "20G",
+          "All layers"
+        ],
+        [
+          "Mineral Crystal 💡",
+          "30G",
+          "All layers · use on crops for mineral produce"
+        ],
+        [
+          "Iron Ore",
+          "60G",
+          "All (not 5B)"
+        ],
+        [
+          "Copper Ore",
+          "40G",
+          "All (not 4B, 5B)"
+        ],
+        [
+          "Silver Ore",
+          "80G",
+          "All (not 4B, 5B)"
+        ],
+        [
+          "Gold Ore",
+          "140G",
+          "All (not 4B, 5B)"
+        ],
+        [
+          "Blue Rock",
+          "90G",
+          "All (not 5B)"
+        ],
+        [
+          "Orichalcum",
+          "160G",
+          "All (not 5B)"
+        ],
+        [
+          "Rare Metal",
+          "180G",
+          "All (not 5B)"
+        ],
+        [
+          "Moonlight Stone",
+          "100G",
+          "All (not 4B)"
+        ]
+      ]
+    },
+    {
+      "id": "mining_jewels",
+      "panelType": "table",
+      "title": "💎 Jewels",
+      "columns": [
+        "Jewel",
+        "Price",
+        "Layer(s)"
+      ],
+      "rows": [
+        [
+          "Diamond",
+          "200G",
+          "Layer 8"
+        ],
+        [
+          "Emerald",
+          "170G",
+          "Layer 7"
+        ],
+        [
+          "Sapphire",
+          "180G",
+          "5A, 5B, 6"
+        ],
+        [
+          "Aquamarine",
+          "160G",
+          "Layer 6"
+        ],
+        [
+          "Ruby",
+          "180G",
+          "5A, 5B"
+        ],
+        [
+          "Garnet",
+          "160G",
+          "?"
+        ],
+        [
+          "Amethyst",
+          "120G",
+          "5A, 5B"
+        ],
+        [
+          "Opal",
+          "140G",
+          "Layer 8"
+        ]
+      ]
+    },
+    {
+      "id": "mining_fossils",
+      "panelType": "table",
+      "title": "🦴 Fossils & Artifacts",
+      "columns": [
+        "Item",
+        "Price",
+        "Layer(s)"
+      ],
+      "rows": [
+        [
+          "Ammonite Fossil",
+          "500G",
+          "5A, 5B, 6, 7"
+        ],
+        [
+          "Trilobite Fossil",
+          "500G",
+          "5A, 5B"
+        ],
+        [
+          "Plant Fossil",
+          "500G",
+          "5A, 5B, 6, 7"
+        ],
+        [
+          "Ancient Fish Fossil",
+          "500G",
+          "5A, 5B, 6"
+        ],
+        [
+          "Pottery",
+          "750G",
+          "All (not 4B, 8)"
+        ],
+        [
+          "Mysterious Object",
+          "10G",
+          "All (not 4B, 7)"
+        ],
+        [
+          "Mysterious Clay Soldier",
+          "750G",
+          "All (not 6, 8)"
+        ],
+        [
+          "Unusual Pot/Jar",
+          "750G",
+          "All (not 3, 4B, 7, 8)"
+        ]
+      ]
+    },
+    {
+      "id": "mining_fossils_note",
+      "panelType": "text",
+      "title": "Fossil Note",
+      "content": "First unique find of each item is auto-displayed in your Storehouse. Subsequent finds can be sold."
+    },
+    {
+      "id": "mining_mecha_info",
+      "panelType": "text",
+      "title": "🤖 Mecha Events (Main Story)",
+      "infobox": "Complete all 7 Mecha Events to keep Alice in Leaf Valley after Year 2. At Final Decision, choose **\"Protect the village\"**!",
+      "content": ""
+    },
+    {
+      "id": "mining_mecha_table",
+      "panelType": "table",
+      "title": "Mecha Event Schedule",
+      "columns": [
+        "Event",
+        "Location",
+        "Date",
+        "Reward"
+      ],
+      "rows": [
+        [
+          "Mechanical Crow",
+          "Flower/Item Shop Area",
+          "Winter 2, Yr 1",
+          "+10 FP Alice"
+        ],
+        [
+          "Mechanical Mole",
+          "Mine",
+          "Winter 20, Yr 1",
+          "+10 FP Alice"
+        ],
+        [
+          "Mechanical Tree",
+          "Carpenter's House",
+          "Spring 5, Yr 2",
+          "+10 FP Alice"
+        ],
+        [
+          "Mechanical Horse",
+          "In front of house (need horse!)",
+          "Spring 22, Yr 2",
+          "+10 FP Alice"
+        ],
+        [
+          "Mechanical Fish",
+          "Mallard Lake",
+          "Summer 14, Yr 2",
+          "Catch 3 fish; +10 FP Alice"
+        ],
+        [
+          "A Visit",
+          "Church",
+          "Summer 16–Fall 3, Yr 2",
+          "Dialogue changes w/ prev events"
+        ],
+        [
+          "Final Decision",
+          "In front of house",
+          "Fall 5, Yr 2",
+          "Choose \"Protect the village\" → +30 FP, Alice stays"
+        ]
+      ]
+    }
+  ]
+}

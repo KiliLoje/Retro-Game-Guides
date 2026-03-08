@@ -1,0 +1,201 @@
+{
+  "label": "🛡️ Armor & Shields",
+  "panels": [
+    {
+      "id": "armor_info",
+      "panelType": "text",
+      "title": "🛡️ Armor & Shields",
+      "infobox": "All armor and shields in the game.",
+      "content": ""
+    },
+    {
+      "id": "armor_list",
+      "panelType": "checklist",
+      "title": "All Armor & Shields (16)",
+      "columns": [
+        {
+          "key": "name",
+          "label": "Name",
+          "style": "accent"
+        },
+        {
+          "key": "armor",
+          "label": "Armor",
+          "style": "dim"
+        },
+        {
+          "key": "special",
+          "label": "Special",
+          "style": "dim"
+        },
+        {
+          "key": "location",
+          "label": "Location",
+          "style": "plain"
+        }
+      ],
+      "entry_All": [
+        {
+          "id": "25842_t06_000",
+          "name": "Padded Armor",
+          "flag": "",
+          "num": "1",
+          "category": "Armor",
+          "armor": "1–1",
+          "special": "—",
+          "location": "Starting armor"
+        },
+        {
+          "id": "25842_t06_001",
+          "name": "Leather Armor",
+          "flag": "",
+          "num": "2",
+          "category": "Armor",
+          "armor": "1–2",
+          "special": "—",
+          "location": "Buy: Seamus (Houton) or Velvet Hammer (Kirkwall)"
+        },
+        {
+          "id": "25842_t06_002",
+          "name": "Studded Armor",
+          "flag": "",
+          "num": "3",
+          "category": "Armor",
+          "armor": "2–3",
+          "special": "—",
+          "location": "Buy: Seamus (Houton) or Velvet Hammer (Kirkwall)"
+        },
+        {
+          "id": "25842_t06_003",
+          "name": "Buckler",
+          "flag": "",
+          "num": "4",
+          "category": "Shield",
+          "armor": "1–2",
+          "special": "—",
+          "location": "Chest in Ketill's Hideout; or buy at Velvet Hammer (Kirkwall)"
+        },
+        {
+          "id": "25842_t06_004",
+          "name": "Oak Leaf Armor",
+          "flag": "",
+          "num": "5",
+          "category": "Armor",
+          "armor": "2–4",
+          "special": "—",
+          "location": "On body of Ex-Chosen by Finn's Farm"
+        },
+        {
+          "id": "25842_t06_005",
+          "name": "Chainmail",
+          "flag": "",
+          "num": "6",
+          "category": "Armor",
+          "armor": "3–5",
+          "special": "—",
+          "location": "Buy: Velvet Hammer (Kirkwall)"
+        },
+        {
+          "id": "25842_t06_006",
+          "name": "Kite Shield",
+          "flag": "",
+          "num": "7",
+          "category": "Shield",
+          "armor": "1–2",
+          "special": "—",
+          "location": "Chest in Burial Chambers (east of entrance save point)"
+        },
+        {
+          "id": "25842_t06_007",
+          "name": "Scale Mail",
+          "flag": "",
+          "num": "8",
+          "category": "Armor",
+          "armor": "3–6",
+          "special": "—",
+          "location": "Buy: O'Dells Arms (West Dounby)"
+        },
+        {
+          "id": "25842_t06_008",
+          "name": "Scalbach's Mail",
+          "flag": "",
+          "num": "9",
+          "category": "Armor",
+          "armor": "4–7",
+          "special": "—",
+          "location": "Chest in Finstown Armory"
+        },
+        {
+          "id": "25842_t06_009",
+          "name": "White Bronze Chainmail",
+          "flag": "",
+          "num": "10",
+          "category": "Armor",
+          "armor": "4–8",
+          "special": "—",
+          "location": "Buy: Dirk at Silkbeard's HQ (Finstown)"
+        },
+        {
+          "id": "25842_t06_010",
+          "name": "White Bronze Targ Shield",
+          "flag": "",
+          "num": "11",
+          "category": "Shield",
+          "armor": "3–6",
+          "special": "Healing Shield (20%)",
+          "location": "Buy: Dirk at Silkbeard's HQ (Finstown)"
+        },
+        {
+          "id": "25842_t06_011",
+          "name": "White Bronze Scale Mail",
+          "flag": "",
+          "num": "12",
+          "category": "Armor",
+          "armor": "5–9",
+          "special": "—",
+          "location": "Buy: Crazy Thorvald (Stromness)"
+        },
+        {
+          "id": "25842_t06_012",
+          "name": "Armor of Llyr",
+          "flag": "",
+          "num": "13",
+          "category": "Armor",
+          "armor": "6–10",
+          "special": "—",
+          "location": "Stump in SW corner of Stromness"
+        },
+        {
+          "id": "25842_t06_013",
+          "name": "White Bronze Kite Shield",
+          "flag": "",
+          "num": "14",
+          "category": "Shield",
+          "armor": "4–7",
+          "special": "Healing Shield (30%)",
+          "location": "Buy: Crazy Thorvald (Stromness)"
+        },
+        {
+          "id": "25842_t06_014",
+          "name": "Ochlan",
+          "flag": "",
+          "num": "15",
+          "category": "Shield",
+          "armor": "4–8",
+          "special": "Healing Shield (40%)",
+          "location": "Defeat Haggis Monster in Hatcher's Farm"
+        },
+        {
+          "id": "25842_t06_015",
+          "name": "Dubgilla",
+          "flag": "",
+          "num": "16",
+          "category": "Shield",
+          "armor": "3–5",
+          "special": "Healing Shield (10%)",
+          "location": "Chest behind secret door (west wall near entrance), Carrowmore — needs Upgraded Trap Finder"
+        }
+      ]
+    }
+  ]
+}

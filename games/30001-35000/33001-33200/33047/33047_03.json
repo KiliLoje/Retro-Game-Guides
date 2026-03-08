@@ -1,0 +1,146 @@
+{
+  "label": "💬 Events",
+  "panels": [
+    {
+      "id": "panel_events_holo",
+      "panelType": "checklist",
+      "title": "Holo Events",
+      "infobox": "💬 Track which events you've seen. ⚠ Note the special Luka CG event in the Luka panel — you must choose the *wrong* answer for 100% CG completion.",
+      "columns": [
+        { "key": "location", "label": "Location", "style": "dim" },
+        { "key": "answer", "label": "Best Answer", "style": "accent" }
+      ],
+      "entry_Event": [
+        { "id": "Events|0",  "name": "After meeting Norah — Holo teases Lawrence", "location": "🏙 Town", "answer": "I wasn't lovestruck!" },
+        { "id": "Events|1",  "name": "\"That's not like you.\" Holo notices you're off", "location": "🛣 Road", "answer": "Let's have a short rest." },
+        { "id": "Events|2",  "name": "\"Surrounded by such a sweet, sweet smell...\" Holo smells the forest", "location": "🛣 Road", "answer": "You can eat the damaged ones." },
+        { "id": "Events|3",  "name": "\"You can pin these stories down to this.\" Trade talk", "location": "🛣 Road", "answer": "Explain how the Amber Guide works." },
+        { "id": "Events|4",  "name": "Rainy. \"Ngh...\" Holo is cold", "location": "🛣 Road", "answer": "I'll build a fire, whatever it takes." },
+        { "id": "Events|5",  "name": "Holo has trouble falling asleep. \"Yes, I'll do that.\"", "location": "🛣 Road", "answer": "Sit next to Holo" },
+        { "id": "Events|6",  "name": "\"What am I supposed to do with a fierce wolf who'd show her sleeping face?\"", "location": "🛣 Road", "answer": "Poke her cheek" },
+        { "id": "Events|7",  "name": "\"Well, do you know how wolves like me cross a big river?\"", "location": "🛣 Road", "answer": "You borrow wisdom from other beasts?" },
+        { "id": "Events|8",  "name": "Pickles. \"Ngh.\"", "location": "🛣 Road", "answer": "Let's try opening it." },
+        { "id": "Events|9",  "name": "\"Not to mention, lightning is the cause of forest fires.\" (move closer)", "location": "🛣 Road", "answer": "Move closer" },
+        { "id": "Events|10", "name": "\"What say we copy them?\"", "location": "🛣 Road", "answer": "Okay, just a little bit." },
+        { "id": "Events|11", "name": "\"Not to mention, lightning...\" (laugh it off)", "location": "🛣 Road", "answer": "Laugh it off" },
+        { "id": "Events|12", "name": "\"I've heard those footsteps before\"", "location": "🏙 Town", "answer": "No way, Holo?" },
+        { "id": "Events|13", "name": "Grape Festival", "location": "🏙 Town", "answer": "You can go." },
+        { "id": "Events|14", "name": "\"If we don't leave this morning...\"", "location": "🏙 Town", "answer": "Carry Holo to the cart" },
+        { "id": "Events|15", "name": "Fortune teller at daytime", "location": "🏙 Town", "answer": "Ask Holo to purify you" },
+        { "id": "Events|16", "name": "Fortune teller at nighttime", "location": "🏙 Town", "answer": "Can you recommend a good restaurant?" },
+        { "id": "Events|17", "name": "Bird's nest found", "location": "🏙 Town", "answer": "Put it back in a tree" },
+        { "id": "Events|18", "name": "\"Naturally, a male should be sensitive to this smell.\"", "location": "🏙 Town", "answer": "Absolutely not" },
+        { "id": "Events|19", "name": "\"I only just gave them to you!\"", "location": "🏙 Town", "answer": "Maybe I'll try one" },
+        { "id": "Events|20", "name": "\"I'm happy that you want to take care of me, but...\"", "location": "🏙 Town", "answer": "Endure her care quietly" },
+        { "id": "Events|21", "name": "\"Fighting isn't my strong suit...\"", "location": "🏙 Town", "answer": "Try to negotiate" },
+        { "id": "Events|22", "name": "\"Ugh... I can't give up.\"", "location": "🏙 Town", "answer": "Let's try making our own." },
+        { "id": "Events|23", "name": "\"Will you let them buy the rings?\"", "location": "🏙 Town", "answer": "Watch them quietly" },
+        { "id": "Events|24", "name": "\"It really does look tasty...\"", "location": "🏙 Town", "answer": "Don't you dislike potatoes?" },
+        { "id": "Events|25", "name": "\"Heh heh, you'll see when we get there!\"", "location": "🏙 Town", "answer": "Believe Holo" },
+        { "id": "Events|26", "name": "\"This feminine human form is temporary...\" — Holo jokes about being male", "location": "🏙 Town", "answer": "A male Holo is still Holo" },
+        { "id": "Events|27", "name": "Top hat guy \"What should I do...?\"", "location": "🏙 Town", "answer": "Accept" },
+        { "id": "Events|28", "name": "\"Why did you suddenly bring it up?\"", "location": "🏙 Town", "answer": "I just thought it was beautiful." },
+        { "id": "Events|29", "name": "\"Holo...\"", "location": "🏙 Town", "answer": "I'm sorry." },
+        { "id": "Events|30", "name": "\"'Tis settled, then! We shall spend the night at the inn, yes?\"", "location": "🏙 Town", "answer": "Alright, we'll stay here." },
+        { "id": "Events|31", "name": "\"If you'd like, I'll even feed you.\"", "location": "🏙 Town", "answer": "Take Holo's help" }
+      ]
+    },
+    {
+      "id": "panel_events_luka",
+      "panelType": "checklist",
+      "title": "Luka Events",
+      "infobox": "⚠️ Events|49 — the meat-carving event — requires choosing the *wrong* answer intentionally to unlock a CG. The answer column shows the correct CG choice.",
+      "columns": [
+        { "key": "location", "label": "Location", "style": "dim" },
+        { "key": "answer", "label": "Best Answer / CG Choice", "style": "accent" }
+      ],
+      "entry_Event": [
+        { "id": "Events|32", "name": "Residence in Beorein — pack her stuff", "location": "⚡ Event", "answer": "Yes, we're related." },
+        { "id": "Events|33", "name": "\"We can't just leave her.\"", "location": "📍 [Lamtra→Leyage]", "answer": "Wake her up" },
+        { "id": "Events|34", "name": "\"I'll catch it! You wait here!\"", "location": "🛣 Road", "answer": "Ask Luka" },
+        { "id": "Events|35", "name": "\"Wha? Piggyback?!\"", "location": "📍 [Erne→Ulrich]", "answer": "Raise your chosen companion's intimacy" },
+        { "id": "Events|36", "name": "\"We're not getting anywhere like this.\"", "location": "📍 [Lamtra→Leyage]", "answer": "Raise your chosen companion's intimacy" },
+        { "id": "Events|37", "name": "\"Since we're here, let's go take a look!\"", "location": "📍 [Ulrich→Erne]", "answer": "Take a detour" },
+        { "id": "Events|38", "name": "\"The current's not too strong either.\"", "location": "🛣 Road", "answer": "Do laundry." },
+        { "id": "Events|39", "name": "\"I wonder what it could be...? It sounds fun!\"", "location": "🛣 Road", "answer": "Believe Holo" },
+        { "id": "Events|40", "name": "\"I made them. Sorry...\"", "location": "🛣 Road", "answer": "What for?" },
+        { "id": "Events|41", "name": "\"Ehehe, did I scare you?\"", "location": "📍 [Beorein→Erne]", "answer": "Don't worry me like that!" },
+        { "id": "Events|42", "name": "\"If you get there... What are you gonna do after?\"", "location": "🛣 Road", "answer": "That wouldn't happen" },
+        { "id": "Events|43", "name": "\"It's just... I suddenly started thinking about home...\"", "location": "📍 [Leyage→Lenos]", "answer": "You'll feel better if you eat." },
+        { "id": "Events|44", "name": "\"You will not! This is my seat!\"", "location": "📍 [Beorein→Diemoln]", "answer": "What's the harm?" },
+        { "id": "Events|45", "name": "\"Mitzfing Temple silver!\"", "location": "📍 [Ulrich]", "answer": "It was Trenni silver." },
+        { "id": "Events|46", "name": "\"It's fine, so you don't have to worry about me.\"", "location": "📍 [Poroson]", "answer": "No, I'm buying them!" },
+        { "id": "Events|47", "name": "\"Come on, over here! There's an orange stall!\"", "location": "📍 [Graha]", "answer": "That's a good find." },
+        { "id": "Events|48", "name": "\"Hmm... It's a bit pricey, but...\"", "location": "📍 [Erne]", "answer": "Okay, we'll go there." },
+        { "id": "Events|49", "name": "\"But mister, how are we supposed to eat a piece of meat this big?\"", "location": "📍 [Delintskolz]", "answer": "⚠️ Choose WRONG option for CG: 'I'll show you how to carve it.'", "note": "Intentional failure — required for 100% CG. Save before this event." },
+        { "id": "Events|50", "name": "Top hat. \"Please, think of doing it as a great favor...!\"", "location": "🏙 Town", "answer": "Accept / Refuse" },
+        { "id": "Events|51", "name": "\"If you'd like, we could feed you.\"", "location": "🏙 Town", "answer": "Raise your chosen companion's intimacy" },
+        { "id": "Events|52", "name": "\"Yeah, and a small one at that.\"", "location": "🏙 Town", "answer": "We'll make it work. / I'll sleep on the floor." },
+        { "id": "Events|53", "name": "Ordering food. \"What?!\"", "location": "🏙 Town", "answer": "Stop forcing yourself." }
+      ]
+    },
+    {
+      "id": "panel_events_norah",
+      "panelType": "checklist",
+      "title": "Norah Events",
+      "columns": [
+        { "key": "location", "label": "Location", "style": "dim" },
+        { "key": "answer", "label": "Best Answer", "style": "accent" }
+      ],
+      "entry_Event": [
+        { "id": "Events|54", "name": "(First travel to Diemoln) Norah offers to protect from wolves", "location": "⚡ Event", "answer": "They certainly are dangerous." },
+        { "id": "Events|55", "name": "\"Hindsight is of little use now.\"", "location": "📍 [Erne→Ulrich]", "answer": "What should we do, Norah?" },
+        { "id": "Events|56", "name": "\"I know a story that's a little scary...\"", "location": "📍 [Ulrich→Graha]", "answer": "Let's hear it." },
+        { "id": "Events|57", "name": "\"Tee-hee. That is a large flock, though.\"", "location": "📍 [Graha→Ruvinheigen]", "answer": "They look like clouds." },
+        { "id": "Events|58", "name": "\"Carts are wonderful, aren't they?\"", "location": "📍 [Lenos→Leyage]", "answer": "Do you like riding in the cart?" },
+        { "id": "Events|59", "name": "\"Yes, since we're near a forest, I thought I might find something.\"", "location": "📍 [Leyage→Ulrich / Ruvinheigen→Poroson]", "answer": "Please!" },
+        { "id": "Events|60", "name": "\"Huh?!\"", "location": "📍 [Erne→Delintskolz / Lune→Gahno]", "answer": "That's too dangerous." },
+        { "id": "Events|61", "name": "\"I wonder what it could be to make Miss Holo so excited...\"", "location": "📍 [Lune→Gahno]", "answer": "Believe Holo" },
+        { "id": "Events|62", "name": "\"When I thought about that, a sudden wave of loneliness swept over me.\"", "location": "📍 [Ruvinheigen→Lamtra / Ulrich→Leyage]", "answer": "That won't happen." },
+        { "id": "Events|63", "name": "\"...Mr. Lawrence. This rain has reminded me...\"", "location": "📍 [Ruvinheigen→Lamtra]", "answer": "What day? / You're right." },
+        { "id": "Events|64", "name": "\"So sometimes I just let him do what he wants...\"", "location": "📍 [Graha→Ruvinheigen]", "answer": "I think that's fine." },
+        { "id": "Events|65", "name": "\"I could give you a shoulder massage, if you'd like.\"", "location": "📍 [Erne / Poroson]", "answer": "Are you sure?" },
+        { "id": "Events|66", "name": "\"You like it, huh? Tee-hee...\"", "location": "📍 [Ruvinheigen]", "answer": "Leave them be" },
+        { "id": "Events|67", "name": "\"I'm sure it's fine. She'll be here soon, no?\"", "location": "📍 [Leyage]", "answer": "Look for her." },
+        { "id": "Events|68", "name": "\"I wonder... I think it might be too narrow to get through.\"", "location": "📍 [Ulrich]", "answer": "Take the shortcut" },
+        { "id": "Events|69", "name": "\"I-I think I accidentally dropped my purse.\"", "location": "📍 [Erne]", "answer": "Didn't you leave it in the cart?" },
+        { "id": "Events|70", "name": "\"But they are lovely...\"", "location": "📍 [Lune / Poroson]", "answer": "You are more adorable." },
+        { "id": "Events|71", "name": "\"Right...\"", "location": "📍 [Lune]", "answer": "Put it in Norah's mouth." },
+        { "id": "Events|72", "name": "\"...Oh? Is something wrong, Mr. Lawrence?\"", "location": "📍 [Lune]", "answer": "I'm glad you're enjoying yourself. / Would you like to try it on?" },
+        { "id": "Events|73", "name": "Top hat. \"What should I do, Mr. Lawrence?\"", "location": "📍 [Delintskolz]", "answer": "Accept" },
+        { "id": "Events|74", "name": "\"If you'd like, we could even feed you.\"", "location": "📍 [Diemoln / Poroson]", "answer": "Raise your chosen companion's intimacy" }
+      ]
+    },
+    {
+      "id": "panel_events_eve",
+      "panelType": "checklist",
+      "title": "Eve Events",
+      "columns": [
+        { "key": "location", "label": "Location", "style": "dim" },
+        { "key": "answer", "label": "Best Answer", "style": "accent" }
+      ],
+      "entry_Event": [
+        { "id": "Events|75", "name": "(Talk to Barmaid in Diemoln) Trade dominated by one party", "location": "⚡ Event", "answer": "You're right" },
+        { "id": "Events|76", "name": "\"You shouldn't push yourself.\"", "location": "📍 [Ruckiholk→Rossalt]", "answer": "I'll lend you my shoulder." },
+        { "id": "Events|77", "name": "See a tower", "location": "📍 [Erne→Ulrich / Ulrich→Liberkant]", "answer": "It's a Coin Mint." },
+        { "id": "Events|78", "name": "\"It's cold out, so you should at least take this.\"", "location": "📍 [Lune→Delintskolz / Leyage→Ulrich]", "answer": "Wrap Eve in a cloak" },
+        { "id": "Events|79", "name": "Fish stew. \"I think the flavor makes up for it.\"", "location": "📍 [Delintskolz]", "answer": "Let's try some" },
+        { "id": "Events|80", "name": "\"An antidote for all\"", "location": "📍 [Lenos / Bourattia]", "answer": "That's suspicious" },
+        { "id": "Events|81", "name": "\"You've got good taste as well as being a gourmet.\"", "location": "📍 [Liberkant / Lamtra]", "answer": "\"I'll treat you.\"" },
+        { "id": "Events|82", "name": "Late, find an inn. \"I don't see why not. I'm all for it.\"", "location": "📍 [Beorein / Ulrich]", "answer": "Alright, we'll stay here." },
+        { "id": "Events|83", "name": "Girl selling flowers", "location": "🏙 Town", "answer": "They'd suit you." },
+        { "id": "Events|84", "name": "\"Silver coins? What are you doing?\"", "location": "📍 [Lune]", "answer": "I was polishing them" },
+        { "id": "Events|85", "name": "\"(She's asleep at the desk.)\"", "location": "📍 [Ahrmaln / Liberkant]", "answer": "Wake her" },
+        { "id": "Events|86", "name": "\"Why don't we find somewhere to take shelter from the rain a bit?\"", "location": "📍 [Erne / Rossalt]", "answer": "That's a good idea." },
+        { "id": "Events|87", "name": "\"And the price is attractive, too.\"", "location": "📍 [Lenos / Rossalt]", "answer": "That's a blessing." },
+        { "id": "Events|88", "name": "\"Mnnnnn...\" Holo sleeping", "location": "🏙 Town", "answer": "Search for a Pillow" },
+        { "id": "Events|89", "name": "\"I cannot wait any longer. I might faint from the hunger.\"", "location": "🏙 Town", "answer": "Alright, I'll get her." },
+        { "id": "Events|90", "name": "Top hat guy \"What do you think?\"", "location": "🏙 Town", "answer": "Accept" },
+        { "id": "Events|91", "name": "Endless Mode exclusive scene", "location": "♾️ Endless #1", "answer": "Alright then." },
+        { "id": "Events|92", "name": "Endless Mode exclusive scene", "location": "♾️ Endless #2", "answer": "Gently hold her hand." },
+        { "id": "Events|93", "name": "Endless Mode exclusive scene", "location": "♾️ Endless #3", "answer": "Thank you." },
+        { "id": "Events|94", "name": "Endless Mode exclusive scene", "location": "♾️ Endless #7", "answer": "Eat it with Eve." }
+      ]
+    }
+  ]
+}

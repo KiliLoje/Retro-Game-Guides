@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Retro Game Guides</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ── Reset & Root ── */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg-main:      #0a0e14;
+  --bg-secondary: #14181f;
+  --bg-tertiary:  #1e242e;
+  --accent:       #00cccc;
+  --accent2:      #0099cc;
+  --text-primary: #e6e9ef;
+  --text-mid:     #8c92a3;
+  --border:       #2a3142;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--bg-main);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+/* ── Header ── */
+header {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  padding: 1.75rem 2rem 1.5rem;
+}
+header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.2rem;
+  letter-spacing: -0.5px;
+}
+header p {
+  color: var(--text-mid);
+  font-size: 0.875rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ── Main layout ── */
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem;
+}
+
+/* ── Builder CTA ── */
+.builder-bar {
+  background: linear-gradient(135deg, rgba(0,204,204,0.05), rgba(0,153,204,0.03));
+  border: 1px solid rgba(0,204,204,0.15);
+  border-radius: 8px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 1.75rem;
+}
+.builder-bar-text { flex: 1; min-width: 0; }
+.builder-bar-title { font-size: 0.82rem; font-weight: 700; color: var(--text-primary); margin-bottom: 1px; }
+.builder-bar-sub   { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--text-mid); }
+.builder-bar-sub a { color: var(--accent); text-decoration: none; }
+.builder-bar-sub a:hover { text-decoration: underline; }
+.import-wip-btn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+.import-wip-btn:hover { color: var(--accent-primary); text-decoration: underline; }
+.builder-btn {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 5px;
+  border: 1px solid var(--accent);
+  background: rgba(0,204,204,0.07);
+  color: var(--accent);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+  letter-spacing: 0.4px;
+  flex-shrink: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+.builder-btn:hover { background: rgba(0,204,204,0.15); box-shadow: 0 0 10px rgba(0,204,204,0.15); }
+
+/* ── Filter section ── */
+.filters { margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0; }
+
+.filter-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.filter-row:first-child { border-top: 1px solid var(--border); }
+
+.filter-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-mid);
+  padding-top: 0.2rem;
+  flex-shrink: 0;
+  width: 52px;
+  opacity: 0.7;
+}
+
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  flex: 1;
+}
+
+/* Standard filter pills (single-select per row) */
+.pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-mid);
+  cursor: pointer;
+  transition: all 0.12s;
+  white-space: nowrap;
+}
+.pill:hover  { border-color: var(--accent); color: var(--text-primary); }
+.pill.active { border-color: var(--accent); color: var(--accent); background: rgba(0,204,204,0.07); }
+
+/* Content filter toggle pills (multi-select) */
+.ctag-filter {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-mid);
+  cursor: pointer;
+  transition: all 0.12s;
+  white-space: nowrap;
+}
+.ctag-filter:hover { border-color: var(--text-mid); color: var(--text-primary); }
+.ctag-filter.active { border-color: var(--accent2); color: #5bc4e8; background: rgba(0,153,204,0.1); }
+
+/* Series standalone row */
+.series-row {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.series-nav-btn {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.3rem 0.9rem;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  background: var(--bg-tertiary);
+  color: var(--text-mid);
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.3px;
+}
+.series-nav-btn:hover   { border-color: var(--accent2); color: var(--text-primary); }
+.series-nav-btn.active  { border-color: var(--accent2); color: #5bc4e8; background: rgba(0,153,204,0.08); }
+
+/* ── Guide List ── */
+#guide-list { display: flex; flex-direction: column; gap: 0.45rem; }
+
+/* ── Compact Guide Card ── */
+.guide-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  width: 100%;
+  padding: 0.7rem 0.9rem 0.7rem 0.85rem;
+  background: var(--bg, var(--bg-secondary));
+  border: 1px solid var(--border, #2a3142);
+  border-left: 3px solid var(--emphasis, var(--accent));
+  border-radius: 6px;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.12s;
+  cursor: pointer;
+}
+.guide-card:hover {
+  transform: translateX(2px);
+  box-shadow: 2px 2px 14px rgba(0,0,0,0.25);
+}
+
+.card-icon {
+  font-size: 1.35rem;
+  line-height: 1;
+  flex-shrink: 0;
+  padding-top: 0.05rem;
+}
+.card-body { flex: 1; min-width: 0; }
+.card-top {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+}
+.card-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text, var(--text-primary));
+  font-family: 'Outfit', sans-serif;
+}
+.card-subtitle {
+  font-size: 0.75rem;
+  color: var(--textMid, var(--text-mid));
+  font-style: italic;
+}
+.card-sep {
+  font-size: 0.7rem;
+  color: var(--textMuted, var(--border));
+  flex-shrink: 0;
+}
+.card-system {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--textMid, var(--text-mid));
+  background: var(--surface2, var(--bg-tertiary));
+  border: 1px solid var(--border, #2a3142);
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  margin-left: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-self: center;
+  letter-spacing: 0.3px;
+}
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.card-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--border-light);
+  border-radius: 3px;
+  background: var(--surface);
+  color: var(--text-mid);
+  align-self: center;
+  letter-spacing: 0.3px;
+}
+
+.tag-walkthrough { 
+  border-color: #4CAF50; 
+  color: #4CAF50; 
+  background: rgba(76, 175, 80, 0.1); 
+}
+.tag-achievement-guide { 
+  border-color: #FF9800; 
+  color: #FF9800; 
+  background: rgba(255, 152, 0, 0.1); 
+}
+.tag-checklist { 
+  border-color: #2196F3; 
+  color: #2196F3; 
+  background: rgba(33, 150, 243, 0.1); 
+}
+.tag-reference { 
+  border-color: #9C27B0; 
+  color: #9C27B0; 
+  background: rgba(156, 39, 176, 0.1); 
+}
+.tag-series {
+  border-color: var(--text-mid, #8c92a3);
+  color: var(--text-mid, #8c92a3);
+  background: transparent;
+  font-style: italic;
+}
+
+.ctag-filter[data-tag="Walkthrough"].active { 
+  border-color: #4CAF50; 
+  color: #4CAF50; 
+  background: rgba(76, 175, 80, 0.15); 
+}
+.ctag-filter[data-tag="Achievement Guide"].active { 
+  border-color: #FF9800; 
+  color: #FF9800; 
+  background: rgba(255, 152, 0, 0.15); 
+}
+.ctag-filter[data-tag="Checklist"].active { 
+  border-color: #2196F3; 
+  color: #2196F3; 
+  background: rgba(33, 150, 243, 0.15); 
+}
+.ctag-filter[data-tag="Reference"].active { 
+  border-color: #9C27B0; 
+  color: #9C27B0; 
+  background: rgba(156, 39, 176, 0.15); 
+}
+
+/* ── Series View ── */
+#series-view { display: none; flex-direction: column; gap: 0.45rem; }
+#series-view.visible { display: flex; }
+
+.series-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.series-back-btn {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-mid);
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.series-back-btn:hover { color: var(--text-primary); border-color: var(--text-mid); }
+.series-view-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-mid);
+}
+
+.series-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent2);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-decoration: none;
+}
+.series-card:hover { border-left-color: var(--accent); transform: translateX(2px); }
+.series-card-icons { font-size: 1.1rem; flex-shrink: 0; letter-spacing: 2px; }
+.series-card-body  { flex: 1; }
+.series-card-name  { font-size: 0.9rem; font-weight: 700; color: var(--text-primary); margin-bottom: 2px; }
+.series-card-count { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--text-mid); }
+.series-card-arrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-mid); flex-shrink: 0; }
+
+/* ── Browse More / State messages ── */
+.browse-more-row {
+  display: none;
+  justify-content: center;
+  padding: 1rem 0 0.5rem;
+}
+.browse-more-row.visible { display: flex; }
+.browse-more-btn {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.45rem 1.25rem;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  color: var(--text-mid);
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  transition: all 0.15s;
+}
+.browse-more-btn:hover { border-color: var(--accent); color: var(--text-primary); }
+
+.state-msg {
+  padding: 2.5rem;
+  text-align: center;
+  color: var(--text-mid);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  line-height: 2;
+}
+.loading-dot { display: inline-block; animation: blink 1.2s step-start infinite; }
+.loading-dot:nth-child(2) { animation-delay: 0.4s; }
+.loading-dot:nth-child(3) { animation-delay: 0.8s; }
+@keyframes blink { 50% { opacity: 0; } }
+
+/* ── Footer ── */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-mid);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  border-top: 1px solid var(--border);
+  margin-top: 3rem;
+  opacity: 0.6;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Retro Game Guides</h1>
+  <p>Completion trackers and reference guides — progress saved in your browser</p>
+</header>
+
+<main>
+
+  <!-- ── Builder CTA ── -->
+  <div class="builder-bar">
+    <div class="builder-bar-text">
+      <div class="builder-bar-title">🛠 Build a Guide</div>
+      <div class="builder-bar-sub">Start a new guide or <button id="import-wip-btn" class="import-wip-btn">import a WIP</button></div>
+    </div>
+    <a class="builder-btn" href="guide.html?edit">New Guide →</a>
+  </div>
+
+  <!-- ── Filter section (hidden while in series view) ── -->
+  <div class="filters" id="filtersSection">
+
+    <!-- System row -->
+    <div class="filter-row">
+      <span class="filter-label">System</span>
+      <div class="filter-pills" id="systemFilters">
+        <button class="pill active" data-system="all">All</button>
+      </div>
+    </div>
+
+    <!-- Series row -->
+    <div class="series-row">
+      <button class="series-nav-btn" id="seriesNavBtn">📚 Browse by Series</button>
+    </div>
+
+    <!-- Content filter row -->
+    <div class="filter-row">
+      <span class="filter-label">Filter</span>
+      <div class="filter-pills" id="contentFilters">
+        <button class="ctag-filter" data-tag="Walkthrough">Walkthrough</button>
+        <button class="ctag-filter" data-tag="Achievement Guide">Achievement Guide</button>
+        <button class="ctag-filter" data-tag="Checklist">Checklist</button>
+        <button class="ctag-filter" data-tag="Reference">Reference</button>
+      </div>
+    </div>
+
+    <!-- Alpha row -->
+    <div class="filter-row">
+      <span class="filter-label">A–Z</span>
+      <div class="filter-pills" id="alphaFilters">
+        <button class="pill active" data-alpha="all">#</button>
+        <button class="pill" data-alpha="0">0–9</button>
+        <!-- A–Z injected by JS -->
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Series view ── -->
+  <div id="series-view">
+    <div class="series-header">
+      <button class="series-back-btn" id="seriesBackBtn">← Back</button>
+      <span class="series-view-title">Browse by Series</span>
+    </div>
+    <div id="seriesCards"></div>
+  </div>
+
+  <!-- ── Guide list ── -->
+  <div id="guide-list">
+    <div class="state-msg">Loading<span class="loading-dot">.</span><span class="loading-dot">.</span><span class="loading-dot">.</span></div>
+  </div>
+
+  <!-- ── Browse More ── -->
+  <div class="browse-more-row" id="browseMoreRow">
+    <button class="browse-more-btn" id="browseMoreBtn">Browse More</button>
+  </div>
+
+</main>
+
+<footer>Retro Game Guides</footer>
+
+<!-- Hidden file input for WIP import -->
+<input type="file" id="import-wip-input" accept=".zip" style="display:none">
+
+<script>
+// ─────────────────────────────────────────────────────────────────────────────
+//  Index page logic
+//
+//  games_index.json entry shape:
+//    { raId, slug, primaryName, subtitle?, primarySystem, icon, theme,
+//      palette, contentTags? }
+//
+//  Filter modes:
+//    - No filters active → random mode (10 at a time, Browse More)
+//    - Any filter active → filtered mode (all matching, sorted A–Z)
+//    - Series view       → shows series selection cards
+// ─────────────────────────────────────────────────────────────────────────────
+
+const RANDOM_PAGE = 10;
+
+let allGames = [];
+let idx      = { systems: {}, series: {}, tags: [], themes: [], palettes: [], games: [] };
+
+// ── Filter state ─────────────────────────────────────────────────────────────
+let activeSystemId    = null;   // null = all; else RA system_id integer
+let activeTagIdxs     = new Set(); // set of tag indices into idx.tags
+let activeAlpha       = 'all';
+let inSeriesView      = false;
+let seriesFilter      = null;   // null = no filter; else hub_id integer
+
+// ── Random-mode state ────────────────────────────────────────────────────────
+let randomPool  = [];
+let randomShown = RANDOM_PAGE;
+
+// ── DOM refs ─────────────────────────────────────────────────────────────────
+const $guideList   = document.getElementById('guide-list');
+const $seriesView  = document.getElementById('series-view');
+const $seriesCards = document.getElementById('seriesCards');
+const $browseRow   = document.getElementById('browseMoreRow');
+const $browseBtn   = document.getElementById('browseMoreBtn');
+const $filtersSection = document.getElementById('filtersSection');
+
+// ── Boot ─────────────────────────────────────────────────────────────────────
+async function boot() {
+  let themes = {}, palettes = {};
+  try {
+    [idx, themes, palettes] = await Promise.all([
+      fetch('./games_index.json').then(r => r.json()),
+      fetch('./themes.json').then(r => r.json()).catch(() => ({})),
+      fetch('./palettes.json').then(r => r.json()).catch(() => ({})),
+    ]);
+    applyPaletteStyles(palettes);
+    applyThemeStyles(themes);
+  } catch (err) {
+    $guideList.innerHTML = `<div class="state-msg">Could not load games_index.json<br><small style="opacity:.5">${err.message}</small></div>`;
+    return;
+  }
+
+  const manifest = idx.games;
+  if (!Array.isArray(manifest) || !manifest.length) {
+    $guideList.innerHTML = '<div class="state-msg">No guides listed yet.</div>';
+    return;
+  }
+
+  allGames   = manifest;
+  randomPool = shuffle([...allGames]);
+
+  buildSystemPills();
+  buildAlphaPills();
+  render();
+}
+
+// ── Palette CSS injection ────────────────────────────────────────────────────
+function applyPaletteStyles(palettes) {
+  Object.entries(palettes).forEach(([key, pal]) => {
+    if (!pal.vars) return;
+    const css = Object.entries(pal.vars).map(([k, v]) => `${k}:${v};`).join('');
+    const id = `palette-${key}`;
+    let el = document.getElementById(id);
+    if (!el) { el = document.createElement('style'); el.id = id; document.head.appendChild(el); }
+    el.textContent = `.palette-${key}{${css}}`;
+  });
+}
+
+function applyThemeStyles(themes) {
+  Object.entries(themes).forEach(([key, theme]) => {
+    if (!theme.vars) return;
+    const css = Object.entries(theme.vars).map(([k, v]) => `${k}:${v};`).join('');
+    const id = `theme-${key}`;
+    let el = document.getElementById(id);
+    if (!el) { el = document.createElement('style'); el.id = id; document.head.appendChild(el); }
+    el.textContent = `.theme-${key}{${css}}`;
+  });
+}
+
+// ── Build filter pills ────────────────────────────────────────────────────────
+function buildSystemPills() {
+  const usedIds = new Set();
+  allGames.forEach(g => {
+    if (g.system != null) usedIds.add(g.system);
+    (g.altSystems || []).forEach(id => usedIds.add(id));
+  });
+  const bar = document.getElementById('systemFilters');
+  [...usedIds]
+    .sort((a, b) => (idx.systems[a] || '').localeCompare(idx.systems[b] || ''))
+    .forEach(id => {
+      const btn = document.createElement('button');
+      btn.className = 'pill';
+      btn.dataset.systemId = id;
+      btn.textContent = idx.systems[id] || String(id);
+      btn.addEventListener('click', () => setSystem(id));
+      bar.appendChild(btn);
+    });
+}
+
+function buildAlphaPills() {
+  const bar = document.getElementById('alphaFilters');
+  for (let i = 0; i < 26; i++) {
+    const letter = String.fromCharCode(65 + i);
+    const btn = document.createElement('button');
+    btn.className = 'pill';
+    btn.dataset.alpha = letter;
+    btn.textContent = letter;
+    btn.addEventListener('click', () => setAlpha(letter));
+    bar.appendChild(btn);
+  }
+}
+
+// ── Filter setters ────────────────────────────────────────────────────────────
+function setSystem(id) {
+  activeSystemId = id;
+  syncPills('#systemFilters', '[data-system-id]', p => parseInt(p.dataset.systemId) === id);
+  resetRandom();
+  render();
+}
+
+function setAlpha(val) {
+  activeAlpha = val;
+  syncPills('#alphaFilters', '[data-alpha]', p => p.dataset.alpha === val);
+  resetRandom();
+  render();
+}
+
+function toggleContentTag(tagIdx) {
+  if (activeTagIdxs.has(tagIdx)) activeTagIdxs.delete(tagIdx);
+  else activeTagIdxs.add(tagIdx);
+  resetRandom();
+  render();
+}
+
+function syncPills(containerSel, itemSel, activeFn) {
+  document.querySelectorAll(`${containerSel} ${itemSel}`).forEach(p => {
+    p.classList.toggle('active', activeFn(p));
+  });
+}
+
+function resetRandom() {
+  randomPool  = shuffle([...allGames]);
+  randomShown = RANDOM_PAGE;
+}
+
+// ── Filter detection ──────────────────────────────────────────────────────────
+function isFiltered() {
+  return activeSystemId !== null
+      || activeTagIdxs.size > 0
+      || activeAlpha !== 'all'
+      || seriesFilter !== null;
+}
+
+// ── Render dispatcher ─────────────────────────────────────────────────────────
+function render() {
+  if (inSeriesView) {
+    renderSeriesView();
+    return;
+  }
+
+  $seriesView.classList.remove('visible');
+  $guideList.style.display = '';
+
+  if (isFiltered()) {
+    renderFiltered();
+    $browseRow.classList.remove('visible');
+  } else {
+    renderRandom();
+  }
+}
+
+function renderRandom() {
+  const slice = randomPool.slice(0, randomShown);
+  renderCards(slice);
+  const hasMore = randomShown < randomPool.length;
+  $browseRow.classList.toggle('visible', hasMore);
+}
+
+function renderFiltered() {
+  let games = applyFilters(allGames);
+  games.sort((a, b) => a.name.localeCompare(b.name));
+  if (!games.length) {
+    $guideList.innerHTML = '<div class="state-msg">No guides match these filters.</div>';
+  } else {
+    renderCards(games);
+  }
+  $browseRow.classList.remove('visible');
+}
+
+function applyFilters(games) {
+  return games.filter(g => {
+    if (activeSystemId !== null) {
+      const inPrimary = g.system === activeSystemId;
+      const inAlt     = (g.altSystems || []).includes(activeSystemId);
+      if (!inPrimary && !inAlt) return false;
+    }
+    if (seriesFilter !== null && g.series !== seriesFilter) return false;
+    if (activeTagIdxs.size > 0) {
+      const tags = g.tags || [];
+      for (const t of activeTagIdxs) { 
+        if (!tags.includes(t)) return false; 
+      }
+    }
+    if (activeAlpha !== 'all') {
+      const first = ((g.name || '').trim()[0] || '').toUpperCase();
+      if (activeAlpha === '0') { if (!/[0-9]/.test(first)) return false; }
+      else if (first !== activeAlpha) return false;
+    }
+    return true;
+  });
+}
+
+function renderCards(games) {
+  $guideList.innerHTML = '';
+  games.forEach(g => $guideList.appendChild(makeCard(g)));
+}
+
+// ── Series view ───────────────────────────────────────────────────────────────
+function showSeriesView() {
+  inSeriesView = true;
+  $filtersSection.style.display = 'none';
+  $guideList.style.display = 'none';
+  $browseRow.classList.remove('visible');
+  $seriesView.classList.add('visible');
+
+  // Build series map: hub_id → { name, games[] }
+  const seriesMap = {};
+  allGames.forEach(g => {
+    if (g.series == null) return;
+    const name = idx.series[g.series];
+    if (!name) return;
+    if (!seriesMap[g.series]) seriesMap[g.series] = { name, games: [] };
+    seriesMap[g.series].games.push(g);
+  });
+
+  $seriesCards.innerHTML = '';
+  if (!Object.keys(seriesMap).length) {
+    $seriesCards.innerHTML = '<div class="state-msg">No series defined yet.</div>';
+    return;
+  }
+
+  Object.entries(seriesMap)
+    .sort(([, a], [, b]) => a.name.localeCompare(b.name))
+    .forEach(([hubId, { name, games }]) => {
+      const card = document.createElement('div');
+      card.className = 'series-card';
+      const icons = [...new Set(games.map(g => g.icon).filter(Boolean))].slice(0, 3).join('');
+      card.innerHTML = `
+        <span class="series-card-icons">${icons || '📚'}</span>
+        <div class="series-card-body">
+          <div class="series-card-name">${esc(name)}</div>
+          <div class="series-card-count">${games.length} guide${games.length !== 1 ? 's' : ''}</div>
+        </div>
+        <span class="series-card-arrow">→</span>
+      `;
+      card.addEventListener('click', () => { seriesFilter = parseInt(hubId); exitSeriesView(); });
+      $seriesCards.appendChild(card);
+    });
+
+  document.getElementById('seriesNavBtn').classList.add('active');
+}
+
+function exitSeriesView() {
+  inSeriesView = false;
+  $filtersSection.style.display = '';
+  $guideList.style.display = '';
+  $seriesView.classList.remove('visible');
+  document.getElementById('seriesNavBtn').classList.remove('active');
+  resetRandom();
+  render();
+}
+
+// ── Card builder ──────────────────────────────────────────────────────────────
+function makeCard(g) {
+  // Decode int indices to strings
+  const systemName     = idx.systems[g.system]   || String(g.system || '');
+  const altSystemNames = (g.altSystems || []).map(id => idx.systems[id]).filter(Boolean);
+  const seriesName     = g.series != null ? (idx.series[g.series] || null) : null;
+  const tagNames       = (g.tags  || []).map(i => idx.tags[i]).filter(Boolean);
+  const themeName      = idx.themes[g.theme]     || '';
+  const paletteName    = idx.palettes[g.palette] || '';
+  const subtitle       = (g.altNames || [])[0]   || null;
+
+  const a = document.createElement('a');
+  a.className = 'guide-card';
+  a.href = `guide.html?game=${g.raId}`;
+  if (paletteName) a.classList.add(`palette-${paletteName}`);
+  if (themeName)   a.classList.add(`theme-${themeName}`);
+
+  const icon = document.createElement('span');
+  icon.className = 'card-icon';
+  icon.textContent = g.icon || '🎮';
+
+  const body = document.createElement('div');
+  body.className = 'card-body';
+
+  const top = document.createElement('div');
+  top.className = 'card-top';
+
+  const title = document.createElement('span');
+  title.className = 'card-title';
+  title.textContent = g.name;
+  top.appendChild(title);
+
+  if (subtitle) {
+    const sep = document.createElement('span');
+    sep.className = 'card-sep';
+    sep.textContent = '·';
+    top.appendChild(sep);
+    const sub = document.createElement('span');
+    sub.className = 'card-subtitle';
+    sub.textContent = subtitle;
+    top.appendChild(sub);
+  }
+
+  const sysLabel = [systemName, ...altSystemNames].join(' / ');
+  const sys = document.createElement('span');
+  sys.className = 'card-system';
+  sys.textContent = sysLabel;
+  top.appendChild(sys);
+
+  const tagsRow = document.createElement('div');
+  tagsRow.className = 'card-tags';
+
+  if (seriesName) {
+    const s = document.createElement('span');
+    s.className = 'card-tag tag-series';
+    s.textContent = seriesName;
+    tagsRow.appendChild(s);
+  }
+
+  tagNames.forEach(t => {
+    const s = document.createElement('span');
+    s.className = `card-tag tag-${t.toLowerCase().replace(/\s+/g, '-')}`;
+    s.textContent = t;
+    tagsRow.appendChild(s);
+  });
+
+  body.appendChild(top);
+  if (seriesName || tagNames.length) body.appendChild(tagsRow);
+
+  a.appendChild(icon);
+  a.appendChild(body);
+  return a;
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function esc(s) {
+  return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Events ────────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+
+  // System pills (All is pre-rendered; others added in buildSystemPills)
+  document.querySelector('#systemFilters [data-system="all"]')
+    .addEventListener('click', () => {
+      activeSystemId = null;
+      syncPills('#systemFilters', '[data-system-id],[data-system="all"]', p => p.dataset.system === 'all');
+      resetRandom();
+      render();
+    });
+
+  // Alpha pills (All + 0-9 are pre-rendered)
+  document.querySelector('#alphaFilters [data-alpha="all"]')
+    .addEventListener('click', () => {
+      activeAlpha = 'all';
+      syncPills('#alphaFilters', '[data-alpha]', p => p.dataset.alpha === 'all');
+      resetRandom();
+      render();
+    });
+
+  document.querySelector('#alphaFilters [data-alpha="0"]')
+    .addEventListener('click', () => setAlpha('0'));
+
+  // Content filter toggles — tag name to index lookup
+  document.querySelectorAll('.ctag-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tagName = btn.dataset.tag;
+      const tagIdx  = (idx.tags || []).indexOf(tagName);
+      if (tagIdx < 0) return;
+      btn.classList.toggle('active', !activeTagIdxs.has(tagIdx));
+      toggleContentTag(tagIdx);
+    });
+  });
+
+  // Series nav button
+  document.getElementById('seriesNavBtn').addEventListener('click', showSeriesView);
+
+  // Series back button
+  document.getElementById('seriesBackBtn').addEventListener('click', () => {
+    seriesFilter = null;
+    exitSeriesView();
+  });
+
+  // Browse More
+  $browseBtn.addEventListener('click', () => {
+    randomShown += RANDOM_PAGE;
+    renderRandom();
+  });
+
+  // Import WIP
+  document.getElementById('import-wip-btn').addEventListener('click', () => {
+    document.getElementById('import-wip-input').click();
+  });
+
+  document.getElementById('import-wip-input').addEventListener('change', e => {
+    const file = e.target.files[0];
+    if (file) {
+      // Navigate to builder with file parameter
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        // Store file data in sessionStorage for builder to use
+        sessionStorage.setItem('wip-import-data', event.target.result);
+        sessionStorage.setItem('wip-import-name', file.name);
+        window.location.href = 'guide.html?edit&import=true';
+      };
+      reader.readAsArrayBuffer(file);
+    }
+    e.target.value = '';
+  });
+
+  boot();
+});
+</script>
+
+</body>
+</html>
