@@ -361,7 +361,7 @@
     renderPreview();
   }
 
-  // Internal links are non-navigable in editor — just log target
+  // Internal links are navigable in editor
   function attachLinkListeners() {
     document.querySelectorAll('.gr-internal-link').forEach(link => {
       const clone = link.cloneNode(true);
