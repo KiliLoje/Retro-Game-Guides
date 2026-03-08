@@ -368,13 +368,60 @@
       link.parentNode.replaceChild(clone, link);
       clone.addEventListener('click', e => {
         e.stopPropagation();
-        const tab   = clone.getAttribute('tab');
+        const tab   = parseInt(clone.getAttribute('tab'), 10);
         const panel = clone.getAttribute('panel');
+        let msg = '';
+
+        if (tab > 0 && tab < state.tabs.length + 1) {
+          state.activeTabId = state.tabs[tab - 1].id;
+        } else {
+          msg = '(error : could not find tab)'
+        }
+
+        renderPreview();
+
+        if (panel !== "none"){
+          let panelIndex = parseInt(panel, 10) - 1;
+          msg = scrollToPanel(panelIndex);
+          msg = msg == undefined ? '' : msg;
+        }
         console.info(
-          `Internal link → tab ${tab}${panel !== 'none' ? `, panel ${panel}` : ''} (navigation disabled in editor)`
+          `Internal link → tab ${tab}${panel !== 'none' ? `, panel ${panel}` : ''} ${msg}`
         );
       });
     });
+  }
+
+    // ── SCROLL / EXPAND / COLLAPSE ────────────────────────────────────────
+  const $content = document.getElementById('tab-content');
+
+  function scrollToPanel(index) {
+    const panels = $content.querySelectorAll('.gr-panel-wrap');
+    const panelWrap = panels[index];
+    if (!panelWrap) return '(error : could not find panel)';
+
+    // Expand if collapsed
+    const card = panelWrap.querySelector('.gr-card');
+    if (card?.classList.contains('gr-collapsed')) expandPanel(index);
+
+    // Offset accounts for all sticky headers (works in both viewer and editor mode)
+    const editorHeader = document.getElementById('editor-header');
+    const guideHeader  = document.getElementById('guide-header');
+    const tabBar       = document.getElementById('tab-bar');
+    const offset = (editorHeader?.offsetHeight || 0) +
+                   (guideHeader?.offsetHeight  || 0) +
+                   (tabBar?.offsetHeight       || 0) + 8;
+
+    const top = panelWrap.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: 'smooth' });
+  }
+
+  function expandPanel(index) {
+    const panelWrap = $content.querySelectorAll('.gr-panel-wrap')[index];
+    if (!panelWrap) return;
+    const card = panelWrap.querySelector('.gr-card');
+    if (!card) return;
+    card.classList.remove('gr-collapsed');
   }
 
   // ── ZIP / INDEX GENERATION ────────────────────────────────────────────
@@ -634,9 +681,12 @@
     document.getElementById('b-index-btn')  ?.addEventListener('click', downloadIndexEntry);
     document.getElementById('b-open-btn')   ?.addEventListener('click', () =>
       document.getElementById('b-zip-input')?.click());
-    document.getElementById('b-zip-input')?.addEventListener('change', e => {
+    document.getElementById('b-zip-input')?.addEventListener('change', async e => {
       const file = e.target.files[0];
-      if (file) importZip(file);
+      if (file) {
+        await importZip(file);
+        window.BForms.openMetaSheet();
+      }
       e.target.value = '';
     });
 
