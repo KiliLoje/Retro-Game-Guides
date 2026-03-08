@@ -182,28 +182,8 @@
   color: var(--b-textMid); cursor: pointer; transition: all .15s;
 }
 .md-btn:hover { color: var(--b-text); border-color: var(--b-textMid); }
-.md-btn span.gr-hr-preview {
-  display: inline-block;
-  height: .15em;
-  width: 40px;
-  background-color: var(--b-textMid);
-  border-radius: 999px;
-  vertical-align: middle;
-}
-.md-btn:hover span.gr-hr-preview {
-  background-color: var(--b-text);
-}
-.md-btn span.gr-hr2-preview {
-  display: inline-block;
-  height: .4em;
-  width: 40px;
-  background-color: var(--b-textMid);
-  border-radius: 999px;
-  vertical-align: middle;
-}
-.md-btn:hover span.gr-hr2-preview {
-  background-color: var(--b-text);
-}
+.gr-hr-preview  { display: inline-block; width: 22px; height: 2px; background: currentColor; vertical-align: middle; opacity: 0.7; }
+.gr-hr2-preview { display: inline-block; width: 22px; height: 0; border-top: 3px double currentColor; vertical-align: middle; opacity: 0.7; }
 
 /* ── LIST BUILDERS ── */
 .list-section { margin-top: 8px; }

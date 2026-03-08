@@ -33,9 +33,15 @@
   <!-- viewer controls -->
   <div class="header-right viewer-only">
     <span class="storage-badge" id="storage-badge" style="display:none">● saved</span>
-    <button class="display-btn" id="filter-btn" style="display:none" title="Toggle checked item visibility">Show remaining</button>
-    <button class="display-btn" id="clear-btn" title="Clear all progress for this guide">Clear Progress</button>
-    <button class="display-btn" id="display-btn" title="Change display theme">🎨</button>
+    <button class="display-btn" id="filter-btn" style="display:none" title="Toggle checked item visibility">
+      <span class="btn-icon">☐</span><span class="btn-label"> Show remaining</span>
+    </button>
+    <button class="display-btn" id="clear-btn" title="Reset all saved progress for this guide">
+      <span class="btn-icon">↺</span><span class="btn-label"> Clear all</span>
+    </button>
+    <button class="display-btn" id="display-btn" title="Appearance &amp; Accessibility">
+      <span class="btn-icon">🎨</span><span class="btn-label"> Appearance &amp; Accessibility </span><span class="btn-icon">♿</span>
+    </button>
   </div>
   <!-- editor control -->
   <button class="gp-header-edit editor-only" id="edit-meta-btn">✎ Edit Meta</button>
@@ -56,15 +62,20 @@
 <div id="do-sheet" class="viewer-only">
   <div id="do-sheet-handle"></div>
   <div id="do-sheet-header">
-    <span id="do-sheet-title">Display Preferences</span>
+    <span id="do-sheet-title">Appearance &amp; Accessibility</span>
     <span id="do-current"></span>
     <button id="do-sheet-close">×</button>
   </div>
   <div id="do-sheet-body">
-    <div class="do-section-label">Theme</div>
-    <div class="do-grid" id="do-theme-grid"></div>
-    <div class="do-section-label" style="margin-top:16px">Palette</div>
+    <div class="do-a11y-row">
+      <span class="do-a11y-label">Dyslexia-friendly font (Lexend)</span>
+      <button id="do-dyslexia-toggle" role="switch" aria-checked="false" class="do-toggle">Off</button>
+    </div>
+    <div class="do-section-label">Filter Palettes</div>
+    <div id="do-palette-filters" class="do-filter-row"></div>
     <div class="do-grid" id="do-palette-grid"></div>
+    <div class="do-section-label" style="margin-top:16px">Theme</div>
+    <div class="do-grid" id="do-theme-grid"></div>
     <div id="do-reset-row">
       <span id="do-guide-default"></span>
       <button id="do-reset-btn">Reset to guide default</button>
@@ -100,7 +111,7 @@
 </div>
 
 <script src="guide_render.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="jszip.min.js"></script>
 <script src="guide_engine.js"></script>
 <script src="builder.js"></script>
 <script src="builder_forms.js"></script>

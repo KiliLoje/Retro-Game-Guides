@@ -125,6 +125,7 @@
       </div>
       <div class="f-group" style="margin-top:14px">
         <label class="f-label">Palette <span style="font-weight:400;text-transform:none">— colours</span></label>
+        <div id="mf-palette-filters" class="do-filter-row" style="margin-bottom:8px"></div>
         <div class="swatch-grid" id="mf-palettes"></div>
       </div>`;
 
@@ -174,6 +175,90 @@
       });
       palGrid.appendChild(card);
     });
+
+    // Palette filter chips — shared key with viewer so state is remembered
+    const BF_ROYGBIV = ['red','orange','yellow','green','blue','violet','neutral'];
+    const BF_FILTER_KEY = 'bdr_palette_filters';
+    const bfFilterRow = el.querySelector('#mf-palette-filters');
+    const bfPalettes  = state._palettes;
+
+    let bfFilterState = null;
+    try { const r = localStorage.getItem(BF_FILTER_KEY); if (r) bfFilterState = JSON.parse(r); } catch (_) {}
+    if (!bfFilterState) {
+      const firstDark = BF_ROYGBIV.find(hue =>
+        Object.values(bfPalettes).some(p => p.hue === hue && p.dark && !p.hc)
+      );
+      bfFilterState = { modes: ['dark'], hues: firstDark ? [firstDark] : [] };
+    }
+    let bfActiveModes = new Set(bfFilterState.modes || []);
+    let bfActiveHues  = new Set(bfFilterState.hues  || []);
+
+    function bfSaveFilters() {
+      try { localStorage.setItem(BF_FILTER_KEY, JSON.stringify({ modes: [...bfActiveModes], hues: [...bfActiveHues] })); } catch (_) {}
+    }
+
+    function bfPalVisible(pal) {
+      if (!pal) return true;
+      let modeMatch = false;
+      if (bfActiveModes.has('dark')  && pal.dark  && !pal.hc) modeMatch = true;
+      if (bfActiveModes.has('light') && !pal.dark && !pal.hc) modeMatch = true;
+      if (bfActiveModes.has('hc')    && pal.hc)               modeMatch = true;
+      if (bfActiveModes.size === 0) modeMatch = true;
+      if (!modeMatch) return false;
+      if (bfActiveHues.size === 0) return true;
+      return bfActiveHues.has(pal.hue);
+    }
+
+    function bfRefreshVisibility() {
+      palGrid.querySelectorAll('.swatch-card').forEach(c => {
+        c.style.display = bfPalVisible(bfPalettes[c.dataset.key]) ? '' : 'none';
+      });
+    }
+
+    // Apply initial filter visibility to palette swatches
+    bfRefreshVisibility();
+
+    if (bfFilterRow) {
+      const bfHasHC = Object.values(bfPalettes).some(p => p.hc);
+      const bfAvailHues = BF_ROYGBIV.filter(hue =>
+        Object.values(bfPalettes).some(p => p.hue === hue && !p.hc)
+      );
+      [
+        { key: 'dark',  label: 'Dark' },
+        { key: 'light', label: 'Light' },
+        ...(bfHasHC ? [{ key: 'hc', label: 'High Contrast' }] : []),
+      ].forEach(({ key, label }) => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'do-chip' + (bfActiveModes.has(key) ? ' active' : '');
+        chip.textContent = label;
+        chip.addEventListener('click', () => {
+          bfActiveModes.has(key) ? bfActiveModes.delete(key) : bfActiveModes.add(key);
+          chip.classList.toggle('active', bfActiveModes.has(key));
+          bfSaveFilters(); bfRefreshVisibility();
+        });
+        bfFilterRow.appendChild(chip);
+      });
+
+      if (bfAvailHues.length) {
+        const sep = document.createElement('span');
+        sep.className = 'do-chip-sep'; sep.textContent = '|';
+        bfFilterRow.appendChild(sep);
+      }
+
+      bfAvailHues.forEach(hue => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'do-chip' + (bfActiveHues.has(hue) ? ' active' : '');
+        chip.textContent = hue.charAt(0).toUpperCase() + hue.slice(1);
+        chip.addEventListener('click', () => {
+          bfActiveHues.has(hue) ? bfActiveHues.delete(hue) : bfActiveHues.add(hue);
+          chip.classList.toggle('active', bfActiveHues.has(hue));
+          bfSaveFilters(); bfRefreshVisibility();
+        });
+        bfFilterRow.appendChild(chip);
+      });
+    }
 
     openSheet('Game Meta', el, () => {
       const raId = el.querySelector('#mf-raId').value.trim();
@@ -370,18 +455,18 @@
     const gr_hr2 = '<span class="gr-hr2-preview"></span>';
     const toolbar = document.createElement('div'); toolbar.className = 'md-toolbar';
     [
-      ['**B**',        '**',   '**'      ],
-      ['*I*',          '*',    '*'       ],
-      ['`C`',          '`',    '`'       ],
-      ['H3',           '### ', ''        ],
-      [gr_hr,          '---\n',''        ],
-      [gr_hr2,         '===\n',''        ],
-      ['• List',       '- ',   ''        ],
-      ['&gt; Info',    '> ',   ''        ],
-      ['[Link](url)',  '[',    '](url)'  ],
-      ['[Tab](N)',     '[',    '](1)'    ],
-      ['[Panel](N,M)', '[',    '](1,1)'  ],
-      ['[box]{}',      '[',    ']{\n}'   ]
+      ['**B**',         '**',    '**'     ],
+      ['*I*',           '*',     '*'      ],
+      ['`C`',           '`',     '`'      ],
+      ['H3',            '### ',  ''       ],
+      [gr_hr,           '---\n', ''       ],
+      [gr_hr2,          '===\n', ''       ],
+      ['• List',        '- ',    ''       ],
+      ['&gt; Info',     '> ',    ''       ],
+      ['[Link](url)',   '[',     '](url)' ],
+      ['[Tab](N)',      '[',     '](1)'   ],
+      ['[Panel](N,M)',  '[',     '](1,1)' ],
+      ['[box]{}',       '[',     ']{\n}'  ],
     ].forEach(([label, before, after]) => {
       const btn = document.createElement('button');
       btn.className = 'md-btn'; btn.type = 'button'; btn.innerHTML = label;

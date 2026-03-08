@@ -2,6 +2,8 @@
   "parchment": {
     "label": "Parchment",
     "dark": false,
+    "hc": false,
+    "hue": "yellow",
     "vars": {
       "--bg":          "#fdf6e3",
       "--surface":     "#f4e8c4",
@@ -34,6 +36,8 @@
   "midnight": {
     "label": "Midnight",
     "dark": true,
+    "hc": false,
+    "hue": "orange",
     "vars": {
       "--bg":          "#1a1208",
       "--surface":     "#2a1f0f",
@@ -66,6 +70,8 @@
   "slate": {
     "label": "Slate",
     "dark": true,
+    "hc": false,
+    "hue": "blue",
     "vars": {
       "--bg":          "#0a0e14",
       "--surface":     "#14181f",
@@ -98,6 +104,8 @@
   "ash": {
     "label": "Ash",
     "dark": false,
+    "hc": false,
+    "hue": "blue",
     "vars": {
       "--bg":          "#f7f7f7",
       "--surface":     "#eeeeee",
@@ -130,6 +138,8 @@
   "dusk": {
     "label": "Dusk",
     "dark": true,
+    "hc": false,
+    "hue": "violet",
     "vars": {
       "--bg":          "#0d0b18",
       "--surface":     "#16122a",
@@ -162,6 +172,8 @@
   "ember": {
     "label": "Ember",
     "dark": true,
+    "hc": false,
+    "hue": "orange",
     "vars": {
       "--bg":          "#130e06",
       "--surface":     "#1e1508",
@@ -194,6 +206,8 @@
   "ocean": {
     "label": "Ocean",
     "dark": false,
+    "hc": false,
+    "hue": "blue",
     "vars": {
       "--bg":          "#f0f9ff",
       "--surface":     "#e0f2fe",
@@ -226,6 +240,8 @@
   "contrast": {
     "label": "High Contrast",
     "dark": false,
+    "hc": true,
+    "hue": "neutral",
     "vars": {
       "--bg":          "#ffffff",
       "--surface":     "#f5f5f5",

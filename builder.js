@@ -695,12 +695,6 @@
     document.getElementById('b-sheet-cancel') ?.addEventListener('click', closeSheet);
     document.getElementById('b-backdrop')     ?.addEventListener('click', closeSheet);
     document.getElementById('b-sheet-confirm')?.addEventListener('click', confirmSheet);
-
-    // Box toggle handler
-    document.addEventListener('click', e => {
-      const box = e.target.closest('.gr-box');
-      if (box) {box.classList.toggle('gr-collapsed');}
-    });
   }
 
   // ── EXPORT shared interface for builder_forms.js ──────────────────────

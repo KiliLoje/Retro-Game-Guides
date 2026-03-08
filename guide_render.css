@@ -61,7 +61,7 @@
 
 /* ── Text Panel ── */
 .gr-text { font-size: 13px; color: var(--text); line-height: 1.8; }
-.gr-p { margin: 0 0 10px; }
+.gr-p { margin: 0 0 8px; }
 .gr-p:last-child { margin-bottom: 0; }
 .gr-h3 {
   font-family: var(--font-display, Georgia, serif);
@@ -69,20 +69,6 @@
   font-weight: 700;
   color: var(--emphasis);
   margin: 12px 0 4px;
-}
-.gr-hr {
-  border: none;
-  height: .15em;
-  margin: 1.5rem 7.5rem 1.5rem 7.5rem;
-  background-color: var(--surface2);
-  border-radius: 999px;
-}
-.gr-hr2 {
-  border: none;
-  height: .4em;
-  margin: 1.5rem 3rem 1.5rem 3rem;
-  background-color: var(--surface2);
-  border-radius: 999px;
 }
 .gr-ul { padding-left: 18px; margin: 4px 0 8px; color: var(--text); }
 .gr-ul li { margin-bottom: 3px; font-size: 13px; }
@@ -97,53 +83,6 @@
 }
 .gr-internal-link { color: var(--emphasis); text-decoration: underline; cursor: pointer; }
 .gr-link { color: var(--emphasis); }
-
-/* --- collapsible box --- */
-.gr-box {
-  display: block;
-  width: fit-content;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  margin-bottom: 4px;
-  overflow: hidden;
-}
-.gr-box-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 0px 10px;
-  background: var(--surface2);
-  cursor: pointer;
-  user-select: none;
-  border-bottom: 1px solid var(--border);
-  transition: background 0.12s;
-}
-.gr-box-header:hover { background: var(--surface); }
-.gr-box-title {
-  font-family: var(--font-display, Georgia, serif);
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--emphasis);
-  flex: 1;
-  min-width: 0;
-}
-.gr-box-toggle {
-  color: var(--textMuted);
-  font-size: 12px;
-  transition: transform 0.2s;
-  flex-shrink: 0;
-  line-height: 1;
-}
-.gr-box.gr-collapsed .gr-box-toggle { transform: rotate(-90deg); }
-.gr-box-body {
-  background: var(--surface);
-  color: var(--textMid);
-  padding: 0px 10px;
-  padding-top: 4px;
-  font-size: 12.5;
-  display: flow-root;
-}
-.gr-box.gr-collapsed .gr-box-body { display: none; }
 
 /* ── Shared Table Wrap ── */
 .gr-table-wrap {
@@ -244,6 +183,55 @@
 .gr-card-row { font-size: 12px; color: var(--textMid); line-height: 1.65; }
 .gr-card-label { font-weight: 600; }
 .gr-card-value { color: var(--text); }
+
+/* ── Horizontal Rules ── */
+.gr-hr  { border: none; border-top: 1px solid var(--borderL); margin: 12px 0; }
+.gr-hr2 { border: none; border-top: 3px double var(--border); margin: 12px 0; }
+
+/* ── Blockquote ── */
+.gr-blockquote {
+  border-left: 3px solid var(--emphasis);
+  background: var(--surface);
+  border-radius: 0 var(--radius-input, 5px) var(--radius-input, 5px) 0;
+  padding: 8px 12px;
+  margin: 6px 0;
+  color: var(--textMid);
+  font-style: italic;
+  font-size: 12.5px;
+  line-height: 1.65;
+}
+
+/* ── Collapsible Box ── */
+.gr-box {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card, 8px);
+  overflow: hidden;
+  margin: 8px 0;
+}
+.gr-box-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: var(--surface2);
+  cursor: pointer;
+  user-select: none;
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--emphasis);
+  border-bottom: 1px solid var(--border);
+  transition: background 0.12s;
+}
+.gr-box-header:hover { background: var(--surface); }
+.gr-box-body {
+  padding: 10px 12px;
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.75;
+}
+.gr-box.gr-collapsed .gr-box-header { border-bottom: none; }
+.gr-box.gr-collapsed .gr-box-body   { display: none; }
 
 /* ── Responsive ── */
 @media (max-width: 600px) {

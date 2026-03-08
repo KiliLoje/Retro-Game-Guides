@@ -26,7 +26,9 @@
   // ── CONSTANTS ─────────────────────────────────────────────────────────
   const OVERRIDE_THEME_KEY   = 'bdr_user_theme';
   const OVERRIDE_PALETTE_KEY = 'bdr_user_palette';
-  const FILTER_REMAINING_KEY = 'bdr_show_remaining';
+  const FILTER_KEY           = 'bdr_palette_filters';   // JSON {modes:[...], hues:[...]}
+  const A11Y_DYSLEXIA_KEY    = 'bdr_a11y_dyslexia';    // '1'/'0', global preference
+  const ROYGBIV              = ['red','orange','yellow','green','blue','violet','neutral'];
 
   // ── PATH HELPER ──────────────────────────────────────────────────────
   function getGamePath(id) {
@@ -95,6 +97,7 @@
 
     applyThemePalette(guideThemeKey, guidePaletteKey, themes, palettes);
     applyUserOverride(themes, palettes);
+    initA11y();
 
     // Header — display fields from _00.json; series/altSystems decoded from index entry
     $icon.textContent  = config.icon || '🎮';
@@ -173,10 +176,10 @@
       activateTab(tabIdx, panelIdx);
     });
 
-    // Box toggle handler
+    // Box toggle handler (delegated — works across tab switches)
     document.addEventListener('click', e => {
-      const box = e.target.closest('.gr-box');
-      if (box) {box.classList.toggle('gr-collapsed');}
+      const header = e.target.closest('.gr-box-header');
+      if (header) header.closest('.gr-box')?.classList.toggle('gr-collapsed');
     });
 
     initOverrideSheet(themes, palettes);
@@ -427,14 +430,18 @@
   function initFilterBtn() {
     const btn = document.getElementById('filter-btn');
     if (!btn) return;
+    const REMAINING_KEY = storagePrefix + 'show_remaining';
+    const iconEl  = btn.querySelector('.btn-icon');
+    const labelEl = btn.querySelector('.btn-label');
     function applyFilter(active) {
       document.body.classList.toggle('show-remaining', active);
       btn.classList.toggle('filter-active', active);
-      btn.textContent = active ? 'Show all' : 'Show remaining';
-      try { localStorage.setItem(FILTER_REMAINING_KEY, active ? '1' : '0'); } catch (_) {}
+      if (iconEl)  iconEl.textContent  = active ? '☑' : '☐';
+      if (labelEl) labelEl.textContent = active ? ' Show all' : ' Show remaining';
+      try { localStorage.setItem(REMAINING_KEY, active ? '1' : '0'); } catch (_) {}
     }
     const stored = (() => {
-      try { return localStorage.getItem(FILTER_REMAINING_KEY) === '1'; } catch (_) { return false; }
+      try { return localStorage.getItem(REMAINING_KEY) === '1'; } catch (_) { return false; }
     })();
     applyFilter(stored);
     btn.addEventListener('click', () => applyFilter(!document.body.classList.contains('show-remaining')));
@@ -488,17 +495,37 @@
     hideClearConfirm();
   }
 
+  // ── A11Y — runs on boot before first paint ────────────────────────────
+  function initA11y() {
+    if (localStorage.getItem(A11Y_DYSLEXIA_KEY) === '1') {
+      document.body.classList.add('a11y-dyslexia');
+      injectLexendFont();
+    }
+  }
+
+  function injectLexendFont() {
+    if (!document.getElementById('bdr-a11y-fonts')) {
+      const link = document.createElement('link');
+      link.id   = 'bdr-a11y-fonts';
+      link.rel  = 'stylesheet';
+      link.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap';
+      document.head.appendChild(link);
+    }
+  }
+
   // ── OVERRIDE SHEET ────────────────────────────────────────────────────
   function initOverrideSheet(themes, palettes) {
-    const backdrop  = document.getElementById('do-backdrop');
-    const sheet     = document.getElementById('do-sheet');
-    const closeBtn  = document.getElementById('do-sheet-close');
-    const resetBtn  = document.getElementById('do-reset-btn');
-    const openBtn   = document.getElementById('display-btn');
-    const themeGrid = document.getElementById('do-theme-grid');
-    const palGrid   = document.getElementById('do-palette-grid');
-    const currentEl = document.getElementById('do-current');
-    const defaultEl = document.getElementById('do-guide-default');
+    const backdrop    = document.getElementById('do-backdrop');
+    const sheet       = document.getElementById('do-sheet');
+    const closeBtn    = document.getElementById('do-sheet-close');
+    const resetBtn    = document.getElementById('do-reset-btn');
+    const openBtn     = document.getElementById('display-btn');
+    const themeGrid   = document.getElementById('do-theme-grid');
+    const palGrid     = document.getElementById('do-palette-grid');
+    const filterRow   = document.getElementById('do-palette-filters');
+    const currentEl   = document.getElementById('do-current');
+    const defaultEl   = document.getElementById('do-guide-default');
+    const dyslexiaBtn = document.getElementById('do-dyslexia-toggle');
 
     if (!backdrop || !sheet) return;
 
@@ -515,8 +542,8 @@
       const ot = localStorage.getItem(OVERRIDE_THEME_KEY)   || '';
       const op = localStorage.getItem(OVERRIDE_PALETTE_KEY) || '';
       if (!ot && !op) { currentEl.textContent = 'guide default'; return; }
-      const tLabel = themes[ot   || guideThemeKey]?.label    || ot   || guideThemeKey;
-      const pLabel = palettes[op || guidePaletteKey]?.label  || op   || guidePaletteKey;
+      const tLabel = themes[ot   || guideThemeKey]?.label   || ot   || guideThemeKey;
+      const pLabel = palettes[op || guidePaletteKey]?.label || op   || guidePaletteKey;
       currentEl.textContent = `${tLabel} + ${pLabel}`;
     }
 
@@ -526,6 +553,109 @@
       palGrid.querySelectorAll('.do-card').forEach(c   => c.classList.toggle('active', c.dataset.key === ap));
     }
 
+    // ── PALETTE FILTER CHIPS ─────────────────────────────────────────
+    const availableHues = ROYGBIV.filter(hue =>
+      Object.values(palettes).some(p => p.hue === hue && !p.hc)
+    );
+    const hasHC = Object.values(palettes).some(p => p.hc);
+
+    // Load or derive default filter state
+    let filterState = null;
+    try { const r = localStorage.getItem(FILTER_KEY); if (r) filterState = JSON.parse(r); } catch (_) {}
+    if (!filterState) {
+      const firstDarkHue = ROYGBIV.find(hue =>
+        Object.values(palettes).some(p => p.hue === hue && p.dark && !p.hc)
+      );
+      filterState = { modes: ['dark'], hues: firstDarkHue ? [firstDarkHue] : [] };
+    }
+    let activeModes = new Set(filterState.modes || []);
+    let activeHues  = new Set(filterState.hues  || []);
+
+    function saveFilters() {
+      try { localStorage.setItem(FILTER_KEY, JSON.stringify({ modes: [...activeModes], hues: [...activeHues] })); } catch (_) {}
+    }
+
+    function paletteVisible(pal) {
+      if (!pal) return true;
+      let modeMatch = false;
+      if (activeModes.has('dark')  && pal.dark  && !pal.hc) modeMatch = true;
+      if (activeModes.has('light') && !pal.dark && !pal.hc) modeMatch = true;
+      if (activeModes.has('hc')    && pal.hc)               modeMatch = true;
+      if (activeModes.size === 0) modeMatch = true;
+      if (!modeMatch) return false;
+      if (activeHues.size === 0) return true;
+      return activeHues.has(pal.hue);
+    }
+
+    function refreshPaletteVisibility() {
+      palGrid.querySelectorAll('.do-card').forEach(c => {
+        c.style.display = paletteVisible(palettes[c.dataset.key]) ? '' : 'none';
+      });
+    }
+
+    if (filterRow) {
+      // Mode chips: Dark | Light | (High Contrast if present)
+      const modeChipDefs = [
+        { key: 'dark',  label: 'Dark' },
+        { key: 'light', label: 'Light' },
+        ...(hasHC ? [{ key: 'hc', label: 'High Contrast' }] : []),
+      ];
+      modeChipDefs.forEach(({ key, label }) => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'do-chip' + (activeModes.has(key) ? ' active' : '');
+        chip.textContent = label;
+        chip.addEventListener('click', () => {
+          activeModes.has(key) ? activeModes.delete(key) : activeModes.add(key);
+          chip.classList.toggle('active', activeModes.has(key));
+          saveFilters(); refreshPaletteVisibility();
+        });
+        filterRow.appendChild(chip);
+      });
+
+      // Separator before hue chips
+      if (availableHues.length) {
+        const sep = document.createElement('span');
+        sep.className = 'do-chip-sep'; sep.textContent = '|';
+        filterRow.appendChild(sep);
+      }
+
+      // Hue chips in ROYGBIV order, only hues that exist in this palette set
+      availableHues.forEach(hue => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'do-chip' + (activeHues.has(hue) ? ' active' : '');
+        chip.textContent = hue.charAt(0).toUpperCase() + hue.slice(1);
+        chip.addEventListener('click', () => {
+          activeHues.has(hue) ? activeHues.delete(hue) : activeHues.add(hue);
+          chip.classList.toggle('active', activeHues.has(hue));
+          saveFilters(); refreshPaletteVisibility();
+        });
+        filterRow.appendChild(chip);
+      });
+    }
+
+    // ── DYSLEXIA TOGGLE ──────────────────────────────────────────────
+    let dyslexiaOn = localStorage.getItem(A11Y_DYSLEXIA_KEY) === '1';
+
+    function applyDyslexia(on) {
+      dyslexiaOn = on;
+      document.body.classList.toggle('a11y-dyslexia', on);
+      if (dyslexiaBtn) {
+        dyslexiaBtn.setAttribute('aria-checked', on ? 'true' : 'false');
+        dyslexiaBtn.textContent = on ? 'On' : 'Off';
+      }
+      if (on) injectLexendFont();
+      try { localStorage.setItem(A11Y_DYSLEXIA_KEY, on ? '1' : '0'); } catch (_) {}
+    }
+
+    if (dyslexiaBtn) {
+      dyslexiaBtn.setAttribute('aria-checked', dyslexiaOn ? 'true' : 'false');
+      dyslexiaBtn.textContent = dyslexiaOn ? 'On' : 'Off';
+      dyslexiaBtn.addEventListener('click', () => applyDyslexia(!dyslexiaOn));
+    }
+
+    // ── THEME CARDS ──────────────────────────────────────────────────
     Object.entries(themes).forEach(([key, th]) => {
       const card = document.createElement('div');
       card.className = 'do-card'; card.dataset.key = key;
@@ -538,6 +668,7 @@
       themeGrid.appendChild(card);
     });
 
+    // ── PALETTE CARDS ─────────────────────────────────────────────────
     Object.entries(palettes).forEach(([key, pal]) => {
       const card = document.createElement('div');
       card.className = 'do-card'; card.dataset.key = key;
@@ -555,6 +686,9 @@
       });
       palGrid.appendChild(card);
     });
+
+    // Apply initial filter visibility
+    refreshPaletteVisibility();
 
     resetBtn.addEventListener('click', () => {
       localStorage.removeItem(OVERRIDE_THEME_KEY);

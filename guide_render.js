@@ -30,32 +30,15 @@
   }
 
   /** Minimal markdown → HTML. Input is plain text (not pre-escaped). */
-  function md(s, skipEsc=false) {
+  function md(s) {
     if (!s) return '';
-    let h = skipEsc ? s : esc(s);
+    let h = esc(s);
     // Headers
     h = h.replace(/^### (.+)$/gm, '<h3 class="gr-h3">$1</h3>');
     h = h.replace(/^## (.+)$/gm,  '<h3 class="gr-h3">$1</h3>');
-    // horizontale rules
-    h = h.replace(/^\s*(\*\*\*|---|___)\s*$/gm, '<hr class="gr-hr">');
-    h = h.replace(/^\s*(===)\s*$/gm, '<hr class="gr-hr2">');
-    // infoboxes ("&gt;" correspond to ">")
-    h = h.replace(/^&gt; ?(.*(?:\n&gt; ?.*)*)/gm, (match, content) => {
-      const cleaned = content.replace(/^&gt; ?/gm, '');
-      const html = md(cleaned, true);
-      return `<div class="gr-infobox">${html}</div>`;
-    });
-    // collapsible box
-    h = h.replace(/\[\s*(.+?)\s*\]\{\s*([\s\S]+?)\s*\}/g, (match, header, content) => {
-      content = md(content, true)
-      return `<div class="gr-box gr-collapsed">
-                <div class="gr-box-header">
-                  <div class="gr-box-title">${header}</div>
-                  <div class="gr-box-toggle">▾</div>
-                </div>
-                <div class="gr-box-body">${content}</div>
-              </div>`;
-    });
+    // Horizontal rules (before inline processing)
+    h = h.replace(/^---$/gm, '<hr class="gr-hr">');
+    h = h.replace(/^===$/gm, '<hr class="gr-hr2">');
     // Bold / italic
     h = h.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
     h = h.replace(/\*(.+?)\*/g,     '<em>$1</em>');
@@ -74,26 +57,30 @@
     );
     // External links
     h = h.replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" class="gr-link" target="_blank" rel="noopener">$1</a>');
+    // Blockquotes — > is escaped to &gt; by esc()
+    h = h.replace(/((?:^&gt; .+$\n?)+)/gm, (block) => {
+      const inner = block.trim().split('\n')
+        .map(l => l.replace(/^&gt; /, '')).join('<br>');
+      return `<blockquote class="gr-blockquote">${inner}</blockquote>`;
+    });
     // Unordered lists (collect consecutive li items)
     h = h.replace(/((?:^- .+$\n?)+)/gm, (block) => {
       const items = block.trim().split('\n').map(l => `<li>${l.replace(/^- /, '')}</li>`).join('');
       return `<ul class="gr-ul">${items}</ul>`;
     });
+    // Collapsible boxes: [label]{content} — runs before paragraph wrapper
+    h = h.replace(/\[([^\]]+)\]\{([\s\S]*?)\}/g, (_, label, content) => {
+      const body = content.trim().replace(/\n/g, '<br>');
+      return `<div class="gr-box"><div class="gr-box-header">▾ ${label}</div><div class="gr-box-body">${body}</div></div>`;
+    });
     // Paragraphs — split on blank lines, skip block elements
     const blocks = h.split(/\n\n+/);
-    h = blocks.map(b => {
+    return blocks.map(b => {
       b = b.trim();
       if (!b) return '';
-      if (/^<(h3|ul|ol|hr|div|blockquote)/.test(b)) return b;
+      if (/^<(h3|ul|ol|hr|blockquote|div)/.test(b)) return b;
       return `<p class="gr-p">${b.replace(/\n/g, '<br>')}</p>`;
     }).join('');
-
-    // removing <br> around <hr>
-    h = h.replace(/<br>\s*(<hr class="gr-hr2?">)\s*<br>/g, '$1')
-     .replace(/<br>\s*(<hr class="gr-hr2?">)/g, '$1')
-     .replace(/(<hr class="gr-hr2?">)\s*<br>/g, '$1');
-
-    return h;
   }
 
   /** Collision-resistant ID for new items. */

@@ -122,10 +122,15 @@ body {
   transition: all .15s;
   white-space: nowrap;
   line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
 }
 .display-btn:hover { color: rgba(255,255,255,0.8); border-color: rgba(255,255,255,0.35); }
 .display-btn.overriding { color: var(--emphasis); border-color: var(--emphasis); opacity: 0.9; }
 .display-btn.filter-active { color: var(--emphasis); border-color: var(--emphasis); opacity: 0.9; }
+.btn-icon { flex-shrink: 0; }
+.btn-label { flex-shrink: 0; }
 
 /* ── TAB BAR ── */
 #tab-bar {
@@ -265,6 +270,50 @@ body.show-remaining .gr-check-row.gr-checked { display: none; }
 }
 #do-reset-btn:hover { color: #e6edf3; border-color: #8b949e; }
 
+/* ── PALETTE FILTER CHIPS ── */
+.do-filter-row {
+  display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;
+}
+.do-chip {
+  font-family: monospace; font-size: 10px; font-weight: 700;
+  padding: 3px 10px; border-radius: 20px;
+  border: 1px solid #30363d; background: #1e2530;
+  color: #8b949e; cursor: pointer; transition: all .15s;
+  text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.6;
+}
+.do-chip:hover { border-color: #58a6ff; color: #e6edf3; }
+.do-chip.active { background: rgba(88,166,255,0.15); border-color: #58a6ff; color: #58a6ff; }
+.do-chip-sep {
+  font-family: monospace; font-size: 12px; color: #30363d;
+  display: flex; align-items: center; padding: 0 2px;
+}
+
+/* ── DYSLEXIA / A11Y TOGGLE ROW ── */
+.do-a11y-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 0 12px; border-bottom: 1px solid #30363d; margin-bottom: 14px;
+}
+.do-a11y-label { font-size: 12px; color: #e6edf3; }
+.do-toggle {
+  font-family: monospace; font-size: 10px; font-weight: 700;
+  padding: 4px 14px; border-radius: 20px;
+  border: 1px solid #30363d; background: #1e2530;
+  color: #8b949e; cursor: pointer; transition: all .15s;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+.do-toggle[aria-checked="true"] {
+  background: rgba(63,185,80,0.15); border-color: #3fb950; color: #3fb950;
+}
+
+/* ── DYSLEXIA FONT OVERRIDE (global a11y preference) ── */
+body.a11y-dyslexia,
+body.a11y-dyslexia * {
+  font-family: 'Lexend', Arial, sans-serif !important;
+  letter-spacing: 0.04em;
+  line-height: 1.75;
+  word-spacing: 0.1em;
+}
+
 /* ── CLEAR PROGRESS MODAL (viewer-only) ── */
 #clear-backdrop {
   position: fixed; inset: 0; background: rgba(0,0,0,0.6);
@@ -305,6 +354,7 @@ body.show-remaining .gr-check-row.gr-checked { display: none; }
   #tab-content { padding: 14px 10px 0; }
   .tab-btn { padding: 6px 11px; font-size: 12px; }
   .storage-badge { display: none; }
+  .display-btn .btn-label { display: none; }
 }
 
 /* ══════════════════════════════════════════════════════════════════════

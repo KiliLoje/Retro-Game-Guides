@@ -936,8 +936,9 @@ document.addEventListener('DOMContentLoaded', () => {
       // Navigate to builder with file parameter
       const reader = new FileReader();
       reader.onload = function(event) {
-        // Store file data in sessionStorage for builder to use
-        sessionStorage.setItem('wip-import-data', event.target.result);
+        // Serialize ArrayBuffer to comma-separated byte string for sessionStorage
+        const bytes = new Uint8Array(event.target.result);
+        sessionStorage.setItem('wip-import-data', bytes.join(','));
         sessionStorage.setItem('wip-import-name', file.name);
         window.location.href = 'guide.html?edit&import=true';
       };
