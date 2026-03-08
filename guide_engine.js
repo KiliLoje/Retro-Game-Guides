@@ -173,6 +173,12 @@
       activateTab(tabIdx, panelIdx);
     });
 
+    // Box toggle handler
+    document.addEventListener('click', e => {
+      const box = e.target.closest('.gr-box');
+      if (box) {box.classList.toggle('gr-collapsed');}
+    });
+
     initOverrideSheet(themes, palettes);
     initFilterBtn();
     initClearBtn();

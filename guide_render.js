@@ -30,9 +30,9 @@
   }
 
   /** Minimal markdown → HTML. Input is plain text (not pre-escaped). */
-  function md(s) {
+  function md(s, skipEsc=false) {
     if (!s) return '';
-    let h = esc(s);
+    let h = skipEsc ? s : esc(s);
     // Headers
     h = h.replace(/^### (.+)$/gm, '<h3 class="gr-h3">$1</h3>');
     h = h.replace(/^## (.+)$/gm,  '<h3 class="gr-h3">$1</h3>');
@@ -42,8 +42,19 @@
     // infoboxes ("&gt;" correspond to ">")
     h = h.replace(/^&gt; ?(.*(?:\n&gt; ?.*)*)/gm, (match, content) => {
       const cleaned = content.replace(/^&gt; ?/gm, '');
-      const html = md(cleaned);
+      const html = md(cleaned, true);
       return `<div class="gr-infobox">${html}</div>`;
+    });
+    // collapsible box
+    h = h.replace(/\[\s*(.+?)\s*\]\{\s*([\s\S]+?)\s*\}/g, (match, header, content) => {
+      content = md(content, true)
+      return `<div class="gr-box gr-collapsed">
+                <div class="gr-box-header">
+                  <div class="gr-box-title">${header}</div>
+                  <div class="gr-box-toggle">▾</div>
+                </div>
+                <div class="gr-box-body">${content}</div>
+              </div>`;
     });
     // Bold / italic
     h = h.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
@@ -73,7 +84,7 @@
     h = blocks.map(b => {
       b = b.trim();
       if (!b) return '';
-      if (/^<(h3|ul|ol|hr)/.test(b)) return b;
+      if (/^<(h3|ul|ol|hr|div|blockquote)/.test(b)) return b;
       return `<p class="gr-p">${b.replace(/\n/g, '<br>')}</p>`;
     }).join('');
 

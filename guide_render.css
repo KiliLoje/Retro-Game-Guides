@@ -98,6 +98,53 @@
 .gr-internal-link { color: var(--emphasis); text-decoration: underline; cursor: pointer; }
 .gr-link { color: var(--emphasis); }
 
+/* --- collapsible box --- */
+.gr-box {
+  display: block;
+  width: fit-content;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 4px;
+  overflow: hidden;
+}
+.gr-box-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 10px;
+  background: var(--surface2);
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.12s;
+}
+.gr-box-header:hover { background: var(--surface); }
+.gr-box-title {
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--emphasis);
+  flex: 1;
+  min-width: 0;
+}
+.gr-box-toggle {
+  color: var(--textMuted);
+  font-size: 12px;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.gr-box.gr-collapsed .gr-box-toggle { transform: rotate(-90deg); }
+.gr-box-body {
+  background: var(--surface);
+  color: var(--textMid);
+  padding: 0px 10px;
+  padding-top: 4px;
+  font-size: 12.5;
+  display: flow-root;
+}
+.gr-box.gr-collapsed .gr-box-body { display: none; }
+
 /* ── Shared Table Wrap ── */
 .gr-table-wrap {
   overflow-x: auto;

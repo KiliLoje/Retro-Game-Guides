@@ -377,10 +377,11 @@
       [gr_hr,          '---\n',''        ],
       [gr_hr2,         '===\n',''        ],
       ['• List',       '- ',   ''        ],
+      ['&gt; Info',    '> ',   ''        ],
       ['[Link](url)',  '[',    '](url)'  ],
       ['[Tab](N)',     '[',    '](1)'    ],
       ['[Panel](N,M)', '[',    '](1,1)'  ],
-      ['&gt; Info',    '> ',   ''        ],
+      ['[box]{}',      '[',    ']{\n}'   ]
     ].forEach(([label, before, after]) => {
       const btn = document.createElement('button');
       btn.className = 'md-btn'; btn.type = 'button'; btn.innerHTML = label;
