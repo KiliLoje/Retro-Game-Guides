@@ -203,38 +203,50 @@
 
 /* ── Collapsible Box ── */
 .gr-box {
+  display: block;
+  width: fit-content;
   border: 1px solid var(--border);
-  border-radius: var(--radius-card, 8px);
+  border-radius: 8px;
+  margin-bottom: 4px;
   overflow: hidden;
-  margin: 8px 0;
 }
 .gr-box-header {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 12px;
+  gap: 8px;
+  padding: 0px 10px;
   background: var(--surface2);
   cursor: pointer;
   user-select: none;
-  font-family: var(--font-display, Georgia, serif);
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--emphasis);
   border-bottom: 1px solid var(--border);
   transition: background 0.12s;
 }
 .gr-box-header:hover { background: var(--surface); }
-.gr-box-toggle { display: inline-block; transition: transform 0.2s; flex-shrink: 0; }
+.gr-box-title {
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--emphasis);
+  flex: 1;
+  min-width: 0;
+}
+.gr-box-toggle {
+  color: var(--textMuted);
+  font-size: 12px;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+  line-height: 1;
+}
 .gr-box.gr-collapsed .gr-box-toggle { transform: rotate(-90deg); }
 .gr-box-body {
-  padding: 10px 12px;
-  font-size: 13px;
-  color: var(--text);
-  line-height: 1.75;
+  background: var(--surface);
+  color: var(--textMid);
+  padding: 0px 10px;
+  padding-top: 4px;
+  font-size: 12.5;
+  display: flow-root;
 }
-.gr-box.gr-collapsed .gr-box-header { border-bottom: none; }
-.gr-box.gr-collapsed .gr-box-body   { display: none; }
-
+.gr-box.gr-collapsed .gr-box-body { display: none; }
 /* ── Responsive ── */
 @media (max-width: 600px) {
   .gr-card-body { padding: 10px; }
