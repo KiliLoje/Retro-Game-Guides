@@ -71,7 +71,7 @@
     // Collapsible boxes: [label]{content} — runs before paragraph wrapper
     h = h.replace(/\[([^\]]+)\]\{([\s\S]*?)\}/g, (_, label, content) => {
       const body = content.trim().replace(/\n/g, '<br>');
-      return `<div class="gr-box"><div class="gr-box-header">▾ ${label}</div><div class="gr-box-body">${body}</div></div>`;
+      return `<div class="gr-box gr-collapsed"><div class="gr-box-header"><span class="gr-box-toggle">▾</span> ${label}</div><div class="gr-box-body">${body}</div></div>`;
     });
     // Paragraphs — split on blank lines, skip block elements
     const blocks = h.split(/\n\n+/);

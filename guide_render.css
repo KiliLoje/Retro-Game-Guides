@@ -224,6 +224,8 @@
   transition: background 0.12s;
 }
 .gr-box-header:hover { background: var(--surface); }
+.gr-box-toggle { display: inline-block; transition: transform 0.2s; flex-shrink: 0; }
+.gr-box.gr-collapsed .gr-box-toggle { transform: rotate(-90deg); }
 .gr-box-body {
   padding: 10px 12px;
   font-size: 13px;
